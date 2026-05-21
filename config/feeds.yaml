@@ -1,0 +1,102 @@
+# Legolas RSS Feed Configuration
+# 34 feeds: 20 Tier 1, 14 Tier 2
+# Last verified: May 2026
+
+tier1:
+  - name: Deadline
+    url: https://deadline.com/feed/
+  - name: Vulture
+    url: https://www.vulture.com/rss/news.xml
+    note: "New York Magazine entertainment — strong original reporting"
+  - name: The Wrap
+    url: https://www.thewrap.com/feed/
+  - name: Hollywood Reporter
+    url: https://www.hollywoodreporter.com/feed/
+  - name: THR TV
+    url: https://www.hollywoodreporter.com/c/tv/feed/
+    note: "Same publisher group as Hollywood Reporter — deduplicated in source counting"
+  - name: Variety
+    url: https://variety.com/feed/
+  - name: TVLine
+    url: https://tvline.com/feed/
+  - name: IndieWire
+    url: https://www.indiewire.com/feed/
+  - name: TV Insider
+    url: https://www.tvinsider.com/feed/
+  - name: Entertainment Weekly
+    url: https://ew.com/news/feed/
+    status: "BROKEN — 402 Payment Required. Keep in config, skip gracefully on failure."
+  - name: Vanity Fair
+    url: https://www.vanityfair.com/feed/rss
+  - name: Rolling Stone
+    url: https://www.rollingstone.com/culture/feed/
+  - name: TIME
+    url: https://time.com/feed/
+  - name: GQ
+    url: https://www.gq.com/feed/rss
+  - name: Esquire
+    url: https://www.esquire.com/entertainment/feed/
+    status: "BROKEN — 404 Not Found. Keep in config, skip gracefully on failure."
+  - name: NYT Arts
+    url: https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml
+  - name: LA Times
+    url: https://www.latimes.com/entertainment-arts/rss2.0.xml
+  - name: The Guardian Film
+    url: https://www.theguardian.com/film/rss
+    note: "Same publisher group as The Guardian TV — deduplicated in source counting"
+  - name: The Guardian TV
+    url: https://www.theguardian.com/culture/television/rss
+  - name: Star Wars News Net
+    url: https://www.starwarsnewsnet.com/feed
+  - name: Discussing Film
+    url: https://discussingfilm.net/feed/
+  - name: Redanian Intelligence
+    url: https://redanianintelligence.com/feed/
+  - name: DisInsider
+    url: https://thedisinsider.com/feed/
+
+tier2:
+  - name: IGN
+    url: https://feeds.ign.com/ign/all
+  - name: CinemaBlend
+    url: https://www.cinemablend.com/rss/full.xml
+  - name: The Playlist
+    url: https://theplaylist.net/feed/
+    note: "Strong awards and indie coverage"
+  - name: Heroic Hollywood
+    url: https://heroichollywood.com/feed/
+    note: "Franchise and superhero scoops"
+  - name: Screen Crush
+    url: https://screencrush.com/feed/
+  - name: Slash Film
+    url: https://www.slashfilm.com/feed/
+  - name: Bloody Disgusting
+    url: https://bloody-disgusting.com/feed/
+  - name: Collider
+    url: https://collider.com/feed/
+  - name: Inverse
+    url: https://www.inverse.com/rss/entertainment
+  - name: CBR
+    url: https://www.cbr.com/feed/
+  - name: Screen Rant
+    url: https://screenrant.com/feed/
+  - name: Den of Geek
+    url: https://www.denofgeek.com/feed/
+  - name: The AV Club
+    url: https://www.avclub.com/rss
+  - name: Polygon
+    url: https://www.polygon.com/rss/index.xml
+  - name: Bleeding Cool
+    url: https://bleedingcool.com/feed/
+  - name: Decider
+    url: https://decider.com/feed/
+  - name: The Cinema Spot
+    url: https://thecinemaspot.com/feed/
+  - name: Radio Times
+    url: https://www.radiotimes.com/rss/
+
+# Commented out — URLs need manual verification before enabling:
+# - Empire:           https://www.empireonline.com/rss/
+# - Total Film:       https://www.gamesradar.com/film/rss/
+# - Making Star Wars: https://makingstarwars.net/rss/
+# - Murphy's Multiverse: https://www.murphysmultiverse.com/rss/

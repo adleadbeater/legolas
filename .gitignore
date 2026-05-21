@@ -1,0 +1,7 @@
+data/article_cache/
+legolas-key.json
+*.pyc
+__pycache__/
+.env
+*.egg-info/
+.DS_Store

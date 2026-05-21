@@ -1,0 +1,80 @@
+claude:
+  model: claude-sonnet-4-20250514
+  call1_max_tokens: 600        # Merge/dupe call — short structured output
+  call2_max_tokens: 5000       # Assessment call — one block per cluster
+  retry_wait_seconds: 10
+  max_retries: 2
+
+clustering:
+  # Thresholds vary by keyword type — see legolas.py cluster_items() for full logic
+  title_phrase_overlap: 1      # Quoted titles: "'The Bear'" matching "'The Bear'"
+  multiword_phrase_overlap: 1  # "Blake Lively" matching "Blake Lively"
+  single_word_overlap: 3       # Single caps: requires 3 shared words
+  cross_type_overlap: 2        # Multi from one + single from other: requires 2
+  stopwords_extend:
+    - movie
+    - film
+    - says
+    - new
+    - first
+    - will
+    - show
+    - series
+    - season
+    - star
+    - confirms
+    - reveals
+    - personal
+    - items
+    - going
+
+scoring:
+  mw_relevance_min: 6           # Stories below this are never posted
+  legolas_pick_min_relevance: 7 # legolas_special requires this or higher
+  tag_sa_min: 5000              # Minimum S/A for a tag to validate proven_topic
+  tag_fr_max: 25                # Maximum failure rate % for proven_topic tags
+  article_cache_hours: 6        # How long to retain articles for cross-run clustering
+  recently_posted_hours: 24     # Suppress reposts of same event within this window
+  lookback_minutes: 360         # Fetch articles from last N minutes each run
+
+sheets:
+  sheet_id: "1eEeXc_NLLDMxd9TsKqfGunKVrYvX52505dyCs6zjw2I"
+  seen_tab_name: Seen
+  tag_tab_names: [Tag, Tags, tag, tags]
+  feedback_log_tab: Feedback Log
+
+slack:
+  channel_id: C0AM6GMA7U6
+  post_enabled: true
+
+publisher_groups:
+  # Publications that count as one source for trending threshold purposes
+  "Hollywood Reporter": THR
+  "THR TV": THR
+  "NYT Arts": NYT
+  "The Guardian Film": Guardian
+  "The Guardian TV": Guardian
+
+generic_tag_blocklist:
+  # These tags cannot validate proven_topic on their own — too broad
+  - netflix
+  - streaming
+  - hbo max
+  - prime video
+  - disney+
+  - tubi
+  - amazon
+  - sci-fi
+  - thriller
+  - anime
+  - action
+  - adventure
+  - fantasy
+  - dark
+  - mystery
+  - western
+  - her
+  - house
+  - doc
+  - box office
+  - rotten tomatoes

@@ -1,0 +1,49 @@
+name: Legolas News Scout
+
+on:
+  schedule:
+    # Every 30 min during 5am–8pm EDT (09:00–00:00 UTC)
+    - cron: '*/30 9-23 * * *'
+    # Every hour during 8pm–5am EDT (00:00–09:00 UTC)
+    - cron: '0 0-8 * * *'
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write Google service account key
+        run: echo '${{ secrets.GOOGLE_CREDENTIALS_JSON }}' > legolas-key.json
+
+      - name: Run Legolas
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          GOOGLE_APPLICATION_CREDENTIALS: legolas-key.json
+        run: python legolas.py
+
+      - name: Commit updated learnings
+        run: |
+          git config user.name "Legolas Bot"
+          git config user.email "legolas-bot@users.noreply.github.com"
+          git add data/learnings.json
+          git diff --staged --quiet || git commit -m "chore: update learnings [skip ci]"
+          git push
