@@ -275,15 +275,17 @@ _ENTERTAINMENT_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Listicle title patterns — these articles mention multiple unrelated titles and
-# poison clustering by bridging stories that have nothing to do with each other
+# Listicle/guide title patterns — these articles mention multiple unrelated titles or
+# are roundup guides that poison clustering and add no news value
 _LISTICLE_TITLE_RE = re.compile(
     r"\b(\d+\s+(?:movies?|films?|shows?|series|titles?|picks?|reasons?|things?)"
     r"|movies? (we|you|to) (can't wait|must|need|should|watch|see)"
     r"|best (?:movies?|shows?|series|films?) (?:of|to|on|coming)"
     r"|most anticipated (?:movies?|shows?|films?)"
     r"|what to watch|leaving (?:this month|in \w+)"
-    r"|ranked|ranking|countdown)\b",
+    r"|ranked|ranking|countdown"
+    r"|everything (we|you) know|all (the )?details|explained|premiere date.*details"
+    r"|complete guide|what to expect|release date.*details)\b",
     re.IGNORECASE,
 )
 
@@ -604,11 +606,17 @@ def claude_find_merges(clusters: list, recently_posted: List[dict]) -> Tuple[dic
 You have TWO jobs:
 
 JOB 1 — MERGES: Identify clusters that cover the SAME story and should be merged.
-Same story = same news event, same film/show/person, even if worded differently.
+Same story = same news event, same film/show/person, even if worded very differently.
 Different story = same franchise/subject but genuinely different news (e.g. a trailer drop vs a casting interview are different events even for the same film).
-IMPORTANT: Do not merge clusters about genuinely different projects even if they share keywords like "Netflix", "trailer", "animated", "renewal", or studio names like "Warner Bros.", "Disney", "Apple". Only merge when the clusters are clearly about the same specific news event.
 
-SAME ANNOUNCEMENT RULE: If two clusters are clearly about the same underlying announcement or event — even if headlines frame it differently — merge them. EXCEPTION: if the two stories are genuinely distinct enough that a MovieWeb editor would want to post both separately, keep them split. Use editorial judgment.
+SAME EVENT RULE: News outlets routinely cover identical announcements with completely different headlines. These are ALWAYS the same event — merge them:
+- "Spartacus spinoff axed after one season" + "House of Ashur cancelled at Starz" = SAME
+- "X renewed for season 3" + "X coming back for another run" = SAME
+- "Actor joins cast of Y" + "Y adds Actor in new role" = SAME
+- "Z trailer drops" + "First look at Z released" = SAME
+If two clusters are clearly about the same show/film and the same type of news (cancellation, renewal, casting, trailer), merge them regardless of phrasing.
+
+Do NOT merge clusters about genuinely different projects even if they share keywords like "Netflix", "trailer", "animated", or studio names. Only merge when it's clearly the same specific event.
 
 SPLIT RULE: If a single cluster contains articles about two or more genuinely different news events OR different film/TV titles, flag it under SPLITS. Do not blend them into one headline.
 Key signal: if you cannot write a single honest headline that covers all the articles without naming two different movies or shows, it needs splitting.
@@ -814,8 +822,17 @@ MANDATORY PRE-CHECK — for every cluster, before assigning any tier except skip
   3. NEW? Is this news that broke recently, not evergreen background information?
      → Retrospectives, legacy pieces, anniversary features = NO → skip
 
-  4. MW HOMEPAGE? Would a MovieWeb editor put this on the homepage right now without embarrassment?
-     → If you'd hesitate even slightly, skip it.
+  4. INTERESTING? If you saw this headline on your phone right now, would you actually click it?
+     → Not "is this technically news" — is this genuinely compelling to a movie/TV fan?
+     → These pass checks 1-3 but are NOT interesting — skip them:
+        • A franchise prop/costume donated to a museum ("Eleven's dress goes to Smithsonian")
+        • A cast member's charity work, personal milestone, or lifestyle news with no production hook
+        • A show being "beloved" or "iconic" with no new development attached
+        • A minor crew hire, location scout, or production logistics update
+        • A celebrity's personal life disclosure (coming out, marriage, divorce, health) unless
+          it DIRECTLY impacts a specific role — e.g. they're leaving a show because of it
+        • Festival reviews of films with no existing MW audience (arthouse, Cannes competition
+          films, non-English language films without major US release)
 
 If ANY of these fail → TIER: skip, MW_RELEVANCE: 1-3.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -847,11 +864,13 @@ ALWAYS SKIP regardless of source count:
 - Fan theories, "could this mean", "fans believe", speculation — unless confirmed news is behind it
 - Music acts at award shows, concert announcements, album releases (unless artist is primarily a screen star)
 - Celebrities running for office or receiving political endorsements
+- Celebrity personal life disclosures — coming out, marriage, divorce, health, relationships — UNLESS the person explicitly confirms it directly impacts a specific role or production
 - "Trending on Netflix/globally", "taking over streaming", "fans are loving" — NOT a news event
 - Fashion/Met Gala as standalone stories
 - Broadway/theater of any kind
 - Network upfront/slate announcements unless they contain a SPECIFIC major surprise
-- Stories about a show being "popular" or "beloved" without a specific news hook
+- Stories about a show being "popular", "beloved", or "iconic" without a specific new development
+- Cannes/Venice/TIFF/Sundance/Berlin reviews unless the film is: a franchise sequel, an A-list English-language tentpole with a confirmed wide US release, or a film already generating major MW-level buzz. Arthouse competition films, foreign-language films, and debut features = skip regardless of critical praise or source count
 
 MW_RELEVANCE (only score after pre-check passes — if pre-check fails, score 1-3):
 10 = every MW reader needs this right now (Avengers casting, Oscar winner, major cancellation)
