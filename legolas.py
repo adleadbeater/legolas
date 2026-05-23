@@ -885,10 +885,19 @@ legolas_special requires MW_RELEVANCE >= {LEGOLAS_SPECIAL_MIN}.
     return _parse_assessments(result, len(clusters), clusters)
 
 
+_FIELD_LABELS = {"TIER", "MW_RELEVANCE", "HEADLINE", "ANGLE", "TAG", "SHEET_TAG_USED", "NOTE", "CLUSTER"}
+
 def _parse_assessments(text: str, expected: int, clusters: list) -> List[dict]:
     def get_field(block, field):
         m = re.search(rf'^{field}:\s*(.+)$', block, re.MULTILINE | re.IGNORECASE)
         return m.group(1).strip() if m else ""
+
+    def clean(value: str) -> str:
+        """Return empty string if the value looks like a field label — means the parse grabbed the wrong line."""
+        if not value:
+            return ""
+        first_token = value.split(":")[0].strip().upper()
+        return "" if first_token in _FIELD_LABELS else value
 
     parts = re.split(r'\n?CLUSTER\s+(\d+)\n', text)
     cluster_texts = {}
@@ -914,12 +923,20 @@ def _parse_assessments(text: str, expected: int, clusters: list) -> List[dict]:
         tier = get_field(block, "TIER").lower()
         if tier not in ("trending", "proven_topic", "legolas_special"):
             tier = "skip"
+
+        headline = clean(get_field(block, "HEADLINE")) or clusters[n - 1]["headline"]
+        angle    = clean(get_field(block, "ANGLE"))
+        tag      = clean(get_field(block, "TAG"))
+
+        if not clean(get_field(block, "HEADLINE")):
+            log.warning(f"Cluster {n}: blank/malformed HEADLINE from Claude — using raw cluster headline")
+
         results.append({
             "tier":           tier,
             "mw_relevance":   mw,
-            "headline":       get_field(block, "HEADLINE"),
-            "angle":          get_field(block, "ANGLE"),
-            "tag":            get_field(block, "TAG"),
+            "headline":       headline,
+            "angle":          angle,
+            "tag":            tag,
             "sheet_tag_used": get_field(block, "SHEET_TAG_USED").lower(),
             "note":           get_field(block, "NOTE"),
         })

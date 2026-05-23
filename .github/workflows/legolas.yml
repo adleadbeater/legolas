@@ -2,10 +2,10 @@ name: Legolas News Scout
 
 on:
   schedule:
-    # Every 30 min during 5am–8pm EDT (09:00–00:00 UTC)
+    # Every 30 min, 5am–8pm EDT (09:00–23:30 UTC)
     - cron: '*/30 9-23 * * *'
-    # Every hour during 8pm–5am EDT (00:00–09:00 UTC)
-    - cron: '0 0-8 * * *'
+    # Once at 10pm EDT (02:00 UTC)
+    - cron: '0 2 * * *'
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 jobs:
