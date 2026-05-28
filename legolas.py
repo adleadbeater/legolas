@@ -803,6 +803,36 @@ def claude_assess_clusters(clusters: list, priority_tags: dict, learnings: dict)
             + "\n".join(articles)
         )
 
+    # Build editorial context from learnings
+    editorial_notes = learnings.get("editorial_notes", [])
+    editorial_section = ""
+    if editorial_notes:
+        editorial_section = (
+            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+            "TEAM EDITORIAL PREFERENCES (learned from team feedback — apply to ALL tiers):\n"
+            + "\n".join(f"  • {note}" for note in editorial_notes)
+            + "\n"
+        )
+
+    boosts = learnings.get("tag_boosts", {})
+    boost_lines = [(tag, score) for tag, score in boosts.items() if abs(score) >= 1.0]
+    boost_section = ""
+    if boost_lines:
+        boost_lines.sort(key=lambda x: x[1], reverse=True)
+        pos = [f"{tag} ({score:+.1f})" for tag, score in boost_lines if score > 0]
+        neg = [f"{tag} ({score:+.1f})" for tag, score in boost_lines if score < 0]
+        parts = []
+        if pos:
+            parts.append(f"  Team has reacted positively to: {', '.join(pos)}")
+        if neg:
+            parts.append(f"  Team has reacted negatively to: {', '.join(neg)}")
+        if parts:
+            boost_section = (
+                "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                "TAG FEEDBACK SIGNALS (factor into tier and relevance scores):\n"
+                + "\n".join(parts) + "\n"
+            )
+
     prompt = f"""You are the editorial brain of Legolas, a news scout for MovieWeb (MW) — a mainstream US entertainment website covering movies, TV, streaming, and pop culture.
 
 Your default stance is SKEPTIC. Most clusters should be skipped. You are looking for the rare story that is genuinely worth interrupting a reader's day.
@@ -879,7 +909,7 @@ MW_RELEVANCE (only score after pre-check passes — if pre-check fails, score 1-
 4-5 = niche — do not post
 1-3 = skip (pre-check failed, wrong audience, evergreen)
 
-{chr(10).join(cluster_blocks)}
+{editorial_section}{boost_section}{chr(10).join(cluster_blocks)}
 
 For EACH cluster respond with EXACTLY this format:
 
@@ -1098,6 +1128,105 @@ def _apply_boost(learnings: dict, text: str, priority_tags: dict, delta: float):
             boosts[tag] = round(boosts.get(tag, 0) + delta, 2)
 
 
+def _extract_tier_from_message(text: str) -> str:
+    if "Big Trend" in text or "📈" in text:
+        return "trending"
+    if "MW Proven Topic" in text or "🎯" in text:
+        return "proven_topic"
+    if "Legolas Special" in text or "⭐" in text:
+        return "legolas_special"
+    return ""
+
+
+def synthesize_editorial_notes(learnings: dict) -> None:
+    """
+    Reads recent feedback log entries and synthesizes natural-language editorial notes
+    via Claude. Notes are stored in learnings["editorial_notes"] and injected into
+    Claude Call 2 to shape judgment across all tiers.
+
+    Throttled: only re-runs when new feedback has arrived since last synthesis,
+    and at most once every 6 hours.
+    """
+    log_entries = learnings.get("learnings_log", [])
+    if not log_entries:
+        return
+
+    last_count   = learnings.get("_editorial_notes_log_count", 0)
+    last_updated = learnings.get("editorial_notes_updated_at")
+
+    if len(log_entries) == last_count:
+        log.info("No new feedback since last editorial synthesis — skipping")
+        return
+
+    if last_updated:
+        age_hours = (datetime.now(timezone.utc) - datetime.fromisoformat(last_updated)).total_seconds() / 3600
+        if age_hours < 6:
+            log.info(f"Editorial synthesis ran {age_hours:.1f}h ago — throttled")
+            return
+
+    feedback_lines = []
+    for entry in log_entries[-60:]:
+        etype = entry.get("type", "")
+        if etype == "emoji_reaction":
+            reaction  = entry.get("reaction", "")
+            story     = entry.get("story", "")[:120]
+            tier_hint = entry.get("tier", "")
+            label     = f"[{tier_hint}] " if tier_hint else ""
+            feedback_lines.append(f"REACTION {reaction} on {label}{story}")
+        elif etype == "reply_comment":
+            headline  = entry.get("story_headline", "")
+            tier_hint = entry.get("tier", "")
+            reply     = entry.get("reply_text", "")[:150]
+            action    = entry.get("interpreted_action", "")
+            note      = entry.get("story_type_note") or ""
+            label     = f"[{tier_hint}] " if tier_hint else ""
+            feedback_lines.append(
+                f"REPLY ({action}) on {label}'{headline}': \"{reply}\""
+                + (f" [story type note: {note}]" if note else "")
+            )
+
+    if not feedback_lines:
+        return
+
+    recently_posted = learnings.get("recently_posted", [])[-20:]
+    posted_lines    = [f"  - [{s.get('tag', '')}] {s['headline']}" for s in recently_posted]
+    posted_section  = ("Recent stories posted by Legolas:\n" + "\n".join(posted_lines) + "\n\n") if posted_lines else ""
+
+    prompt = f"""You are the editorial director of Legolas, a news scout for MovieWeb (MW).
+
+Below is a log of editorial feedback the team has given on recent stories — emoji reactions (👍/👎) and thread replies. Each reaction shows the tier the story was posted as: [trending], [proven_topic], or [legolas_special].
+
+{posted_section}FEEDBACK LOG:
+{chr(10).join(feedback_lines)}
+
+Synthesize this into 3–8 clear, actionable editorial notes that will guide future story selection. These notes will be shown to an AI assessor for EVERY future story across ALL tiers.
+
+Rules for writing notes:
+- One sentence per note
+- Be specific — name the show/franchise/story type where the feedback is clear enough
+- Distinguish nuance: "we don't want GoT at all" vs "we want GoT but only major news, not minor updates"
+- Capture scale of story: a thumbs-down on a minor story about a popular franchise ≠ avoid that franchise
+- If a 👎 was on a [trending] story vs a [legolas_special], that's different signal — note it
+- Only write notes where the feedback is unambiguous enough to act on
+- Do NOT write notes for ambiguous or contradictory feedback
+
+Output notes only — no bullet points, no numbers, no preamble."""
+
+    result = _call_claude(prompt, max_tokens=500)
+    if not result:
+        log.warning("Editorial synthesis returned nothing")
+        return
+
+    notes = [line.strip() for line in result.strip().splitlines() if line.strip()]
+    if notes:
+        learnings["editorial_notes"]             = notes
+        learnings["editorial_notes_updated_at"]  = datetime.now(timezone.utc).isoformat()
+        learnings["_editorial_notes_log_count"]  = len(log_entries)
+        log.info(f"Synthesized {len(notes)} editorial notes from {len(feedback_lines)} feedback entries")
+        for n in notes:
+            log.info(f"  Editorial note: {n}")
+
+
 def process_feedback(learnings: dict, priority_tags: dict, svc=None):
     try:
         headers = {"Authorization": f"Bearer {SLACK_BOT_TOKEN}"}
@@ -1115,16 +1244,17 @@ def process_feedback(learnings: dict, priority_tags: dict, svc=None):
             ts   = msg.get("ts", "")
             text = msg.get("text", "")
 
+            msg_tier = _extract_tier_from_message(text)
             for reaction in msg.get("reactions", []):
                 reaction_id = f"{ts}:{reaction['name']}"
                 if reaction_id in processed_r:
                     continue
                 if reaction["name"] in ("thumbsup", "+1"):
                     _apply_boost(learnings, text, priority_tags, +1.0)
-                    _log_learning(learnings, {"type": "emoji_reaction", "reaction": "👍", "story": text[:100], "delta": +1.0, "reason": "thumbs up"})
+                    _log_learning(learnings, {"type": "emoji_reaction", "reaction": "👍", "story": text[:100], "tier": msg_tier, "delta": +1.0, "reason": "thumbs up"})
                 elif reaction["name"] in ("thumbsdown", "-1"):
                     _apply_boost(learnings, text, priority_tags, -1.0)
-                    _log_learning(learnings, {"type": "emoji_reaction", "reaction": "👎", "story": text[:100], "delta": -1.0, "reason": "thumbs down"})
+                    _log_learning(learnings, {"type": "emoji_reaction", "reaction": "👎", "story": text[:100], "tier": msg_tier, "delta": -1.0, "reason": "thumbs down"})
                 processed_r.add(reaction_id)
 
             if msg.get("reply_count", 0) > 0 and ts not in processed_re:
@@ -1165,6 +1295,7 @@ def process_feedback(learnings: dict, priority_tags: dict, svc=None):
                                 "reply_text":         reply_text[:200],
                                 "story_headline":     story_headline,
                                 "story_tag":          story_tag,
+                                "tier":               msg_tier,
                                 "interpreted_action": action.get("action"),
                                 "tag_affected":       tag,
                                 "delta":              delta,
@@ -1325,6 +1456,7 @@ def run():
 
     # 2. Process Slack feedback (emoji reactions + thread replies)
     process_feedback(learnings, priority_tags, svc)
+    synthesize_editorial_notes(learnings)
     save_learnings(learnings)
 
     # 3. Load seen GUIDs
