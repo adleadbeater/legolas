@@ -914,22 +914,6 @@
   "processed_replies": [],
   "article_cache": [
     {
-      "guid": "https://deadline.com/?p=1236931250",
-      "title": "Billy Eichner On Whether He Would Consider Reviving \u2018Billy On The Street\u2019: \u201cWe\u2019re Always Kind Of Talking About What It Could Look Like\u201d",
-      "url": "https://deadline.com/2026/05/billy-eichner-billy-on-the-street-show-revival-1236931250/",
-      "published_dt": "2026-05-31T03:33:46+00:00",
-      "source_name": "Deadline",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://deadline.com/?p=1236931079",
-      "title": "Donald Trump Calls For Freedom 250 Concert To Be Canceled & Replaced By MAGA Rally Following Exodus Of Scheduled Performers \u2013 Update",
-      "url": "https://deadline.com/2026/05/donald-trump-replace-third-rate-artists-speech-freedom-250-1236931079/",
-      "published_dt": "2026-05-31T03:00:00+00:00",
-      "source_name": "Deadline",
-      "source_tier": 1
-    },
-    {
       "guid": "https://variety.com/?p=1236763296",
       "title": "Kanye West and Travis Scott Concerts Banned in Italy",
       "url": "https://variety.com/2026/music/global/kanye-west-travis-scott-concerts-banned-italy-1236763296/",
@@ -978,106 +962,10 @@
       "source_tier": 2
     },
     {
-      "guid": "https://collider.com/jj-abrams-best-sci-fi-show-alcatraz/",
-      "title": "14 Years Later, J.J. Abrams\u2019 Forgotten Thriller Is Still a Stellar 21st-Century Sci-Fi Show",
-      "url": "https://collider.com/jj-abrams-best-sci-fi-show-alcatraz/",
-      "published_dt": "2026-05-31T03:45:15+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://collider.com/forgotten-90s-movies-prime-video/",
-      "title": "8 Forgotten \u201890s Movies That Deserve to Be Rediscovered on Prime Video",
-      "url": "https://collider.com/forgotten-90s-movies-prime-video/",
-      "published_dt": "2026-05-31T03:39:14+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://collider.com/zack-snyder-watchmen-streaming-hbo-max-explained/",
-      "title": "Zack Snyder's Visually Stunning Superhero Flop That Became a Cult Classic Is the Perfect Late-Night Watch",
-      "url": "https://collider.com/zack-snyder-watchmen-streaming-hbo-max-explained/",
-      "published_dt": "2026-05-31T03:38:12+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
       "guid": "https://www.cbr.com/pokemon-official-new-30th-anniversary-lego-set-kanto-return/",
       "title": "Pok\u00e9mon Officially Returns to Kanto With New 30th Anniversary LEGO Set",
       "url": "https://www.cbr.com/pokemon-official-new-30th-anniversary-lego-set-kanto-return/",
       "published_dt": "2026-05-31T04:30:12+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/oceanveil-mature-anime-streamer-telly-awards/",
-      "title": "North America\u2019s Most Mature Anime Streamer Beats the Odds at the 47th Annual Telly Awards",
-      "url": "https://www.cbr.com/oceanveil-mature-anime-streamer-telly-awards/",
-      "published_dt": "2026-05-31T03:55:13+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/most-powerful-non-legendary-pokemon-anime-list/",
-      "title": "10 Strongest Pok\u00e9mon in the Anime That Aren't Legendary",
-      "url": "https://www.cbr.com/most-powerful-non-legendary-pokemon-anime-list/",
-      "published_dt": "2026-05-31T03:45:14+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/serenity-best-stealth-masterpiece-sci-fi-movie-history/",
-      "title": "Nathan Fillion's Serenity Remains the Biggest Stealth Masterpiece in Sci-Fi Movie History",
-      "url": "https://www.cbr.com/serenity-best-stealth-masterpiece-sci-fi-movie-history/",
-      "published_dt": "2026-05-31T03:40:13+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/sailor-moon-creator-adolescence-of-utena-june-2026/",
-      "title": "Sailor Moon Creator's Revolutionary '90s Anime Finally Returns After 27 Years in New Official U.S. Release",
-      "url": "https://www.cbr.com/sailor-moon-creator-adolescence-of-utena-june-2026/",
-      "published_dt": "2026-05-31T03:39:36+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/prime-video-the-expanse-sci-fi-high-praise-space-expert/",
-      "title": "\u2018A Wonderful Story\u2019: The Expanse Gets High Praise From Space Expert",
-      "url": "https://www.cbr.com/prime-video-the-expanse-sci-fi-high-praise-space-expert/",
-      "published_dt": "2026-05-31T03:30:13+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/perfect-forgotten-ps1-games-list/",
-      "title": "5 Forgotten PS1 Games That Are Officially 10/10, No Notes",
-      "url": "https://www.cbr.com/perfect-forgotten-ps1-games-list/",
-      "published_dt": "2026-05-31T03:15:14+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/near-perfect-forgotten-80s-anime-list/",
-      "title": "5 Near-Perfect 80s Anime Movies That No One Remembers",
-      "url": "https://www.cbr.com/near-perfect-forgotten-80s-anime-list/",
-      "published_dt": "2026-05-31T02:45:14+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/godzilla-minus-one-monster-movie-event-of-decade-netflix/",
-      "title": "Godzilla: Minus One Is Still the Monster Movie Event of the Decade",
-      "url": "https://www.cbr.com/godzilla-minus-one-monster-movie-event-of-decade-netflix/",
-      "published_dt": "2026-05-31T02:41:13+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/cbs-tracker-season-3-episode-22-finale-colter-shaw-home/",
-      "title": "Tracker Season 3's Finale Makes CBS History for Justin Hartley's Show",
-      "url": "https://www.cbr.com/cbs-tracker-season-3-episode-22-finale-colter-shaw-home/",
-      "published_dt": "2026-05-31T02:34:58+00:00",
       "source_name": "CBR",
       "source_tier": 2
     },
@@ -1098,82 +986,10 @@
       "source_tier": 2
     },
     {
-      "guid": "https://screenrant.com/resident-evil-9-dlc-grace-problem/",
-      "title": "RE9's DLC Could Solve The Game's Biggest Problem",
-      "url": "https://screenrant.com/resident-evil-9-dlc-grace-problem/",
-      "published_dt": "2026-05-31T04:00:30+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/june-2026-video-games-releases-schedule-lineup/",
-      "title": "June 2026 Video Game Releases: Full List And Highlights",
-      "url": "https://screenrant.com/june-2026-video-games-releases-schedule-lineup/",
-      "published_dt": "2026-05-31T04:00:30+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/gohan-earned-vegeta-respect-before-goku/",
-      "title": "Only One Z Fighter Earned Vegeta's Respect Before Goku",
-      "url": "https://screenrant.com/gohan-earned-vegeta-respect-before-goku/",
-      "published_dt": "2026-05-31T03:30:10+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/the-boys-season-5-most-shocking-lines-insults/",
-      "title": "8 Lines From The Boys Season 5 We Can't Believe Were Actually Said",
-      "url": "https://screenrant.com/the-boys-season-5-most-shocking-lines-insults/",
-      "published_dt": "2026-05-31T03:07:38+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/mandalorian-and-grogu-red-jammer-reference-star-wars-new-hope-explained/",
-      "title": "The Mandalorian & Grogu\u2019s Red Jammer Reference Is A Star Wars Deep-Cut Going Back 49 Years",
-      "url": "https://screenrant.com/mandalorian-and-grogu-red-jammer-reference-star-wars-new-hope-explained/",
-      "published_dt": "2026-05-31T03:04:02+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/007-first-light-james-bond-daniel-craig-change/",
-      "title": "007 First Light Reverses Bond's Biggest Craig-Era Change",
-      "url": "https://screenrant.com/007-first-light-james-bond-daniel-craig-change/",
-      "published_dt": "2026-05-31T03:00:21+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/sherlock-holmes-best-live-action-villains/",
-      "title": "8 Greatest Live-Action Sherlock Holmes Villains",
-      "url": "https://screenrant.com/sherlock-holmes-best-live-action-villains/",
-      "published_dt": "2026-05-31T03:00:21+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
       "guid": "https://bleedingcool.com/?p=2430685",
       "title": "It's Jeff: Brand New Week #1 Preview: Shark Meets Clingy Septapus",
       "url": "https://bleedingcool.com/comics/its-jeff-brand-new-week-1-preview-shark-meets-clingy-septapus/",
       "published_dt": "2026-05-31T04:27:08+00:00",
-      "source_name": "Bleeding Cool",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://bleedingcool.com/?p=2430758",
-      "title": "Creative Technology Reveals Sound Blaster AE-X for PC",
-      "url": "https://bleedingcool.com/pop-culture/creative-technology-reveals-sound-blaster-ae-x-for-pc/",
-      "published_dt": "2026-05-31T02:38:08+00:00",
-      "source_name": "Bleeding Cool",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://bleedingcool.com/?p=2430651",
-      "title": "DC x Sonic the Hedgehog: The Metal Legion #2 Preview",
-      "url": "https://bleedingcool.com/comics/dc-x-sonic-the-hedgehog-the-metal-legion-2-preview/",
-      "published_dt": "2026-05-31T02:26:09+00:00",
       "source_name": "Bleeding Cool",
       "source_tier": 2
     },
@@ -1247,6 +1063,110 @@
       "url": "https://www.radiotimes.com/app/view-from-my-sofa-eleanor-tomlinson/",
       "published_dt": "2026-05-31T08:25:47.859916+00:00",
       "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.nytimes.com/2026/05/31/arts/music/recess-festival-margate-london.html",
+      "title": "A Festival of Black Culture With a \u201990s Vibe",
+      "url": "https://www.nytimes.com/2026/05/31/arts/music/recess-festival-margate-london.html",
+      "published_dt": "2026-05-31T09:02:06+00:00",
+      "source_name": "NYT Arts",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://collider.com/oliver-stone-vietnam-war-masterpiece-platoon-coming-to-prime-video-june-2026/",
+      "title": "40 Years Later, One of the Greatest War Movies Ever Made Is Finally Coming to Prime Video",
+      "url": "https://collider.com/oliver-stone-vietnam-war-masterpiece-platoon-coming-to-prime-video-june-2026/",
+      "published_dt": "2026-05-31T10:00:25+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/karl-urban-cult-classic-sci-fi-action-movie-dredd-streaming-on-plex-june-2026/",
+      "title": "This Cult Sci-Fi Masterpiece Is the Perfect Cure for \u2018The Boys\u2019 Withdrawal",
+      "url": "https://collider.com/karl-urban-cult-classic-sci-fi-action-movie-dredd-streaming-on-plex-june-2026/",
+      "published_dt": "2026-05-31T09:40:13+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/leonardo-dicaprio-historical-blockbuster-man-in-the-iron-mask-coming-to-prime-video-june-2026/",
+      "title": "Leonardo DiCaprio\u2019s Forgotten Historical Blockbuster Is the Perfect Prime Video Watch",
+      "url": "https://collider.com/leonardo-dicaprio-historical-blockbuster-man-in-the-iron-mask-coming-to-prime-video-june-2026/",
+      "published_dt": "2026-05-31T09:21:13+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/greatest-serial-killer-movie-night-of-the-hunter-coming-to-prime-video-june-2026/",
+      "title": "71 Years Later, the Greatest Serial Killer Movie Ever Made Is Coming to Prime Video",
+      "url": "https://collider.com/greatest-serial-killer-movie-night-of-the-hunter-coming-to-prime-video-june-2026/",
+      "published_dt": "2026-05-31T09:00:13+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/dwayne-johnson-heat-replacement-crime-thriller-empire-state-streaming-on-plex-june-2026/",
+      "title": "This 94-Minute Dwayne Johnson Crime Thriller Is the Perfect Free Streaming Watch for \u2018Heat\u2019 Fans",
+      "url": "https://collider.com/dwayne-johnson-heat-replacement-crime-thriller-empire-state-streaming-on-plex-june-2026/",
+      "published_dt": "2026-05-31T08:41:13+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/prime-video-spider-noir-abandons-peter-parker/",
+      "title": "Prime Video Quietly Abandons Peter Parker in Spider-Noir",
+      "url": "https://www.cbr.com/prime-video-spider-noir-abandons-peter-parker/",
+      "published_dt": "2026-05-31T10:00:25+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/perfect-samurai-movies-no-one-remembers-list/",
+      "title": "5 Forgotten Samurai Movies That Are Amazing From Start to Finish",
+      "url": "https://www.cbr.com/perfect-samurai-movies-no-one-remembers-list/",
+      "published_dt": "2026-05-31T10:00:25+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/best-revenge-manhwa-webtoons/",
+      "title": "15 Greatest Revenge Manhwa On Webtoon Too Addictive To Miss",
+      "url": "https://screenrant.com/best-revenge-manhwa-webtoons/",
+      "published_dt": "2026-05-31T10:00:29+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/wordle-history/",
+      "title": "Wordle History: Today's Answer & All Past Words",
+      "url": "https://screenrant.com/wordle-history/",
+      "published_dt": "2026-05-31T10:00:29+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/playstation-6-price-concerns-sony-update-may-2026/",
+      "title": "PlayStation 6 Price Has Gamers Saying The Same Thing: \u201cStart Saving Now\u201d",
+      "url": "https://screenrant.com/playstation-6-price-concerns-sony-update-may-2026/",
+      "published_dt": "2026-05-31T09:45:22+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/final-fantasy-7-sephiroth-dissidia-duellum/",
+      "title": "Final Fantasy 7 Officially Returns In New DLC",
+      "url": "https://screenrant.com/final-fantasy-7-sephiroth-dissidia-duellum/",
+      "published_dt": "2026-05-31T09:30:20+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/red-dead-redemption-new-austin-trailer-reactions/",
+      "title": "Red Dead Redemption: New Austin Trailer Leaves Gamers Floored",
+      "url": "https://screenrant.com/red-dead-redemption-new-austin-trailer-reactions/",
+      "published_dt": "2026-05-31T09:00:21+00:00",
+      "source_name": "Screen Rant",
       "source_tier": 2
     }
   ]
