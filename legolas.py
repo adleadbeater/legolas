@@ -1345,6 +1345,133 @@ def _write_feedback_to_sheet(svc, story_headline, story_tag, reply_text, action,
     except Exception as e:
         log.warning(f"Could not write to Feedback Log sheet: {e}")
 
+# ── Aragorn: title audit + rewrite ────────────────────────────────────────────
+def aragorn_audit(will_post: List[Tuple]) -> List[Tuple]:
+    """
+    Call 3: Aragorn audits every story Legolas approved.
+    For each story: KEEP (with an optimised headline) or KILL (with a reason).
+    Returns a filtered list of (cluster, assessment, tier) tuples with headlines
+    potentially rewritten.
+    """
+    if not will_post:
+        return []
+
+    story_blocks = []
+    for i, (cluster, assessment, tier) in enumerate(will_post, 1):
+        n_t1 = sum(1 for it in cluster["items"] if it["source_tier"] == 1)
+        articles = [f"  {it['title']}" for it in sorted(cluster["items"], key=lambda x: x["published_dt"])]
+        story_blocks.append(
+            f"STORY {i}\n"
+            f"Tier: {tier} | T1 sources: {n_t1} | MW relevance: {assessment['mw_relevance']}/10\n"
+            f"Legolas headline: {assessment['headline']}\n"
+            f"Angle: {assessment.get('angle', '')}\n"
+            f"Source articles:\n" + "\n".join(articles)
+        )
+
+    prompt = f"""You are Aragorn, the title editor for MovieWeb (MW) — a mainstream US entertainment website.
+
+Legolas (the news scout) has approved the stories below. Your job is to audit each one: kill it if it has no path to performance, or keep it and write the best possible headline.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE SINGLE MOST IMPORTANT RULE
+
+Descriptor-led, not show-name-led.
+Screen Rant leads with a show name in quotes in 0.5% of titles. MovieWeb does it 41% of the time. SR averages 7,992 sessions vs MW's 3,575 on identical stories — framing is the entire gap.
+
+Every headline you write describes the show or film for someone who has never heard of it. It sells the concept, not the brand name. It withholds enough to create a curiosity gap — the reader must need to click.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KILL if ANY of these are true:
+- Uses "almost," "nearly," "tried to" (0% hit rate, 60% fail rate — "something almost happened" = nothing happened)
+- Purely backward-looking with no forward news, no development, nothing new for a reader to act on
+- Minor announcement for a cold IP with no A-list star or major platform hook
+- Celebrity quote with no concrete news attached (star "reflects on," "remembers," "offers take on")
+- IP in the 0% hit rate list with no overriding hook: Daredevil: Born Again, Star Wars: Maul, Man of Tomorrow, Hoppers, Sinners, Superman
+
+These are not suggestions. If a kill signal is present, KILL.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TITLE CONSTRUCTION (apply when keeping):
+
+Lead with the biggest name: Star > Director > Platform > Property
+Point forward: "confirms filming" beats "remembers working on"
+Curiosity gap: the reader must need to click — withhold enough
+Concrete achievements: numbers, rankings, records — never vague praise
+Describe unknown properties: genre + scale + platform + pedigree
+Discover scroll test: would you scroll past this in a feed? If yes, rewrite.
+
+Proven mechanisms (use these, in priority order):
+1. STAR-LED — 46% hit rate, 6% fail. Tier-1 names: Cavill, Statham, Cruise, Hemsworth, Ritchson, Crowe, Butler, Jackman, DiCaprio, Keanu Reeves. Pattern: [Star]'s [Genre Descriptor] [Forward verb]
+2. X YEARS LATER — 39% hit rate. ONLY on household-name IPs.
+3. PLATFORM-LED — 25% hit rate. "Netflix's…" / "HBO's…" triggers the streamer-browsing instinct.
+4. MILESTONE — 22% hit rate. Concrete numbers and records only, never vague superlatives.
+5. GENRE COMP — 20% hit rate. "X meets Y" — best stacked on top of a Tier 1 anchor.
+6. REVELATION / CONTROVERSY — use sparingly, only on culturally massive IPs.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+{chr(10).join(story_blocks)}
+
+For EACH story respond with EXACTLY this format:
+
+STORY [N]
+DECISION: KEEP/KILL
+HEADLINE: [your headline — or the original if it's already strong]
+MECHANISM: [which mechanism you used]
+REASON: [one sentence — why you're keeping/killing, or what you changed and why]
+"""
+
+    result = _call_claude(prompt, max_tokens=1200)
+    if not result:
+        log.warning("Aragorn returned nothing — passing all stories through unchanged")
+        return will_post
+
+    # Parse Aragorn's response
+    parts   = re.split(r'\nSTORY\s+(\d+)\n', result)
+    verdicts: Dict[int, dict] = {}
+    i = 1
+    while i < len(parts) - 1:
+        try:
+            idx  = int(parts[i])
+            body = parts[i + 1]
+            decision  = re.search(r'^DECISION:\s*(\w+)', body, re.MULTILINE)
+            headline  = re.search(r'^HEADLINE:\s*(.+)$', body, re.MULTILINE)
+            mechanism = re.search(r'^MECHANISM:\s*(.+)$', body, re.MULTILINE)
+            reason    = re.search(r'^REASON:\s*(.+)$', body, re.MULTILINE)
+            verdicts[idx] = {
+                "decision":  decision.group(1).upper() if decision else "KEEP",
+                "headline":  headline.group(1).strip() if headline else "",
+                "mechanism": mechanism.group(1).strip() if mechanism else "",
+                "reason":    reason.group(1).strip() if reason else "",
+            }
+        except (ValueError, IndexError):
+            pass
+        i += 2
+
+    approved = []
+    for i, (cluster, assessment, tier) in enumerate(will_post, 1):
+        verdict = verdicts.get(i)
+        if not verdict:
+            log.warning(f"Aragorn: no verdict for story {i} — passing through")
+            approved.append((cluster, assessment, tier))
+            continue
+
+        if verdict["decision"] == "KILL":
+            log.info(f"🗡 Aragorn KILL [{tier}]: {assessment['headline'][:60]} — {verdict['reason'][:80]}")
+            continue
+
+        original = assessment["headline"]
+        if verdict["headline"] and verdict["headline"] != original:
+            assessment = {**assessment, "headline": verdict["headline"]}
+            log.info(f"✏️  Aragorn rewrote [{verdict['mechanism']}]: '{original[:50]}' → '{verdict['headline'][:60]}'")
+        else:
+            log.info(f"✅ Aragorn kept [{verdict['mechanism']}]: {assessment['headline'][:60]}")
+
+        approved.append((cluster, assessment, tier))
+
+    log.info(f"Aragorn: {len(approved)}/{len(will_post)} stories approved")
+    return approved
+
+
 # ── Slack posting ──────────────────────────────────────────────────────────────
 def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
     tier_labels = {
@@ -1499,10 +1626,10 @@ def run():
     log.info(f"Claude call 2: assessing {len(clusters_to_assess)} clusters...")
     assessments = claude_assess_clusters(clusters_to_assess, priority_tags, learnings)
 
-    # 7. Python tier enforcement + posting (Step 7b per PRD)
-    posted           = 0
-    new_seen_items   = []
-    posted_this_run: List[str] = []
+    # 7. Python tier enforcement — build will_post list
+    will_post:       List[Tuple] = []
+    new_seen_items:  List[dict]  = []
+    posted_this_run: List[str]   = []
 
     def _is_mid_run_dupe(headline: str) -> bool:
         words = set(w for w in headline.lower().split() if len(w) > 4)
@@ -1514,18 +1641,24 @@ def run():
 
     for cluster, assessment in zip(clusters_to_assess, assessments):
         tier, _ = enforce_tier(assessment, cluster, priority_tags, learnings)
-
         if tier == "skip":
             log.info(f"⏭ Skip (mw={assessment['mw_relevance']}, claude_tier={assessment['tier']}): {assessment['headline'][:60]}")
             continue
-
         if _is_mid_run_dupe(assessment.get("headline", "")):
             continue
-
+        will_post.append((cluster, assessment, tier))
         for item in cluster["items"]:
             if not item.get("_from_cache"):
                 new_seen_items.append(item)
 
+    # 7b. Aragorn: editorial audit + title rewrite
+    if will_post:
+        log.info(f"Aragorn: auditing {len(will_post)} approved stories...")
+        will_post = aragorn_audit(will_post)
+
+    # 8. Post approved stories
+    posted = 0
+    for cluster, assessment, tier in will_post:
         cluster_urls   = [it["url"]   for it in cluster["items"] if it.get("url")]
         cluster_titles = [it["title"] for it in cluster["items"] if it.get("title")]
 
@@ -1541,7 +1674,7 @@ def run():
             record_posted_story(learnings, assessment["headline"], assessment.get("tag", ""), cluster_urls, cluster_titles)
             posted_this_run.append(assessment["headline"])
 
-    # 8. Write seen GUIDs + save learnings
+    # 9. Write seen GUIDs + save learnings
     if new_seen_items:
         append_seen_guids(svc, list({i["guid"]: i for i in new_seen_items}.values()))
     save_learnings(learnings)

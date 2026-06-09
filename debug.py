@@ -22,7 +22,7 @@ from legolas import (
     load_recently_posted,
     claude_find_merges, apply_merges,
     claude_assess_clusters,
-    enforce_tier, post_to_slack, record_posted_story,
+    enforce_tier, aragorn_audit, post_to_slack, record_posted_story,
 )
 
 # ── Debug settings ─────────────────────────────────────────────────────────────
@@ -230,6 +230,14 @@ def run_debug():
         print(f"       sources  : {', '.join(cluster['sources'])}")
 
     print(f"\n  After assessment: {len(will_post)}/{len(assessments)} stories would post")
+
+    # ── Aragorn ────────────────────────────────────────────────────
+    if will_post:
+        print(f"\n{'═' * 60}")
+        print(f"ARAGORN AUDIT ({len(will_post)} stories)")
+        print("═" * 60)
+        will_post = aragorn_audit(will_post)
+        print(f"\n  After Aragorn: {len(will_post)} stories survive")
 
     if recently_posted:
         print(f"\n  Recently posted (last 6h — used for dupe detection):")
