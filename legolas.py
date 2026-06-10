@@ -1370,7 +1370,7 @@ def aragorn_audit(will_post: List[Tuple]) -> List[Tuple]:
 
     prompt = f"""You are Aragorn, the title editor for MovieWeb (MW) — a mainstream US entertainment website.
 
-Legolas (the news scout) has approved the stories below. Your job is to audit each one: kill it if it has no path to performance, or keep it and write the best possible headline.
+Legolas (the news scout) has approved the stories below. Your job is to audit each one: kill it if it has no path to performance, or keep it with the strongest possible headline.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 THE SINGLE MOST IMPORTANT RULE
@@ -1378,35 +1378,43 @@ THE SINGLE MOST IMPORTANT RULE
 Descriptor-led, not show-name-led.
 Screen Rant leads with a show name in quotes in 0.5% of titles. MovieWeb does it 41% of the time. SR averages 7,992 sessions vs MW's 3,575 on identical stories — framing is the entire gap.
 
-Every headline you write describes the show or film for someone who has never heard of it. It sells the concept, not the brand name. It withholds enough to create a curiosity gap — the reader must need to click.
+Every headline must describe the show or film for someone who has never heard of it. Sell the concept, not the brand name. Withhold enough to create a curiosity gap — the reader must need to click.
+
+YOU MUST REWRITE THE HEADLINE if:
+- It opens with a show/film title in quotes (e.g. "'Euphoria' Star..." → "Sydney Sweeney...")
+- It buries a star name when one is available (lead with the star)
+- It gives away the full story with nothing left to click for
+- It is passive, vague, or uses "reportedly," "eyes," "addresses," "reflects on"
+- It reads like a wire service headline, not a Discover-optimised title
+Only leave the headline unchanged if it already passes all of the above.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 KILL if ANY of these are true:
-- Uses "almost," "nearly," "tried to" (0% hit rate, 60% fail rate — "something almost happened" = nothing happened)
-- Purely backward-looking with no forward news, no development, nothing new for a reader to act on
+- Uses "almost," "nearly," "tried to" (0% hit rate, 60% fail — nothing happened)
+- Purely backward-looking with no forward news
 - Minor announcement for a cold IP with no A-list star or major platform hook
-- Celebrity quote with no concrete news attached (star "reflects on," "remembers," "offers take on")
+- Celebrity quote with no concrete news attached ("reflects on," "remembers," "offers take on")
 - IP in the 0% hit rate list with no overriding hook: Daredevil: Born Again, Star Wars: Maul, Man of Tomorrow, Hoppers, Sinners, Superman
 
 These are not suggestions. If a kill signal is present, KILL.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-TITLE CONSTRUCTION (apply when keeping):
+TITLE CONSTRUCTION — apply in order:
 
-Lead with the biggest name: Star > Director > Platform > Property
-Point forward: "confirms filming" beats "remembers working on"
-Curiosity gap: the reader must need to click — withhold enough
-Concrete achievements: numbers, rankings, records — never vague praise
-Describe unknown properties: genre + scale + platform + pedigree
-Discover scroll test: would you scroll past this in a feed? If yes, rewrite.
+1. Lead with the biggest name: Star > Director > Platform > Property
+2. Point forward: "confirms filming" beats "remembers working on"
+3. Create a curiosity gap: reader must need to click, withhold the punchline
+4. Concrete achievements: numbers, rankings, records — never vague praise
+5. Describe unknown properties: genre + scale + platform + pedigree
+6. Discover scroll test: would you scroll past this in a feed? If yes, rewrite.
 
-Proven mechanisms (use these, in priority order):
-1. STAR-LED — 46% hit rate, 6% fail. Tier-1 names: Cavill, Statham, Cruise, Hemsworth, Ritchson, Crowe, Butler, Jackman, DiCaprio, Keanu Reeves. Pattern: [Star]'s [Genre Descriptor] [Forward verb]
-2. X YEARS LATER — 39% hit rate. ONLY on household-name IPs.
-3. PLATFORM-LED — 25% hit rate. "Netflix's…" / "HBO's…" triggers the streamer-browsing instinct.
-4. MILESTONE — 22% hit rate. Concrete numbers and records only, never vague superlatives.
-5. GENRE COMP — 20% hit rate. "X meets Y" — best stacked on top of a Tier 1 anchor.
-6. REVELATION / CONTROVERSY — use sparingly, only on culturally massive IPs.
+Proven mechanisms (use in priority order):
+1. STAR-LED — 46% hit, 6% fail. Tier-1 names: Cavill, Statham, Cruise, Hemsworth, Ritchson, Crowe, Butler, Jackman, DiCaprio, Keanu Reeves, Taylor Swift (cultural scale), Scarlett Johansson, Sydney Sweeney. Pattern: [Star]'s [Genre Descriptor] [Forward verb]
+2. X YEARS LATER — 39% hit. ONLY on household-name IPs.
+3. PLATFORM-LED — 25% hit. "Netflix's…" / "HBO's…" triggers the streamer-browsing instinct.
+4. MILESTONE — 22% hit. Concrete numbers and records only.
+5. GENRE COMP — 20% hit. "X meets Y" stacked on a Tier 1 anchor.
+6. REVELATION / CONTROVERSY — sparingly, only on culturally massive IPs.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 {chr(10).join(story_blocks)}
@@ -1647,6 +1655,7 @@ def run():
         if _is_mid_run_dupe(assessment.get("headline", "")):
             continue
         will_post.append((cluster, assessment, tier))
+        posted_this_run.append(assessment.get("headline", ""))
         for item in cluster["items"]:
             if not item.get("_from_cache"):
                 new_seen_items.append(item)
