@@ -1110,6 +1110,54 @@
         "Netflix Unveils First Trailer for \u2018Little House on the Prairie\u2019 Reboot",
         "Netflix Unveils First Trailer for \u2018Little House on the Prairie\u2019 Reboot"
       ]
+    },
+    {
+      "headline": "Titus Welliver Leads New Crime Series Based on 14-Year-Old DC Comic",
+      "tag": "titus welliver",
+      "posted_at": "2026-06-11T16:33:28.170752+00:00",
+      "urls": [
+        "https://collider.com/titus-welliver-get-jiro-adult-swim-dc-series/"
+      ],
+      "article_titles": [
+        "Titus Welliver Officially Leads New Crime Series Adaptation of Hit 14-Year-Old DC Comic"
+      ]
+    },
+    {
+      "headline": "Mark Ruffalo and Laurence Fishburne Voice Pixar's Gangster Cat Movie in New Trailer",
+      "tag": "gatto",
+      "posted_at": "2026-06-11T16:33:28.271556+00:00",
+      "urls": [
+        "https://variety.com/2026/film/news/gatto-trailer-pixar-mark-ruffalo-laurence-fishburne-1236778701/"
+      ],
+      "article_titles": [
+        "Pixar\u2019s New Movie \u2018Gatto\u2019 Adds Mark Ruffalo and Laurence Fishburne, Drops Trailer About Mobster Cats"
+      ]
+    },
+    {
+      "headline": "Lionsgate Partners with AI Company to Create Franchise Spinoff Series Using Artificial Intelligence",
+      "tag": "lionsgate",
+      "posted_at": "2026-06-11T16:33:28.356326+00:00",
+      "urls": [
+        "https://variety.com/2026/film/news/lionsgate-equity-stake-runway-ai-franchises-for-ai-show-1236775590/",
+        "https://www.thewrap.com/creative-content/movies/lionsgate-runway-ai-short-films-franchises-ip/"
+      ],
+      "article_titles": [
+        "Lionsgate Takes Equity Stake in Runway AI, Plans to Draw on Existing Franchises for AI-Generated Short-Form Series",
+        "Lionsgate Takes Equity Stake in Runway, Will Mine Franchises for AI-Generated Shorts"
+      ]
+    },
+    {
+      "headline": "Dwayne Johnson Reveals Cancer Scare and Oscar Ambitions in Candid Interview",
+      "tag": "",
+      "posted_at": "2026-06-11T16:33:28.451986+00:00",
+      "urls": [
+        "https://variety.com/2026/film/news/dwayne-johnson-cancer-scare-not-talking-politics-oscar-snub-1236772386/",
+        "https://variety.com/2026/film/news/dwayne-johnson-cancer-scare-not-talking-politics-oscar-snub-1236772386/"
+      ],
+      "article_titles": [
+        "Dwayne Johnson Reveals Cancer Scare on Day of \u2018Jumanji\u2019 Press, Admits He Wanted an Oscar Nom and Explains Why \u2018I\u2019m Keeping My Politics to Myself\u2019",
+        "Dwayne Johnson Reveals Cancer Scare on Day of \u2018Jumanji\u2019 Press, Admits He Wanted an Oscar Nom and Explains Why \u2018I\u2019m Keeping My Politics to Myself\u2019"
+      ]
     }
   ],
   "processed_reactions": [],
@@ -1748,22 +1796,6 @@
       "source_tier": 1
     },
     {
-      "guid": "https://www.theguardian.com/film/2026/jun/11/ghostbusters-2016-all-female-10-years-paul-feig",
-      "title": "Who you gonna maul? Why Paul Feig\u2019s derided all-female Ghostbusters dazzles a decade later",
-      "url": "https://www.theguardian.com/film/2026/jun/11/ghostbusters-2016-all-female-10-years-paul-feig",
-      "published_dt": "2026-06-11T10:04:38+00:00",
-      "source_name": "The Guardian Film",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.theguardian.com/tv-and-radio/2026/jun/11/best-tv-villains-vecna-stranger-things-mr-burns-simpsons",
-      "title": "From Vecna to Mr Burns: TV\u2019s greatest ever villains",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/jun/11/best-tv-villains-vecna-stranger-things-mr-burns-simpsons",
-      "published_dt": "2026-06-11T10:03:24+00:00",
-      "source_name": "The Guardian TV",
-      "source_tier": 1
-    },
-    {
       "guid": "https://www.theguardian.com/culture/2026/jun/11/seth-meyers-republicans-claim-rigged-elections",
       "title": "Seth Meyers on Republicans claiming rigged elections: \u2018You\u2019re the ones undermining voter integrity\u2019",
       "url": "https://www.theguardian.com/culture/2026/jun/11/seth-meyers-republicans-claim-rigged-elections",
@@ -1824,14 +1856,6 @@
       "title": "Star Trek: Shadow Frontier \u2014 Paramount Says 'The Goal Is for Bloober to Make the Best Star Trek Game of All Time'",
       "url": "https://www.ign.com/articles/star-trek-shadow-frontier-paramount-says-the-goal-is-for-bloober-to-make-the-best-star-trek-game-of-all-time",
       "published_dt": "2026-06-11T10:55:29+00:00",
-      "source_name": "IGN",
-      "source_tier": 2
-    },
-    {
-      "guid": "a90366d3-28a3-4cdf-8f5e-86b3e9e95d36",
-      "title": "1666: Amsterdam Developer Admits Using AI Assets and Apologizes, Says They'll Now Be Replaced",
-      "url": "https://www.ign.com/articles/1666-amsterdam-developer-admits-using-ai-assets-and-apologizes-says-theyll-now-be-replaced",
-      "published_dt": "2026-06-11T10:04:46+00:00",
       "source_name": "IGN",
       "source_tier": 2
     },
@@ -2192,14 +2216,6 @@
       "title": "14 Most Cursed TV Shows",
       "url": "https://www.denofgeek.com/tv/14-most-cursed-tv-shows/",
       "published_dt": "2026-06-11T11:15:00+00:00",
-      "source_name": "Den of Geek",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.denofgeek.com/?p=1005846",
-      "title": "15 Really Bad Movies We Can\u2019 Stop Watching",
-      "url": "https://www.denofgeek.com/msn/15-really-bad-movies-we-can-stop-watching/",
-      "published_dt": "2026-06-11T10:30:00+00:00",
       "source_name": "Den of Geek",
       "source_tier": 2
     },
@@ -3184,6 +3200,438 @@
       "title": "Has Sweet Magnolias been renewed for season 6?",
       "url": "https://www.radiotimes.com/tv/drama/sweet-magnolias-season-6-netflix-release-date/",
       "published_dt": "2026-06-11T15:44:09+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://deadline.com/?p=1236953759",
+      "title": "\u200bDominique Fishback, Star Of \u2018Swarm\u2019 & \u2018Judas and the Black Messiah,\u2019 Signs with Range Media Partners",
+      "url": "https://deadline.com/2026/06/dominique-fishback-range-media-partners-management-1236953759/",
+      "published_dt": "2026-06-11T16:30:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://deadline.com/?p=1236953788",
+      "title": "Jake Weiner\u2019s Harvest Hill Signs April Blair, Michael Yuchen Lei, Mina Rhodes & Nick Funess",
+      "url": "https://deadline.com/2026/06/jake-weiner-harvest-hill-entertainment-signs-four-1236953788/",
+      "published_dt": "2026-06-11T16:07:56+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://deadline.com/?p=1236953445",
+      "title": "Disney+ Sets First Canadian Originals With \u2018Knighted\u2019 & \u2018I\u2019m Not Coming Back\u2019",
+      "url": "https://deadline.com/2026/06/disney-plus-canada-originals-knighted-im-not-coming-back-1236953445/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8032418",
+      "title": "Lionsgate Takes Equity Stake in Runway, Will Mine Franchises for AI-Generated Shorts",
+      "url": "https://www.thewrap.com/creative-content/movies/lionsgate-runway-ai-short-films-franchises-ip/",
+      "published_dt": "2026-06-11T16:25:22+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8031835",
+      "title": "Pixar\u2019s \u2018Gatto\u2019 Teaser Trailer Introduces You to a Bunch of Gangster Cats",
+      "url": "https://www.thewrap.com/creative-content/movies/gatto-pixar-trailer-mark-ruffalo/",
+      "published_dt": "2026-06-11T16:01:39+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8032110",
+      "title": "Tastemade Brings Back \u2018Struggle Meals\u2019 After 3-Year Hiatus | Exclusive",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/struggle-meals-return-date-tastemade-frankie-celenza/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8029617",
+      "title": "From Chaos Comes Creativity: \u2018Nobody Wants This\u2019 Stars Kristen Bell and Adam Brody on Their Tight Bond",
+      "url": "https://www.thewrap.com/industry-news/awards/kristen-bell-adam-brody-nobody-wants-this-season-2-interview/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8032088",
+      "title": "How to Watch the World Cup Opening Ceremony",
+      "url": "https://www.thewrap.com/culture-lifestyle/sports/how-to-watch-fifa-world-cup-opening-ceremony-2026-streaming-live/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236618411",
+      "title": "Catskills Theater Camp Stagedoor Manor to Be Celebrated at Milestone One Night Concert Event",
+      "url": "https://www.hollywoodreporter.com/lifestyle/arts/stagedoor-manor-theater-camp-concert-event-new-york-1236618411/",
+      "published_dt": "2026-06-11T16:30:00+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236614140",
+      "title": "Nat Geo Spins Off \u2018Tucci in Italy\u2019 With \u2018Tucci in Great Britain\u2019 (Exclusive)",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/stanley-tucci-in-italy-great-britain-spinoff-nat-geo-1236614140/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236619244",
+      "title": "Raye, Mumford & Sons, John Summit Among Performers for Cannes Lions Spotify Beach (Exclusive)",
+      "url": "https://www.hollywoodreporter.com/music/music-industry-news/raye-mumford-ohn-summit-spotify-beach-cannes-lions-1236619244/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236619303",
+      "title": "Sylvia Rhone To Receive \u201cUltimate Icon\u201d Honor at BET Awards",
+      "url": "https://www.hollywoodreporter.com/music/music-industry-news/sylvia-rhone-to-receive-ultimate-icon-at-bet-awards-1236619303/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236619377",
+      "title": "Keke Palmer Heading to UCLA With New Artist-In-Residence Program",
+      "url": "https://www.hollywoodreporter.com/business/business-news/keke-palmer-ucla-keytv-1236619377/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236614140",
+      "title": "Nat Geo Spins Off \u2018Tucci in Italy\u2019 With \u2018Tucci in Great Britain\u2019 (Exclusive)",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/stanley-tucci-in-italy-great-britain-spinoff-nat-geo-1236614140/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "THR TV",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236772187",
+      "title": "Alliance of Women Directors and Starz Reveal Creative Leadership Lab\u2019s Inaugural Class Designed to Support Female TV Directors (EXCLUSIVE)",
+      "url": "https://variety.com/2026/tv/news/creative-leadership-lab-inaugural-class-1236772187/",
+      "published_dt": "2026-06-11T16:30:00+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236778701",
+      "title": "Pixar\u2019s New Movie \u2018Gatto\u2019 Adds Mark Ruffalo and Laurence Fishburne, Drops Trailer About Mobster Cats",
+      "url": "https://variety.com/2026/film/news/gatto-trailer-pixar-mark-ruffalo-laurence-fishburne-1236778701/",
+      "published_dt": "2026-06-11T16:27:52+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236762221",
+      "title": "Here\u2019s How to Watch FOX Sports Online for Free",
+      "url": "https://variety.com/2026/shopping/news/how-to-watch-fox-sports-online-free-1236762221/",
+      "published_dt": "2026-06-11T16:05:07+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236771961",
+      "title": "Inside \u2018Long Story Short\u2019: Raphael Bob-Waksberg\u2019s  Animated Family Saga for Netflix",
+      "url": "https://variety.com/2026/tv/focus/long-story-short-raphael-bob-waksberg-1236771961/",
+      "published_dt": "2026-06-11T16:05:00+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236775590",
+      "title": "Lionsgate Takes Equity Stake in Runway AI, Plans to Draw on Existing Franchises for AI-Generated Short-Form Series",
+      "url": "https://variety.com/2026/film/news/lionsgate-equity-stake-runway-ai-franchises-for-ai-show-1236775590/",
+      "published_dt": "2026-06-11T16:00:27+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvline.com/2192211/emmys-2026-supporting-actress-drama-series-dream-nominees/",
+      "title": "Emmys 2026: Supporting Actress In A Drama Series \u2014 Our Dream Nominees!",
+      "url": "https://www.tvline.com/2192211/emmys-2026-supporting-actress-drama-series-dream-nominees/",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "TVLine",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1268813",
+      "title": "Why \u2018Grantchester\u2019 Star Rishi Nair Calls Ending the Show the \u2018Right Decision\u2019",
+      "url": "https://www.tvinsider.com/1268813/rishi-nair-grantchester-final-season-interview/",
+      "published_dt": "2026-06-11T16:18:25+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?post_type=stem&p=1269354",
+      "title": "10 Surprising Facts About John Wayne, the Man Behind \u2018The Duke\u2019",
+      "url": "https://www.tvinsider.com/1269354/10-surprising-facts-about-john-wayne-the-man-behind-the-duke/",
+      "published_dt": "2026-06-11T16:15:53+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1269431",
+      "title": "\u2018Jeopardy!\u2019 Fans Are Saying This After Two Low-Scoring Games",
+      "url": "https://www.tvinsider.com/1269431/jeopardy-fans-think-clues-getting-harder-two-low-scoring-games/",
+      "published_dt": "2026-06-11T16:04:45+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?post_type=gallery&p=1269139",
+      "title": "\u2018Jeopardy!\u2019 2027 Tournament of Champions: Who Has Qualified So Far?",
+      "url": "https://www.tvinsider.com/gallery/jeopardy-2027-tournament-of-champions-who-has-qualified-so-far/",
+      "published_dt": "2026-06-11T16:02:09+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1189695",
+      "title": "\u2018Little House on the Prairie\u2019: Netflix Reboot Debuts Official Trailer",
+      "url": "https://www.tvinsider.com/1189695/little-house-on-the-prairie-reboot-cast-premiere-date-details/",
+      "published_dt": "2026-06-11T16:02:01+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1269427",
+      "title": "Jere Burns Joins \u2018Y&R\u2019 for \u2018Dear John\u2019 Reunion Amid Diane\u2019s Disappearance",
+      "url": "https://www.tvinsider.com/1269427/jere-burns-young-and-restless-diane-mystery/",
+      "published_dt": "2026-06-11T16:00:52+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "6a29d1a7a7102cbe4db70966",
+      "title": "Carrie Coon and Morgan Spector Talk Marriage, History, and \u2018The Gilded Age\u2019 Season 4",
+      "url": "https://www.vanityfair.com/story/carrie-coon-morgan-spector-interview-the-gilded-age",
+      "published_dt": "2026-06-11T16:09:16+00:00",
+      "source_name": "Vanity Fair",
+      "source_tier": 1
+    },
+    {
+      "guid": "6a294d34ba88348058763cdc",
+      "title": "Kristen Bell and Ted Danson Still Forking Love Each Other",
+      "url": "https://www.vanityfair.com/story/reunited-ted-danson-kristen-bell",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "Vanity Fair",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://time.com/?p=blt817f4abb8c2e54f5",
+      "title": "Pentagon Issues Shelter-in-Place Order in Response to 'Hazardous Materials Incident'",
+      "url": "https://time.com/article/2026/06/11/pentagon-hazardous-materials-incident/",
+      "published_dt": "2026-06-11T16:00:30+00:00",
+      "source_name": "TIME",
+      "source_tier": 1
+    },
+    {
+      "guid": "6815363a-8284-4e25-84b0-a2ded0232500",
+      "title": "Stranger Than Heaven Director Addresses Concerns Over Tupac's Inclusion",
+      "url": "https://www.ign.com/articles/stranger-than-heaven-director-addresses-concerns-over-tupacs-inclusion",
+      "published_dt": "2026-06-11T16:09:55+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "087a0c70-df7d-46a1-9fd4-962bb057646d",
+      "title": "That Texas Blood: Image Comics' Neo-Noir Western Returns for a Sequel Series",
+      "url": "https://www.ign.com/articles/that-texas-blood-image-comics-neo-noir-western-returns-for-a-sequel-series",
+      "published_dt": "2026-06-11T16:00:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "cf863318-bfd4-4faf-98c4-6568fc61bffb",
+      "title": "The iBuyPower Element Pro Ryzen X3D Edition Gaming PC With GeForce RTX 5070 GPU Drops to $1,449",
+      "url": "https://www.ign.com/articles/ibuypower-element-pro-ryzen-7800x3d-rtx-5070-gaming-pc-deal",
+      "published_dt": "2026-06-11T15:30:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "77c72794-6c71-45e5-943f-e201f3710920",
+      "title": "The Apple AirPods Pro 3 Earbuds Drops to the Lowest Price Ever Ahead of Father's Day",
+      "url": "https://www.ign.com/articles/apple-airpods-pro-3-earbuds-deal-new-amazon-fathers-day-sale-price-drop",
+      "published_dt": "2026-06-11T15:25:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "aa89f090-aa2f-4017-9bc4-df76d057d7c9",
+      "title": "The Ultra-Slim Baseus Blade 20,000mAh 100W Power Bank Drops to $39.49 Ahead of Amazon Prime Day",
+      "url": "https://www.ign.com/articles/baseus-blade-slim-power-bank-deal-early-amazon-prime-day-sale-nintendo-switch-xbox-ally-steam-deck",
+      "published_dt": "2026-06-11T15:25:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/titus-welliver-get-jiro-adult-swim-dc-series/",
+      "title": "Titus Welliver Officially Leads New Crime Series Adaptation of Hit 14-Year-Old DC Comic",
+      "url": "https://collider.com/titus-welliver-get-jiro-adult-swim-dc-series/",
+      "published_dt": "2026-06-11T16:30:14+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/free-guy-ryan-reynolds-movie-streaming-disney-plus-jodie-comer/",
+      "title": "Forget 'Deadpool,' Ryan Reynolds' Best Sci-Fi Movie Is Waiting To Be Rediscovered",
+      "url": "https://collider.com/free-guy-ryan-reynolds-movie-streaming-disney-plus-jodie-comer/",
+      "published_dt": "2026-06-11T16:21:13+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/hulu-prison-break-reboot-recast-kelli-berglund-filming-start/",
+      "title": "The \u2018Prison Break\u2019 Reboot at Hulu Is Officially Recasting a Main Character",
+      "url": "https://collider.com/hulu-prison-break-reboot-recast-kelli-berglund-filming-start/",
+      "published_dt": "2026-06-11T16:17:49+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/little-house-on-the-prairie-trailer-netflix-remake/",
+      "title": "Netflix\u2019s Most Anticipated Remake of the Year Rides in With Perfect Trailer",
+      "url": "https://collider.com/little-house-on-the-prairie-trailer-netflix-remake/",
+      "published_dt": "2026-06-11T16:06:11+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/fantasy-anime-frieren-reigns-over/",
+      "title": "4 Fantasy Anime That Couldn't Beat Frieren If They Tried",
+      "url": "https://www.cbr.com/fantasy-anime-frieren-reigns-over/",
+      "published_dt": "2026-06-11T16:15:21+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/video/office-romance-jennifer-lopez-brett-goldstein-cast-meet-cute-interview/",
+      "title": "Office Romance Interviews with Jennifer Lopez, Brett Goldstein, Tony Hale, Betty Gilpin & Ol Parker",
+      "url": "https://screenrant.com/video/office-romance-jennifer-lopez-brett-goldstein-cast-meet-cute-interview/",
+      "published_dt": "2026-06-11T16:30:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/obsession-2026-box-office-domestic-day-25-record/",
+      "title": "Key Avengers: Endgame Box Office Record Beaten By A Horror Movie That Cost Less Than $1 Million",
+      "url": "https://screenrant.com/obsession-2026-box-office-domestic-day-25-record/",
+      "published_dt": "2026-06-11T16:24:51+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/video/cape-fear-javier-bardem-amy-adams-patrick-wilson-nick-antosca-interview/",
+      "title": "Cape Fear Interviews with Cast & Creator",
+      "url": "https://screenrant.com/video/cape-fear-javier-bardem-amy-adams-patrick-wilson-nick-antosca-interview/",
+      "published_dt": "2026-06-11T16:19:25+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/spider-man-homecoming-movie-netflix-return-release/",
+      "title": "Spider-Man: Homecoming\u2019s Netflix Return Is Officially 3 Weeks Away",
+      "url": "https://screenrant.com/spider-man-homecoming-movie-netflix-return-release/",
+      "published_dt": "2026-06-11T16:15:29+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/90-day-fiance-season-six-updates/",
+      "title": "90 Day Fianc\u00e9 Season 6: Where Are They Now?",
+      "url": "https://screenrant.com/90-day-fiance-season-six-updates/",
+      "published_dt": "2026-06-11T16:05:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/hello-kitty-junji-ito-collaboration-return-2026/",
+      "title": "2 Years Later, Hello Kitty x Junji Ito Is Officially Back With Twisted New Collaboration",
+      "url": "https://screenrant.com/hello-kitty-junji-ito-collaboration-return-2026/",
+      "published_dt": "2026-06-11T16:03:47+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/mobland-season-3-tom-hardy-feud-rumors-helen-mirren/",
+      "title": "Tom Hardy's MobLand Feud Rumors Mitigated By Co-Star As Show's Uncertain Future Lingers",
+      "url": "https://screenrant.com/mobland-season-3-tom-hardy-feud-rumors-helen-mirren/",
+      "published_dt": "2026-06-11T16:02:44+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/jujutsu-kaisen-rumble-trailer-hype-vampire-survivors/",
+      "title": "Jujutsu Kaisen Officially Returns For A Brand-New Adventure",
+      "url": "https://screenrant.com/jujutsu-kaisen-rumble-trailer-hype-vampire-survivors/",
+      "published_dt": "2026-06-11T16:01:39+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/subnautica-2-sulfur-how-to-get-farming-locations/",
+      "title": "Where to find sulfur in Subnautica 2",
+      "url": "https://www.polygon.com/subnautica-2-sulfur-how-to-get-farming-locations/",
+      "published_dt": "2026-06-11T16:22:28+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2435643",
+      "title": "Take Down Spider-Man with New Marvel Legends Green Goblin Figure",
+      "url": "https://bleedingcool.com/collectibles/take-down-spider-man-with-new-marvel-legends-green-goblin-figure/",
+      "published_dt": "2026-06-11T16:22:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2436434",
+      "title": "Little House on the Prairie Trailer Previews New Netflix Series Adapt",
+      "url": "https://bleedingcool.com/tv/little-house-on-the-prairie-trailer-previews-new-netflix-series-adapt/",
+      "published_dt": "2026-06-11T16:07:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://decider.com/?post_type=article&p=2087994",
+      "title": "When Does \u2018The Devil\u2019s Mouth\u2019 Come To Streaming? All About \u2018TSITP\u2019 Star Gavin Casalegno\u2019s New Summer Movie",
+      "url": "https://decider.com/2026/06/11/the-devils-mouth-streaming-gavin-casalegno/",
+      "published_dt": "2026-06-11T16:26:39+00:00",
+      "source_name": "Decider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://decider.com/?post_type=article&p=2087825",
+      "title": "What Is  \u201cSquatters: Get the F*** Out of My House\u201d? Where To Watch The Bizarre Docuseries Produced by Kelly Ripa and Mark Consuelos",
+      "url": "https://decider.com/2026/06/11/what-is-squatters-get-the-f-out-of-my-house-where-to-watch/",
+      "published_dt": "2026-06-11T16:15:00+00:00",
+      "source_name": "Decider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/soaps/emmerdale-coronation-street-sustainability-feature/",
+      "title": "Emmerdale and Coronation Street's sustainability expert reveals why soap operas have always been TV\u2019s greenest genre",
+      "url": "https://www.radiotimes.com/tv/soaps/emmerdale-coronation-street-sustainability-feature/",
+      "published_dt": "2026-06-11T16:00:40+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/sport/football/world-cup-2026-most-titles/",
+      "title": "Who has won the most World Cups? Full World Cup winners list",
+      "url": "https://www.radiotimes.com/tv/sport/football/world-cup-2026-most-titles/",
+      "published_dt": "2026-06-11T16:00:15+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     }
