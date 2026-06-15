@@ -1890,6 +1890,25 @@
         "Both Sides Of Fox\u2019s $22B Roku Acquisition Call It A Streaming Win-Win, But Wall Street Has Questions",
         "Both Sides Of Fox\u2019s $22B Roku Acquisition Call It A Streaming Win-Win, But Wall Street Has Questions"
       ]
+    },
+    {
+      "headline": "Prime Video Abandons Reacher Formula for Season 4",
+      "tag": "reacher",
+      "posted_at": "2026-06-15T16:03:24.442500+00:00",
+      "urls": [
+        "https://www.cbr.com/reacher-season-4-prime-video-formula-change/",
+        "https://collider.com/prime-video-ad-free-plan-replaced-ultra-tier-price/",
+        "https://collider.com/prime-video-ad-free-plan-replaced-ultra-tier-price/",
+        "https://www.polygon.com/ea-advertising-madden-nfl-college-football-ads/",
+        "https://www.polygon.com/ea-advertising-madden-nfl-college-football-ads/"
+      ],
+      "article_titles": [
+        "Prime Video Is Officially Abandoning Alan Ritchson's Reacher Formula in Season 4",
+        "Prime Video Officially Pulls the Plug on Its Old Ad-Free Plan",
+        "Prime Video Officially Pulls the Plug on Its Old Ad-Free Plan",
+        "Madden, College Football, and more EA games are about to get a whole lot more ads in them",
+        "Madden, College Football, and more EA games are about to get a whole lot more ads in them"
+      ]
     }
   ],
   "processed_reactions": [],
@@ -1932,14 +1951,6 @@
       "title": "Roger Cook Dies: Legendary Investigative Journalist From \u2018The Cook Report\u2019 Was 83",
       "url": "https://deadline.com/2026/06/roger-cook-dead-journalist-cook-report-was-83-1236956207/",
       "published_dt": "2026-06-15T10:50:59+00:00",
-      "source_name": "Deadline",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://deadline.com/?p=1236956092",
-      "title": "MS NOW To Feature Sit Down With Barack Obama As Part Of Special Coverage Of Opening Of Former President\u2019s New Center In Chicago",
-      "url": "https://deadline.com/2026/06/ms-now-barack-obama-presidential-center-1236956092/",
-      "published_dt": "2026-06-15T10:00:00+00:00",
       "source_name": "Deadline",
       "source_tier": 1
     },
@@ -2184,14 +2195,6 @@
       "source_tier": 1
     },
     {
-      "guid": "6a2aec669e1703d63b55f1b1",
-      "title": "Ta-Nehisi Coates on The Next Black President",
-      "url": "https://www.vanityfair.com/story/the-next-black-president",
-      "published_dt": "2026-06-15T10:00:00+00:00",
-      "source_name": "Vanity Fair",
-      "source_tier": 1
-    },
-    {
       "guid": "https://time.com/?p=bltd4e432a686b9d588",
       "title": "U.K.\u2019s Ban on Palestine Action Under Terror Legislation Was Lawful, Court of Appeal Rules",
       "url": "https://time.com/article/2026/06/15/palestine-action-ban-terrorism-legislation-appeal-ruling/",
@@ -2204,14 +2207,6 @@
       "title": "The Resurgence of Bracero Logic",
       "url": "https://time.com/article/2026/06/15/the-resurgence-of-bracero-logic/",
       "published_dt": "2026-06-15T11:00:17+00:00",
-      "source_name": "TIME",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://time.com/?p=blt151b0b6c5d23899c",
-      "title": "America\u2019s New Critical Minerals Playbook",
-      "url": "https://time.com/article/2026/06/15/america-china-new-critical-minerals-race/",
-      "published_dt": "2026-06-15T10:00:00+00:00",
       "source_name": "TIME",
       "source_tier": 1
     },
@@ -2240,38 +2235,6 @@
       "source_tier": 1
     },
     {
-      "guid": "https://www.latimes.com/entertainment-arts/story/2026-06-15/viral-world-cup-videos-visitors-column",
-      "title": "Column: These visitors' viral World Cup videos are showing what really makes America great",
-      "url": "https://www.latimes.com/entertainment-arts/story/2026-06-15/viral-world-cup-videos-visitors-column",
-      "published_dt": "2026-06-15T10:00:00+00:00",
-      "source_name": "LA Times",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.latimes.com/entertainment-arts/awards/story/2026-06-15/love-story-john-f-kennedy-jr-carolyn-bessette-connor-hines-on-writing",
-      "title": "How Connor Hines won over Ryan Murphy and beat impostor syndrome to make 'Love Story'",
-      "url": "https://www.latimes.com/entertainment-arts/awards/story/2026-06-15/love-story-john-f-kennedy-jr-carolyn-bessette-connor-hines-on-writing",
-      "published_dt": "2026-06-15T10:00:00+00:00",
-      "source_name": "LA Times",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.latimes.com/entertainment-arts/awards/story/2026-06-15/emmys-adult-animation-guide-kevin-strip-law-long-story-short-mating-season-primal",
-      "title": "5 adult animation series that tackle serious subjects without missing a beat",
-      "url": "https://www.latimes.com/entertainment-arts/awards/story/2026-06-15/emmys-adult-animation-guide-kevin-strip-law-long-story-short-mating-season-primal",
-      "published_dt": "2026-06-15T10:00:00+00:00",
-      "source_name": "LA Times",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.latimes.com/entertainment-arts/awards/story/2026-06-15/emmys-2026-industry-hbo-myhala-marisa-abela-kit-harington-mickey-down-konrad-kay",
-      "title": "'Industry' is TV's last golden age drama",
-      "url": "https://www.latimes.com/entertainment-arts/awards/story/2026-06-15/emmys-2026-industry-hbo-myhala-marisa-abela-kit-harington-mickey-down-konrad-kay",
-      "published_dt": "2026-06-15T10:00:00+00:00",
-      "source_name": "LA Times",
-      "source_tier": 1
-    },
-    {
       "guid": "https://www.theguardian.com/film/2026/jun/15/the-toymakers-key-review-steampunk-sci-fi-animation",
       "title": "The Toymaker\u2019s Key review \u2013 steampunk sci-fi animation is eclectic if overwrought",
       "url": "https://www.theguardian.com/film/2026/jun/15/the-toymakers-key-review-steampunk-sci-fi-animation",
@@ -2292,22 +2255,6 @@
       "title": "The man who bought Diane Keaton\u2019s nail clippers also owns Whoopi Goldberg\u2019s teapot: \u2018It will have her fingerprints on it\u2019",
       "url": "https://www.theguardian.com/film/2026/jun/15/man-who-bought-diane-keaton-nail-clippers-whoopi-goldberg-teapot",
       "published_dt": "2026-06-15T10:27:44+00:00",
-      "source_name": "The Guardian Film",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.theguardian.com/film/2026/jun/15/disclosure-day-alien-discussion-spoilers",
-      "title": "Disclosure Day: alien conspiracies, car chases and a jaw-dropping climax \u2013 discuss with spoilers",
-      "url": "https://www.theguardian.com/film/2026/jun/15/disclosure-day-alien-discussion-spoilers",
-      "published_dt": "2026-06-15T10:00:24+00:00",
-      "source_name": "The Guardian Film",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.theguardian.com/film/2026/jun/15/familiar-touch-review-kathleen-chalfant-sarah-friedland",
-      "title": "Familiar Touch review \u2013 Kathleen Chalfant is wonderful in subtle, sensual memory loss drama",
-      "url": "https://www.theguardian.com/film/2026/jun/15/familiar-touch-review-kathleen-chalfant-sarah-friedland",
-      "published_dt": "2026-06-15T10:00:24+00:00",
       "source_name": "The Guardian Film",
       "source_tier": 1
     },
@@ -2348,14 +2295,6 @@
       "title": "How to clear your gaming backlog before GTA 6 with GeForce NOW",
       "url": "https://www.ign.com/articles/how-to-clear-your-gaming-backlog-before-gta-6-with-geforce-now",
       "published_dt": "2026-06-15T10:56:06+00:00",
-      "source_name": "IGN",
-      "source_tier": 2
-    },
-    {
-      "guid": "6b24dcb2-c16f-463a-a7ac-c9ddf024c3b5",
-      "title": "The Office Star Rainn Wilson Says The Series is Too 'Politically Incorrect' to Be Made Today and He Does 'Kind of Miss That'",
-      "url": "https://www.ign.com/articles/the-office-star-rainn-wilson-says-the-series-is-too-politically-incorrect-to-be-made-today-and-he-does-kind-of-miss-that",
-      "published_dt": "2026-06-15T09:56:42+00:00",
       "source_name": "IGN",
       "source_tier": 2
     },
@@ -2904,46 +2843,6 @@
       "source_tier": 2
     },
     {
-      "guid": "https://www.radiotimes.com/tv/sci-fi/doctor-who-carole-ann-ford-cancellation-reaction-exclusive-newsupdate/",
-      "title": "Doctor Who icon Carole Ann Ford reacts to Christmas special cancellation news - and reveals Susan return hopes",
-      "url": "https://www.radiotimes.com/tv/sci-fi/doctor-who-carole-ann-ford-cancellation-reaction-exclusive-newsupdate/",
-      "published_dt": "2026-06-15T10:00:46+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.radiotimes.com/tv/sport/football/saudi-arabia-uruguay-world-cup-2026-preview/",
-      "title": "What channel is Saudi Arabia v Uruguay World Cup 2026 Group H match on? TV coverage, live stream and kick-off time",
-      "url": "https://www.radiotimes.com/tv/sport/football/saudi-arabia-uruguay-world-cup-2026-preview/",
-      "published_dt": "2026-06-15T10:00:23+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.radiotimes.com/tv/entertainment/reality-tv/fletchers-family-farm-renewed-newsupdate/",
-      "title": "Emmerdale legend's reality series gets future confirmed by ITV after ratings performance revealed",
-      "url": "https://www.radiotimes.com/tv/entertainment/reality-tv/fletchers-family-farm-renewed-newsupdate/",
-      "published_dt": "2026-06-15T09:42:42+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.radiotimes.com/tv/comedy/peter-heppelthwaite-dead-eastenders-newsupdate/",
-      "title": "Peter Heppelthwaite, EastEnders and Only Fools and Horses spin-off actor, dies aged 59",
-      "url": "https://www.radiotimes.com/tv/comedy/peter-heppelthwaite-dead-eastenders-newsupdate/",
-      "published_dt": "2026-06-15T09:32:11+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.radiotimes.com/tv/entertainment/reality-tv/love-is-blind-uk-season-2-after-the-altar-confirmed-newsupdate/",
-      "title": "Love Is Blind UK season 2 set for After the Altar special as Netflix confirms release date with first-look trailer",
-      "url": "https://www.radiotimes.com/tv/entertainment/reality-tv/love-is-blind-uk-season-2-after-the-altar-confirmed-newsupdate/",
-      "published_dt": "2026-06-15T09:31:08+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
       "guid": "https://deadline.com/?p=1236955027",
       "title": "\u2018Only Murders In The Building\u2019: David Tennant, Nicola Coughlan, Jodie Whittaker & Jim Broadbent Among Season 6 Cast Additions",
       "url": "https://deadline.com/2026/06/only-murders-in-the-building-david-tennant-nicola-coughlan-1236955027/",
@@ -3204,14 +3103,6 @@
       "title": "Jim Lee Absolute Batman/Superman/Wonder Woman SDCC Variants In Colour",
       "url": "https://bleedingcool.com/comics/jim-lee-absolute-batman-superman-wonder-woman-sdcc-variants-in-colour/",
       "published_dt": "2026-06-15T10:57:14+00:00",
-      "source_name": "Bleeding Cool",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://bleedingcool.com/?p=2437786",
-      "title": "A New Arm For Absolute Wonder Woman",
-      "url": "https://bleedingcool.com/comics/a-new-arm-for-absolute-wonder-woman/",
-      "published_dt": "2026-06-15T09:58:10+00:00",
       "source_name": "Bleeding Cool",
       "source_tier": 2
     },
@@ -4144,18 +4035,402 @@
       "source_tier": 2
     },
     {
-      "guid": "https://www.radiotimes.com/tv/entertainment/reality-tv/love-island-2026-contestant-tommy-murphy/",
-      "title": "Who is Tommy Murphy? Meet Love Island 2026 contestant and builder",
-      "url": "https://www.radiotimes.com/tv/entertainment/reality-tv/love-island-2026-contestant-tommy-murphy/",
-      "published_dt": "2026-06-15T09:30:42+00:00",
+      "guid": "https://deadline.com/?p=1236950736",
+      "title": "On My Screen: Jason Bateman\u2019s Dream Role In \u2018DTF St. Louis\u2019, \u2018Black Rabbit\u2019, Advice From Katharine Hepburn & Directing Tom Holland In \u2018The Partner\u2019",
+      "url": "https://deadline.com/2026/06/jason-bateman-dtf-st-louis-black-rabbit-the-partner-1236950736/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://deadline.com/?p=1236954622",
+      "title": "UTA Signs Creator & \u2018Influenced\u2019 Co-Host Achieng Agutu",
+      "url": "https://deadline.com/2026/06/uta-signs-achieng-agutu-host-influenced-prime-video-1236954622/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://deadline.com/?p=1236956359",
+      "title": "Sundance Institute Sets Ignite x Adobe Fellows For 2026",
+      "url": "https://deadline.com/2026/06/sundance-ignite-x-adobe-fellows-2026-1236956359/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://deadline.com/?p=1236956089",
+      "title": "Joe Biden & Jay Leno Put Pedal To The L.A. Metal, Talk Trump On \u2018Garage\u2019s POTUS Corvette Episode",
+      "url": "https://deadline.com/2026/06/joe-biden-trump-jay-leno-car-show-youtube-1236956089/",
+      "published_dt": "2026-06-15T15:50:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://deadline.com/?p=1236956288",
+      "title": "Neon Sets U.S. Theatrical Release Date For Hirokazu Koreeda\u2019s Cannes Title \u2018Sheep In The Box\u2019",
+      "url": "https://deadline.com/2026/06/neon-us-release-date-hirokazu-koreeda-sheep-in-the-box-1236956288/",
+      "published_dt": "2026-06-15T15:40:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8033478",
+      "title": "\u2018Love Island USA\u2019 Brings Casa Amor Drama to Movie Theaters in Franchise-First Event",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/love-island-usa-episode-movie-theaters-season-8/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236621211",
+      "title": "Janet Yang, Producer and Former Film Academy President, Will Chair Board of Committee of 100 (Exclusive)",
+      "url": "https://www.hollywoodreporter.com/news/general-news/janet-yang-committee-of-100-board-chair-1236621211/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236622051",
+      "title": "Canada\u2019s TV Czar on Climbdown Over U.S. Streaming Tax: \u201cIt\u2019s Not the Final Chapter\u201d",
+      "url": "https://www.hollywoodreporter.com/business/business-news/canada-climbdown-u-s-streaming-tax-1236622051/",
+      "published_dt": "2026-06-15T15:41:27+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236781156",
+      "title": "As \u2018The Shop\u2019 Returns Next Week, New Hosts Travis Bennett and Steelo Brim to Take Over for LeBron James and Maverick Carter",
+      "url": "https://variety.com/2026/tv/news/the-shop-new-hosts-replace-lebron-james-maverick-carter-1236781156/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236781460",
+      "title": "Bruce Miller to Produce Series Version of \u2018RetroActive\u2019 Graphic Novels at Hulu From Writer Bobak Esfarjani (EXCLUSIVE)",
+      "url": "https://variety.com/2026/tv/news/bruce-miller-retroactive-graphic-novel-hulu-bobak-esfarjani-1236781460/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236766032",
+      "title": "How \u2018Ted\u2019 VFX Team Used AI to Transform Seth MacFarlane Into Bill Clinton, and Why Animating the Bear Is Still Challenging",
+      "url": "https://variety.com/2026/artisans/news/ted-seth-macfarlane-bill-clinton-1236766032/",
+      "published_dt": "2026-06-15T15:50:00+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236781356",
+      "title": "Laverne Cox Has Lost 90% of Her Income and Blames Trump\u2019s \u2018Regime\u2019 for Attacking \u2018Gender Ideology and DEI\u2019",
+      "url": "https://variety.com/2026/film/news/laverne-cox-income-trump-gender-attacks-1236781356/",
+      "published_dt": "2026-06-15T15:46:40+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.indiewire.com/?p=1235199580",
+      "title": "Inside \u2018The Furious\u2019: How Kenji Tanigaki Built an Action Movie That Hits Different After the Epstein Files",
+      "url": "https://www.indiewire.com/features/interviews/the-furious-director-kenji-tanigaki-hong-kong-action-film-1235199580/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "IndieWire",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?post_type=stem&p=1269994",
+      "title": "7 \u2018Every Year After\u2019 Burning Questions We Have Ahead of Season 2",
+      "url": "https://www.tvinsider.com/1269994/every-year-after-season-2-questions/",
+      "published_dt": "2026-06-15T15:59:22+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1210837",
+      "title": "\u2018Dexter: Resurrection\u2019 Season 2 Will Feature a \u2018Flash-Forward\u2019",
+      "url": "https://www.tvinsider.com/1210837/dexter-resurrection-season-2-cast-premiere-date-details/",
+      "published_dt": "2026-06-15T15:53:43+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1269971",
+      "title": "Ellen Travolta Reveals \u2018Happy Days\u2019 Director\u2019s Brutal Note to Her on Set",
+      "url": "https://www.tvinsider.com/1269971/ellen-travolta-reveals-happy-days-director-jerry-paris-brutal-note/",
+      "published_dt": "2026-06-15T15:51:48+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1269372",
+      "title": "QVC\u2019s John Battagliese on His New Show, \u2018Work Wife\u2019 Kim Gravel, Kelly Clarkson & More",
+      "url": "https://www.tvinsider.com/1269372/qvc-john-battagliese-cart-blanche-kim-gravel-kellyoke/",
+      "published_dt": "2026-06-15T15:48:54+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1269986",
+      "title": "\u2018The View\u2019: Sunny Hostin Reacts to White House UFC Fighter\u2019s \u2018Derogatory Slur\u2019 About Michelle Obama",
+      "url": "https://www.tvinsider.com/1269986/the-view-sunny-hostin-reacts-michelle-obama-comment-ufc-fighter/",
+      "published_dt": "2026-06-15T15:43:54+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1269975",
+      "title": "\u2018Best Guess Live\u2019: Do You Actually Win Money on Mobile Game Show? Howie Mandel Weighs In",
+      "url": "https://www.tvinsider.com/1269975/best-guess-live-prize-money-howie-mandel-interview/",
+      "published_dt": "2026-06-15T15:42:21+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1268491",
+      "title": "\u2018That Thrifting Show\u2019 Renewed for Season 2: What to Know About Show\u2019s Return",
+      "url": "https://www.tvinsider.com/1268491/that-thrifting-show-with-lara-spencer-season-2-premiere-date-cast-details/",
+      "published_dt": "2026-06-15T15:31:19+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "6a2ffff43569589f63199ecd",
+      "title": "The Fyre Festival Wanted What YSL\u2019s Opium Launch Party Had",
+      "url": "https://www.vanityfair.com/story/fyre-festival-ysl-opium-launch-party",
+      "published_dt": "2026-06-15T15:34:10+00:00",
+      "source_name": "Vanity Fair",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.rollingstone.com/?p=1235577506",
+      "title": "Jalen Brunson, the Knicks, and the Miracle of Greatness",
+      "url": "https://www.rollingstone.com/culture/culture-commentary/jalen-brunson-knicks-championship-game-five-win-1235577506/",
+      "published_dt": "2026-06-15T15:51:06+00:00",
+      "source_name": "Rolling Stone",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://time.com/?p=blta2b3c120ba0f9435",
+      "title": "Amy Schumer Opens Up About Her Endometriosis: 'An Invisible War'",
+      "url": "https://time.com/article/2026/06/15/amy-schumer-endometriosis-interview/",
+      "published_dt": "2026-06-15T15:48:45+00:00",
+      "source_name": "TIME",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.nytimes.com/2026/06/12/arts/design/pont-neuf-jj.html",
+      "title": "JR Conjures a Mountainous Illusion Out of the Pont Neuf in Paris",
+      "url": "https://www.nytimes.com/2026/06/12/arts/design/pont-neuf-jj.html",
+      "published_dt": "2026-06-15T15:35:42+00:00",
+      "source_name": "NYT Arts",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3956080",
+      "title": "\u2018Vampire Survivors\u2019 Receives New Name, New Expansion This Summer [Trailer]",
+      "url": "https://bloody-disgusting.com/video-games/3956080/vampire-survivors-receives-new-name-new-expansion-this-summer-trailer/",
+      "published_dt": "2026-06-15T15:33:21+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3955924",
+      "title": "Experimentation in \u2018You Will Die In This Place\u2019 Provides Wealth of Gameplay Possibilities [Tabletop Terror]",
+      "url": "https://bloody-disgusting.com/books/3955924/you-will-die-in-this-place-provides-wealth-of-gameplay-possibilities-tabletop-terror/",
+      "published_dt": "2026-06-15T15:30:27+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/my-adventures-with-green-lantern-jessica-cruz-aulii-cravalho/",
+      "title": "DC's New Green Lantern Spin-Off Series Officially Gets First Look",
+      "url": "https://collider.com/my-adventures-with-green-lantern-jessica-cruz-aulii-cravalho/",
+      "published_dt": "2026-06-15T15:46:26+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/only-murders-in-the-building-season-6-david-tennant-jodie-whittaker/",
+      "title": "'Broadchurch' Stars Officially Reunite in Hulu's Best Murder Mystery Series",
+      "url": "https://collider.com/only-murders-in-the-building-season-6-david-tennant-jodie-whittaker/",
+      "published_dt": "2026-06-15T15:38:44+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/star-trek-starfleet-academy-digital-pvod-release-date/",
+      "title": "Star Trek\u2019s Divisive Series Is Now Available To Stream Without Paramount+",
+      "url": "https://www.cbr.com/star-trek-starfleet-academy-digital-pvod-release-date/",
+      "published_dt": "2026-06-15T16:00:14+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/disney-doctor-who-ending-sci-fi-mistake/",
+      "title": "Disney\u2019s New Doctor Who Strategy Will Go Down as 1 of Sci-Fi's Most Historic Fumbles",
+      "url": "https://www.cbr.com/disney-doctor-who-ending-sci-fi-mistake/",
+      "published_dt": "2026-06-15T16:00:14+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/event-horizon-inferno-5-release-date-confirmed/",
+      "title": "Event Horizon Final Chapter Release Date Officially Revealed",
+      "url": "https://www.cbr.com/event-horizon-inferno-5-release-date-confirmed/",
+      "published_dt": "2026-06-15T16:00:14+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/evangelion-misato-manga-art-scale-figure/",
+      "title": "Evangelion Officially Revives Misato\u2019s Forgotten Design",
+      "url": "https://www.cbr.com/evangelion-misato-manga-art-scale-figure/",
+      "published_dt": "2026-06-15T16:00:14+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/only-murders-in-the-building-season-6-doctor-who-stars/",
+      "title": "Only Murders in the Building Season 6 Adds Multiple Doctor Who Stars",
+      "url": "https://www.cbr.com/only-murders-in-the-building-season-6-doctor-who-stars/",
+      "published_dt": "2026-06-15T15:42:51+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/hart-of-dixie-reboot-reaction-rachel-bilson/",
+      "title": "Rachel Bilson Reacts to Possible Hart of Dixie Reboot 11 Years Later",
+      "url": "https://www.cbr.com/hart-of-dixie-reboot-reaction-rachel-bilson/",
+      "published_dt": "2026-06-15T15:42:10+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/game-of-thrones-minecraft-westeroscraft/",
+      "title": "Game Of Thrones Meets Minecraft In This Huge Open-World Experience",
+      "url": "https://screenrant.com/game-of-thrones-minecraft-westeroscraft/",
+      "published_dt": "2026-06-15T16:00:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/video/widows-bay-season-1-finale-tom-ruth-clip/",
+      "title": "Everyone's Made A Pass In New Widow's Bay Clip",
+      "url": "https://screenrant.com/video/widows-bay-season-1-finale-tom-ruth-clip/",
+      "published_dt": "2026-06-15T16:00:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/harrison-ford-james-bond-steven-spielberg/",
+      "title": "Harrison Ford Lived Steven Spielberg\u2019s Unfulfilled James Bond Dream",
+      "url": "https://screenrant.com/harrison-ford-james-bond-steven-spielberg/",
+      "published_dt": "2026-06-15T16:00:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/toy-story-5-release-franchise-return/",
+      "title": "An Iconic Animated Franchise Officially Returns This Week With A \"Masterful Must-See\" Sequel",
+      "url": "https://screenrant.com/toy-story-5-release-franchise-return/",
+      "published_dt": "2026-06-15T15:51:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/steam-next-fest-june-2026-free-games-dates/",
+      "title": "Steam Officially Unleashes Tons Of Free Downloads You Have Until June 22 To Grab",
+      "url": "https://screenrant.com/steam-next-fest-june-2026-free-games-dates/",
+      "published_dt": "2026-06-15T15:47:42+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/house-of-the-dragon-season-3-review/",
+      "title": "House Of The Dragon Season 3 Review: Game Of Thrones Finally Masters Neck-Breaking Momentum",
+      "url": "https://screenrant.com/house-of-the-dragon-season-3-review/",
+      "published_dt": "2026-06-15T15:45:00+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.denofgeek.com/?p=1006680",
+      "title": "Doctor Who Will Survive its Return to the Wilderness (And Be Better For It)",
+      "url": "https://www.denofgeek.com/tv/doctor-who-will-survive-return-to-wilderness-better/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "Den of Geek",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/super-mario-bros-nes-record-2026-sale-why-rare-price-psa-grade/",
+      "title": "Pristine Super Mario Bros. game for NES sells for record-breaking millions",
+      "url": "https://www.polygon.com/super-mario-bros-nes-record-2026-sale-why-rare-price-psa-grade/",
+      "published_dt": "2026-06-15T15:36:12+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2438321",
+      "title": "Official: Marvel Comics X-Men DNX Solicits For September 2026",
+      "url": "https://bleedingcool.com/comics/official-marvel-comics-x-men-dnx-solicits-for-september-2026/",
+      "published_dt": "2026-06-15T15:55:14+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2438268",
+      "title": "KPop Demon Hunters Arrives At LEGO with New Derpy Tiger Set",
+      "url": "https://bleedingcool.com/collectibles/kpop-demon-hunters-arrives-at-lego-with-new-derpy-tiger-set/",
+      "published_dt": "2026-06-15T15:53:14+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2438294",
+      "title": "My Adventures with Superman S03E02 Intros \"Moana\" Star as Jessica Cruz",
+      "url": "https://bleedingcool.com/tv/my-adventures-with-superman-s03e02-intros-moana-star-as-jessica-cruz/",
+      "published_dt": "2026-06-15T15:37:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://decider.com/?post_type=article&p=2088782",
+      "title": "\u2018American Ninja Warrior\u2019 Exclusive Clip: Taylor Greene Once Again Makes History On The Course",
+      "url": "https://decider.com/2026/06/15/american-ninja-warrior-exclusive-clip-ninja-taylor-greene-makes-ninja-history/",
+      "published_dt": "2026-06-15T16:00:00+00:00",
+      "source_name": "Decider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/comedy/david-tennant-jodie-whittaker-only-murders-in-building-newsupdate/",
+      "title": "Two Doctor Who legends confirmed for Only Murders in the Building season 6",
+      "url": "https://www.radiotimes.com/tv/comedy/david-tennant-jodie-whittaker-only-murders-in-building-newsupdate/",
+      "published_dt": "2026-06-15T15:38:47+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     },
     {
-      "guid": "https://www.radiotimes.com/tv/sport/football/belgium-egypt-world-cup-2026-preview/",
-      "title": "What channel is Belgium v Egypt World Cup 2026 Group G match on? TV coverage, live stream and kick-off time",
-      "url": "https://www.radiotimes.com/tv/sport/football/belgium-egypt-world-cup-2026-preview/",
-      "published_dt": "2026-06-15T09:30:36+00:00",
+      "guid": "https://www.radiotimes.com/technology/gaming/007-first-light-missions-list/",
+      "title": "007 First Light missions: Full list of chapters and how many missions to expect",
+      "url": "https://www.radiotimes.com/technology/gaming/007-first-light-missions-list/",
+      "published_dt": "2026-06-15T15:28:56+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/fantasy/house-of-the-dragon-season-3-review/",
+      "title": "House of the Dragon season 3 review: Powerhouse performances meet sheer scale in explosive return",
+      "url": "https://www.radiotimes.com/tv/fantasy/house-of-the-dragon-season-3-review/",
+      "published_dt": "2026-06-15T15:00:41+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/sci-fi/doctor-who-carole-ann-ford-cancellation-reaction-exclusive-newsupdate/",
+      "title": "Doctor Who icon Carole Ann Ford reacts to Christmas special cancellation news - and reveals Susan return hopes",
+      "url": "https://www.radiotimes.com/tv/sci-fi/doctor-who-carole-ann-ford-cancellation-reaction-exclusive-newsupdate/",
+      "published_dt": "2026-06-15T10:00:46+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     }
