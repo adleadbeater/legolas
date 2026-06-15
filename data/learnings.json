@@ -1802,6 +1802,53 @@
       "article_titles": [
         "Arrival might be the best sci-fi movie of the last 10 years, and it's free to stream on Pluto TV"
       ]
+    },
+    {
+      "headline": "Fox Acquires Roku in $22 Billion Deal, Plans to Keep Roku Channel and Tubi Separate",
+      "tag": "roku",
+      "posted_at": "2026-06-15T14:02:38.650572+00:00",
+      "urls": [
+        "https://collider.com/roku-channel-bought-fox/",
+        "https://collider.com/roku-channel-bought-fox/",
+        "https://www.hollywoodreporter.com/business/digital/fox-roku-channel-tubi-separate-1236621986/"
+      ],
+      "article_titles": [
+        "Say Goodbye to the Roku Channel as You Currently Know it",
+        "Say Goodbye to the Roku Channel as You Currently Know it",
+        "Fox\u2019s \u201cExpectation\u201d Is to Keep The Roku Channel and Tubi Separate"
+      ]
+    },
+    {
+      "headline": "ALF Star Anne Schedeen Dies at 77",
+      "tag": "alf",
+      "posted_at": "2026-06-15T14:02:38.763395+00:00",
+      "urls": [
+        "https://www.tvinsider.com/1269927/anne-schedeen-dead-alf-kate-tanner/",
+        "https://www.tvinsider.com/1269927/anne-schedeen-dead-alf-kate-tanner/",
+        "https://www.tvline.com/2194085/anne-schedeen-dead-alf-kate-tanner-obituary/",
+        "https://www.tvline.com/2194085/anne-schedeen-dead-alf-kate-tanner-obituary/",
+        "https://variety.com/2026/tv/news/anne-schedeen-dies-alf-1236781387/"
+      ],
+      "article_titles": [
+        "Anne Schedeen, Actress Who Played Mom on \u2018ALF,\u2019 Dies at 77",
+        "Anne Schedeen, Actress Who Played Mom on \u2018ALF,\u2019 Dies at 77",
+        "Anne Schedeen, ALF's Kate Tanner, Dead At 77",
+        "Anne Schedeen, ALF's Kate Tanner, Dead At 77",
+        "\u2018ALF\u2019 Star Anne Schedeen Dies at 77; Family Remembers Her \u2018Burning Hatred for Trump\u2019"
+      ]
+    },
+    {
+      "headline": "Virgin River Author's Next Series Gets \"Friday Night Lights\" Treatment in Global TV Deal",
+      "tag": "thunder point",
+      "posted_at": "2026-06-15T14:02:39.097238+00:00",
+      "urls": [
+        "https://variety.com/2026/tv/global/thunder-point-sullivans-crossing-team-robyn-carr-series-1236781204/",
+        "https://variety.com/2026/tv/global/thunder-point-sullivans-crossing-team-robyn-carr-series-1236781204/"
+      ],
+      "article_titles": [
+        "\u2018Thunder Point\u2019 Heats Up as Fremantle, Bell Media and \u2018Sullivan\u2019s Crossing\u2019 Showrunner Bring Robyn Carr\u2019s Next Series to the Global Market: \u2018It\u2019s \u201cFriday Night Lights\u201d Meets \u201cVirgin River\u201d\u2019 (EXCLUSIVE)",
+        "\u2018Thunder Point\u2019 Heats Up as Fremantle, Bell Media and \u2018Sullivan\u2019s Crossing\u2019 Showrunner Bring Robyn Carr\u2019s Next Series to the Global Market: \u2018It\u2019s \u201cFriday Night Lights\u201d Meets \u201cVirgin River\u201d\u2019 (EXCLUSIVE)"
+      ]
     }
   ],
   "processed_reactions": [],
@@ -2328,14 +2375,6 @@
       "source_tier": 1
     },
     {
-      "guid": "https://www.theguardian.com/film/2026/jun/15/angels-egg-review-1985-mamoru-oshii-anime",
-      "title": "Angel\u2019s Egg review \u2013 Mamoru Oshii\u2019s dazzling 1985 anime is an eerie philosophical adventure",
-      "url": "https://www.theguardian.com/film/2026/jun/15/angels-egg-review-1985-mamoru-oshii-anime",
-      "published_dt": "2026-06-15T08:00:06+00:00",
-      "source_name": "The Guardian Film",
-      "source_tier": 1
-    },
-    {
       "guid": "https://www.theguardian.com/games/2026/jun/15/mr-monopoly-vs-mr-burns-the-simpsons-take-over-monopoly-go",
       "title": "Mr Monopoly vs Mr Burns: The Simpsons take over Monopoly Go",
       "url": "https://www.theguardian.com/games/2026/jun/15/mr-monopoly-vs-mr-burns-the-simpsons-take-over-monopoly-go",
@@ -2808,14 +2847,6 @@
       "source_tier": 2
     },
     {
-      "guid": "https://www.polygon.com/magic-mtg-marvel-hawkeye-bow-combo-pauper/",
-      "title": "This Magic: The Gathering card from Marvel Super Heroes creates an infinite combo on turn two",
-      "url": "https://www.polygon.com/magic-mtg-marvel-hawkeye-bow-combo-pauper/",
-      "published_dt": "2026-06-15T07:42:38+00:00",
-      "source_name": "Polygon",
-      "source_tier": 2
-    },
-    {
       "guid": "https://decider.com/2026/06/15/a-brief-history-of-beach-movies-part-2-where-the-boys-are-last-summer-and-more/",
       "title": "A Brief History of Beach Movies, Part 2: The Genre Grows Up And Grims Up",
       "url": "https://decider.com/2026/06/15/a-brief-history-of-beach-movies-part-2-where-the-boys-are-last-summer-and-more/",
@@ -3060,6 +3091,286 @@
       "title": "Live football on TV today",
       "url": "https://www.radiotimes.com/tv/sport/football/football-live-on-tv-tonight/",
       "published_dt": "2026-06-15T09:15:18+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://deadline.com/?p=1236955027",
+      "title": "\u2018Only Murders In The Building\u2019: David Tennant, Nicola Coughlan, Jodie Whittaker & Jim Broadbent Among Season 6 Cast Additions",
+      "url": "https://deadline.com/2026/06/only-murders-in-the-building-david-tennant-nicola-coughlan-1236955027/",
+      "published_dt": "2026-06-15T14:00:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8033966",
+      "title": "\u2018Alicia Keys: Girl From Hell\u2019s Kitchen\u2019 Review: Celebratory Doc Offers Glimpses of a Girl, Recollected by a Star",
+      "url": "https://www.thewrap.com/creative-content/reviews/alicia-keys-girl-from-hells-kitchen-review/",
+      "published_dt": "2026-06-15T13:46:39+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236621986",
+      "title": "Fox\u2019s \u201cExpectation\u201d Is to Keep The Roku Channel and Tubi Separate",
+      "url": "https://www.hollywoodreporter.com/business/digital/fox-roku-channel-tubi-separate-1236621986/",
+      "published_dt": "2026-06-15T13:51:41+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236781387",
+      "title": "\u2018ALF\u2019 Star Anne Schedeen Dies at 77; Family Remembers Her \u2018Burning Hatred for Trump\u2019",
+      "url": "https://variety.com/2026/tv/news/anne-schedeen-dies-alf-1236781387/",
+      "published_dt": "2026-06-15T13:38:16+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.indiewire.com/?p=1235199805",
+      "title": "\u2018Barrio Triste\u2019 Trailer: Bad Bunny Collaborator Stillz Makes Feature Debut with This Imaginative Portrait of Colombian Youth",
+      "url": "https://www.indiewire.com/news/trailers/barrio-triste-trailer-bad-bunny-stillz-1235199805/",
+      "published_dt": "2026-06-15T14:00:00+00:00",
+      "source_name": "IndieWire",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1269949",
+      "title": "Disney\u2019s America 250 Special Sets Multi-Genre Array of Performers",
+      "url": "https://www.tvinsider.com/1269949/disney-celebrates-america-nashvilles-star-spangled-bash-details/",
+      "published_dt": "2026-06-15T13:59:59+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1269941",
+      "title": "\u2018Jimmy Kimmel Live!\u2019 Ratings Show Huge, Dramatic Swing",
+      "url": "https://www.tvinsider.com/1269941/jimmy-kimmel-live-ratings-show-huge-dramatic-swing/",
+      "published_dt": "2026-06-15T13:38:51+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.latimes.com/entertainment-arts/business/story/2026-06-15/fox-corp-to-buy-streaming-platform-roku-for-22-billion",
+      "title": "Fox Corp. to buy streaming platform Roku for $22 billion",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-06-15/fox-corp-to-buy-streaming-platform-roku-for-22-billion",
+      "published_dt": "2026-06-15T13:32:40+00:00",
+      "source_name": "LA Times",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://theplaylist.net/?p=489466",
+      "title": "\u2018The Revisionist\u2019 Review: An Interminable, Meta-Textual Cul-de-Sac That Squanders Alison Brie & Dustin Hoffman [Tribeca]",
+      "url": "https://theplaylist.net/the-revisionist-review-alison-brie-dustin-hoffman-tribeca-20260615/",
+      "published_dt": "2026-06-15T13:59:52+00:00",
+      "source_name": "The Playlist",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://theplaylist.net/?p=489472",
+      "title": "\u2018Lilo & Stitch 2\u2019 Will Be Helmed By Co-Creator & \u2018Wild Robot\u2019 Director Chris Sanders",
+      "url": "https://theplaylist.net/lilo-and-stitch-2-disney-enlists-chris-sanders-20260615/",
+      "published_dt": "2026-06-15T13:42:27+00:00",
+      "source_name": "The Playlist",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3956142",
+      "title": "Curry Barker\u2019s \u2018The Texas Chainsaw Massacre\u2019 Movie Aims to Capture the Rawness of the Original Classic",
+      "url": "https://bloody-disgusting.com/movie/3956142/curry-barkers-the-texas-chainsaw-massacre-movie-aims-to-capture-the-rawness-of-the-original-classic/",
+      "published_dt": "2026-06-15T13:56:00+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3956073",
+      "title": "Get Your Lovecraft This Steam Next Fest with the Demo for \u2018The Mound: Omen of Cthulhu\u2019 [Trailer]",
+      "url": "https://bloody-disgusting.com/video-games/3956073/get-your-lovecraft-this-steam-next-fest-with-the-demo-for-the-mound-omen-of-cthulhu-trailer/",
+      "published_dt": "2026-06-15T13:30:59+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3955448",
+      "title": "A Comedic Take on the Stalker Thriller in \u2018The Cable Guy\u2019 [Horror Queers Podcast]",
+      "url": "https://bloody-disgusting.com/podcasts/3955448/cable-guy-horror-queers-podcast/",
+      "published_dt": "2026-06-15T13:30:56+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/hello-kitty-spam-exclusive-summer-collection/",
+      "title": "Hello Kitty & SPAM Officially Cook Up Exclusive New Summer Collection",
+      "url": "https://www.cbr.com/hello-kitty-spam-exclusive-summer-collection/",
+      "published_dt": "2026-06-15T14:00:17+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/ncis-season-23-episode-19-gibbs-return/",
+      "title": "CBS Quietly Confirms Gibbs\u2019 NCIS Return",
+      "url": "https://www.cbr.com/ncis-season-23-episode-19-gibbs-return/",
+      "published_dt": "2026-06-15T13:38:50+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/dutton-ranch-beulah-beth-yellowstone-team-up-great/",
+      "title": "After 8 Years, Dutton Ranch\u2019s Legacy Team-Up Is Yellowstone\u2019s Most Exciting Evolution",
+      "url": "https://screenrant.com/dutton-ranch-beulah-beth-yellowstone-team-up-great/",
+      "published_dt": "2026-06-15T14:00:12+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/best-marvel-comics-no-superheroes/",
+      "title": "10 Greatest Marvel Comics That Aren't About Superheroes",
+      "url": "https://screenrant.com/best-marvel-comics-no-superheroes/",
+      "published_dt": "2026-06-15T14:00:12+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/brendan-fraser-pressure-movie-digital-release-date/",
+      "title": "Brendan Fraser\u2019s New World War II Thriller Pressure Officially Releases On Digital Tomorrow After Impressive Box Office Run",
+      "url": "https://screenrant.com/brendan-fraser-pressure-movie-digital-release-date/",
+      "published_dt": "2026-06-15T13:52:13+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/halo-fireteam-noble-2027-announcement/",
+      "title": "Halo: Fireteam Noble Officially Announced, Coming In 2027",
+      "url": "https://screenrant.com/halo-fireteam-noble-2027-announcement/",
+      "published_dt": "2026-06-15T13:47:42+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/playstation-10-free-games-june-2026-no-ps-plus-lost-lands/",
+      "title": "PlayStation Drops 10 Free Games You Can Grab Now Without PS Plus",
+      "url": "https://screenrant.com/playstation-10-free-games-june-2026-no-ps-plus-lost-lands/",
+      "published_dt": "2026-06-15T13:34:07+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/teach-you-a-lesson-netflix-streaming-success-june-2026/",
+      "title": "Netflix's New K-Drama Dominates Worldwide Streaming Charts",
+      "url": "https://screenrant.com/teach-you-a-lesson-netflix-streaming-success-june-2026/",
+      "published_dt": "2026-06-15T13:32:20+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.denofgeek.com/?p=1006649",
+      "title": "Gladiator Is a Movie for Women, Argues Russell Crowe",
+      "url": "https://www.denofgeek.com/movies/gladiator-is-a-movie-for-women-argues-russell-crowe/",
+      "published_dt": "2026-06-15T14:00:00+00:00",
+      "source_name": "Den of Geek",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/wow-world-of-warcraft-12-0-7-release-time-edt-pdt/",
+      "title": "World of Warcraft Midnight patch 12.0.7 release time in your time zone",
+      "url": "https://www.polygon.com/wow-world-of-warcraft-12-0-7-release-time-edt-pdt/",
+      "published_dt": "2026-06-15T13:45:23+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2437640",
+      "title": "Art Collectors Get A Separate Comic Art Summit For San Diego Comic-Con",
+      "url": "https://bleedingcool.com/comics/art-collectors-get-a-separate-comic-art-summit-for-san-diego-comic-con/",
+      "published_dt": "2026-06-15T13:57:15+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2438216",
+      "title": "DC Studios' \"Gorilla Grodd\" TV Series Filming Later This Year: Safran",
+      "url": "https://bleedingcool.com/tv/dc-studios-gorilla-grodd-tv-series-filming-later-this-year-safran/",
+      "published_dt": "2026-06-15T13:37:10+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2437691",
+      "title": "The Mummy Has Awakened Once Again with New Super7 ReAction+",
+      "url": "https://bleedingcool.com/collectibles/the-mummy-has-awakened-once-again-with-new-super7-reaction/",
+      "published_dt": "2026-06-15T13:22:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2438001",
+      "title": "ReStory Releases New Trailer Alongside a Free Demo",
+      "url": "https://bleedingcool.com/games/restory-releases-new-trailer-alongside-a-free-demo/",
+      "published_dt": "2026-06-15T13:12:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2438208",
+      "title": "Doctor Who: Carole Ann Ford on Tender News; Would \"Love to Come Back\"",
+      "url": "https://bleedingcool.com/tv/doctor-who-carole-ann-ford-on-tender-news-would-love-to-come-back/",
+      "published_dt": "2026-06-15T12:37:08+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2437894",
+      "title": "Spectacular Spider-Man: Brand New Day #2 Preview: Lexicon Heist",
+      "url": "https://bleedingcool.com/comics/spectacular-spider-man-brand-new-day-2-preview-lexicon-heist/",
+      "published_dt": "2026-06-15T12:26:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2436226",
+      "title": "John Cooper Stars Ilana Kohanchi &#038; Dustin Ybarra on Actors' Struggle",
+      "url": "https://bleedingcool.com/movies/john-cooper-stars-ilana-kohanchi-dustin-ybarra-on-actors-struggle/",
+      "published_dt": "2026-06-15T12:17:08+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2437201",
+      "title": "It's 2026, Do You Know Where The Black Superheroes Are? The Set&#8230;",
+      "url": "https://bleedingcool.com/comics/its-2026-do-you-know-where-the-black-superheroes-are-the-set/",
+      "published_dt": "2026-06-15T11:58:10+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2438118",
+      "title": "Doctor Who, The Boys, Rick and Morty &#038; More: BCTV Daily Dispatch",
+      "url": "https://bleedingcool.com/tv/doctor-who-the-boys-rick-and-morty-more-bctv-daily-dispatch/",
+      "published_dt": "2026-06-15T11:37:08+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2437091",
+      "title": "Jim Lee Absolute Batman/Superman/Wonder Woman SDCC Variants In Colour",
+      "url": "https://bleedingcool.com/comics/jim-lee-absolute-batman-superman-wonder-woman-sdcc-variants-in-colour/",
+      "published_dt": "2026-06-15T10:57:14+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2437786",
+      "title": "A New Arm For Absolute Wonder Woman",
+      "url": "https://bleedingcool.com/comics/a-new-arm-for-absolute-wonder-woman/",
+      "published_dt": "2026-06-15T09:58:10+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/soaps/emmerdale/emmerdale-caleb-miligan-billy-fletcher-dangerous-scheme-kerry-archie-scam-itvx-newsupdate/",
+      "title": "Emmerdale's Caleb Miligan ropes Billy Fletcher into dangerous scheme amid Kerry and Archie's scam in early ITVX release",
+      "url": "https://www.radiotimes.com/tv/soaps/emmerdale/emmerdale-caleb-miligan-billy-fletcher-dangerous-scheme-kerry-archie-scam-itvx-newsupdate/",
+      "published_dt": "2026-06-15T13:20:52+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     }
