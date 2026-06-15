@@ -2264,14 +2264,6 @@
   "processed_replies": [],
   "article_cache": [
     {
-      "guid": "https://deadline.com/?p=1236954944",
-      "title": "Billy Crystal Sets Opening Date, Venue For Broadway Solo Show \u2018860\u2019",
-      "url": "https://deadline.com/2026/06/billy-crystal-broadway-860-opening-date-venue-1236954944/",
-      "published_dt": "2026-06-15T12:30:00+00:00",
-      "source_name": "Deadline",
-      "source_tier": 1
-    },
-    {
       "guid": "https://www.thewrap.com/?p=8033826",
       "title": "The Best and Worst Case Scenario for \u2018Disclosure Day\u2019 After $93 Million Box Office Opening",
       "url": "https://www.thewrap.com/creative-content/movies/disclosure-day-box-office-good-bad-gen-z/",
@@ -2376,22 +2368,6 @@
       "source_tier": 1
     },
     {
-      "guid": "https://variety.com/?p=1236781352",
-      "title": "Turkish Director Reis \u00c7elik Brings Military Coup Drama \u2018Night of Blindness\u2019 to Shanghai",
-      "url": "https://variety.com/2026/film/festivals/reis-celik-military-coup-drama-night-of-blindness-shanghai-1236781352/",
-      "published_dt": "2026-06-15T12:29:16+00:00",
-      "source_name": "Variety",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://variety.com/?p=1236781272",
-      "title": "Oscar-Winning \u2018Flow\u2019 Producer Boards Ukrainian Director Philip Sotnychenko\u2019s Sophomore Feature \u2018Times New Roman\u2019 (EXCLUSIVE)",
-      "url": "https://variety.com/2026/film/global/flow-producer-philip-sotnychenko-times-new-roman-1236781272/",
-      "published_dt": "2026-06-15T12:11:52+00:00",
-      "source_name": "Variety",
-      "source_tier": 1
-    },
-    {
       "guid": "https://www.tvline.com/2194085/anne-schedeen-dead-alf-kate-tanner-obituary/",
       "title": "Anne Schedeen, ALF's Kate Tanner, Dead At 77",
       "url": "https://www.tvline.com/2194085/anne-schedeen-dead-alf-kate-tanner-obituary/",
@@ -2436,22 +2412,6 @@
       "title": "\u2018America\u2019s Next Top Model\u2019 Winner Adrianne Curry Reacts to Tyra Banks Suing Netflix",
       "url": "https://www.tvinsider.com/1269933/antm-adrianne-curry-tyra-banks-suing-netflix/",
       "published_dt": "2026-06-15T12:35:19+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.tvinsider.com/?post_type=stem&p=1269728",
-      "title": "\u2018Die Hard\u2019 Star Reginald VelJohnson Reveals That Bruce Willis \u2018Gave Me the Job\u2019",
-      "url": "https://www.tvinsider.com/1269728/reginald-veljohnson-die-hard-twinkies-family-matters-hollywood-show-exclusive/",
-      "published_dt": "2026-06-15T12:15:30+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.tvinsider.com/?p=1269929",
-      "title": "MS NOW to Interview Barack Obama for Presidential Library Special",
-      "url": "https://www.tvinsider.com/1269929/ms-now-barack-obama-interview-michelle/",
-      "published_dt": "2026-06-15T12:14:15+00:00",
       "source_name": "TV Insider",
       "source_tier": 1
     },
@@ -2536,34 +2496,10 @@
       "source_tier": 2
     },
     {
-      "guid": "https://collider.com/dead-by-daylight-director-thordur-palsson/",
-      "title": "Long-Awaited \u2018Dead by Daylight\u2019 Movie Officially Has a Director",
-      "url": "https://collider.com/dead-by-daylight-director-thordur-palsson/",
-      "published_dt": "2026-06-15T12:25:38+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://collider.com/most-rewatchable-action-movies-all-time-ranked/",
-      "title": "10 Most Rewatchable Action Movies of All Time",
-      "url": "https://collider.com/most-rewatchable-action-movies-all-time-ranked/",
-      "published_dt": "2026-06-15T12:19:14+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
       "guid": "https://www.inverse.com/entertainment/the-vampire-lestat-louis-return-jacob-anderson-exclusive",
       "title": "How 'The Vampire Lestat' Changes 'Interview With The Vampire's Most Important Character",
       "url": "https://www.inverse.com/entertainment/the-vampire-lestat-louis-return-jacob-anderson-exclusive",
       "published_dt": "2026-06-15T13:00:25+00:00",
-      "source_name": "Inverse",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.inverse.com/entertainment/lara-croft-tomb-raider-angelina-jolie-25-year-anniversary",
-      "title": "25 Years Later, The Wildest Video Game Movie Looks Even More Ridiculous",
-      "url": "https://www.inverse.com/entertainment/lara-croft-tomb-raider-angelina-jolie-25-year-anniversary",
-      "published_dt": "2026-06-15T12:30:24+00:00",
       "source_name": "Inverse",
       "source_tier": 2
     },
@@ -2656,34 +2592,10 @@
       "source_tier": 2
     },
     {
-      "guid": "https://screenrant.com/pokemon-gold-silver-30th-anniversary-release-merch/",
-      "title": "Pok\u00e9mon Gold & Silver Officially Return For Series' 30th Anniversary",
-      "url": "https://screenrant.com/pokemon-gold-silver-30th-anniversary-release-merch/",
-      "published_dt": "2026-06-15T12:30:20+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/thor-new-costume-black-venom-secret-wars/",
-      "title": "Marvel Officially Reveals Thor's All-Black Costume for Next Appearance",
-      "url": "https://screenrant.com/thor-new-costume-black-venom-secret-wars/",
-      "published_dt": "2026-06-15T12:30:20+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
       "guid": "https://www.denofgeek.com/?p=1006637",
       "title": "Widow\u2019s Bay Creator Reveals the Show\u2019s Origin Story",
       "url": "https://www.denofgeek.com/tv/widows-bay-creator-reveals-show-origin-story/",
       "published_dt": "2026-06-15T13:00:00+00:00",
-      "source_name": "Den of Geek",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.denofgeek.com/?p=1006384",
-      "title": "15 of Our Shortest Celebrities",
-      "url": "https://www.denofgeek.com/tv/15-of-our-shortest-celebrities/",
-      "published_dt": "2026-06-15T12:30:00+00:00",
       "source_name": "Den of Geek",
       "source_tier": 2
     },
@@ -2720,26 +2632,10 @@
       "source_tier": 2
     },
     {
-      "guid": "https://decider.com/2026/06/15/canceled-tv-shows-2026-so-far/",
-      "title": "Saddest Canceled TV Shows of 2026\u2026So Far",
-      "url": "https://decider.com/2026/06/15/canceled-tv-shows-2026-so-far/",
-      "published_dt": "2026-06-15T12:30:00+00:00",
-      "source_name": "Decider",
-      "source_tier": 2
-    },
-    {
       "guid": "https://www.radiotimes.com/tv/current-affairs/roger-cook-dies-the-cook-report-newsupdate/",
       "title": "Roger Cook, BAFTA-winning TV journalist and The Cook Report star, dies aged 83",
       "url": "https://www.radiotimes.com/tv/current-affairs/roger-cook-dies-the-cook-report-newsupdate/",
       "published_dt": "2026-06-15T12:48:46+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.radiotimes.com/tv/soaps/eastenders/eastenders-cast/",
-      "title": "EastEnders cast: Who is joining, leaving and returning to the soap?",
-      "url": "https://www.radiotimes.com/tv/soaps/eastenders/eastenders-cast/",
-      "published_dt": "2026-06-15T12:20:16+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     },
@@ -2964,22 +2860,6 @@
       "title": "Doctor Who: Carole Ann Ford on Tender News; Would \"Love to Come Back\"",
       "url": "https://bleedingcool.com/tv/doctor-who-carole-ann-ford-on-tender-news-would-love-to-come-back/",
       "published_dt": "2026-06-15T12:37:08+00:00",
-      "source_name": "Bleeding Cool",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://bleedingcool.com/?p=2437894",
-      "title": "Spectacular Spider-Man: Brand New Day #2 Preview: Lexicon Heist",
-      "url": "https://bleedingcool.com/comics/spectacular-spider-man-brand-new-day-2-preview-lexicon-heist/",
-      "published_dt": "2026-06-15T12:26:09+00:00",
-      "source_name": "Bleeding Cool",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://bleedingcool.com/?p=2436226",
-      "title": "John Cooper Stars Ilana Kohanchi &#038; Dustin Ybarra on Actors' Struggle",
-      "url": "https://bleedingcool.com/movies/john-cooper-stars-ilana-kohanchi-dustin-ybarra-on-actors-struggle/",
-      "published_dt": "2026-06-15T12:17:08+00:00",
       "source_name": "Bleeding Cool",
       "source_tier": 2
     },
@@ -5732,6 +5612,254 @@
       "title": "What channel is France v Senegal World Cup 2026 Group I match on? TV coverage, live stream and kick-off time",
       "url": "https://www.radiotimes.com/tv/sport/football/france-senegal-world-cup-2026-preview/",
       "published_dt": "2026-06-15T17:00:47+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://deadline.com/?p=1236956568",
+      "title": "Sundance Award-Winning \u2018American Pachuco: The Legend Of Luis Valdez\u2019 Releases Trailer, Sets Theatrical Release",
+      "url": "https://deadline.com/2026/06/american-pachuco-the-legend-of-luis-valdez-trailer-1236956568/",
+      "published_dt": "2026-06-15T18:10:46+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8034114",
+      "title": "Guillermo del Toro, Kris Bowers Elected to Academy Board of Governors",
+      "url": "https://www.thewrap.com/industry-news/awards/guillermo-del-toro-elected-academy-board-of-governors/",
+      "published_dt": "2026-06-15T18:04:27+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236622107",
+      "title": "\u2018Spider-Noir\u2019 Star Lamorne Morris Is Ready for More  Robbie Robertson",
+      "url": "https://www.hollywoodreporter.com/tv/tv-features/spider-noir-lamorne-morris-postmortem-1236622107/",
+      "published_dt": "2026-06-15T18:15:00+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236622270",
+      "title": "\u2018Love Island USA\u2019 Executive Producer James Barker Dies After Medical Emergency in Fiji",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/love-island-usa-producer-james-barker-dead-fiji-emergency-1236622270/",
+      "published_dt": "2026-06-15T18:05:47+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236622107",
+      "title": "\u2018Spider-Noir\u2019 Star Lamorne Morris Is Ready for More  Robbie Robertson",
+      "url": "https://www.hollywoodreporter.com/tv/tv-features/spider-noir-lamorne-morris-postmortem-1236622107/",
+      "published_dt": "2026-06-15T18:15:00+00:00",
+      "source_name": "THR TV",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236622270",
+      "title": "\u2018Love Island USA\u2019 Executive Producer James Barker Dies After Medical Emergency in Fiji",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/love-island-usa-producer-james-barker-dead-fiji-emergency-1236622270/",
+      "published_dt": "2026-06-15T18:05:47+00:00",
+      "source_name": "THR TV",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236781761",
+      "title": "\u2018Devil Wears Prada 2\u2019 Hits $676 Million Globally, Propels Franchise Past $1 Billion Mark",
+      "url": "https://variety.com/2026/film/box-office/devil-wears-prada-2-franchise-1-billion-box-office-1236781761/",
+      "published_dt": "2026-06-15T18:28:34+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236781740",
+      "title": "AEW Partners With \u2018The Last Match: A Pro-Wrestling Rock Experience,\u2019 Show to Debut in West End This Fall",
+      "url": "https://variety.com/2026/tv/news/aew-last-match-a-pro-wrestling-rock-experience-west-end-1236781740/",
+      "published_dt": "2026-06-15T18:03:43+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.indiewire.com/?p=1235200178",
+      "title": "Watch Seth Meyers and His \u2018Late Night\u2019 Team Explain How \u2018A Closer Look\u2019 Became Their Signature Segment",
+      "url": "https://www.indiewire.com/features/interviews/seth-meyers-usg-interview-late-night-a-closer-look-1235200178/",
+      "published_dt": "2026-06-15T18:15:00+00:00",
+      "source_name": "IndieWire",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1270044",
+      "title": "Who Are \u2018Battle on the Beach\u2019s Angelina & Steven Jacobs? Get to Know the Competitors",
+      "url": "https://www.tvinsider.com/1270044/battle-on-the-beach-angelina-jacobs-steven-jacobs-what-to-know-hgtv/",
+      "published_dt": "2026-06-15T18:18:52+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?post_type=stem&p=1270042",
+      "title": "\u2018Law & Order: SVU\u2019: Kelli Giddish Talks Stability of Rollins & Carisi\u2019s Relationship",
+      "url": "https://www.tvinsider.com/1270042/law-order-svu-season-28-rollins-carisi-kelli-giddish/",
+      "published_dt": "2026-06-15T18:00:57+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "6a303419ca1668f1576423d2",
+      "title": "A Spike Lee Joint: Knicks Celebrity Superfan Rushes Home from Texas to Throw the Ultimate Block Party in Brooklyn",
+      "url": "https://www.vanityfair.com/story/spike-lee-brooklyn-block-party",
+      "published_dt": "2026-06-15T18:27:41+00:00",
+      "source_name": "Vanity Fair",
+      "source_tier": 1
+    },
+    {
+      "guid": "6655f1e8540dc5c00980d0ef",
+      "title": "14 Best Denim Shorts for Men in 2026, According to GQ",
+      "url": "https://www.gq.com/story/best-denim-shorts-for-men",
+      "published_dt": "2026-06-15T18:01:17+00:00",
+      "source_name": "GQ",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.nytimes.com/2026/06/15/t-magazine/art-workers-coalition.html",
+      "title": "Why the Art Workers\u2019 Coalition\u2019s Battles Still Resonate",
+      "url": "https://www.nytimes.com/2026/06/15/t-magazine/art-workers-coalition.html",
+      "published_dt": "2026-06-15T17:59:35+00:00",
+      "source_name": "NYT Arts",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.latimes.com/entertainment-arts/tv/story/2026-06-15/love-island-usa-producer-james-barker-dead-medical-emergency",
+      "title": "'Love Island USA' executive producer James Barker dies after 'medical emergency' during filming",
+      "url": "https://www.latimes.com/entertainment-arts/tv/story/2026-06-15/love-island-usa-producer-james-barker-dead-medical-emergency",
+      "published_dt": "2026-06-15T18:16:59+00:00",
+      "source_name": "LA Times",
+      "source_tier": 1
+    },
+    {
+      "guid": "aad94eb3-ca08-4f18-897c-ae422bc76d4d",
+      "title": "Fox Is Buying Roku for $22 Billion",
+      "url": "https://www.ign.com/articles/fox-is-buying-roku-for-22-billion",
+      "published_dt": "2026-06-15T17:38:40+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "36c16185-134c-44de-85e4-8a6ea82ff711",
+      "title": "Obsession Director Curry Barker Says He's in No Rush to Make Obsession 2",
+      "url": "https://www.ign.com/articles/obsession-director-curry-barker-says-hes-in-no-rush-to-make-obsession-2",
+      "published_dt": "2026-06-15T17:27:12+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://theplaylist.net/?p=489531",
+      "title": "Russo Brothers Say They Considered Thanos Killing Iron Man In \u2018Avengers: Infinity War\u2019",
+      "url": "https://theplaylist.net/russo-brothers-say-they-considered-thanos-killing-iron-man-in-avengers-infinity-war-20260615/",
+      "published_dt": "2026-06-15T18:21:58+00:00",
+      "source_name": "The Playlist",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3952861",
+      "title": "10 Great EC Comics Stories Not Adapted for \u2018Tales from the Crypt\u2019",
+      "url": "https://bloody-disgusting.com/comics/3952861/10-great-ec-comics-stories-not-adapted-for-tales-from-the-crypt/",
+      "published_dt": "2026-06-15T18:00:43+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/forgotten-hbo-shows-perfect-start-to-finish/",
+      "title": "10 Forgotten HBO Shows That Are Perfect From Start to Finish",
+      "url": "https://collider.com/forgotten-hbo-shows-perfect-start-to-finish/",
+      "published_dt": "2026-06-15T18:22:14+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/james-bond-king-zero-novel-charlie-higson-release-date/",
+      "title": "James Bond Officially Returns With New Sequel Release Date",
+      "url": "https://collider.com/james-bond-king-zero-novel-charlie-higson-release-date/",
+      "published_dt": "2026-06-15T18:20:15+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/daemons-of-the-shadow-realm-not-typical-shonen-anime/",
+      "title": "6 Times Fullmetal Alchemist's Successor Proves Its Not Your Typical Shonen Anime",
+      "url": "https://www.cbr.com/daemons-of-the-shadow-realm-not-typical-shonen-anime/",
+      "published_dt": "2026-06-15T18:15:12+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/star-trek-starfleet-academy-season-1-deleted-scene/",
+      "title": "Star Trek's Newest Captain Meets Their Number One in Starfleet Academy Deleted Scene",
+      "url": "https://www.cbr.com/star-trek-starfleet-academy-season-1-deleted-scene/",
+      "published_dt": "2026-06-15T18:12:03+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/best-netflix-shows-watch-week-june-15/",
+      "title": "Netflix's 5 Must-Watch Shows This Week (June 15\u201319)",
+      "url": "https://screenrant.com/best-netflix-shows-watch-week-june-15/",
+      "published_dt": "2026-06-15T18:13:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/buffy-the-vampire-slayer-franchise-return-new-comic-book/",
+      "title": "It's Official, Buffy The Vampire Slayer Is Coming Back",
+      "url": "https://screenrant.com/buffy-the-vampire-slayer-franchise-return-new-comic-book/",
+      "published_dt": "2026-06-15T18:06:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/studio-ghibli-us-store-pop-up-2026/",
+      "title": "Studio Ghibli pop-up store coming to the US later this year \u2014 with a catch",
+      "url": "https://www.polygon.com/studio-ghibli-us-store-pop-up-2026/",
+      "published_dt": "2026-06-15T18:28:46+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/overwatch-season-3-start-time-edt-pdt/",
+      "title": "Overwatch season 3 start time in your time zone",
+      "url": "https://www.polygon.com/overwatch-season-3-start-time-edt-pdt/",
+      "published_dt": "2026-06-15T18:05:59+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/this-steven-spielberg-movie-quiz-may-break-you/",
+      "title": "Guessing Steven Spielberg's best movies in one epic quiz",
+      "url": "https://www.polygon.com/this-steven-spielberg-movie-quiz-may-break-you/",
+      "published_dt": "2026-06-15T18:01:20+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/empulse-steam-next-fest-preview/",
+      "title": "Titanfall-inspired Empulse has a free demo for Steam Next Fest",
+      "url": "https://www.polygon.com/empulse-steam-next-fest-preview/",
+      "published_dt": "2026-06-15T18:01:20+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/sport/football/world-cup-2026-scotland-next-match/",
+      "title": "When do Scotland play next at World Cup 2026? Next match, fixtures and results",
+      "url": "https://www.radiotimes.com/tv/sport/football/world-cup-2026-scotland-next-match/",
+      "published_dt": "2026-06-15T17:30:59+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/sport/football/world-cup-2026-bbc-presenters/",
+      "title": "World Cup 2026 presenters on BBC: Meet the TV pundits and commentators",
+      "url": "https://www.radiotimes.com/tv/sport/football/world-cup-2026-bbc-presenters/",
+      "published_dt": "2026-06-15T17:00:26+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     }
