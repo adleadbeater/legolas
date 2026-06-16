@@ -1,32 +1,6 @@
 {
   "recently_posted": [
     {
-      "headline": "Natalie Portman Leads Filmmakers Defending Boycotted Israeli Director",
-      "tag": "natalie portman",
-      "posted_at": "2026-06-09T18:36:30.745396+00:00",
-      "urls": [
-        "https://www.thewrap.com/culture-lifestyle/culture/natalie-portman-french-filmmakers-open-letter-boycott-nadav-lapid/",
-        "https://deadline.com/2026/06/little-one-movie-casts-amy-smart-chiara-aurelia-1236951620/",
-        "https://variety.com/2026/film/global/natalie-portman-justine-triet-defend-boycott-israeli-lapid-1236770480/"
-      ],
-      "article_titles": [
-        "Natalie Portman Joins French Filmmakers in Open Letter Opposing Boycott of Israeli Director Nadav Lapid",
-        "Amy Smart, Chiara Aurelia, Redding Munsell & Derek Luh Join Alex Kavutskiy\u2019s Dark Comedy \u2018Little One\u2019",
-        "Natalie Portman, Justine Triet and Jacques Audiard Defend Boycotted Israeli Director Nadav Lapid: \u2018We are Witnessing the Proliferation of Tactics of Intimidation\u2019"
-      ]
-    },
-    {
-      "headline": "A Good Girl's Guide to Murder Ending With Season 3 at Netflix",
-      "tag": "a good girl's guide to murder",
-      "posted_at": "2026-06-09T18:36:32.794975+00:00",
-      "urls": [
-        "https://www.hollywoodreporter.com/tv/tv-news/good-girls-guide-to-murder-ending-season-3-netflix-1236617272/"
-      ],
-      "article_titles": [
-        "\u2018A Good Girl\u2019s Guide to Murder\u2019 Will End With Season 3 at Netflix"
-      ]
-    },
-    {
       "headline": "The Sandlot Cast Reunites for New Comedy Series Dugout Dads",
       "tag": "the sandlot",
       "posted_at": "2026-06-09T23:56:09.510937+00:00",
@@ -3244,6 +3218,21 @@
         "Former \u2018NCIS\u2019 Boss Unpacks How Show Survived Losing Tony & Abby",
         "\u2018NCIS\u2019: Brian Dietzen Reveals How Dialogue Question Led to Him Writing for Show"
       ]
+    },
+    {
+      "headline": "William Smithers Dies: \u2018Dallas\u2019, \u2018Papillon\u2019 Actor Was 98",
+      "tag": "",
+      "posted_at": "2026-06-16T18:45:15.109156+00:00",
+      "urls": [
+        "https://www.tvinsider.com/1270204/william-smithers-dies-dallas-papillon-actor-was-98/",
+        "https://www.tvinsider.com/1270204/william-smithers-dies-dallas-papillon-actor-was-98/",
+        "https://deadline.com/2026/06/william-smithers-dead-1236957571/"
+      ],
+      "article_titles": [
+        "William Smithers Dies: \u2018Dallas\u2019 & \u2018Papillon\u2019 Actor Was 98",
+        "William Smithers Dies: \u2018Dallas\u2019 & \u2018Papillon\u2019 Actor Was 98",
+        "William Smithers Dies: \u2018Dallas\u2019, \u2018Papillon\u2019 Actor Was 98"
+      ]
     }
   ],
   "processed_reactions": [],
@@ -3367,22 +3356,6 @@
       "url": "https://www.hollywoodreporter.com/music/music-industry-news/grammys-announce-best-new-artist-rule-change-2027-1236622884/",
       "published_dt": "2026-06-16T13:00:00+00:00",
       "source_name": "Hollywood Reporter",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.hollywoodreporter.com/?p=1236623039",
-      "title": "William Smithers, Actor in \u2018Dallas\u2019 and \u2018Papillon,\u2019 Dies at 98",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/william-smithers-dead-dallas-papillon-actor-was-98-1236623039/",
-      "published_dt": "2026-06-16T12:39:37+00:00",
-      "source_name": "Hollywood Reporter",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.hollywoodreporter.com/?p=1236623039",
-      "title": "William Smithers, Actor in \u2018Dallas\u2019 and \u2018Papillon,\u2019 Dies at 98",
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/william-smithers-dead-dallas-papillon-actor-was-98-1236623039/",
-      "published_dt": "2026-06-16T12:39:37+00:00",
-      "source_name": "THR TV",
       "source_tier": 1
     },
     {
@@ -3698,14 +3671,6 @@
       "source_tier": 2
     },
     {
-      "guid": "62f7fd6f-4ac1-4c56-9e99-b622a6ee7119",
-      "title": "Clive Barker's Hellraiser: Revival Release Date Set for October",
-      "url": "https://www.ign.com/articles/clive-barkers-hellraiser-revival-release-date-set-for-october",
-      "published_dt": "2026-06-16T12:33:07+00:00",
-      "source_name": "IGN",
-      "source_tier": 2
-    },
-    {
       "guid": "https://theplaylist.net/?p=489546",
       "title": "\u2018Shang-Chi 2\u2019: Destin Daniel Cretton Explains Sequel Delay, Confirms Still In Development",
       "url": "https://theplaylist.net/shang-chi-2-destin-daniel-cretton-update-20260616/",
@@ -3742,14 +3707,6 @@
       "title": "'The Pitt's Patrick Ball on the \"Alchemy\" of Mel and Langdon [Exclusive]",
       "url": "https://collider.com/the-pitt-mel-langdon-relationship-patrick-ball/",
       "published_dt": "2026-06-16T12:45:13+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://collider.com/disney-goodbye-hulu-streaming-new-era-opinion/",
-      "title": "Disney Is Preparing To Say Goodbye to Hulu as Streaming Enters a New Era",
-      "url": "https://collider.com/disney-goodbye-hulu-streaming-new-era-opinion/",
-      "published_dt": "2026-06-16T12:31:16+00:00",
       "source_name": "Collider",
       "source_tier": 2
     },
@@ -3894,14 +3851,6 @@
       "title": "Matt Mercer returns as Critical Role's Dungeon Master for Age of Umbra: Sallowlands",
       "url": "https://www.polygon.com/critical-role-matt-mercer-dungeon-master-age-of-umbra-sallowlands/",
       "published_dt": "2026-06-16T13:01:19+00:00",
-      "source_name": "Polygon",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.polygon.com/penguin-colony-steam-next-fest/",
-      "title": "Penguin Colony is Steam Next Fest's weirdest free demo",
-      "url": "https://www.polygon.com/penguin-colony-steam-next-fest/",
-      "published_dt": "2026-06-16T12:31:07+00:00",
       "source_name": "Polygon",
       "source_tier": 2
     },
@@ -7454,6 +7403,110 @@
       "title": "Odin #2 Preview: Summoning Gods in Norway Goes Predictably Wrong",
       "url": "https://bleedingcool.com/comics/odin-2-preview-summoning-gods-in-norway-goes-predictably-wrong/",
       "published_dt": "2026-06-16T18:27:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://deadline.com/?p=1236957571",
+      "title": "William Smithers Dies: \u2018Dallas\u2019, \u2018Papillon\u2019 Actor Was 98",
+      "url": "https://deadline.com/2026/06/william-smithers-dead-1236957571/",
+      "published_dt": "2026-06-16T18:35:23+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236623212",
+      "title": "Will Ferrell Joins Jason and Travis Kelce at \u2018New Heights\u2019 Live Show to Talk Sports, New Series \u2018The Hawk\u2019 and How He Trolls L.A. Tourists",
+      "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/will-ferrell-new-heights-show-jason-travis-kelce-1236623212/",
+      "published_dt": "2026-06-16T18:39:22+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236783026",
+      "title": "\u2018Survivor\u2019 Stars and Host Break Down the MrBeast Coin Flip That Changed Season 50\u2019s Ending",
+      "url": "https://variety.com/2026/tv/news/survivor-50-mrbeast-coin-flip-1236783026/",
+      "published_dt": "2026-06-16T18:40:44+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.indiewire.com/?p=1235200625",
+      "title": "TV Editors Explain Their Secrets to Creating Tension Without Melodrama \u2014 Watch",
+      "url": "https://www.indiewire.com/features/craft/craft-roundtables-editing-panel-watch-1235200625/",
+      "published_dt": "2026-06-16T18:32:40+00:00",
+      "source_name": "IndieWire",
+      "source_tier": 1
+    },
+    {
+      "guid": "5b0f18ed12e00113c4a57af1",
+      "title": "Best Swim Trunks for Men 2026: 15 Editor-Tested Picks",
+      "url": "https://www.gq.com/story/the-best-swim-trunks-for-men",
+      "published_dt": "2026-06-16T18:25:37+00:00",
+      "source_name": "GQ",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.nytimes.com/2026/06/16/theater/are-you-now-or-have-you-ever-been-review.html",
+      "title": "\u2018Are You Now or Have You Ever Been\u2019 Review: Who Is Naming Names?",
+      "url": "https://www.nytimes.com/2026/06/16/theater/are-you-now-or-have-you-ever-been-review.html",
+      "published_dt": "2026-06-16T18:31:51+00:00",
+      "source_name": "NYT Arts",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://theplaylist.net/?p=489573",
+      "title": "\u2018X-Men\u2019: Lee Sung Jin Says Freedom On \u201cCharacter-First\u201d Reboot Similar To \u2018Beef\u2019: \u201cNot Beholden To Any Of The Movies That Have Come Before\u201d",
+      "url": "https://theplaylist.net/x-men-reboot-screenwriter-lee-sung-jin-talks-freedom-20260616/",
+      "published_dt": "2026-06-16T18:21:18+00:00",
+      "source_name": "The Playlist",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3956262",
+      "title": "Immerse Yourself in Mystery with Narrative-Driven Folk Horror Title \u2018The Polar Darkness\u2019 [Trailer]",
+      "url": "https://bloody-disgusting.com/video-games/3956262/immerse-yourself-in-mystery-with-narrative-driven-folk-horror-title-the-polar-darkness-trailer/",
+      "published_dt": "2026-06-16T18:30:58+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/spider-man-brand-new-day-final-movie-tease-director-destin-daniel-cretton/",
+      "title": "'Spider-Man: Brand New Day' Could Be the End of an Era for Tom Holland",
+      "url": "https://collider.com/spider-man-brand-new-day-final-movie-tease-director-destin-daniel-cretton/",
+      "published_dt": "2026-06-16T18:38:44+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/tom-holland-spider-man-replacement-owen-cooper/",
+      "title": "Tom Holland Chooses His Replacement as Marvel's Spider-Man",
+      "url": "https://www.cbr.com/tom-holland-spider-man-replacement-owen-cooper/",
+      "published_dt": "2026-06-16T18:38:08+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/toy-story-5-rotten-tomatoes-score/",
+      "title": "Toy Story 5's Rotten Tomatoes Score Confirms It's Another Pixar Classic",
+      "url": "https://www.cbr.com/toy-story-5-rotten-tomatoes-score/",
+      "published_dt": "2026-06-16T18:35:10+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/sherlock-holmes-animated-series-unexpurgated-adventures/",
+      "title": "New Adults-Only Sherlock Holmes Series Officially Announced With a Twist",
+      "url": "https://www.cbr.com/sherlock-holmes-animated-series-unexpurgated-adventures/",
+      "published_dt": "2026-06-16T18:31:30+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2438917",
+      "title": "Doctor Who Has \"Too Many Regenerations,\" Impact \"Diminished\": Capaldi",
+      "url": "https://bleedingcool.com/tv/doctor-who-has-too-many-regenerations-impact-diminished-capaldi/",
+      "published_dt": "2026-06-16T18:37:08+00:00",
       "source_name": "Bleeding Cool",
       "source_tier": 2
     }
