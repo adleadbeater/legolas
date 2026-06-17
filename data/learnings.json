@@ -3880,242 +3880,10 @@
   "processed_replies": [],
   "article_cache": [
     {
-      "guid": "https://www.radiotimes.com/app/hear-from-the-experts/",
-      "title": "Hear from the experts",
-      "url": "https://www.radiotimes.com/app/hear-from-the-experts/",
-      "published_dt": "2026-06-17T14:01:09.315562+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.radiotimes.com/app/caroline-frost-if-we-take-the-bbc-for-granted-were-fools/",
-      "title": "Caroline Frost: 'If we take the BBC for granted, we're fools'",
-      "url": "https://www.radiotimes.com/app/caroline-frost-if-we-take-the-bbc-for-granted-were-fools/",
-      "published_dt": "2026-06-17T14:01:09.315573+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.radiotimes.com/app/is-it-your-bbc/",
-      "title": "Is it your BBC?",
-      "url": "https://www.radiotimes.com/app/is-it-your-bbc/",
-      "published_dt": "2026-06-17T14:01:09.315581+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://deadline.com/?p=1236958240",
-      "title": "Susan Sarandon Drama \u2018Exit Right\u2019 Wraps With Kim Coates,\u00a0Roberta Colindrez,\u00a0Amy Sedaris,\u00a0Ethan Slater & Christopher Jackson Among Joining Cast",
-      "url": "https://deadline.com/2026/06/susan-sarandon-exit-right-wraps-kim-coates-amy-sedaris-1236958240/",
-      "published_dt": "2026-06-17T14:21:36+00:00",
-      "source_name": "Deadline",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://deadline.com/?p=1236958234",
-      "title": "Walter Parazaider Dies: Sax Player & Founding Member Of Rock Band Chicago Was 81",
-      "url": "https://deadline.com/2026/06/walter-parazaider-dead-1236958234/",
-      "published_dt": "2026-06-17T14:08:19+00:00",
-      "source_name": "Deadline",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.thewrap.com/?p=8035075",
-      "title": "Tony Dokoupil to Co-Host America 250 Fireworks Special for CBS on 4th of July",
-      "url": "https://www.thewrap.com/creative-content/tv-shows/tony-dokoupil-cbs-news-america-250-fireworks-special-july-4/",
-      "published_dt": "2026-06-17T14:23:19+00:00",
-      "source_name": "The Wrap",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.thewrap.com/?p=8032830",
-      "title": "The 7 Best Movies You Can Watch Free on YouTube in June",
-      "url": "https://www.thewrap.com/creative-content/what-to-watch/7-best-movies-free-on-youtube-june-2026/",
-      "published_dt": "2026-06-17T14:11:50+00:00",
-      "source_name": "The Wrap",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.hollywoodreporter.com/?p=1236624011",
-      "title": "Evie Colbert Reveals \u2018Late Show\u2019 Principles She Brought to Montclair Film",
-      "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/stephen-colbert-evie-late-show-montclair-film-1236624011/",
-      "published_dt": "2026-06-17T14:15:00+00:00",
-      "source_name": "Hollywood Reporter",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://variety.com/?p=1236783767",
-      "title": "Amanda Seyfried Had to Use a Bodyguard After Calling Charlie Kirk \u2018Hateful\u2019 Ignited MAGA Outrage: \u2018I\u2019m Allowed to F\u2014ing Voice My Feelings\u2019",
-      "url": "https://variety.com/2026/film/news/amanda-seyfried-bodyguard-charlie-kirk-hateful-backlash-1236783767/",
-      "published_dt": "2026-06-17T14:24:08+00:00",
-      "source_name": "Variety",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://variety.com/?p=1236783222",
-      "title": "\u2018Overwatch\u2019 Art Director Arnold Tsang Launches Original Manga \u2018Azuki\u2019 (EXCLUSIVE)",
-      "url": "https://variety.com/2026/global/news/overwatch-arnold-tsang-manga-azuki-1236783222/",
-      "published_dt": "2026-06-17T14:13:24+00:00",
-      "source_name": "Variety",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://variety.com/?p=1236783519",
-      "title": "How Constance Zimmer Honors the Power of Profound Grief in \u2018Love Story: John F. Kennedy Jr. and Carolyn Bessette\u2019",
-      "url": "https://variety.com/2026/tv/news/constance-zimmer-raw-power-profound-grief-love-story-1236783519/",
-      "published_dt": "2026-06-17T14:05:00+00:00",
-      "source_name": "Variety",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.tvinsider.com/?p=1270457",
-      "title": "\u2018American Idol\u2019s Jamal Roberts Recalls Meeting Michelle Obama After Winning",
-      "url": "https://www.tvinsider.com/1270457/american-idol-jamal-roberts-michelle-obama-meeting/",
-      "published_dt": "2026-06-17T14:25:55+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.tvinsider.com/?p=1270460",
-      "title": "Fox News\u2019 Jesse Watters Gets Mocked Over JD Vance \u2018Fudge\u2019 Comment",
-      "url": "https://www.tvinsider.com/1270460/fox-news-jesse-watters-gets-mocked-over-jd-vance-fudge-comment/",
-      "published_dt": "2026-06-17T14:25:48+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.tvinsider.com/?p=1270464",
-      "title": "Elisabeth Hasselbeck Seemingly Responds to \u2018CBS Mornings\u2019 Interview Backlash",
-      "url": "https://www.tvinsider.com/1270464/elisabeth-hasselbeck-response-cbs-mornings-interview-backlash/",
-      "published_dt": "2026-06-17T14:21:14+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://theplaylist.net/?p=489604",
-      "title": "\u2018Avengers: Doomsday\u2019 Star Robert Downey Jr. Talks Pressure To One-Up Josh Brolin\u2019s Thanos: \u201cYou\u2019re Only As Good As Your Bad Guy\u201d",
-      "url": "https://theplaylist.net/robert-downey-jr-talks-pressure-for-avengers-doomsday-20260617/",
-      "published_dt": "2026-06-17T14:02:50+00:00",
-      "source_name": "The Playlist",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://bloody-disgusting.com/?p=3956396",
-      "title": "\u2018Rose of Nevada\u2019 Director Mark Jenkin On Turning Time Travel Into A Ghost Story",
-      "url": "https://bloody-disgusting.com/interviews/3956396/rose-of-nevada-director-mark-jenkin-on-turning-time-travel-into-a-ghost-story/",
-      "published_dt": "2026-06-17T14:18:54+00:00",
-      "source_name": "Bloody Disgusting",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/spectacular-spider-man-brand-new-day-1-review-punisher-negative/",
-      "title": "Spider-Man: Brand New Day Cleverly Brings the Punisher Into the Action",
-      "url": "https://www.cbr.com/spectacular-spider-man-brand-new-day-1-review-punisher-negative/",
-      "published_dt": "2026-06-17T14:23:55+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/near-perfect-manga-series-over-100-chapters/",
-      "title": "9 Near-Perfect Manga Series With Over 100 Chapters",
-      "url": "https://www.cbr.com/near-perfect-manga-series-over-100-chapters/",
-      "published_dt": "2026-06-17T14:16:16+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/dc-studios-superman-series-streaming-hit-hbo-max/",
-      "title": "DC Studios\u2019 Superman Series Becomes a Streaming Hit on HBO Max 1 Day After Season 3 Premiere",
-      "url": "https://www.cbr.com/dc-studios-superman-series-streaming-hit-hbo-max/",
-      "published_dt": "2026-06-17T14:09:52+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/gta-5-major-online-dlc-confirmed/",
-      "title": "GTA 5 Major Online DLC Confirmed Ahead Of GTA 6",
-      "url": "https://screenrant.com/gta-5-major-online-dlc-confirmed/",
-      "published_dt": "2026-06-17T14:25:53+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/zelda-ocarina-of-time-remake-gameplay-fans-react/",
-      "title": "Zelda: Ocarina Of Time Remake Official Gameplay Leaves Fans Split",
-      "url": "https://screenrant.com/zelda-ocarina-of-time-remake-gameplay-fans-react/",
-      "published_dt": "2026-06-17T14:16:40+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/the-westies-official-trailer/",
-      "title": "Titus Welliver\u2019s Gritty New Crime Series Detective Role Revealed In Action-Packed The Westies Trailer",
-      "url": "https://screenrant.com/the-westies-official-trailer/",
-      "published_dt": "2026-06-17T14:16:28+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/dark-fantasy-shows-excellent-start-to-finish/",
-      "title": "10 Dark Fantasy Shows That Are Excellent From Start To Finish",
-      "url": "https://screenrant.com/dark-fantasy-shows-excellent-start-to-finish/",
-      "published_dt": "2026-06-17T14:15:23+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/spider-man-brand-new-day-trailer-concept-gray-hulk/",
-      "title": "Gray Hulk Takes The Stage In New Spider-Man: Brand New Day Concept Trailer",
-      "url": "https://screenrant.com/spider-man-brand-new-day-trailer-concept-gray-hulk/",
-      "published_dt": "2026-06-17T14:11:17+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/netflix-shows-2026-most-watched/",
-      "title": "Netflix's 10 Most Watched 2026 TV Shows (So Far)",
-      "url": "https://screenrant.com/netflix-shows-2026-most-watched/",
-      "published_dt": "2026-06-17T14:01:22+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/netflix-little-house-on-the-prairie-american-western-rewrite/",
-      "title": "Netflix Is Rewriting An American Western Classic Next Month",
-      "url": "https://screenrant.com/netflix-little-house-on-the-prairie-american-western-rewrite/",
-      "published_dt": "2026-06-17T14:01:21+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/netflix-solo-leveling-new-series-release-date-window/",
-      "title": "Solo Leveling's Next Series May Be Coming Sooner Than Fans Think",
-      "url": "https://screenrant.com/netflix-solo-leveling-new-series-release-date-window/",
-      "published_dt": "2026-06-17T14:01:21+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.polygon.com/pokemon-champions-mobile-release-android-iphone/",
-      "title": "Pok\u00e9mon Champions arrives on Android and iOS today",
-      "url": "https://www.polygon.com/pokemon-champions-mobile-release-android-iphone/",
-      "published_dt": "2026-06-17T14:03:29+00:00",
-      "source_name": "Polygon",
-      "source_tier": 2
-    },
-    {
       "guid": "https://deadline.com/?p=1236958136",
       "title": "Geena Davis Game For Making Sequel To \u2018The Long Kiss Goodnight\u2019 With Samuel L. Jackson: \u201cIt\u2019s My Favorite\u201d",
       "url": "https://deadline.com/2026/06/geena-davis-interview-2026-bentonville-film-festival-1236958136/",
       "published_dt": "2026-06-17T15:00:00+00:00",
-      "source_name": "Deadline",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://deadline.com/?p=1236957913",
-      "title": "Comedian Des Bishop Sets Hulu Release For New Special \u2018Bridge & Tunnel\u2019",
-      "url": "https://deadline.com/2026/06/des-bishop-special-bridge-and-tunnel-hulu-premiere-date-1236957913/",
-      "published_dt": "2026-06-17T14:30:00+00:00",
       "source_name": "Deadline",
       "source_tier": 1
     },
@@ -4200,22 +3968,6 @@
       "source_tier": 1
     },
     {
-      "guid": "6a31adb7fe0d78275ea53012",
-      "title": "Four Mind-Boggling Watches Collectors Are Paying Close Attention to This Month",
-      "url": "https://www.gq.com/story/watch-guy-watches-june-2026",
-      "published_dt": "2026-06-17T14:30:00+00:00",
-      "source_name": "GQ",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://theplaylist.net/?p=489520",
-      "title": "\u2018Spider-Noir\u2019: Oren Uziel On Building Season One with Nic Cage, The Black-And-White/Color Gamble, Season 2 Hopes & \u2018Fast Forever\u2019 [Bingeworthy Podcast]",
-      "url": "https://theplaylist.net/spider-noir-oren-uziel-interview-bingeworthy-podcast-20260617/",
-      "published_dt": "2026-06-17T14:30:00+00:00",
-      "source_name": "The Playlist",
-      "source_tier": 2
-    },
-    {
       "guid": "https://www.inverse.com/entertainment/disclosure-day-roswell-incident-real-story",
       "title": "79 Years Later, The Summer's Biggest Sci-Fi Movie Exists Thanks To A Freak Accident",
       "url": "https://www.inverse.com/entertainment/disclosure-day-roswell-incident-real-story",
@@ -4228,14 +3980,6 @@
       "title": "7 Transformers Characters More Powerful Than Optimus Prime",
       "url": "https://www.cbr.com/transformers-stronger-than-optimus-prime/",
       "published_dt": "2026-06-17T15:00:20+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/best-mystery-books-agatha-christie-fans-list/",
-      "title": "5 Perfect Mystery Books for Agatha Christie Fans",
-      "url": "https://www.cbr.com/best-mystery-books-agatha-christie-fans-list/",
-      "published_dt": "2026-06-17T14:30:16+00:00",
       "source_name": "CBR",
       "source_tier": 2
     },
@@ -4260,14 +4004,6 @@
       "title": "The Walking Dead Officially Returning To Fan-Favorite Era For New Release",
       "url": "https://screenrant.com/walking-dead-streets-of-survival-all-out-war/",
       "published_dt": "2026-06-17T14:38:53+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/widows-bay-patricia-best-tv-characters-decade/",
-      "title": "Apple's New Mystery Series Has Given Us One Of The Best TV Characters This Decade",
-      "url": "https://screenrant.com/widows-bay-patricia-best-tv-characters-decade/",
-      "published_dt": "2026-06-17T14:30:08+00:00",
       "source_name": "Screen Rant",
       "source_tier": 2
     },
@@ -4300,14 +4036,6 @@
       "title": "Liquid Death Puts Their Tea Against The Long Island Usual",
       "url": "https://bleedingcool.com/pop-culture/liquid-death-puts-their-tea-against-the-long-island-usual/",
       "published_dt": "2026-06-17T14:32:09+00:00",
-      "source_name": "Bleeding Cool",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://bleedingcool.com/?p=2438862",
-      "title": "Kellogg's Brings Back Collectibles in Cereal Boxes for Toy Story 5",
-      "url": "https://bleedingcool.com/collectibles/kelloggs-brings-back-collectibles-in-cereal-boxes-for-toy-story-5/",
-      "published_dt": "2026-06-17T14:22:09+00:00",
       "source_name": "Bleeding Cool",
       "source_tier": 2
     },
@@ -4636,14 +4364,6 @@
       "title": "Richard Osman delivers his verdict on Doctor Who future and reveals his tip to take on the legendary role",
       "url": "https://www.radiotimes.com/tv/sci-fi/richard-osman-verdict-doctor-who-future-newsupdate/",
       "published_dt": "2026-06-17T14:38:53+00:00",
-      "source_name": "Radio Times",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.radiotimes.com/tv/sport/tennis/wimbledon-2026-date-time/",
-      "title": "When is Wimbledon 2026? Full schedule, dates and times",
-      "url": "https://www.radiotimes.com/tv/sport/tennis/wimbledon-2026-date-time/",
-      "published_dt": "2026-06-17T14:12:10+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     },
@@ -7320,14 +7040,6 @@
       "source_tier": 2
     },
     {
-      "guid": "https://bloody-disgusting.com/?p=3956300",
-      "title": "Spider One\u2019s Meta Slasher \u2018Big Baby\u2019 Unleashes Bloody Teaser Ahead of August Release",
-      "url": "https://bloody-disgusting.com/exclusives/3956300/spider-ones-meta-slasher-big-baby-unleashes-bloody-teaser-ahead-of-august-release/",
-      "published_dt": "2026-06-17T14:00:43+00:00",
-      "source_name": "Bloody Disgusting",
-      "source_tier": 2
-    },
-    {
       "guid": "https://collider.com/netflix-avatar-the-last-airbender-season-2-early-release-date-june-23-2026/",
       "title": "Netflix's Live-Action Fantasy Remake Series Scores Early Season 2 Premiere",
       "url": "https://collider.com/netflix-avatar-the-last-airbender-season-2-early-release-date-june-23-2026/",
@@ -7501,6 +7213,246 @@
       "url": "https://decider.com/2026/06/17/daveigh-chase-rip-lilo-stitch-the-ring/",
       "published_dt": "2026-06-17T19:56:12+00:00",
       "source_name": "Decider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://variety.com/?p=1236783221",
+      "title": "\u2018Disclosure Day\u2019 Anchor Courtney Grace on Delivering That Final Broadcast and Quitting Her Job to Pursue Acting: \u2018It Felt Like Home\u2019",
+      "url": "https://variety.com/2026/film/news/disclosure-day-anchor-courtney-grace-1236783221/",
+      "published_dt": "2026-06-17T20:30:00+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236783990",
+      "title": "Latine Immigrant Representation Drops to 25% Across Scripted TV: Industry \u2018Cannot Rely on a Few Programs to Represent the Whole\u2019",
+      "url": "https://variety.com/2026/tv/news/latine-immigrant-representation-drops-tv-mo-1236783990/",
+      "published_dt": "2026-06-17T20:05:20+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvline.com/2196761/widows-bay-season-1-finale-recap-ending-explained-apple-tv-grade-it/",
+      "title": "Widow's Bay Finale Hits Us With One Last Devastating Twist \u2014 Grade It!",
+      "url": "https://www.tvline.com/2196761/widows-bay-season-1-finale-recap-ending-explained-apple-tv-grade-it/",
+      "published_dt": "2026-06-17T20:00:00+00:00",
+      "source_name": "TVLine",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1270589",
+      "title": "Former HGTV Star Galey Alix Teases \u2018Exciting\u2019 New Projects In the Works",
+      "url": "https://www.tvinsider.com/1270589/galey-alix-teases-new-projects-in-the-works-hgtv/",
+      "published_dt": "2026-06-17T20:17:09+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "b7c30dba-fb15-40e5-a138-1b5740565edb",
+      "title": "The Jackery Explorer 240D 80,000mAh Power Bank Drops to a New Price Low, Just $102 at AliExpress",
+      "url": "https://www.ign.com/articles/jackery-explorer-240d-80000mah-power-bank-deal-june-2026-updated",
+      "published_dt": "2026-06-17T20:05:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://theplaylist.net/?p=489622",
+      "title": "Wagner Moura Eyed To Play Villain In Bradley Cooper\u2019s \u2018Ocean\u2019s 11\u2019 Prequel With Margot Robbie",
+      "url": "https://theplaylist.net/wagner-moura-bradley-coopers-oceans-11-prequel-margot-robbie-20260617/",
+      "published_dt": "2026-06-17T20:17:36+00:00",
+      "source_name": "The Playlist",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/best-movies-leaving-prime-video-june-2026/",
+      "title": "7 Must-Watch Movies Leaving Prime Video in June 2026",
+      "url": "https://collider.com/best-movies-leaving-prime-video-june-2026/",
+      "published_dt": "2026-06-17T20:28:14+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/yellowstone-thriving-without-kevin-coster-dutton-ranch-marshals/",
+      "title": "'Yellowstone' Officially Proves It Never Needed Kevin Costner To Survive",
+      "url": "https://collider.com/yellowstone-thriving-without-kevin-coster-dutton-ranch-marshals/",
+      "published_dt": "2026-06-17T20:24:14+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/matlock-lawsuit-cbs-writer-racist-harassment-comments/",
+      "title": "Matlock\u2019 Writer Sues CBS Over Alleged Racist and Sexual Comments",
+      "url": "https://collider.com/matlock-lawsuit-cbs-writer-racist-harassment-comments/",
+      "published_dt": "2026-06-17T20:12:13+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/sci-fi-series-better-than-star-wars-space-above-and-beyond/",
+      "title": "This \u201990s Sci-Fi Series Is a Masterclass in Space Warfare That Even Star Wars Can\u2019t Match",
+      "url": "https://collider.com/sci-fi-series-better-than-star-wars-space-above-and-beyond/",
+      "published_dt": "2026-06-17T20:02:16+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.inverse.com/entertainment/spider-man-brand-new-day-trailer-peter-parker-powers-theory",
+      "title": "'Spider-Man: Brand New Day' Trailer Confirms A Superpower Fan Theory",
+      "url": "https://www.inverse.com/entertainment/spider-man-brand-new-day-trailer-peter-parker-powers-theory",
+      "published_dt": "2026-06-17T20:05:21+00:00",
+      "source_name": "Inverse",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/best-underrated-fantasy-tv-series-list/",
+      "title": "5 Great Fantasy TV Shows That Flew Under the Radar",
+      "url": "https://www.cbr.com/best-underrated-fantasy-tv-series-list/",
+      "published_dt": "2026-06-17T20:30:14+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/cyberpunk-movies-better-than-blade-runner-list/",
+      "title": "5 Masterpiece Cyberpunk Movies Better Than Blade Runner",
+      "url": "https://www.cbr.com/cyberpunk-movies-better-than-blade-runner-list/",
+      "published_dt": "2026-06-17T20:30:14+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/one-piece-characters-more-powerful-than-shanks/",
+      "title": "5 One Piece Characters More Powerful Than Shanks",
+      "url": "https://www.cbr.com/one-piece-characters-more-powerful-than-shanks/",
+      "published_dt": "2026-06-17T20:15:16+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/avatar-the-last-airbender-switching-genres-2026/",
+      "title": "Avatar: The Last Airbender Is Switching Genres In 2026",
+      "url": "https://screenrant.com/avatar-the-last-airbender-switching-genres-2026/",
+      "published_dt": "2026-06-17T20:30:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/dexter-resurrection-harrison-deb-similarities-michael-c-hall-jack-alcott/",
+      "title": "Debra Morgan\u2019s New Replacement In Dexter: Resurrection Revealed By Returning Stars",
+      "url": "https://screenrant.com/dexter-resurrection-harrison-deb-similarities-michael-c-hall-jack-alcott/",
+      "published_dt": "2026-06-17T20:29:26+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/toy-story-5-next-pixar-easter-eggs-gatto-revealed/",
+      "title": "Where Toy Story 5's Next Pixar Movie Easter Eggs Are Revealed By Directors & Producer",
+      "url": "https://screenrant.com/toy-story-5-next-pixar-easter-eggs-gatto-revealed/",
+      "published_dt": "2026-06-17T20:28:23+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/henry-cavill-superman-franchise-end-of-an-era-gunn-dcu/",
+      "title": "It's Officially The End Of An Era For Henry Cavill's Superman",
+      "url": "https://screenrant.com/henry-cavill-superman-franchise-end-of-an-era-gunn-dcu/",
+      "published_dt": "2026-06-17T20:23:11+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/video/the-social-reckoning-puts-the-social-network-s-biggest-lie-on-trial/",
+      "title": "The Social Reckoning Puts The Social Network\u2019s Biggest Lie On Trial",
+      "url": "https://screenrant.com/video/the-social-reckoning-puts-the-social-network-s-biggest-lie-on-trial/",
+      "published_dt": "2026-06-17T20:20:09+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/mike-flanagan-exorcist-carrie-reboots-define-horror-master-status/",
+      "title": "Mike Flanagan's Next 2 Reboots Will Cement Or Destroy His 'Horror Master' Status",
+      "url": "https://screenrant.com/mike-flanagan-exorcist-carrie-reboots-define-horror-master-status/",
+      "published_dt": "2026-06-17T20:15:23+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/new-spider-man-suit-reveal-brand-new-day/",
+      "title": "Marvel's Spider-Man 2 Fresh Start DLC Officially Announced",
+      "url": "https://screenrant.com/new-spider-man-suit-reveal-brand-new-day/",
+      "published_dt": "2026-06-17T20:11:49+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/kevin-costner-the-untouchables-paramount-plus-streaming-release-july-2026/",
+      "title": "Kevin Costner\u2019s Iconic Crime Thriller Is Getting A New Streaming Home Next Month",
+      "url": "https://screenrant.com/kevin-costner-the-untouchables-paramount-plus-streaming-release-july-2026/",
+      "published_dt": "2026-06-17T20:11:24+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/oceans-eleven-movie-prequel-wagner-moura-cast/",
+      "title": "Ocean's Eleven Prequel Eyes New Cast Member For Margot Robbie & Bradley Cooper Heist Movie",
+      "url": "https://screenrant.com/oceans-eleven-movie-prequel-wagner-moura-cast/",
+      "published_dt": "2026-06-17T20:09:22+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/hulk-change-spiderman-brand-new-day-trailer-mcu-movie/",
+      "title": "Marvel Officially Confirms 7-Year MCU Hulk Change & It\u2019s Perfect",
+      "url": "https://screenrant.com/hulk-change-spiderman-brand-new-day-trailer-mcu-movie/",
+      "published_dt": "2026-06-17T20:06:52+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/call-of-duty-black-ops-2-2026-ports-ps5-ps4-treyarch/",
+      "title": "New Call of Duty: Black Ops rereleases announced",
+      "url": "https://www.polygon.com/call-of-duty-black-ops-2-2026-ports-ps5-ps4-treyarch/",
+      "published_dt": "2026-06-17T20:23:28+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2439595",
+      "title": "Spider-Man: Brand New Day &#8211; Trailer, Tickets On Sale, Posters, Images",
+      "url": "https://bleedingcool.com/movies/spider-man-brand-new-day-trailer-tickets-on-sale-posters-images/",
+      "published_dt": "2026-06-17T20:22:10+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://decider.com/?post_type=article&p=2090052",
+      "title": "\u2018Maximum Pleasure Guaranteed\u2019 Episode 6: Murray Bartlett And Tatiana Maslany Unpack That Jaw-Dropping Death",
+      "url": "https://decider.com/2026/06/17/maximum-pleasure-guaranteed-episode-6-ending-explained-murray-bartlett-dennis-death/",
+      "published_dt": "2026-06-17T20:00:00+00:00",
+      "source_name": "Decider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/app/hear-from-the-experts/",
+      "title": "Hear from the experts",
+      "url": "https://www.radiotimes.com/app/hear-from-the-experts/",
+      "published_dt": "2026-06-17T20:31:35.440211+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/app/caroline-frost-if-we-take-the-bbc-for-granted-were-fools/",
+      "title": "Caroline Frost: 'If we take the BBC for granted, we're fools'",
+      "url": "https://www.radiotimes.com/app/caroline-frost-if-we-take-the-bbc-for-granted-were-fools/",
+      "published_dt": "2026-06-17T20:31:35.440224+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/app/is-it-your-bbc/",
+      "title": "Is it your BBC?",
+      "url": "https://www.radiotimes.com/app/is-it-your-bbc/",
+      "published_dt": "2026-06-17T20:31:35.440233+00:00",
+      "source_name": "Radio Times",
       "source_tier": 2
     }
   ]
