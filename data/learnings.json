@@ -4118,6 +4118,21 @@
         "Apple TV Officially Announces \u2018True Detective\u2019 Reunion for Matthew McConaughey and Woody Harrelson",
         "Matthew McConaughey & Woody Harrelson\u2019s Apple TV Comedy Brothers Gets Official Release Date & First Look"
       ]
+    },
+    {
+      "headline": "Matt Rogers & Bowen Yang Already Know Who They Want for Next Year\u2019s Las Culturistas Culture Awards",
+      "tag": "",
+      "posted_at": "2026-06-18T14:33:37.559809+00:00",
+      "urls": [
+        "https://www.latimes.com/entertainment-arts/tv/story/2026-06-18/las-culturistas-culture-awards-best-moments",
+        "https://www.latimes.com/entertainment-arts/tv/story/2026-06-18/las-culturistas-culture-awards-best-moments",
+        "https://www.thewrap.com/culture-lifestyle/culture/bowen-yang-matt-rogers-2027-las-culturistas-culture-awards/"
+      ],
+      "article_titles": [
+        "Las Culturistas Culture Awards: 6 best moments from the show",
+        "Las Culturistas Culture Awards: 6 best moments from the show",
+        "Matt Rogers & Bowen Yang Already Know Who They Want for Next Year\u2019s Las Culturistas Culture Awards"
+      ]
     }
   ],
   "processed_reactions": [],
@@ -4184,14 +4199,6 @@
       "title": "From \u2018Sharknado\u2019 To \u2018Dave The Diver\u2019: Anthony C. Ferrante On Bringing Mintrocket\u2019s Hit Game To Live Action",
       "url": "https://deadline.com/2026/06/dave-the-diver-interview-anthony-c-ferrante-interview-1236958954/",
       "published_dt": "2026-06-18T09:00:00+00:00",
-      "source_name": "Deadline",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://deadline.com/?p=1236959042",
-      "title": "Piers Morgan\u2019s \u2018World Cup Uncensored\u2019 & \u2018The Royals Uncensored\u2019 Spin-offs Heading To Paramount\u2019s 5",
-      "url": "https://deadline.com/2026/06/piers-morgan-world-cup-royals-uncensored-paramount-5-1236959042/",
-      "published_dt": "2026-06-18T08:25:19+00:00",
       "source_name": "Deadline",
       "source_tier": 1
     },
@@ -4784,14 +4791,6 @@
       "title": "Final Fantasy 14 Rewards Japanese Players for Paying Their Real-Life Taxes With a Giant Dog",
       "url": "https://www.ign.com/articles/final-fantasy-14-rewards-japanese-players-for-paying-their-real-life-taxes-with-a-giant-dog",
       "published_dt": "2026-06-18T08:31:26+00:00",
-      "source_name": "IGN",
-      "source_tier": 2
-    },
-    {
-      "guid": "d3a464b0-3e01-4873-8055-fc912646a587",
-      "title": "Apple Price Rises \u2018Unavoidable\u2019, Warns CEO Tim Cook",
-      "url": "https://www.ign.com/articles/apple-price-rises-unavoidable-warns-ceo-tim-cook",
-      "published_dt": "2026-06-18T08:03:16+00:00",
       "source_name": "IGN",
       "source_tier": 2
     },
@@ -5844,18 +5843,354 @@
       "source_tier": 2
     },
     {
-      "guid": "https://www.radiotimes.com/going-out/ricky-wilson-grease-debut-exclusive-newsupdate/",
-      "title": "Kaiser Chiefs frontman Ricky Wilson to make musical theatre debut in iconic '70s show: \"All the bullsh******g I've done, I have to carry it off now\"",
-      "url": "https://www.radiotimes.com/going-out/ricky-wilson-grease-debut-exclusive-newsupdate/",
-      "published_dt": "2026-06-18T08:30:26+00:00",
+      "guid": "https://deadline.com/?p=1236959147",
+      "title": "No Fakes Act, Bill Meant To Curb Unauthorized Digital Replicas, Clears Senate Judiciary Committee",
+      "url": "https://deadline.com/2026/06/no-fakes-act-senate-judiciary-committee-1236959147/",
+      "published_dt": "2026-06-18T14:12:59+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://deadline.com/?p=1236959145",
+      "title": "Canadian Distributor VVS Sets Claire Peace-McConnell As Vice President, Theatrical Distribution",
+      "url": "https://deadline.com/2026/06/vvs-claire-peace-mcconnell-vp-theatrical-distribution-1236959145/",
+      "published_dt": "2026-06-18T14:08:28+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://deadline.com/?p=1236959061",
+      "title": "Reign Maker Group Buys Creator Talent Management Company Hyphen HQ",
+      "url": "https://deadline.com/2026/06/reign-maker-group-buys-hyphen-hq-creator-economy-1236959061/",
+      "published_dt": "2026-06-18T14:00:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8035293",
+      "title": "Matt Rogers & Bowen Yang Already Know Who They Want for Next Year\u2019s Las Culturistas Culture Awards",
+      "url": "https://www.thewrap.com/culture-lifestyle/culture/bowen-yang-matt-rogers-2027-las-culturistas-culture-awards/",
+      "published_dt": "2026-06-18T14:30:00+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8035668",
+      "title": "Tyra Banks Joins \u2018Project Runway\u2019 Season 22 as Recurring Judge | Video",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/tyra-banks-joins-project-runway-season-22-cast-trailer/",
+      "published_dt": "2026-06-18T14:20:59+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236623872",
+      "title": "It Was Her First-Ever Audition Tape. She Landed a Lead on \u2018The White Lotus\u2019",
+      "url": "https://www.hollywoodreporter.com/tv/tv-features/marissa-long-the-white-lotus-role-first-audition-tape-1236623872/",
+      "published_dt": "2026-06-18T14:30:00+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236625066",
+      "title": "Safe Workplace Push For Queer, Trans Professionals Launched by Canadian Media Industry (Exclusive)",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/canada-inclusive-workplace-queer-trans-professionals-1236625066/",
+      "published_dt": "2026-06-18T14:14:40+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236623872",
+      "title": "It Was Her First-Ever Audition Tape. She Landed a Lead on \u2018The White Lotus\u2019",
+      "url": "https://www.hollywoodreporter.com/tv/tv-features/marissa-long-the-white-lotus-role-first-audition-tape-1236623872/",
+      "published_dt": "2026-06-18T14:30:00+00:00",
+      "source_name": "THR TV",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236625066",
+      "title": "Safe Workplace Push For Queer, Trans Professionals Launched by Canadian Media Industry (Exclusive)",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/canada-inclusive-workplace-queer-trans-professionals-1236625066/",
+      "published_dt": "2026-06-18T14:14:40+00:00",
+      "source_name": "THR TV",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236784820",
+      "title": "Ansel Elgort, Halle Bailey, Ludacris and Alan Ritchson Among Voice Cast for Animated Movie \u2018Groove Tails\u2019 (EXCLUSIVE)",
+      "url": "https://variety.com/2026/film/global/ansel-elgort-halle-bailey-alan-ritchson-groove-tails-1236784820/",
+      "published_dt": "2026-06-18T14:30:00+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236784971",
+      "title": "ReelShort Looks Beyond Microdramas as Joey Jia Pushes for a New Entertainment Ecosystem",
+      "url": "https://variety.com/2026/tv/news/reelshort-joey-jia-entertainment-ecosystem-apos-2026-1236784971/",
+      "published_dt": "2026-06-18T14:26:06+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236784943",
+      "title": "Panjaya.ai, Shortical Partner on AI Dubbing for Microdramas in Six Languages",
+      "url": "https://variety.com/2026/tv/news/panjaya-shortical-ai-dubbing-microdrama-partnership-1236784943/",
+      "published_dt": "2026-06-18T14:05:24+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvline.com/2196976/brothers-matthew-mcconaughey-woody-harrelson-apple-tv-release-date/",
+      "title": "Matthew McConaughey And Woody Harrelson's Apple TV Comedy Brothers Gets Premiere Date, First Photo",
+      "url": "https://www.tvline.com/2196976/brothers-matthew-mcconaughey-woody-harrelson-apple-tv-release-date/",
+      "published_dt": "2026-06-18T14:00:00+00:00",
+      "source_name": "TVLine",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.indiewire.com/?p=1235200976",
+      "title": "The Paramount-Warner Bros. Merger Is in the Home Stretch, but a Lot Can Still Happen",
+      "url": "https://www.indiewire.com/news/business/paramount-warner-bros-merger-home-stretch-analysis-1235200976/",
+      "published_dt": "2026-06-18T14:30:00+00:00",
+      "source_name": "IndieWire",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1270724",
+      "title": "HGTV\u2019s Erin Napier Reveals Meaningful Gift She Got From Husband Ben Napier",
+      "url": "https://www.tvinsider.com/1270724/erin-napier-meaningful-mothers-day-gift-from-ben-napier/",
+      "published_dt": "2026-06-18T14:20:53+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1270722",
+      "title": "\u2018American Idol\u2019s Hannah Harper Announces Big Tour News With Major Country Star",
+      "url": "https://www.tvinsider.com/1270722/american-idol-hannah-harper-brad-paisley-tour-dates-2026/",
+      "published_dt": "2026-06-18T14:19:21+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1264067",
+      "title": "\u2018Myron Bolitar\u2019: Everything to Know About Harlan Coben\u2019s Next Netflix Series",
+      "url": "https://www.tvinsider.com/1264067/harlan-coben-netflix-myron-bolitar-details-cast-premiere-date/",
+      "published_dt": "2026-06-18T14:00:45+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1270553",
+      "title": "\u2018The Rookie\u2019 Star Lisseth Chavez on Hopes for Celina in Season 9",
+      "url": "https://www.tvinsider.com/1270553/the-rookie-celina-season-9-undercover-lisseth-chavez/",
+      "published_dt": "2026-06-18T14:00:25+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://time.com/?p=bltafa67056a7f940a1",
+      "title": "9 Questions Dads Wish Their Kids Would Ask Them",
+      "url": "https://time.com/article/2026/06/18/questions-to-ask-dad-father/",
+      "published_dt": "2026-06-18T14:15:33+00:00",
+      "source_name": "TIME",
+      "source_tier": 1
+    },
+    {
+      "guid": "5cf68ca5ba720548cda4317b",
+      "title": "Upgrade Your Basics: Best Undershirts for Men in 2026",
+      "url": "https://www.gq.com/story/the-best-lightweight-undershirts-for-men",
+      "published_dt": "2026-06-18T14:23:15+00:00",
+      "source_name": "GQ",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.theguardian.com/film/2026/jun/18/aardman-exhibition-animation-studio-bristol-wallace-gromit",
+      "title": "Aardman exhibition marks animation studio\u2019s half a century in Bristol",
+      "url": "https://www.theguardian.com/film/2026/jun/18/aardman-exhibition-animation-studio-bristol-wallace-gromit",
+      "published_dt": "2026-06-18T14:00:05+00:00",
+      "source_name": "The Guardian Film",
+      "source_tier": 1
+    },
+    {
+      "guid": "6c9015d3-21ab-4018-9aa7-3bc19893b49e",
+      "title": "Crimson Moon Marries Diablo and Dark Souls for a Bloody, Breezy Good Time | IGN Preview",
+      "url": "https://www.ign.com/articles/crimson-moon-marries-diablo-and-dark-souls-for-a-bloody-breezy-good-time-ign-preview",
+      "published_dt": "2026-06-18T14:00:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "c3dac383-52ca-49ae-8018-8c1d4c8f89bc",
+      "title": "No Law's Dense Cybergrunge City Might Just Be the Most Alive Open World Ever Created",
+      "url": "https://www.ign.com/articles/no-laws-dense-cybergrunge-city-might-just-be-the-most-alive-open-world-ever-created",
+      "published_dt": "2026-06-18T14:00:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://theplaylist.net/?p=489635",
+      "title": "\u2018The East Palace\u2019 Trailer: South Korean Dark Fantasy Series Arrives On Netflix On July 17",
+      "url": "https://theplaylist.net/the-east-palace-trailer-netflix-20260618/",
+      "published_dt": "2026-06-18T14:01:51+00:00",
+      "source_name": "The Playlist",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.slashfilm.com/2197176/why-netflix-canceled-the-boroughs/",
+      "title": "Why Netflix Canceled The Boroughs After One Season",
+      "url": "https://www.slashfilm.com/2197176/why-netflix-canceled-the-boroughs/",
+      "published_dt": "2026-06-18T14:17:30+00:00",
+      "source_name": "Slash Film",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3956565",
+      "title": "\u2018The Voices of Our Mother\u2019 Review: Family Trauma Fuels This Uneven Shudder Possession Horror Film",
+      "url": "https://bloody-disgusting.com/reviews/3956565/the-voices-of-our-mother-review-family-trauma-fuels-this-uneven-shudder-possession-horror-film/",
+      "published_dt": "2026-06-18T14:24:56+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3956566",
+      "title": "Makeup Legend Rick Baker Will Receive the Vision Award at This Year\u2019s Locarno Film Festival",
+      "url": "https://bloody-disgusting.com/the-further/3956566/makeup-legend-rick-baker-will-receive-the-vision-award-at-this-years-locarno-film-festival/",
+      "published_dt": "2026-06-18T14:05:39+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/brian-johnson-dead-86-obituary-star-wars-alien-effects/",
+      "title": "Star Wars and Alien Special Effects Pioneer Brian Johnson Dead at 86",
+      "url": "https://collider.com/brian-johnson-dead-86-obituary-star-wars-alien-effects/",
+      "published_dt": "2026-06-18T14:18:41+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/narnia-reboot-netflix-greta-gerwig-imax-release/",
+      "title": "Netflix Officially Seals the Fate of Greta Gerwig's Narnia Reboot",
+      "url": "https://www.cbr.com/narnia-reboot-netflix-greta-gerwig-imax-release/",
+      "published_dt": "2026-06-18T14:30:16+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/vixen-dc-next-level-series-scott-snyder-hint/",
+      "title": "DC Comics' Most Underrated Character May Get Their Own Series",
+      "url": "https://www.cbr.com/vixen-dc-next-level-series-scott-snyder-hint/",
+      "published_dt": "2026-06-18T14:30:16+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/best-forgotten-90s-kids-shows-list/",
+      "title": "4 '90s Kids Shows Nobody Remembers",
+      "url": "https://www.cbr.com/best-forgotten-90s-kids-shows-list/",
+      "published_dt": "2026-06-18T14:30:16+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/netflix-underrated-anime-gem-demon-slayer-dragon-ball-mashup/",
+      "title": "This Netflix Anime Is the Perfect Demon Slayer and Dragon Ball Combo",
+      "url": "https://www.cbr.com/netflix-underrated-anime-gem-demon-slayer-dragon-ball-mashup/",
+      "published_dt": "2026-06-18T14:16:15+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/fortnite-vampire-survivors-collab-ai-controversy/",
+      "title": "Fortnite Set To Lose Key Crossover Following AI Use",
+      "url": "https://screenrant.com/fortnite-vampire-survivors-collab-ai-controversy/",
+      "published_dt": "2026-06-18T14:27:38+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/gerard-butler-plane-prime-video-streaming-success-june-2026/",
+      "title": "Gerard Butler\u2019s $74M Action Hit Is Quietly Climbing US Streaming Charts After Disappointing Sequel Cancellation",
+      "url": "https://screenrant.com/gerard-butler-plane-prime-video-streaming-success-june-2026/",
+      "published_dt": "2026-06-18T14:16:38+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/ahoy-comics-the-forgotten-divine/",
+      "title": "A UFO Cult Descends Into Madness In Ahoy's THE FORGOTTEN DIVINE",
+      "url": "https://screenrant.com/ahoy-comics-the-forgotten-divine/",
+      "published_dt": "2026-06-18T14:08:47+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/re-zero-season-4-episode-11-records-next-season-announced/",
+      "title": "Re:Zero delivers record-breaking episode and announces release for season 4 part 2",
+      "url": "https://www.polygon.com/re-zero-season-4-episode-11-records-next-season-announced/",
+      "published_dt": "2026-06-18T14:17:27+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/gta-6-box-art-reveal-explained/",
+      "title": "Rockstar's GTA 6 box art tells us nothing and is distinctly lacking in personality",
+      "url": "https://www.polygon.com/gta-6-box-art-reveal-explained/",
+      "published_dt": "2026-06-18T14:09:27+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/pokemon-pokopia-jirachi-event-nintendo-switch-2/",
+      "title": "Pok\u00e9mon Pokopia's next event adds the Mythical Pok\u00e9mon Jirachi",
+      "url": "https://www.polygon.com/pokemon-pokopia-jirachi-event-nintendo-switch-2/",
+      "published_dt": "2026-06-18T14:06:56+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2440354",
+      "title": "Ben 10 Introduces Grey Matter To The Comics In September",
+      "url": "https://bleedingcool.com/comics/ben-10-introduces-grey-matter-to-the-comics-in-september/",
+      "published_dt": "2026-06-18T14:23:18+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2439786",
+      "title": "NECA Drops New Sailor Raphael from TMNT 1987 Cartoon",
+      "url": "https://bleedingcool.com/collectibles/neca-drops-new-sailor-raphael-from-tmnt-1987-cartoon/",
+      "published_dt": "2026-06-18T14:23:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2440317",
+      "title": "Doctor Who Star Matt Smith on Show's Future: \"The Doctor Never Dies\"",
+      "url": "https://bleedingcool.com/tv/doctor-who-star-matt-smith-on-shows-future-the-doctor-never-dies/",
+      "published_dt": "2026-06-18T14:15:13+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://decider.com/?post_type=article&p=2090280",
+      "title": "\u2018The Bear\u2019 Season 5 Premiere Date, Time: When Does The Next (And Final) Season Of \u2018The Bear\u2019 Come Out On Hulu And FX?",
+      "url": "https://decider.com/2026/06/18/the-bear-season-5-premiere-date-time-when-does-the-next-season-of-the-bear-come-out/",
+      "published_dt": "2026-06-18T14:30:00+00:00",
+      "source_name": "Decider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/technology/gaming/gta-6-pre-orders-opening-cover-art-revealed-newsupdate/",
+      "title": "GTA 6 pre-orders are finally opening \u2013 and first look at cover art revealed",
+      "url": "https://www.radiotimes.com/technology/gaming/gta-6-pre-orders-opening-cover-art-revealed-newsupdate/",
+      "published_dt": "2026-06-18T13:58:29+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     },
     {
-      "guid": "https://www.radiotimes.com/movies/craig-fairbrass-rise-of-the-footsoldier-franchise-future-newsupdate/",
-      "title": "Craig Fairbrass addresses future of Rise of the Footsoldier after Retribution",
-      "url": "https://www.radiotimes.com/movies/craig-fairbrass-rise-of-the-footsoldier-franchise-future-newsupdate/",
-      "published_dt": "2026-06-18T08:00:49+00:00",
+      "guid": "https://www.radiotimes.com/tv/drama/tip-toe-russell-t-davies-streaming-home-us-newsupdate/",
+      "title": "Russell T Davies's Tip Toe finds streaming home in the US after acclaimed UK run",
+      "url": "https://www.radiotimes.com/tv/drama/tip-toe-russell-t-davies-streaming-home-us-newsupdate/",
+      "published_dt": "2026-06-18T13:53:24+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     }
