@@ -1,40 +1,6 @@
 {
   "recently_posted": [
     {
-      "headline": "Steven Spielberg Breaks Down 'Disclosure Day' Suspense in New Interviews",
-      "tag": "disclosure day",
-      "posted_at": "2026-06-12T13:56:11.377594+00:00",
-      "urls": [
-        "https://www.nytimes.com/2026/06/12/movies/steven-spielberg-disclosure-day-clip.html",
-        "https://www.gq.com/story/disclosure-day-steven-spielberg",
-        "https://www.polygon.com/steven-spielberg-disclosure-day-interview-aliens-president-civilian/",
-        "https://www.nytimes.com/video/movies/100000010945475/disclosure-day-anatomy-of-a-scene.html",
-        "https://www.slashfilm.com/2192481/disclosure-day-writer-david-koepp-interview/",
-        "https://www.hollywoodreporter.com/movies/movie-news/social-reckoning-trailer-emily-blunt-disclosure-day-1236619293/"
-      ],
-      "article_titles": [
-        "Steven Spielberg on How to Build Suspense in \u2018Disclosure Day\u2019",
-        "With \u2018Disclosure Day,\u2019 Steven Spielberg Gives His Successors a Run for Their Money",
-        "Steven Spielberg breaks down the most important line in Disclosure Day",
-        "\u2018Disclosure Day\u2019 | Anatomy of a Scene",
-        "Disclosure Day Writer David Koepp Explains What It's Really Like To Work With Steven Spielberg [Exclusive Interview]",
-        "Winners & Losers: \u2018Social Reckoning\u2019 Trailer Misfires, Emily Blunt Saves \u2018Disclosure Day\u2019"
-      ]
-    },
-    {
-      "headline": "Netflix's Royal Dynasty Drama Gets Season 2 After Year-Long Wait",
-      "tag": "house of guinness",
-      "posted_at": "2026-06-12T13:56:11.483054+00:00",
-      "urls": [
-        "https://variety.com/2026/tv/global/house-of-guinness-renewed-season-2-netflix-1236779534/",
-        "https://screenrant.com/house-of-guinness-season-2-netflix-renewal-update/"
-      ],
-      "article_titles": [
-        "\u2018House of Guinness\u2019 Renewed for Season 2 by Netflix (EXCLUSIVE)",
-        "House Of Guinness Season 2's Fate Officially Decided By Netflix Nearly A Year Later"
-      ]
-    },
-    {
       "headline": "TCA Awards 2026: Heated Rivalry, Industry, and Widow's Bay Lead Nominations",
       "tag": "tca awards",
       "posted_at": "2026-06-12T15:02:56.186716+00:00",
@@ -4409,6 +4375,21 @@
         "Chris Burden\u2019s Police Uniforms Are Coming to Art Basel",
         "What Are Art Collectors Looking for at Art Basel?"
       ]
+    },
+    {
+      "headline": "\u2018La Cage aux Folles\u2019 Off Broadway Review: Billy Porter and Wayne Brady Play It for Real",
+      "tag": "",
+      "posted_at": "2026-06-19T13:59:20.934773+00:00",
+      "urls": [
+        "https://www.nytimes.com/2026/06/19/theater/la-cage-aux-folles-review-porter-brady.html",
+        "https://www.nytimes.com/2026/06/19/theater/la-cage-aux-folles-review-porter-brady.html",
+        "https://www.thewrap.com/creative-content/theater/la-cage-aux-folles-off-broadway-review-billy-porter-wayne-brady/"
+      ],
+      "article_titles": [
+        "Billy Porter and Wayne Brady Make a Tender Pair in \u2018La Cage aux Folles\u2019",
+        "Billy Porter and Wayne Brady Make a Tender Pair in \u2018La Cage aux Folles\u2019",
+        "\u2018La Cage aux Folles\u2019 Off Broadway Review: Billy Porter and Wayne Brady Play It for Real"
+      ]
     }
   ],
   "processed_reactions": [],
@@ -5603,6 +5584,126 @@
       "title": "Toy Story 5 stars and creators address franchise future as hit Pixar film series returns",
       "url": "https://www.radiotimes.com/movies/toy-story-6-future-tom-hanks-tim-allen-newsupdate/",
       "published_dt": "2026-06-19T09:30:18+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8036431",
+      "title": "Seth Meyers Asks Fox News How Trump Is Handling Iran War if \u2018Netanyahu Tricked Him Into\u2019 It and \u2018JD Vance Tricked Him Out\u2019",
+      "url": "https://www.thewrap.com/creative-content/tv-shows/seth-meyers-fox-news-trump-pushover-iran-war/",
+      "published_dt": "2026-06-19T13:50:32+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.thewrap.com/?p=8036033",
+      "title": "\u2018La Cage aux Folles\u2019 Off Broadway Review: Billy Porter and Wayne Brady Play It for Real",
+      "url": "https://www.thewrap.com/creative-content/theater/la-cage-aux-folles-off-broadway-review-billy-porter-wayne-brady/",
+      "published_dt": "2026-06-19T13:42:04+00:00",
+      "source_name": "The Wrap",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236785903",
+      "title": "Romania Approves Three-Year Extension of Revamped 30% Cash Rebate Program (EXCLUSIVE)",
+      "url": "https://variety.com/2026/film/global/wednesday-romania-extension-cash-rebate-1236785903/",
+      "published_dt": "2026-06-19T13:46:39+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236785957",
+      "title": "\u2018Pippi Longstocking\u2019 Animated Series in the Works With StudioCanal, Heyday Films, Submarine and the Astrid Lindgren Company (EXCLUSIVE)",
+      "url": "https://variety.com/2026/film/global/pippi-longstocking-animated-series-studiocanal-heyday-films-1236785957/",
+      "published_dt": "2026-06-19T13:32:41+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1271003",
+      "title": "CNN Shakes Up Anchor Lineup With Major Promotion",
+      "url": "https://www.tvinsider.com/1271003/cnn-shakes-up-anchor-line-up-with-brian-abel-promotion/",
+      "published_dt": "2026-06-19T13:44:52+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://theplaylist.net/?p=489668",
+      "title": "Curry Barker Sets Original Horror Film At Universal & Blumhouse Atomic Monster After \u2018Obsession\u2019 Breakout",
+      "url": "https://theplaylist.net/curry-barker-original-horror-film-universal-blumhouse-20260619/",
+      "published_dt": "2026-06-19T13:31:22+00:00",
+      "source_name": "The Playlist",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3956718",
+      "title": "Saber\u2019s \u2018World War Z\u2019 Keeps on Rolling with New \u201cLimitless Strain\u201d Update, Available Now [Trailer]",
+      "url": "https://bloody-disgusting.com/video-games/3956718/sabers-world-war-z-keeps-on-rolling-with-new-limitless-strain-update-available-now-trailer/",
+      "published_dt": "2026-06-19T13:30:41+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/taika-waititi-jenna-ortega-klara-and-the-sun-first-look/",
+      "title": "After 3 Years, Taika Waititi Returns With First Look at Jenna Ortega in New Dystopian Sci-Fi",
+      "url": "https://www.cbr.com/taika-waititi-jenna-ortega-klara-and-the-sun-first-look/",
+      "published_dt": "2026-06-19T13:33:36+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/god-of-war-amazon-prime-show-new-format/",
+      "title": "God Of War Is Officially Switching Formats Soon",
+      "url": "https://screenrant.com/god-of-war-amazon-prime-show-new-format/",
+      "published_dt": "2026-06-19T13:45:21+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2441458",
+      "title": "Marvel Pulls Amazing Spider-Man #1000 John Romita/Paolo Rivera Cover",
+      "url": "https://bleedingcool.com/comics/marvel-pulls-amazing-spider-man-1000-john-romita-paolo-rivera-cover/",
+      "published_dt": "2026-06-19T13:42:12+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2440747",
+      "title": "The Pitt: Robby \"Was Less Than Noble\" at Times During Season 2: Wyle",
+      "url": "https://bleedingcool.com/tv/the-pitt-robby-was-less-than-noble-at-times-during-season-2-wyle/",
+      "published_dt": "2026-06-19T13:37:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2440742",
+      "title": "Doctor Who Event: No \"One-Dimensional\" Fugitive Doctor Like TV: Martin",
+      "url": "https://bleedingcool.com/tv/doctor-who-event-no-one-dimensional-fugitive-doctor-like-tv-martin/",
+      "published_dt": "2026-06-19T12:37:09+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/sport/football/world-cup-2026-third-place-qualification/",
+      "title": "World Cup 2026 third-place qualification: How many points needed to qualify for Round of 32?",
+      "url": "https://www.radiotimes.com/tv/sport/football/world-cup-2026-third-place-qualification/",
+      "published_dt": "2026-06-19T13:13:13+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/entertainment/reality-tv/the-traitors-us-civilian-version-release-date-newsupdate/",
+      "title": "The Traitors US confirms release for its civilian version of series with Tip Toe star returning",
+      "url": "https://www.radiotimes.com/tv/entertainment/reality-tv/the-traitors-us-civilian-version-release-date-newsupdate/",
+      "published_dt": "2026-06-19T13:02:35+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/sport/football/turkey-paraguay-world-cup-2026-preview/",
+      "title": "What channel is Turkey v Paraguay World Cup 2026 Group D match on? TV coverage, live stream and kick-off time",
+      "url": "https://www.radiotimes.com/tv/sport/football/turkey-paraguay-world-cup-2026-preview/",
+      "published_dt": "2026-06-19T13:00:03+00:00",
       "source_name": "Radio Times",
       "source_tier": 2
     }
