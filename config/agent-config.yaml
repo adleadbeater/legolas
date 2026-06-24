@@ -1,5 +1,5 @@
 claude:
-  model: claude-sonnet-4-20250514
+  model: claude-sonnet-4-6
   call1_max_tokens: 600        # Merge/dupe call — short structured output
   call2_max_tokens: 5000       # Assessment call — one block per cluster
   retry_wait_seconds: 10
