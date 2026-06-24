@@ -1,6 +1,6 @@
 # Legolas RSS Feed Configuration
-# 34 feeds: 20 Tier 1, 14 Tier 2
-# Last verified: May 2026
+# 51 feeds: 23 Tier 1, 28 Tier 2
+# Last verified: June 2026
 
 tier1:
   - name: Deadline
@@ -94,8 +94,34 @@ tier2:
     url: https://thecinemaspot.com/feed/
   - name: Radio Times
     url: https://www.radiotimes.com/rss/
+  - name: JoBlo
+    url: https://www.joblo.com/feed/
+  - name: ComicBook.com
+    url: https://comicbook.com/feed/
+    note: "High volume — watch chunk crowding in Call 2"
+  - name: ComingSoon
+    url: https://www.comingsoon.net/feed
+  - name: The Direct
+    url: https://thedirect.com/rss
+    note: "Marvel/Star Wars/franchise scoops"
+  - name: Looper
+    url: https://www.looper.com/feed/
+  - name: Digital Spy
+    url: https://www.digitalspy.com/rss/all/
+    note: "UK TV/film — high volume"
+  - name: Consequence
+    url: https://consequence.net/feed/
+  - name: The Film Stage
+    url: https://thefilmstage.com/feed/
+    note: "Indie/awards coverage"
+  - name: Gold Derby
+    url: https://www.goldderby.com/feed/
+    note: "Awards-season predictions"
+  - name: Dread Central
+    url: https://www.dreadcentral.com/feed/
+    note: "Horror"
 
-# Commented out — URLs need manual verification before enabling:
+# Commented out — URLs confirmed DEAD (404) on 2026-06-24, need new URLs:
 # - Empire:           https://www.empireonline.com/rss/
 # - Total Film:       https://www.gamesradar.com/film/rss/
 # - Making Star Wars: https://makingstarwars.net/rss/
