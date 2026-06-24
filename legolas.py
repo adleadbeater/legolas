@@ -1009,7 +1009,8 @@ def _parse_assessments(text: str, expected: int, clusters: list) -> List[dict]:
         if tier not in ("trending", "proven_topic", "legolas_special"):
             tier = "skip"
 
-        headline = clean(get_field(block, "HEADLINE")) or clusters[n - 1]["headline"]
+        _raw_headline = clean(get_field(block, "HEADLINE"))
+        headline = (_raw_headline if _raw_headline and _raw_headline != "—" else None) or clusters[n - 1]["headline"]
         angle    = clean(get_field(block, "ANGLE"))
         tag      = clean(get_field(block, "TAG"))
 
