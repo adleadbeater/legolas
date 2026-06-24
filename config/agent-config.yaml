@@ -55,12 +55,52 @@ publisher_groups:
   "The Guardian Film": Guardian
   "The Guardian TV": Guardian
 
+corporate_half_weight:
+  # Outlets owned by the same corporate parent count as 0.5 each toward the
+  # trending source threshold — so one company publishing the same story across
+  # its mastheads can't manufacture a "Big Trend" on its own. Genuine broad
+  # coverage (multiple independent companies) still trends normally.
+  PMC:            # Penske Media / PMRC
+    - Deadline
+    - Variety
+    - Hollywood Reporter
+    - THR TV
+    - Rolling Stone
+
+tag_stopword_blocklist:
+  # Common English words that also appear as MW sheet tags. Rejected as priority
+  # tags entirely (not even loaded) because substring matching produces false MW
+  # Proven Topics — e.g. "it" matched "It's Not TV", "v" matched "England v Ghana",
+  # "men" matched "...for Men 2026", "hope" matched "...I Hope...".
+  # (Tags of length <= 2 and punctuation-only tags are also auto-rejected in code.)
+  - it
+  - you
+  - your
+  - men
+  - women
+  - man
+  - her
+  - him
+  - his
+  - she
+  - they
+  - hope
+  - troy
+  - now
+  - new
+  - one
+  - two
+  - all
+  - out
+
 generic_tag_blocklist:
   # These tags cannot validate proven_topic on their own — too broad
   - netflix
   - streaming
   - hbo max
   - prime video
+  - apple tv
+  - apple tv+
   - disney+
   - tubi
   - amazon

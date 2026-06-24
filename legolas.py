@@ -91,8 +91,22 @@ SLACK_WEBHOOK     = os.environ["SLACK_WEBHOOK"]
 SLACK_BOT_TOKEN   = os.environ["SLACK_BOT_TOKEN"]
 
 _PUB_GROUPS = _CFG.get("publisher_groups", {})
+# source name -> corporate parent, for outlets that count as 0.5 toward the
+# trending threshold (so one parent company can't trigger Big Trend alone).
+_HALF_WEIGHT_SOURCE = {
+    src: parent
+    for parent, srcs in _CFG.get("corporate_half_weight", {}).items()
+    for src in srcs
+}
 _TIER2_SET  = set(TIER_2_SOURCES.keys())
 _GENERIC_TAGS = set(_CFG.get("generic_tag_blocklist", []))
+# Common English words that also appear as MW sheet tags — rejected as priority
+# tags because substring matching produces false MW Proven Topics.
+_TAG_STOPWORDS = {t.lower() for t in _CFG.get("tag_stopword_blocklist", [
+    "it", "you", "your", "men", "women", "man", "her", "him", "his", "she", "they",
+    "hope", "troy", "us", "we", "now", "new", "one", "two", "all", "out", "up",
+    "down", "off", "on", "in", "the", "and", "for", "but", "not", "yes", "go",
+])}
 
 LEARNINGS_PATH = _DIR / "data" / "learnings.json"
 
@@ -153,11 +167,31 @@ def load_tag_performance(svc) -> dict:
             pts = int(row[pts_col]) if pts_col and pts_col < len(row) and row[pts_col] else 0
         except (ValueError, IndexError):
             continue
+        if _is_junk_tag(tag):
+            continue
         if sa >= TAG_SA_MIN and fr < TAG_FR_MAX:
             priority[tag] = {"sa": sa, "fr": fr, "pts": pts}
 
     log.info(f"Loaded {len(priority)} priority tags (S/A ≥ {TAG_SA_MIN:,}, FR < {TAG_FR_MAX}%)")
     return priority
+
+
+def _is_junk_tag(tag: str) -> bool:
+    """
+    Reject priority tags that are too generic to safely match by substring.
+    These produce false MW Proven Topics — e.g. the tag 'it' matching
+    "It's Not TV", 'v' matching "England v Ghana", '|' matching "...| Video".
+    A tag must be a specific title/franchise/person, not a common word.
+    """
+    t = tag.strip().lower()
+    if len(t) <= 2:                                   # 'it', 'v', 'us'
+        return True
+    if not any(ch.isalnum() for ch in t):             # '|', '-', punctuation
+        return True
+    # Single-token common English words that are also MW sheet tags.
+    if " " not in t and t in _TAG_STOPWORDS:
+        return True
+    return False
 
 # ── Seen GUID management ───────────────────────────────────────────────────────
 def load_seen_guids(svc) -> set:
@@ -780,8 +814,10 @@ def claude_assess_clusters(clusters: list, priority_tags: dict, learnings: dict)
         return results
 
     cluster_blocks = []
-    for c in clusters:
-        local_id = c.get("_local_id", c["id"])
+    for seq, c in enumerate(clusters, 1):
+        # Label blocks 1..N by position so they align with _parse_assessments,
+        # which maps Claude's "CLUSTER n" reply back to clusters[n-1] positionally.
+        # Using _local_id/id here breaks after merge/dupe filtering leaves gaps.
         n_t1 = sum(1 for i in c["items"] if i["source_tier"] == 1)
         n_t2 = sum(1 for i in c["items"] if i["source_tier"] == 2)
         sorted_items = sorted(c["items"], key=lambda x: x["published_dt"])
@@ -797,7 +833,7 @@ def claude_assess_clusters(clusters: list, priority_tags: dict, learnings: dict)
         else:
             tag_context = "MW Sheet Tags matched: none\n"
         cluster_blocks.append(
-            f"CLUSTER {local_id} | T1: {n_t1}  T2: {n_t2}  Total: {n_t1 + n_t2}\n"
+            f"CLUSTER {seq} | T1: {n_t1}  T2: {n_t2}  Total: {n_t1 + n_t2}\n"
             f"Sources: {', '.join(c['sources'])}\n"
             f"{tag_context}"
             + "\n".join(articles)
@@ -868,7 +904,7 @@ If ANY of these fail → TIER: skip, MW_RELEVANCE: 1-3.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 TIER rules (only apply after pre-check passes):
-- trending: 3+ T1 sources OR 4+ total sources covering this story
+- trending: 3+ T1 sources OR 4+ total sources covering this story. NOTE: outlets owned by the same parent company (Variety, Deadline, The Hollywood Reporter and Rolling Stone are all Penske/PMC) count as roughly HALF a source between them — three PMC mastheads running the same story is one company talking to itself, not a broad trend. Look for independent corroboration before calling trending.
 - proven_topic: Real breaking news about a subject matching "MW Sheet Tags matched". Generic platform/genre tags (netflix, streaming, sci-fi, thriller, superhero, action) alone are NEVER enough — the tag must be a specific franchise, title, or person.
 
   proven_topic REQUIRES a concrete news event. Valid: casting confirmed, cancellation announced, renewal confirmed, trailer dropped, box office milestone, controversy broke, exclusive production reveal.
@@ -877,7 +913,7 @@ TIER rules (only apply after pre-check passes):
   Cast interviews: only proven_topic if the cast member CONFIRMED a specific news hook (return, departure, plot reveal). "Talks about their experience" = skip.
   Reviews: only allow if it's a major release (blockbuster franchise, A-list cast, wide release) AND multiple T1 sources are covering it.
 
-- legolas_special: Use VERY SPARINGLY. Stories that fail trending/proven_topic but you would genuinely be excited to flag. Must clear all 4 pre-check questions. MW_RELEVANCE ≥ {LEGOLAS_SPECIAL_MIN}. If you're not excited, skip. Skipping everything in a batch is fine — better than posting noise.
+- legolas_special: Use VERY SPARINGLY. This is your editorial override — a story that fails trending/proven_topic but is so good you'd flag it anyway. It is a pure QUALITY judgment: the source tier and how many outlets ran it DO NOT matter. A single great scoop from one outlet belongs here; a dull story carried by five trades does NOT. Must clear all 4 pre-check questions, be squarely for the MW entertainment audience (NOT politics, sports, business/industry deals, product/shopping, fashion, music tours, theater), and score MW_RELEVANCE ≥ {LEGOLAS_SPECIAL_MIN}. If you're not genuinely excited, skip. Skipping everything in a batch is fine — better than posting noise.
 
 - skip: Everything else. When in doubt, skip. A missed story is better than a bad post.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -919,7 +955,7 @@ MW_RELEVANCE: [1-10]
 HEADLINE: [punchy MW headline — MUST include the specific show/film/franchise name]
 ANGLE: [one sentence hook — what specifically happened?]
 TAG: [specific show/film/franchise name, or blank if skip]
-SHEET_TAG_USED: [exact tag from MW Sheet Tags matched that validates proven_topic, or blank]
+SHEET_TAG_USED: [exact tag from MW Sheet Tags matched that validates proven_topic — must be a SPECIFIC named franchise, title, or person. NEVER a common word or fragment (e.g. "it", "you", "men", "hope", "v"), a stray symbol, or a generic platform/genre. If the only matched tags are generic words, leave this BLANK and do not call proven_topic. This field is authoritative — Python validates the proven_topic against exactly the tag you name here.]
 NOTE: [one sentence — which pre-check passed/failed, or why posting]
 
 Post threshold: MW_RELEVANCE >= {MW_RELEVANCE_MIN} and tier is not skip.
@@ -1017,59 +1053,71 @@ def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dic
     matched_tags    = match_cluster_tags(cluster, priority_tags, learnings)
     matched_by_name = {m["tag"].lower(): m for m in matched_tags}
 
-    # Count distinct T1 publishers and total sources
-    t1_pubs = set()
-    total   = 0
+    # Count distinct T1 publishers and total sources, applying corporate
+    # half-weighting (PMC outlets count 0.5) so one parent can't trigger trending.
+    t1_pubs        = set()
+    group_weight   = {}    # publisher group -> 0.5 (half-weight parent) or 1.0
+    weighted_total = 0.0
     for s in cluster["sources"]:
-        total += 1
+        grp = _PUB_GROUPS.get(s, s)
+        w   = 0.5 if s in _HALF_WEIGHT_SOURCE else 1.0
+        group_weight[grp] = min(group_weight.get(grp, 1.0), w)
+        weighted_total += w
         if s not in _TIER2_SET:
-            t1_pubs.add(_PUB_GROUPS.get(s, s))
+            t1_pubs.add(grp)
+    weighted_t1 = sum(group_weight[g] for g in t1_pubs)
 
-    # Validate proven_topic — must have non-generic sheet tag with S/A >= 5000
+    # Validate proven_topic. Prefer the tag CLAUDE chose (SHEET_TAG_USED) — Claude
+    # is the editorial brain and decides which topic is real; Python only confirms
+    # the tag exists in the sheet, isn't a generic platform/genre, and clears S/A.
+    # The mechanical match is a backstop for when Claude leaves SHEET_TAG_USED blank.
     if tier == "proven_topic":
-        valid_match = next(
-            (m for m in matched_tags if m["tag"] not in _GENERIC_TAGS and m["sa"] >= TAG_SA_MIN),
-            None,
-        )
+        claude_tag = (story.get("sheet_tag_used") or "").strip().lower()
+        valid_match = None
+        if claude_tag and claude_tag not in _GENERIC_TAGS and not _is_junk_tag(claude_tag):
+            valid_match = matched_by_name.get(claude_tag) or {
+                "tag": claude_tag,
+                "sa":  priority_tags.get(claude_tag, {}).get("sa", 0),
+                "boost": 0,
+            }
+            if valid_match["sa"] < TAG_SA_MIN:
+                valid_match = None
+        if valid_match is None:  # backstop: mechanical match
+            valid_match = next(
+                (m for m in matched_tags if m["tag"] not in _GENERIC_TAGS and m["sa"] >= TAG_SA_MIN),
+                None,
+            )
         if not valid_match:
             log.info(f"Demote proven_topic→legolas_special (no valid sheet match): {story['headline'][:60]}")
             tier = "legolas_special"
         else:
             story["_validated_sheet_tag"] = valid_match
 
-    # Validate trending: 3+ distinct T1 publishers OR 4+ total sources
-    if tier == "trending" and len(t1_pubs) < 3 and total < 4:
-        log.info(f"Demote trending→legolas_special ({len(t1_pubs)} T1 pubs, {total} total): {story['headline'][:60]}")
+    # Validate trending: 3+ distinct T1 publishers OR 4+ total sources (weighted —
+    # PMC outlets count 0.5 each, so Deadline+Variety+THR alone = 1.5, not 3).
+    if tier == "trending" and weighted_t1 < 3 and weighted_total < 4:
+        log.info(f"Demote trending→legolas_special (T1={weighted_t1:g} wt, total={weighted_total:g} wt): {story['headline'][:60]}")
         tier = "legolas_special"
 
-    # Proven-topic upgrade: legolas_special/skip with strong sheet match → proven_topic
-    _original_claude_tier = story.get("tier", "")
-    _skip_note = (story.get("note") or "").lower()
-    _skip_signals = any(w in _skip_note for w in (
-        "speculation", "anecdotal", "not confirmed", "not breaking", "not news",
-        "under threshold", "interview", "opinion", "retrospective", "analysis",
-        "promotional", "single source", "pure speculation", "fan ",
-    ))
-    _is_skip = tier == "skip" or _original_claude_tier == "skip"
-    if tier in ("legolas_special", "skip") and mw >= MW_RELEVANCE_MIN:
-        if _is_skip and _skip_signals:
-            log.info(f"Skip→proven_topic upgrade BLOCKED | note='{_skip_note[:80]}'")
-        else:
-            for m in matched_tags:
-                if m["tag"] not in _GENERIC_TAGS and m["sa"] >= TAG_SA_MIN:
-                    log.info(f"Upgrade {tier}→proven_topic (sheet match: {m['tag']}, {int(m['sa']):,} S/A): {story['headline'][:60]}")
-                    tier = "proven_topic"
-                    story["_validated_sheet_tag"] = m
-                    break
+    # Proven-topic upgrade: a story Claude already wanted to post (legolas_special)
+    # that has a strong, specific sheet tag is really a proven topic. We do NOT
+    # upgrade from skip — if Claude judged it a skip, that editorial call stands.
+    if tier == "legolas_special" and mw >= MW_RELEVANCE_MIN:
+        for m in matched_tags:
+            if m["tag"] not in _GENERIC_TAGS and m["sa"] >= TAG_SA_MIN:
+                log.info(f"Upgrade legolas_special→proven_topic (sheet match: {m['tag']}, {int(m['sa']):,} S/A): {story['headline'][:60]}")
+                tier = "proven_topic"
+                story["_validated_sheet_tag"] = m
+                break
 
-    # Validate legolas_special: MW floor + must have ≥1 T1 OR ≥2 total sources
-    if tier == "legolas_special":
-        if mw < LEGOLAS_SPECIAL_MIN:
-            log.info(f"Demote legolas_special→skip (mw={mw} < {LEGOLAS_SPECIAL_MIN}): {story['headline'][:60]}")
-            tier = "skip"
-        elif len(t1_pubs) == 0 and total < 2:
-            log.info(f"Demote legolas_special→skip (single T2-only source): {story['headline'][:60]}")
-            tier = "skip"
+    # legolas_special is Claude's editorial override — a pure quality judgment.
+    # Source tier/count does NOT gate it: a genuinely good single-source story
+    # should post, and a weak multi-trade story should not. Whether a story is
+    # "good enough to flag" is decided by Claude (Call 2) and Aragorn (Call 3),
+    # not by counting publishers. Python only enforces the hard MW floor.
+    if tier == "legolas_special" and mw < LEGOLAS_SPECIAL_MIN:
+        log.info(f"Demote legolas_special→skip (mw={mw} < {LEGOLAS_SPECIAL_MIN}): {story['headline'][:60]}")
+        tier = "skip"
 
     # Global MW gate
     if mw < MW_RELEVANCE_MIN:
