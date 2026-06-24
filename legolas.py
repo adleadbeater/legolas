@@ -904,7 +904,7 @@ If ANY of these fail → TIER: skip, MW_RELEVANCE: 1-3.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 TIER rules (only apply after pre-check passes):
-- trending: 3+ T1 sources OR 4+ total sources covering this story. NOTE: outlets owned by the same parent company (Variety, Deadline, The Hollywood Reporter and Rolling Stone are all Penske/PMC) count as roughly HALF a source between them — three PMC mastheads running the same story is one company talking to itself, not a broad trend. Look for independent corroboration before calling trending.
+- trending: 4+ independent publishers covering this story. Source tier does NOT matter — broad independent coverage is the bar. NOTE: outlets owned by the same parent company (Variety, Deadline, The Hollywood Reporter and Rolling Stone are all Penske/PMC) count as roughly HALF a source between them — three PMC mastheads running the same story is one company talking to itself, not a broad trend. Look for independent corroboration before calling trending.
 - proven_topic: Real breaking news about a subject matching "MW Sheet Tags matched". Generic platform/genre tags (netflix, streaming, sci-fi, thriller, superhero, action) alone are NEVER enough — the tag must be a specific franchise, title, or person.
 
   proven_topic REQUIRES a concrete news event. Valid: casting confirmed, cancellation announced, renewal confirmed, trailer dropped, box office milestone, controversy broke, exclusive production reveal.
@@ -1030,15 +1030,17 @@ def _parse_assessments(text: str, expected: int, clusters: list) -> List[dict]:
 
 
 def _fallback_assessment(cluster: dict) -> dict:
-    n_t1 = sum(1 for i in cluster["items"] if i["source_tier"] == 1)
+    # Degraded path when Claude is unavailable. Phase 1: trend on broad coverage
+    # (4+ distinct publishers, any tier), not T1 count.
+    n_pubs = len({i["source_name"] for i in cluster["items"]})
     return {
-        "tier":           "trending" if n_t1 >= 3 else "skip",
-        "mw_relevance":   7 if n_t1 >= 3 else 3,
+        "tier":           "trending" if n_pubs >= 4 else "skip",
+        "mw_relevance":   7 if n_pubs >= 4 else 3,
         "headline":       cluster["headline"],
         "angle":          "",
         "tag":            "",
         "sheet_tag_used": "",
-        "note":           f"fallback — Claude unavailable ({n_t1} T1 sources)",
+        "note":           f"fallback — Claude unavailable ({n_pubs} publishers)",
     }
 
 # ── Tier enforcement (Python overrides Claude's suggestions) ───────────────────
@@ -1053,19 +1055,14 @@ def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dic
     matched_tags    = match_cluster_tags(cluster, priority_tags, learnings)
     matched_by_name = {m["tag"].lower(): m for m in matched_tags}
 
-    # Count distinct T1 publishers and total sources, applying corporate
-    # half-weighting (PMC outlets count 0.5) so one parent can't trigger trending.
-    t1_pubs        = set()
-    group_weight   = {}    # publisher group -> 0.5 (half-weight parent) or 1.0
+    # Count distinct publishers (any tier), applying corporate half-weighting
+    # (PMC outlets count 0.5) so one parent can't trigger trending on its own.
+    # Phase 1: feed tier no longer privileges trending — broad independent
+    # coverage is the bar, not "which tier covered it." Claude judges quality.
     weighted_total = 0.0
     for s in cluster["sources"]:
-        grp = _PUB_GROUPS.get(s, s)
-        w   = 0.5 if s in _HALF_WEIGHT_SOURCE else 1.0
-        group_weight[grp] = min(group_weight.get(grp, 1.0), w)
+        w = 0.5 if s in _HALF_WEIGHT_SOURCE else 1.0
         weighted_total += w
-        if s not in _TIER2_SET:
-            t1_pubs.add(grp)
-    weighted_t1 = sum(group_weight[g] for g in t1_pubs)
 
     # Validate proven_topic. Prefer the tag CLAUDE chose (SHEET_TAG_USED) — Claude
     # is the editorial brain and decides which topic is real; Python only confirms
@@ -1093,10 +1090,10 @@ def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dic
         else:
             story["_validated_sheet_tag"] = valid_match
 
-    # Validate trending: 3+ distinct T1 publishers OR 4+ total sources (weighted —
-    # PMC outlets count 0.5 each, so Deadline+Variety+THR alone = 1.5, not 3).
-    if tier == "trending" and weighted_t1 < 3 and weighted_total < 4:
-        log.info(f"Demote trending→legolas_special (T1={weighted_t1:g} wt, total={weighted_total:g} wt): {story['headline'][:60]}")
+    # Validate trending: 4+ distinct weighted publishers, any tier (PMC outlets
+    # count 0.5 each, so Deadline+Variety+THR alone = 1.5, nowhere near 4).
+    if tier == "trending" and weighted_total < 4:
+        log.info(f"Demote trending→legolas_special (total={weighted_total:g} wt publishers): {story['headline'][:60]}")
         tier = "legolas_special"
 
     # Proven-topic upgrade: a story Claude already wanted to post (legolas_special)
