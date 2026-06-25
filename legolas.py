@@ -344,10 +344,15 @@ def fetch_google_news_topics(topics: dict, lookback: str = "2h") -> list:
                 if source_name.lower() in _GNEWS_SOURCE_BLOCKLIST:
                     continue
 
+                # Block non-English / non-legit sources (non-ASCII in name)
+                if not all(ord(c) < 128 for c in source_name):
+                    continue
+
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
                     pub_dt = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
                 else:
-                    pub_dt = datetime.now(timezone.utc)
+                    # No published date = can't verify timeliness, skip
+                    continue
 
                 # Enforce same lookback window as regular RSS
                 if pub_dt < cutoff:
@@ -1843,27 +1848,36 @@ def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
         tag_line = f"*Pri Tag:* {tag}" if tag else ""
 
     # ── Build Slack Block Kit payload ──
+    # Layout order: Title → Sources → First Seen (small) → Angle → Pri Tag + topic (small) → Cluster → URL
     blocks = []
 
-    # Main headline
+    # 1. Headline
     blocks.append({"type": "section", "text": {
         "type": "mrkdwn",
         "text": f"{tier_label} — *{assessment['headline']}*",
     }})
 
-    # Sources + angle (primary info)
-    body_lines = [f"*Sources:* {sources_str}"]
-    if assessment.get("angle"):
-        body_lines.append(f"*Angle:* {assessment['angle']}")
+    # 2. Sources
     blocks.append({"type": "section", "text": {
         "type": "mrkdwn",
-        "text": "\n".join(body_lines),
+        "text": f"*Sources:* {sources_str}",
     }})
 
-    # Smaller metadata — context block
-    meta_parts = [f"First seen {mins_ago} mins ago  ·  Coverage window: {coverage}"]
+    # 3. First Seen / Coverage (SMALL)
+    blocks.append({"type": "context", "elements": [
+        {"type": "mrkdwn", "text": f"First seen {mins_ago} mins ago  ·  Coverage window: {coverage}"}
+    ]})
+
+    # 4. Angle
+    if assessment.get("angle"):
+        blocks.append({"type": "section", "text": {
+            "type": "mrkdwn",
+            "text": f"*Angle:* {assessment['angle']}",
+        }})
+
+    # 5. Pri Tag + Perennial/New Release (SMALL)
+    meta_parts = []
     if tag_line:
-        # Strip bold markers for context block (already small)
         meta_parts.append(tag_line.replace("*", ""))
     topic_boost = assessment.get("_topic_boost")
     if topic_boost:
@@ -1871,18 +1885,19 @@ def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
         category = topic_boost.get("category", "perennial")
         label = "New Release" if category == "new_release" else "Perennial Topic"
         meta_parts.append(f"{label}: {names}")
-    blocks.append({"type": "context", "elements": [
-        {"type": "mrkdwn", "text": "  ·  ".join(meta_parts)}
-    ]})
+    if meta_parts:
+        blocks.append({"type": "context", "elements": [
+            {"type": "mrkdwn", "text": "  ·  ".join(meta_parts)}
+        ]})
 
-    # Articles in cluster
+    # 6. Articles in cluster
     if article_lines:
         blocks.append({"type": "section", "text": {
             "type": "mrkdwn",
             "text": "*In this cluster:*\n" + "\n".join(article_lines),
         }})
 
-    # Best URL — show Google News redirects as "Search Link"
+    # 7. Best URL — show Google News redirects as "Search Link"
     if best_url:
         if "news.google.com" in best_url:
             url_text = f"<{best_url}|Search Link>"
