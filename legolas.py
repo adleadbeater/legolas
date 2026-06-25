@@ -209,10 +209,12 @@ def load_watched_topics(svc) -> dict:
         return {}
 
     pcfg = _PERENNIALS_CFG
-    boost_p = pcfg.get("boost_perennial", 1)
-    boost_r = pcfg.get("boost_new_release", 2)
-    before  = pcfg.get("release_window_before", 14)
-    after   = pcfg.get("release_window_after", 42)
+    boost_p    = pcfg.get("boost_perennial", 1)
+    boost_r    = pcfg.get("boost_new_release", 1)
+    boost_hot  = pcfg.get("boost_new_release_hot", 2)
+    hot_days   = pcfg.get("hot_window_days", 3)
+    before     = pcfg.get("release_window_before", 14)
+    after      = pcfg.get("release_window_after", 42)
     data_start = pcfg.get("data_start_row", 7)
     today = datetime.now(timezone.utc).date()
 
@@ -262,12 +264,16 @@ def load_watched_topics(svc) -> dict:
             window_end   = release_date + timedelta(days=after)
             if not (window_start <= today <= window_end):
                 continue
+            # Hot window: ±3 days of release date gets +2, wider window gets +1
+            days_from_release = abs((today - release_date).days)
+            is_hot = days_from_release <= hot_days
             topics[name.lower()] = {
                 "name":         name,
                 "type":         rtype,
                 "category":     "new_release",
-                "boost":        boost_r,
+                "boost":        boost_hot if is_hot else boost_r,
                 "release_date": release_date.isoformat(),
+                "_hot":         is_hot,
             }
             nr_count += 1
         log.info(f"Loaded {nr_count} active new-release topics from '{nr_tab}'")
@@ -1016,7 +1022,7 @@ def claude_assess_clusters(clusters: list, priority_tags: dict, learnings: dict,
             if topic_matches:
                 t_lines = []
                 for tm in topic_matches:
-                    label = "🆕 New Release" if tm["category"] == "new_release" else "📌 Perennial"
+                    label = "🆕 New Release" if tm["category"] == "new_release" else "📌 Perennial Topic"
                     extra = f" (release: {tm['release_date']})" if tm.get("release_date") else ""
                     t_lines.append(f"    {label}: {tm['name']} [{tm['type']}]{extra}")
                 topic_context = "WATCHED TOPICS (editorial priority — these topics deserve closer attention):\n" + "\n".join(t_lines) + "\n"
@@ -1257,7 +1263,8 @@ def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dic
                 story["mw_relevance"] = mw
                 names = ", ".join(m["name"] for m in topic_matches)
                 log.info(f"Topic boost +{best_boost} (mw {old_mw}→{mw}): {names} — {story['headline'][:50]}")
-                story["_topic_boost"] = {"topics": [m["name"] for m in topic_matches], "boost": best_boost}
+                best_cat = next((m["category"] for m in topic_matches if m["boost"] == best_boost), "perennial")
+                story["_topic_boost"] = {"topics": [m["name"] for m in topic_matches], "boost": best_boost, "category": best_cat}
 
     matched_tags    = match_cluster_tags(cluster, priority_tags, learnings)
     matched_by_name = {m["tag"].lower(): m for m in matched_tags}
@@ -1818,8 +1825,11 @@ def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
     topic_boost = assessment.get("_topic_boost")
     if topic_boost:
         names = ", ".join(topic_boost["topics"])
-        label = "🆕" if topic_boost["boost"] >= 2 else "📌"
-        lines.append(f"{label} *Watched Topic:* {names} _(+{topic_boost['boost']} boost)_")
+        category = topic_boost.get("category", "perennial")
+        if category == "new_release":
+            lines.append(f"🆕 *New Release:* {names} _(+{topic_boost['boost']} boost)_")
+        else:
+            lines.append(f"📌 *Perennial Topic:* {names} _(+{topic_boost['boost']} boost)_")
     if article_lines:
         lines.append("*In this cluster:*")
         lines.extend(article_lines)

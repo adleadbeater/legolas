@@ -73,7 +73,9 @@ perennials:
   new_release_tab: "New Release Performance Tracking"
   data_start_row: 7          # first data row (1-indexed)
   boost_perennial: 1         # MW_RELEVANCE bump for perennial topic match
-  boost_new_release: 2       # MW_RELEVANCE bump for active new-release match
+  boost_new_release: 1       # MW_RELEVANCE bump for new release (wider window)
+  boost_new_release_hot: 2   # MW_RELEVANCE bump for new release ±3 days of release
+  hot_window_days: 3         # days before/after release date for the +2 boost
   release_window_before: 14  # days before release date to activate
   release_window_after: 42   # days after release date to keep active
   gnews_lookback: "2h"       # Google News search window
