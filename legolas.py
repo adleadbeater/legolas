@@ -294,6 +294,17 @@ def _parse_release_date(s: str):
     return None
 
 
+# Syndication aggregators — block from Google News results (they duplicate
+# original reporting and have no editorial value as a source signal).
+_GNEWS_SOURCE_BLOCKLIST = {
+    s.lower() for s in [
+        "AOL", "AOL.com", "Yahoo", "Yahoo Entertainment", "Yahoo News",
+        "Yahoo Movies", "Yahoo Finance", "MSN", "MSN.com",
+        "Newser", "Flipboard", "SmartNews",
+    ]
+}
+
+
 def fetch_google_news_topics(topics: dict, lookback: str = "2h") -> list:
     """
     Fetch Google News RSS for each watched topic that's specific enough to search.
@@ -302,6 +313,7 @@ def fetch_google_news_topics(topics: dict, lookback: str = "2h") -> list:
     """
     skip_types = set(_PERENNIALS_CFG.get("skip_search_types", ["Genre", "Service", "Other"]))
     lookback   = _PERENNIALS_CFG.get("gnews_lookback", lookback)
+    cutoff     = datetime.now(timezone.utc) - timedelta(minutes=LOOKBACK_MINS)
     items: list = []
 
     searchable = {k: v for k, v in topics.items() if v["type"] not in skip_types}
@@ -328,13 +340,28 @@ def fetch_google_news_topics(topics: dict, lookback: str = "2h") -> list:
                 else:
                     title = title_raw
 
+                # Block syndication aggregators
+                if source_name.lower() in _GNEWS_SOURCE_BLOCKLIST:
+                    continue
+
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
                     pub_dt = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
                 else:
                     pub_dt = datetime.now(timezone.utc)
 
+                # Enforce same lookback window as regular RSS
+                if pub_dt < cutoff:
+                    continue
+
                 guid = getattr(entry, "id", None) or getattr(entry, "link", None) or title
                 link  = getattr(entry, "link", "")
+
+                # Google News redirect URLs are opaque — strip them so we don't
+                # post ugly redirect links in Slack. The URL will be "" which
+                # means Slack posting falls back to other cluster items' URLs.
+                if link and "news.google.com" in link:
+                    link = ""
+
                 items.append({
                     "guid":           guid,
                     "title":          title,
@@ -1250,21 +1277,23 @@ def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dic
     mw   = story["mw_relevance"]
 
     # ── Watched-topic relevance boost ──
-    # Perennial topics get +1, new releases get +2 to MW_RELEVANCE.
-    # This lowers the effective posting threshold for editorial-priority topics
-    # without auto-posting — Claude still had to score it above the base floor.
-    if watched_topics:
-        topic_matches = match_watched_topics(cluster, watched_topics)
-        if topic_matches:
-            best_boost = max(m["boost"] for m in topic_matches)
-            if best_boost > 0 and tier != "skip":
-                old_mw = mw
-                mw = min(mw + best_boost, 10)
-                story["mw_relevance"] = mw
-                names = ", ".join(m["name"] for m in topic_matches)
-                log.info(f"Topic boost +{best_boost} (mw {old_mw}→{mw}): {names} — {story['headline'][:50]}")
-                best_cat = next((m["category"] for m in topic_matches if m["boost"] == best_boost), "perennial")
-                story["_topic_boost"] = {"topics": [m["name"] for m in topic_matches], "boost": best_boost, "category": best_cat}
+    # Only applies when Claude's own TAG/topic assignment matches a watched topic.
+    # Mechanical substring matching is too loose — "Supergirl" appearing in a
+    # Glen Powell article doesn't make it a Supergirl story. Claude decides what
+    # the story is *about*; Python just checks if that matches a watched topic.
+    if watched_topics and tier != "skip":
+        claude_tag = (story.get("tag") or "").strip().lower()
+        matched_topic = watched_topics.get(claude_tag)
+        if matched_topic and matched_topic["boost"] > 0:
+            old_mw = mw
+            mw = min(mw + matched_topic["boost"], 10)
+            story["mw_relevance"] = mw
+            log.info(f"Topic boost +{matched_topic['boost']} (mw {old_mw}→{mw}): {matched_topic['name']} — {story['headline'][:50]}")
+            story["_topic_boost"] = {
+                "topics":   [matched_topic["name"]],
+                "boost":    matched_topic["boost"],
+                "category": matched_topic["category"],
+            }
 
     matched_tags    = match_cluster_tags(cluster, priority_tags, learnings)
     matched_by_name = {m["tag"].lower(): m for m in matched_tags}
@@ -1308,6 +1337,13 @@ def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dic
     # count 0.5 each, so Deadline+Variety+THR alone = 1.5, nowhere near 4).
     if tier == "trending" and weighted_total < 4:
         log.info(f"Demote trending→legolas_special (total={weighted_total:g} wt publishers): {story['headline'][:60]}")
+        tier = "legolas_special"
+
+    # Topic-boosted clusters cannot trend — perennial/new-release topics should
+    # only surface as proven_topic or legolas_special, never as "Big Trend."
+    # Trending means genuinely broad independent coverage, not "we're watching this."
+    if tier == "trending" and story.get("_topic_boost"):
+        log.info(f"Demote trending→legolas_special (topic-boosted clusters cannot trend): {story['headline'][:60]}")
         tier = "legolas_special"
 
     # Proven-topic upgrade: a story Claude already wanted to post (legolas_special)
