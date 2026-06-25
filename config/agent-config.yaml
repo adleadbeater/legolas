@@ -67,6 +67,23 @@ corporate_half_weight:
     - THR TV
     - Rolling Stone
 
+perennials:
+  sheet_id: "1LUueEeMbEPPCIjZYXul57I3FzYZ-OCISUB8-cv_RpX0"
+  perennials_tab: "Perennials Performance Tracking"
+  new_release_tab: "New Release Performance Tracking"
+  data_start_row: 7          # first data row (1-indexed)
+  boost_perennial: 1         # MW_RELEVANCE bump for perennial topic match
+  boost_new_release: 2       # MW_RELEVANCE bump for active new-release match
+  release_window_before: 14  # days before release date to activate
+  release_window_after: 42   # days after release date to keep active
+  gnews_lookback: "2h"       # Google News search window
+  # Topic types that are too broad for Google News RSS search
+  # (fine for relevance boost, but "Thriller" or "Netflix" as a search = noise)
+  skip_search_types:
+    - Genre
+    - Service
+    - Other
+
 tag_stopword_blocklist:
   # Common English words that also appear as MW sheet tags. Rejected as priority
   # tags entirely (not even loaded) because substring matching produces false MW

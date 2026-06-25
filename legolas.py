@@ -108,6 +108,9 @@ _TAG_STOPWORDS = {t.lower() for t in _CFG.get("tag_stopword_blocklist", [
     "down", "off", "on", "in", "the", "and", "for", "but", "not", "yes", "go",
 ])}
 
+_PERENNIALS_CFG = _CFG.get("perennials", {})
+PERENNIALS_SHEET_ID = _PERENNIALS_CFG.get("sheet_id", "")
+
 LEARNINGS_PATH = _DIR / "data" / "learnings.json"
 
 # ── Google Sheets auth ─────────────────────────────────────────────────────────
@@ -192,6 +195,179 @@ def _is_junk_tag(tag: str) -> bool:
     if " " not in t and t in _TAG_STOPWORDS:
         return True
     return False
+
+# ── Watched topics (perennials + new releases) ───────────────────────────────
+def load_watched_topics(svc) -> dict:
+    """
+    Load perennial and new-release topics from the editorial Google Sheet.
+    Returns dict keyed by topic name (lower-cased):
+      { "game of thrones": {"type": "TV", "category": "perennial", "boost": 1},
+        "toy story 5":     {"type": "Movie", "category": "new_release", "boost": 2, "release_date": ...} }
+    New releases are filtered to those within the active date window.
+    """
+    if not PERENNIALS_SHEET_ID:
+        return {}
+
+    pcfg = _PERENNIALS_CFG
+    boost_p = pcfg.get("boost_perennial", 1)
+    boost_r = pcfg.get("boost_new_release", 2)
+    before  = pcfg.get("release_window_before", 14)
+    after   = pcfg.get("release_window_after", 42)
+    data_start = pcfg.get("data_start_row", 7)
+    today = datetime.now(timezone.utc).date()
+
+    topics: dict = {}
+
+    # ── Perennials tab ──
+    p_tab = pcfg.get("perennials_tab", "Perennials Performance Tracking")
+    try:
+        rows = (svc.spreadsheets().values()
+                .get(spreadsheetId=PERENNIALS_SHEET_ID, range=f"'{p_tab}'!A{data_start}:C")
+                .execute().get("values", []))
+        for row in rows:
+            if not row or not row[0].strip():
+                continue
+            name = row[0].strip().strip("|").strip()  # strip pipe artifacts
+            if not name:
+                continue
+            rtype = row[1].strip() if len(row) > 1 else "Other"
+            topics[name.lower()] = {
+                "name":     name,
+                "type":     rtype,
+                "category": "perennial",
+                "boost":    boost_p,
+            }
+        log.info(f"Loaded {len(topics)} perennial topics from '{p_tab}'")
+    except Exception as e:
+        log.warning(f"Could not load perennials tab: {e}")
+
+    # ── New Releases tab ──
+    nr_tab = pcfg.get("new_release_tab", "New Release Performance Tracking")
+    nr_count = 0
+    try:
+        rows = (svc.spreadsheets().values()
+                .get(spreadsheetId=PERENNIALS_SHEET_ID, range=f"'{nr_tab}'!A{data_start}:C")
+                .execute().get("values", []))
+        for row in rows:
+            if not row or not row[0].strip():
+                continue
+            name = row[0].strip()
+            rtype = row[1].strip() if len(row) > 1 else "Other"
+            date_str = row[2].strip() if len(row) > 2 else ""
+            release_date = _parse_release_date(date_str)
+            if release_date is None:
+                continue
+            # Active window: [release_date - before, release_date + after]
+            window_start = release_date - timedelta(days=before)
+            window_end   = release_date + timedelta(days=after)
+            if not (window_start <= today <= window_end):
+                continue
+            topics[name.lower()] = {
+                "name":         name,
+                "type":         rtype,
+                "category":     "new_release",
+                "boost":        boost_r,
+                "release_date": release_date.isoformat(),
+            }
+            nr_count += 1
+        log.info(f"Loaded {nr_count} active new-release topics from '{nr_tab}'")
+    except Exception as e:
+        log.warning(f"Could not load new releases tab: {e}")
+
+    log.info(f"Total watched topics: {len(topics)} ({len(topics) - nr_count} perennial, {nr_count} new release)")
+    return topics
+
+
+def _parse_release_date(s: str):
+    """Parse date strings like 'May 20, 2026' or 'June 12, 2026'."""
+    for fmt in ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(s.strip(), fmt).date()
+        except ValueError:
+            continue
+    return None
+
+
+def fetch_google_news_topics(topics: dict, lookback: str = "2h") -> list:
+    """
+    Fetch Google News RSS for each watched topic that's specific enough to search.
+    Returns items in the same format as fetch_rss_items().
+    Genre/Service/Other types are skipped (too broad for search — "Thriller" returns noise).
+    """
+    skip_types = set(_PERENNIALS_CFG.get("skip_search_types", ["Genre", "Service", "Other"]))
+    lookback   = _PERENNIALS_CFG.get("gnews_lookback", lookback)
+    items: list = []
+
+    searchable = {k: v for k, v in topics.items() if v["type"] not in skip_types}
+    log.info(f"Google News topic search: {len(searchable)} topics (skipped {len(topics) - len(searchable)} broad types)")
+
+    for topic_key, meta in searchable.items():
+        query = meta["name"]
+        url   = f'https://news.google.com/rss/search?q="{query}"+when:{lookback}&hl=en-US&gl=US'
+        try:
+            resp = requests.get(url, timeout=15, headers={"User-Agent": "Legolas/2.0"})
+            resp.raise_for_status()
+            feed  = feedparser.parse(resp.content)
+            count = 0
+            for entry in feed.entries:
+                title_raw = getattr(entry, "title", "").strip()
+                if not title_raw:
+                    continue
+                # Google News titles: "Article Title - Publisher Name"
+                source_name = "Google News"
+                if " - " in title_raw:
+                    parts = title_raw.rsplit(" - ", 1)
+                    title = parts[0].strip()
+                    source_name = parts[1].strip() if len(parts) > 1 else "Google News"
+                else:
+                    title = title_raw
+
+                if hasattr(entry, "published_parsed") and entry.published_parsed:
+                    pub_dt = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+                else:
+                    pub_dt = datetime.now(timezone.utc)
+
+                guid = getattr(entry, "id", None) or getattr(entry, "link", None) or title
+                link  = getattr(entry, "link", "")
+                items.append({
+                    "guid":           guid,
+                    "title":          title,
+                    "summary":        (getattr(entry, "summary", "") or "")[:400],
+                    "url":            link,
+                    "published_dt":   pub_dt,
+                    "source_name":    source_name,
+                    "source_tier":    2,         # treat as T2 breadth
+                    "_from_topic":    topic_key, # tag for tracing
+                })
+                count += 1
+            if count:
+                log.info(f"  [Topic] {meta['name']:<30} {count} items")
+        except Exception as e:
+            log.warning(f"Google News fetch failed for '{meta['name']}': {e}")
+
+    log.info(f"Total topic-search items: {len(items)}")
+    return items
+
+
+def match_watched_topics(cluster: dict, watched_topics: dict) -> list:
+    """
+    Check if a cluster matches any watched topic by substring in article titles.
+    Returns list of matched topic dicts, sorted by boost (highest first).
+    """
+    if not watched_topics:
+        return []
+
+    all_text = " ".join(i["title"].lower() for i in cluster["items"])
+    matched  = []
+    for topic_key, meta in watched_topics.items():
+        # Match on the topic name as a whole-word-ish pattern
+        pattern = r'(?<![a-z0-9])' + re.escape(topic_key) + r'(?![a-z0-9])'
+        if re.search(pattern, all_text):
+            matched.append(meta)
+
+    matched.sort(key=lambda m: m["boost"], reverse=True)
+    return matched
+
 
 # ── Seen GUID management ───────────────────────────────────────────────────────
 def load_seen_guids(svc) -> set:
@@ -798,7 +974,8 @@ def apply_merges(clusters: list, merges: dict) -> list:
     return merged
 
 # ── Claude Call 2: editorial assessment ───────────────────────────────────────
-def claude_assess_clusters(clusters: list, priority_tags: dict, learnings: dict) -> List[dict]:
+def claude_assess_clusters(clusters: list, priority_tags: dict, learnings: dict,
+                           watched_topics: dict = None) -> List[dict]:
     if not clusters:
         return []
 
@@ -810,7 +987,7 @@ def claude_assess_clusters(clusters: list, priority_tags: dict, learnings: dict)
             for j, c in enumerate(chunk, 1):
                 c["_local_id"] = j
             log.info(f"  Assessing chunk {i // CHUNK_SIZE + 1} ({len(chunk)} clusters)...")
-            results.extend(claude_assess_clusters(chunk, priority_tags, learnings))
+            results.extend(claude_assess_clusters(chunk, priority_tags, learnings, watched_topics))
         return results
 
     cluster_blocks = []
@@ -832,10 +1009,22 @@ def claude_assess_clusters(clusters: list, priority_tags: dict, learnings: dict)
             tag_context = "MW Sheet Tags matched:\n" + "\n".join(tag_lines) + "\n"
         else:
             tag_context = "MW Sheet Tags matched: none\n"
+        # Watched topic context (perennials / new releases)
+        topic_context = ""
+        if watched_topics:
+            topic_matches = match_watched_topics(c, watched_topics)
+            if topic_matches:
+                t_lines = []
+                for tm in topic_matches:
+                    label = "🆕 New Release" if tm["category"] == "new_release" else "📌 Perennial"
+                    extra = f" (release: {tm['release_date']})" if tm.get("release_date") else ""
+                    t_lines.append(f"    {label}: {tm['name']} [{tm['type']}]{extra}")
+                topic_context = "WATCHED TOPICS (editorial priority — these topics deserve closer attention):\n" + "\n".join(t_lines) + "\n"
         cluster_blocks.append(
             f"CLUSTER {seq} | T1: {n_t1}  T2: {n_t2}  Total: {n_t1 + n_t2}\n"
             f"Sources: {', '.join(c['sources'])}\n"
             f"{tag_context}"
+            f"{topic_context}"
             + "\n".join(articles)
         )
 
@@ -1045,13 +1234,30 @@ def _fallback_assessment(cluster: dict) -> dict:
     }
 
 # ── Tier enforcement (Python overrides Claude's suggestions) ───────────────────
-def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dict) -> Tuple[str, dict]:
+def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dict,
+                 watched_topics: dict = None) -> Tuple[str, dict]:
     """
     Enforces mechanical tier rules per PRD corrections Step 7b.
     Returns (final_tier, matched_tags_by_name).
     """
     tier = story["tier"]
     mw   = story["mw_relevance"]
+
+    # ── Watched-topic relevance boost ──
+    # Perennial topics get +1, new releases get +2 to MW_RELEVANCE.
+    # This lowers the effective posting threshold for editorial-priority topics
+    # without auto-posting — Claude still had to score it above the base floor.
+    if watched_topics:
+        topic_matches = match_watched_topics(cluster, watched_topics)
+        if topic_matches:
+            best_boost = max(m["boost"] for m in topic_matches)
+            if best_boost > 0 and tier != "skip":
+                old_mw = mw
+                mw = min(mw + best_boost, 10)
+                story["mw_relevance"] = mw
+                names = ", ".join(m["name"] for m in topic_matches)
+                log.info(f"Topic boost +{best_boost} (mw {old_mw}→{mw}): {names} — {story['headline'][:50]}")
+                story["_topic_boost"] = {"topics": [m["name"] for m in topic_matches], "boost": best_boost}
 
     matched_tags    = match_cluster_tags(cluster, priority_tags, learnings)
     matched_by_name = {m["tag"].lower(): m for m in matched_tags}
@@ -1608,6 +1814,12 @@ def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
         lines.append(f"*Angle:* {assessment['angle']}")
     if tag_line:
         lines.append(tag_line)
+    # Show topic boost if this story was boosted by a watched topic
+    topic_boost = assessment.get("_topic_boost")
+    if topic_boost:
+        names = ", ".join(topic_boost["topics"])
+        label = "🆕" if topic_boost["boost"] >= 2 else "📌"
+        lines.append(f"{label} *Watched Topic:* {names} _(+{topic_boost['boost']} boost)_")
     if article_lines:
         lines.append("*In this cluster:*")
         lines.extend(article_lines)
@@ -1632,8 +1844,9 @@ def run():
     learnings = load_learnings()
     svc = _sheets_service()
 
-    # 1. Load priority tags from sheet
-    priority_tags = load_tag_performance(svc)
+    # 1. Load priority tags + watched topics from sheets
+    priority_tags    = load_tag_performance(svc)
+    watched_topics   = load_watched_topics(svc)
 
     # 2. Process Slack feedback (emoji reactions + thread replies)
     process_feedback(learnings, priority_tags, svc)
@@ -1649,6 +1862,12 @@ def run():
 
     # 4. Fetch RSS + filter
     all_items = fetch_rss_items(ALL_SOURCES, LOOKBACK_MINS)
+
+    # 4b. Google News organic search for watched topics
+    if watched_topics:
+        topic_items = fetch_google_news_topics(watched_topics)
+        all_items.extend(topic_items)
+
     new_items = [i for i in all_items if i["guid"] not in seen_guids]
     log.info(f"{len(new_items)} new items after seen filter")
     new_items = filter_items(new_items)
@@ -1678,7 +1897,7 @@ def run():
 
     # 6b. Claude Call 2: editorial assessment
     log.info(f"Claude call 2: assessing {len(clusters_to_assess)} clusters...")
-    assessments = claude_assess_clusters(clusters_to_assess, priority_tags, learnings)
+    assessments = claude_assess_clusters(clusters_to_assess, priority_tags, learnings, watched_topics)
 
     # 7. Python tier enforcement — build will_post list
     will_post:       List[Tuple] = []
@@ -1694,7 +1913,7 @@ def run():
         return False
 
     for cluster, assessment in zip(clusters_to_assess, assessments):
-        tier, _ = enforce_tier(assessment, cluster, priority_tags, learnings)
+        tier, _ = enforce_tier(assessment, cluster, priority_tags, learnings, watched_topics)
         if tier == "skip":
             log.info(f"⏭ Skip (mw={assessment['mw_relevance']}, claude_tier={assessment['tier']}): {assessment['headline'][:60]}")
             continue
