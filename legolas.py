@@ -356,12 +356,6 @@ def fetch_google_news_topics(topics: dict, lookback: str = "2h") -> list:
                 guid = getattr(entry, "id", None) or getattr(entry, "link", None) or title
                 link  = getattr(entry, "link", "")
 
-                # Google News redirect URLs are opaque — strip them so we don't
-                # post ugly redirect links in Slack. The URL will be "" which
-                # means Slack posting falls back to other cluster items' URLs.
-                if link and "news.google.com" in link:
-                    link = ""
-
                 items.append({
                     "guid":           guid,
                     "title":          title,
@@ -1848,33 +1842,64 @@ def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
     else:
         tag_line = f"*Pri Tag:* {tag}" if tag else ""
 
-    lines = [
-        f"{tier_label} — *{assessment['headline']}*",
-        f"*Sources:* {sources_str}",
-        f"*First Seen:* {mins_ago} mins ago  |  Coverage window: {coverage}",
-    ]
+    # ── Build Slack Block Kit payload ──
+    blocks = []
+
+    # Main headline
+    blocks.append({"type": "section", "text": {
+        "type": "mrkdwn",
+        "text": f"{tier_label} — *{assessment['headline']}*",
+    }})
+
+    # Sources + angle (primary info)
+    body_lines = [f"*Sources:* {sources_str}"]
     if assessment.get("angle"):
-        lines.append(f"*Angle:* {assessment['angle']}")
+        body_lines.append(f"*Angle:* {assessment['angle']}")
+    blocks.append({"type": "section", "text": {
+        "type": "mrkdwn",
+        "text": "\n".join(body_lines),
+    }})
+
+    # Smaller metadata — context block
+    meta_parts = [f"First seen {mins_ago} mins ago  ·  Coverage window: {coverage}"]
     if tag_line:
-        lines.append(tag_line)
-    # Show topic boost if this story was boosted by a watched topic
+        # Strip bold markers for context block (already small)
+        meta_parts.append(tag_line.replace("*", ""))
     topic_boost = assessment.get("_topic_boost")
     if topic_boost:
         names = ", ".join(topic_boost["topics"])
         category = topic_boost.get("category", "perennial")
-        if category == "new_release":
-            lines.append(f"🆕 *New Release:* {names} _(+{topic_boost['boost']} boost)_")
-        else:
-            lines.append(f"📌 *Perennial Topic:* {names} _(+{topic_boost['boost']} boost)_")
-    if article_lines:
-        lines.append("*In this cluster:*")
-        lines.extend(article_lines)
-    if best_url:
-        lines.append(best_url)
-    lines.append("—" * 44)
+        label = "New Release" if category == "new_release" else "Perennial Topic"
+        meta_parts.append(f"{label}: {names}")
+    blocks.append({"type": "context", "elements": [
+        {"type": "mrkdwn", "text": "  ·  ".join(meta_parts)}
+    ]})
 
+    # Articles in cluster
+    if article_lines:
+        blocks.append({"type": "section", "text": {
+            "type": "mrkdwn",
+            "text": "*In this cluster:*\n" + "\n".join(article_lines),
+        }})
+
+    # Best URL — show Google News redirects as "Search Link"
+    if best_url:
+        if "news.google.com" in best_url:
+            url_text = f"<{best_url}|Search Link>"
+        else:
+            url_text = best_url
+        blocks.append({"type": "section", "text": {
+            "type": "mrkdwn", "text": url_text,
+        }})
+
+    blocks.append({"type": "divider"})
+
+    fallback_text = f"{tier_label} — {assessment['headline']}"
     try:
-        r = requests.post(SLACK_WEBHOOK, json={"text": "\n".join(lines)}, timeout=15)
+        r = requests.post(SLACK_WEBHOOK, json={
+            "text":   fallback_text,
+            "blocks": blocks,
+        }, timeout=15)
         r.raise_for_status()
         return True
     except Exception as e:
