@@ -34,7 +34,7 @@ scoring:
   tag_sa_min: 5000              # Minimum S/A for a tag to validate proven_topic
   tag_fr_max: 25                # Maximum failure rate % for proven_topic tags
   article_cache_hours: 6        # How long to retain articles for cross-run clustering
-  recently_posted_hours: 24     # Suppress reposts of same event within this window
+  recently_posted_hours: 48     # Suppress reposts of same event within this window
   lookback_minutes: 360         # Fetch articles from last N minutes each run
 
 sheets:

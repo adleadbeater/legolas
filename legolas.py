@@ -301,8 +301,22 @@ _GNEWS_SOURCE_BLOCKLIST = {
         "AOL", "AOL.com", "Yahoo", "Yahoo Entertainment", "Yahoo News",
         "Yahoo Movies", "Yahoo Finance", "MSN", "MSN.com",
         "Newser", "Flipboard", "SmartNews",
+        # Regional / non-English outlets that appear in English Google News
+        "Glamsham.com", "Glamsham", "Bollyinside", "BollyInside.com",
+        "Sportskeeda", "PINKVILLA", "Republic World",
+        "Daily Asian Age", "dailyasianage.com",
+        "Cumnock Chronicle", "Victoria Buzz",
+        "The Astana Times", "Business Today Malaysia",
     ]
 }
+
+# Domain-suffix patterns that indicate regional / non-English outlets.
+# Source names from Google News often look like domain names.
+_GNEWS_REGIONAL_SUFFIX_RE = re.compile(
+    r'\.(co\.id|co\.ke|co\.za|co\.kr|com\.my|com\.pk|com\.bd|com\.ng|'
+    r'com\.ph|com\.gh|com\.tr|com\.eg|co\.tz|co\.zw|lk|pk|bd|ke|ng|'
+    r'gh|tz|zw|eg)$', re.IGNORECASE
+)
 
 
 def fetch_google_news_topics(topics: dict, lookback: str = "2h") -> list:
@@ -346,6 +360,10 @@ def fetch_google_news_topics(topics: dict, lookback: str = "2h") -> list:
 
                 # Block non-English / non-legit sources (non-ASCII in name)
                 if not all(ord(c) < 128 for c in source_name):
+                    continue
+
+                # Block regional domain-style source names (.co.id, .com.my, etc.)
+                if _GNEWS_REGIONAL_SUFFIX_RE.search(source_name):
                     continue
 
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
@@ -819,11 +837,39 @@ def claude_find_merges(clusters: list, recently_posted: List[dict]) -> Tuple[dic
             if cluster_urls & posted_urls:
                 url_dupes.add(local_id)
 
-    pre_suppressed = url_dupes
-    # Remove URL dupes before sending to Claude
+    # Headline word-overlap pre-suppression: checks the full recently_posted history
+    # (not just the 40 stories Claude sees). Same 3-word threshold as mid-run dupe check.
+    # Catches same-story repeats when new articles use different URLs and phrasing.
+    headline_dupes: set = set()
+    for c in clusters:
+        local_id = c.get("_local_id", c["id"])
+        if local_id in url_dupes:
+            continue
+        cluster_headline = c.get("headline", "")
+        cluster_words = set(w for w in cluster_headline.lower().split() if len(w) > 4)
+        if len(cluster_words) < 2:
+            continue
+        for s in recently_posted:
+            prev_words = set(w for w in s["headline"].lower().split() if len(w) > 4)
+            if len(cluster_words & prev_words) >= 3:
+                headline_dupes.add(local_id)
+                log.info(f"Headline dupe pre-suppressed: '{cluster_headline[:60]}' ≈ '{s['headline'][:60]}'")
+                break
+            # Also check against stored article titles for this posted story
+            for title in s.get("article_titles", []):
+                title_words = set(w for w in title.lower().split() if len(w) > 4)
+                if len(cluster_words & title_words) >= 3:
+                    headline_dupes.add(local_id)
+                    log.info(f"Article-title dupe pre-suppressed: '{cluster_headline[:60]}' ≈ article '{title[:60]}'")
+                    break
+            if local_id in headline_dupes:
+                break
+
+    pre_suppressed = url_dupes | headline_dupes
+    # Remove Python-caught dupes before sending to Claude
     clusters = [c for c in clusters if c.get("_local_id", c["id"]) not in pre_suppressed]
-    if url_dupes:
-        log.info(f"URL-based pre-suppression: {len(url_dupes)} dupe clusters removed before Claude call 1")
+    if url_dupes or headline_dupes:
+        log.info(f"Pre-suppression: {len(url_dupes)} URL dupes + {len(headline_dupes)} headline dupes removed before Claude call 1")
 
     posted_section = ""
     if recently_posted:
@@ -1157,6 +1203,7 @@ ALWAYS SKIP regardless of source count:
 - Broadway/theater of any kind
 - Network upfront/slate announcements unless they contain a SPECIFIC major surprise
 - Stories about a show being "popular", "beloved", or "iconic" without a specific new development
+- Hall of Fame inductions, TV Academy honorary announcements, lifetime achievement ceremonies — these are not breaking entertainment news
 - Cannes/Venice/TIFF/Sundance/Berlin reviews unless the film is: a franchise sequel, an A-list English-language tentpole with a confirmed wide US release, or a film already generating major MW-level buzz. Arthouse competition films, foreign-language films, and debut features = skip regardless of critical praise or source count
 
 MW_RELEVANCE (only score after pre-check passes — if pre-check fails, score 1-3):
@@ -1175,7 +1222,7 @@ TIER: trending/proven_topic/legolas_special/skip
 MW_RELEVANCE: [1-10]
 HEADLINE: [punchy MW headline — MUST include the specific show/film/franchise name]
 ANGLE: [one sentence hook — what specifically happened?]
-TAG: [specific show/film/franchise name, or blank if skip]
+TAG: [The single show, film, franchise, or person this story is primarily about — e.g. "Stranger Things", "Tom Hanks", "MCU". Only fill in when the story has one clear subject. Leave blank if the story spans multiple subjects, is a general industry story, or is a skip.]
 SHEET_TAG_USED: [exact tag from MW Sheet Tags matched that validates proven_topic — must be a SPECIFIC named franchise, title, or person. NEVER a common word or fragment (e.g. "it", "you", "men", "hope", "v"), a stray symbol, or a generic platform/genre. If the only matched tags are generic words, leave this BLANK and do not call proven_topic. This field is authoritative — Python validates the proven_topic against exactly the tag you name here.]
 NOTE: [one sentence — which pre-check passed/failed, or why posting]
 
@@ -1530,7 +1577,12 @@ def process_feedback(learnings: dict, priority_tags: dict, svc=None):
             params={"channel": SLACK_CHANNEL_ID, "limit": 50},
             timeout=15,
         )
-        msgs = resp.json().get("messages", [])
+        data = resp.json()
+        if not data.get("ok"):
+            log.warning(f"Slack conversations.history failed: {data.get('error', 'unknown')} — feedback loop disabled this run")
+            return
+        msgs = data.get("messages", [])
+        log.info(f"Feedback: scanning {len(msgs)} Slack messages for reactions/replies")
         processed_r  = set(learnings.get("processed_reactions", []))
         processed_re = set(learnings.get("processed_replies", []))
 
@@ -1563,7 +1615,8 @@ def process_feedback(learnings: dict, priority_tags: dict, svc=None):
                     story_headline = ""
                     story_tag      = ""
                     headline_match = re.search(r'\*(.*?)\*', text)
-                    tag_match      = re.search(r'Pri Tag:\s*([^\n_(]+)', text)
+                    # Tag is in fallback text as "[tag]" at end, or in blocks as "Pri Tag: ..."
+                    tag_match = re.search(r'\[([^\]]+)\]\s*$', text) or re.search(r'Pri Tag:\s*([^\n_(]+)', text)
                     if headline_match:
                         story_headline = headline_match.group(1).strip()
                     if tag_match:
@@ -1605,7 +1658,9 @@ def process_feedback(learnings: dict, priority_tags: dict, svc=None):
 
         learnings["processed_reactions"] = list(processed_r)
         learnings["processed_replies"]   = list(processed_re)
-        log.info("Processed Slack feedback")
+        n_reactions = len(learnings.get("learnings_log", []))
+        log.info(f"Feedback complete: {len(msgs)} messages scanned, {n_reactions} total log entries, "
+                 f"{len(learnings.get('tag_boosts', {}))} tag boosts active")
     except Exception as e:
         log.warning(f"Feedback processing failed: {e}")
 
