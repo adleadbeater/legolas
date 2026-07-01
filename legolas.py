@@ -37,10 +37,17 @@ from googleapiclient.discovery import build
 # ── Bootstrap ──────────────────────────────────────────────────────────────────
 load_dotenv(Path.home() / ".claude" / ".env", override=True)
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)-8s %(message)s")
-log = logging.getLogger("legolas")
-
 _DIR = Path(__file__).parent
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)-8s %(message)s",
+    handlers=[
+        logging.FileHandler(_DIR / "legolas.log"),
+        logging.StreamHandler(),
+    ],
+)
+log = logging.getLogger("legolas")
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 def _load_config() -> dict:
@@ -485,6 +492,51 @@ def append_seen_guids(svc, items: List[dict]):
     ).execute()
     log.info(f"Appended {len(rows)} GUIDs to Seen tab")
 
+# ── Claude usage tracking (Sheets) ─────────────────────────────────────────────
+def ensure_usage_tab(svc):
+    tab_name = _SHEETS_CFG.get("usage_tab_name", "Usage")
+    tabs = {s["properties"]["title"] for s in
+            svc.spreadsheets().get(spreadsheetId=SHEET_ID).execute()["sheets"]}
+    if tab_name not in tabs:
+        svc.spreadsheets().batchUpdate(
+            spreadsheetId=SHEET_ID,
+            body={"requests": [{"addSheet": {"properties": {"title": tab_name}}}]}
+        ).execute()
+        svc.spreadsheets().values().update(
+            spreadsheetId=SHEET_ID, range=f"{tab_name}!A1",
+            valueInputOption="RAW",
+            body={"values": [["timestamp", "call_label", "input_tokens", "output_tokens",
+                               "cache_created", "cache_read", "model"]]}
+        ).execute()
+        log.info(f"Created {tab_name} tab")
+    return tab_name
+
+def flush_usage_to_sheet(svc):
+    """Batch-appends this run's buffered Claude usage records to the Usage sheet
+    tab in a single API call, then clears the buffer. Safe to call with an empty
+    buffer (no-op)."""
+    if not _USAGE_LOG:
+        return
+    try:
+        tab = ensure_usage_tab(svc)
+        rows = [
+            [r["timestamp"], r["call_label"], r["input_tokens"], r["output_tokens"],
+             r["cache_created"], r["cache_read"], r["model"]]
+            for r in _USAGE_LOG
+        ]
+        svc.spreadsheets().values().append(
+            spreadsheetId=SHEET_ID, range=f"{tab}!A:G",
+            valueInputOption="RAW", insertDataOption="INSERT_ROWS",
+            body={"values": rows}
+        ).execute()
+        log.info(f"Flushed {len(rows)} Claude usage records to {tab} tab")
+        _USAGE_LOG.clear()
+    except Exception as e:
+        # Never let usage-tracking failures block a run — just log and move on.
+        # Buffer is intentionally left intact so it isn't silently lost if this
+        # was a transient Sheets error (best-effort retry on the next call).
+        log.warning(f"Could not flush Claude usage to sheet: {e}")
+
 # ── Learnings ──────────────────────────────────────────────────────────────────
 def load_learnings() -> dict:
     try:
@@ -917,6 +969,11 @@ def restore_cached_items(cached: List[dict]) -> List[dict]:
     return restored
 
 # ── Claude API ─────────────────────────────────────────────────────────────────
+# In-memory buffer of per-call usage records for the current run. Flushed to the
+# Usage sheet tab once at the end of run() (batched, not one API call per Claude
+# call) — see flush_usage_to_sheet(). Cleared at the start of each run.
+_USAGE_LOG: List[dict] = []
+
 def _call_claude(prompt: str, max_tokens: int, call_label: str = "unknown") -> Optional[str]:
     headers = {
         "x-api-key":         ANTHROPIC_API_KEY,
@@ -952,6 +1009,15 @@ def _call_claude(prompt: str, max_tokens: int, call_label: str = "unknown") -> O
                 usage.get("cache_creation_input_tokens", 0),
                 usage.get("cache_read_input_tokens", 0),
             )
+            _USAGE_LOG.append({
+                "timestamp":     datetime.now(timezone.utc).isoformat(),
+                "call_label":    call_label,
+                "input_tokens":  usage.get("input_tokens", 0),
+                "output_tokens": usage.get("output_tokens", 0),
+                "cache_created": usage.get("cache_creation_input_tokens", 0),
+                "cache_read":    usage.get("cache_read_input_tokens", 0),
+                "model":         CLAUDE_MODEL,
+            })
             return data["content"][0]["text"].strip()
         except Exception as e:
             log.warning(f"Claude call failed (attempt {attempt+1}/{max_retries+1}): {e}")
@@ -2133,6 +2199,7 @@ def run():
     log.info("Legolas v2 — starting run")
     log.info("=" * 60)
 
+    _USAGE_LOG.clear()
     learnings = load_learnings()
     svc = _sheets_service()
 
@@ -2244,6 +2311,9 @@ def run():
     if new_seen_items:
         mark_seen_db(list({i["guid"]: i for i in new_seen_items}.values()))
     save_learnings(learnings)
+
+    # 10. Flush this run's Claude usage records to the Usage sheet tab
+    flush_usage_to_sheet(svc)
 
     log.info(f"Run complete — {posted} stories posted")
     return {

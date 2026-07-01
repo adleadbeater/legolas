@@ -46,6 +46,7 @@ sheets:
   seen_tab_name: Seen
   tag_tab_names: [Tag, Tags, tag, tags]
   feedback_log_tab: Feedback Log
+  usage_tab_name: Usage   # Claude API call tracking — see flush_usage_to_sheet() in legolas.py
 
 slack:
   channel_id: C0AM6GMA7U6
