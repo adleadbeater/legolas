@@ -1,7 +1,7 @@
 claude:
   model: claude-sonnet-4-6
   call1_max_tokens: 600        # Merge/dupe call — short structured output
-  call2_max_tokens: 5000       # Assessment call — one block per cluster
+  call2_max_tokens: 20000      # Assessment call — one block per cluster
   retry_wait_seconds: 10
   max_retries: 2
 
@@ -35,7 +35,7 @@ scoring:
   tag_fr_max: 25                # Maximum failure rate % for proven_topic tags
   article_cache_hours: 6        # How long to retain articles for cross-run clustering
   recently_posted_hours: 48     # Suppress reposts of same event within this window
-  lookback_minutes: 360         # Fetch articles from last N minutes each run
+  lookback_minutes: 60          # Fetch articles from last N minutes each run (cache handles cross-run clustering)
 
 sheets:
   sheet_id: "1eEeXc_NLLDMxd9TsKqfGunKVrYvX52505dyCs6zjw2I"
