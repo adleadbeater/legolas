@@ -37,6 +37,10 @@ scoring:
   recently_posted_hours: 48     # Suppress reposts of same event within this window
   lookback_minutes: 60          # Fetch articles from last N minutes each run (cache handles cross-run clustering)
 
+dedupe:
+  jaccard_threshold: 0.5   # title-similarity cutoff (shared/total tokens) for dupe pre-suppression
+  seen_prune_hours: 48     # how long article GUIDs stay in the local SQLite seen store (data/seen.db)
+
 sheets:
   sheet_id: "1eEeXc_NLLDMxd9TsKqfGunKVrYvX52505dyCs6zjw2I"
   seen_tab_name: Seen

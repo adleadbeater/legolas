@@ -1,22 +1,32 @@
 # Legolas RSS Feed Configuration
 # 51 feeds: 23 Tier 1, 28 Tier 2
 # Last verified: June 2026
+#
+# priority: (optional) authoritativeness rank used as the tiebreak when the same
+# story appears across outlets — lower number wins. Defaults when omitted:
+# Tier 1 → 2, Tier 2 → 3. The core trades are set to 1 so their headline/URL is
+# preferred for a shared story.
 
 tier1:
   - name: Deadline
     url: https://deadline.com/feed/
+    priority: 1
   - name: Vulture
     url: https://www.vulture.com/rss/news.xml
     note: "New York Magazine entertainment — strong original reporting"
   - name: The Wrap
     url: https://www.thewrap.com/feed/
+    priority: 1
   - name: Hollywood Reporter
     url: https://www.hollywoodreporter.com/feed/
+    priority: 1
   - name: THR TV
     url: https://www.hollywoodreporter.com/c/tv/feed/
+    priority: 1
     note: "Same publisher group as Hollywood Reporter — deduplicated in source counting"
   - name: Variety
     url: https://variety.com/feed/
+    priority: 1
   - name: TVLine
     url: https://tvline.com/feed/
   - name: IndieWire

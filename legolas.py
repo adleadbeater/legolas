@@ -20,6 +20,7 @@ import os
 import re
 import json
 import time
+import sqlite3
 from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 from typing import Optional, List, Dict, Tuple, Set
@@ -46,16 +47,29 @@ def _load_config() -> dict:
     with open(_DIR / "config" / "agent-config.yaml") as f:
         return yaml.safe_load(f)
 
-def _load_feeds() -> Tuple[dict, dict]:
+def _load_feeds() -> Tuple[dict, dict, dict]:
     with open(_DIR / "config" / "feeds.yaml") as f:
         data = yaml.safe_load(f)
     tier1 = {e["name"]: e["url"] for e in data.get("tier1", [])}
     tier2 = {e["name"]: e["url"] for e in data.get("tier2", [])}
-    return tier1, tier2
+    # Per-source priority (lower = more authoritative). Defaults: T1→2, T2→3.
+    # A feed can override with an explicit `priority:` key (e.g. trades → 1).
+    priority = {}
+    for e in data.get("tier1", []):
+        priority[e["name"]] = e.get("priority", 2)
+    for e in data.get("tier2", []):
+        priority[e["name"]] = e.get("priority", 3)
+    return tier1, tier2, priority
 
 _CFG          = _load_config()
-TIER_1_SOURCES, TIER_2_SOURCES = _load_feeds()
+TIER_1_SOURCES, TIER_2_SOURCES, SOURCE_PRIORITY = _load_feeds()
 ALL_SOURCES   = {**TIER_1_SOURCES, **TIER_2_SOURCES}
+
+def _source_priority(source_name: str, source_tier: int = 2) -> int:
+    """Authoritativeness rank for an outlet — lower number wins ties.
+    Falls back to a tier-based default (T1→2, T2→3) for sources not in feeds.yaml
+    (e.g. Google News topic results, restored cache items)."""
+    return SOURCE_PRIORITY.get(source_name, 2 if source_tier == 1 else 3)
 
 _SCORING      = _CFG["scoring"]
 _CLAUDE_CFG   = _CFG["claude"]
@@ -70,6 +84,10 @@ TAG_FR_MAX          = _SCORING["tag_fr_max"]
 CACHE_HOURS         = _SCORING["article_cache_hours"]
 RECENTLY_POSTED_HRS = _SCORING["recently_posted_hours"]
 LOOKBACK_MINS       = _SCORING["lookback_minutes"]
+
+_DEDUPE_CFG       = _CFG.get("dedupe", {})
+JACCARD_THRESHOLD = _DEDUPE_CFG.get("jaccard_threshold", 0.5)  # title-similarity cutoff for dupe pre-suppression
+SEEN_PRUNE_HOURS  = _DEDUPE_CFG.get("seen_prune_hours", 48)    # how long GUIDs stay in the local seen store
 
 SHEET_ID     = _SHEETS_CFG["sheet_id"]
 SLACK_CHANNEL_ID = _SLACK_CFG["channel_id"]
@@ -420,6 +438,9 @@ def match_watched_topics(cluster: dict, watched_topics: dict) -> list:
 
 
 # ── Seen GUID management ───────────────────────────────────────────────────────
+# NOTE: The three Sheets-based seen helpers below are superseded by the local
+# SQLite seen store (load_seen_guids_db / mark_seen_db / prune_seen_db) and are no
+# longer called by run(). Kept for manual inspection / rollback only.
 def load_seen_guids(svc) -> set:
     try:
         tab = find_tab(svc, [_SHEETS_CFG["seen_tab_name"], "seen"])
@@ -479,6 +500,68 @@ def save_learnings(learnings: dict):
             json.dump(learnings, f, indent=2)
     except Exception as e:
         log.warning(f"Could not save learnings: {e}")
+
+# ── Seen store (local SQLite) ────────────────────────────────────────────────────
+# Article-level GUID dedup. Replaces the Google Sheets "Seen" tab: indexed lookups,
+# time-based pruning (the Sheet grew unbounded), and no per-run network round-trip.
+# The DB file is committed back to the repo by the GitHub Actions workflow, exactly
+# like data/learnings.json — that is how state persists across cron runs.
+SEEN_DB_PATH   = _DIR / "data" / "seen.db"
+_seen_conn_obj = None
+
+def _seen_conn():
+    global _seen_conn_obj
+    if _seen_conn_obj is None:
+        SEEN_DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+        _seen_conn_obj = sqlite3.connect(str(SEEN_DB_PATH))
+        _seen_conn_obj.execute("""
+            CREATE TABLE IF NOT EXISTS seen_articles (
+                guid          TEXT PRIMARY KEY,
+                title         TEXT DEFAULT '',
+                source        TEXT DEFAULT '',
+                published_at  TEXT DEFAULT '',
+                first_seen_at TEXT DEFAULT (datetime('now'))
+            )
+        """)
+        _seen_conn_obj.commit()
+    return _seen_conn_obj
+
+def load_seen_guids_db() -> set:
+    try:
+        rows  = _seen_conn().execute("SELECT guid FROM seen_articles").fetchall()
+        guids = {r[0] for r in rows}
+        log.info(f"Loaded {len(guids)} seen GUIDs from {SEEN_DB_PATH.name}")
+        return guids
+    except Exception as e:
+        log.warning(f"Could not load seen GUIDs from DB: {e}")
+        return set()
+
+def mark_seen_db(items: List[dict]):
+    if not items:
+        return
+    try:
+        conn = _seen_conn()
+        conn.executemany(
+            "INSERT OR IGNORE INTO seen_articles (guid, title, source, published_at) VALUES (?, ?, ?, ?)",
+            [(i["guid"], i["title"][:200], i["source_name"], i["published_dt"].isoformat()) for i in items],
+        )
+        conn.commit()
+        log.info(f"Marked {len(items)} GUIDs as seen in {SEEN_DB_PATH.name}")
+    except Exception as e:
+        log.warning(f"Could not write seen GUIDs to DB: {e}")
+
+def prune_seen_db(hours: int = SEEN_PRUNE_HOURS):
+    try:
+        conn = _seen_conn()
+        cur  = conn.execute(
+            "DELETE FROM seen_articles WHERE first_seen_at < datetime('now', ?)",
+            (f"-{int(hours)} hours",),
+        )
+        conn.commit()
+        if cur.rowcount:
+            log.info(f"Pruned {cur.rowcount} seen GUIDs older than {hours}h")
+    except Exception as e:
+        log.warning(f"Could not prune seen DB: {e}")
 
 # ── RSS fetch ──────────────────────────────────────────────────────────────────
 def fetch_rss_items(sources: dict, lookback_mins: int) -> list:
@@ -615,6 +698,54 @@ _QUOTE_OPEN  = '[' + _QUOTE_CHARS + ']'
 _QUOTE_BODY  = '[^' + _QUOTE_CHARS + ']{3,40}'
 _QUOTED_RE   = re.compile(_QUOTE_OPEN + '(' + _QUOTE_BODY + ')' + _QUOTE_OPEN)
 
+# ── Title similarity (Jaccard) ───────────────────────────────────────────────────
+# Used for dupe pre-suppression: two headlines about the same event share most of
+# their meaningful tokens. Jaccard (shared / total unique) is length-normalised, so
+# it does not over-fire on long headlines the way a raw shared-word count does.
+#
+# NOTE: this uses a LIGHTER stopword set than clustering's _SINGLE_STOP. We keep
+# domain nouns like "premiere", "spinoff", "season", "trailer", "finale" because
+# those are exactly what distinguish two different stories about the SAME subject
+# (e.g. a Stranger Things spinoff announcement vs. its final-season premiere date).
+# We only strip grammatical words and ultra-generic news verbs.
+_TITLE_SIM_STOP = {
+    "the","a","an","and","or","but","in","on","at","to","for","of","with","by",
+    "from","as","is","was","are","be","been","its","it","this","that","these",
+    "those","his","her","their","our","your","who","what","when","how","new",
+    # ultra-generic news verbs (carry no story-identity signal)
+    "says","said","told","reveals","reveal","revealed","confirms","confirm",
+    "confirmed","announces","announce","announced","gets","get","got","sets",
+    "set","joins","join","joined","adds","add","drops","drop","returns","return",
+    "shares","share","talks","teases","opens","makes","gives","calls","reacts",
+    # structural / outcome words: generic to any story, so they must NOT count
+    # toward the shared-token floor (otherwise franchise + "season" + "released"
+    # collides two genuinely different events about the same show)
+    "season","seasons","series","episode","episodes","released","release",
+    "window","report","reports","first","look","watch","details","detail",
+    "update","updates","news","story","stories","here","more","into","way",
+}
+
+def _title_tokens(text: str) -> set:
+    text = re.sub(r"[^\w\s]", " ", (text or "").lower())
+    return {w for w in text.split() if len(w) > 3 and w not in _TITLE_SIM_STOP}
+
+def _title_jaccard(a: set, b: set) -> float:
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a | b)
+
+def _titles_match(a: set, b: set) -> bool:
+    """High-precision 'same story' test for dupe pre-suppression.
+    Requires BOTH a shared-token floor and Jaccard above threshold:
+      - the floor (>=3 shared meaningful tokens) stops short franchise headlines
+        matching on franchise+season alone (e.g. two different 'Wednesday season 2'
+        stories), which would wrongly suppress a genuinely different event;
+      - the Jaccard gate stops long headlines matching on 3 incidental shared words.
+    Semantic dupes with little lexical overlap are left for Claude's Call 1."""
+    if len(a & b) < 3:
+        return False
+    return _title_jaccard(a, b) >= JACCARD_THRESHOLD
+
 def _extract_keywords(text: str) -> set:
     keywords = set()
     for title in _QUOTED_RE.findall(text):
@@ -678,8 +809,14 @@ def cluster_items(items: list) -> list:
     for _, group_items in groups.items():
         group_items.sort(key=lambda x: x["published_dt"])
         sources  = list(dict.fromkeys(i["source_name"] for i in group_items))
-        t1_items = [i for i in group_items if i["source_tier"] == 1]
-        best     = (t1_items or group_items)[-1]
+        # Representative = most authoritative outlet (lowest priority number),
+        # tie-broken by recency. Prefers e.g. Deadline's headline over a lesser
+        # outlet's for the same event, instead of just "most recent tier-1".
+        best     = min(
+            group_items,
+            key=lambda i: (_source_priority(i["source_name"], i.get("source_tier", 2)),
+                           -i["published_dt"].timestamp()),
+        )
         clusters.append({
             "id":            0,
             "headline":      best["title"],
@@ -780,7 +917,7 @@ def restore_cached_items(cached: List[dict]) -> List[dict]:
     return restored
 
 # ── Claude API ─────────────────────────────────────────────────────────────────
-def _call_claude(prompt: str, max_tokens: int) -> Optional[str]:
+def _call_claude(prompt: str, max_tokens: int, call_label: str = "unknown") -> Optional[str]:
     headers = {
         "x-api-key":         ANTHROPIC_API_KEY,
         "anthropic-version": "2023-06-01",
@@ -805,7 +942,17 @@ def _call_claude(prompt: str, max_tokens: int) -> Optional[str]:
                 time.sleep(wait)
                 continue
             resp.raise_for_status()
-            return resp.json()["content"][0]["text"].strip()
+            data = resp.json()
+            usage = data.get("usage", {})
+            log.info(
+                "claude_usage call=%s input=%s output=%s cache_created=%s cache_read=%s",
+                call_label,
+                usage.get("input_tokens"),
+                usage.get("output_tokens"),
+                usage.get("cache_creation_input_tokens", 0),
+                usage.get("cache_read_input_tokens", 0),
+            )
+            return data["content"][0]["text"].strip()
         except Exception as e:
             log.warning(f"Claude call failed (attempt {attempt+1}/{max_retries+1}): {e}")
             if attempt < max_retries:
@@ -837,8 +984,8 @@ def claude_find_merges(clusters: list, recently_posted: List[dict]) -> Tuple[dic
             if cluster_urls & posted_urls:
                 url_dupes.add(local_id)
 
-    # Headline word-overlap pre-suppression: checks the full recently_posted history
-    # (not just the 40 stories Claude sees). Same 3-word threshold as mid-run dupe check.
+    # Headline similarity pre-suppression: checks the full recently_posted history
+    # (not just the 40 stories Claude sees), using Jaccard title similarity.
     # Catches same-story repeats when new articles use different URLs and phrasing.
     headline_dupes: set = set()
     for c in clusters:
@@ -846,23 +993,24 @@ def claude_find_merges(clusters: list, recently_posted: List[dict]) -> Tuple[dic
         if local_id in url_dupes:
             continue
         cluster_headline = c.get("headline", "")
-        cluster_words = set(w for w in cluster_headline.lower().split() if len(w) > 4)
-        if len(cluster_words) < 2:
+        cluster_tokens   = _title_tokens(cluster_headline)
+        if len(cluster_tokens) < 2:
             continue
+        matched = False
         for s in recently_posted:
-            prev_words = set(w for w in s["headline"].lower().split() if len(w) > 4)
-            if len(cluster_words & prev_words) >= 3:
+            if _titles_match(cluster_tokens, _title_tokens(s["headline"])):
                 headline_dupes.add(local_id)
                 log.info(f"Headline dupe pre-suppressed: '{cluster_headline[:60]}' ≈ '{s['headline'][:60]}'")
+                matched = True
                 break
             # Also check against stored article titles for this posted story
             for title in s.get("article_titles", []):
-                title_words = set(w for w in title.lower().split() if len(w) > 4)
-                if len(cluster_words & title_words) >= 3:
+                if _titles_match(cluster_tokens, _title_tokens(title)):
                     headline_dupes.add(local_id)
                     log.info(f"Article-title dupe pre-suppressed: '{cluster_headline[:60]}' ≈ article '{title[:60]}'")
+                    matched = True
                     break
-            if local_id in headline_dupes:
+            if matched:
                 break
 
     pre_suppressed = url_dupes | headline_dupes
@@ -947,7 +1095,7 @@ SPLITS:
 
 Do not explain. Just the numbers in the correct sections."""
 
-    result = _call_claude(prompt, max_tokens=_CLAUDE_CFG["call1_max_tokens"])
+    result = _call_claude(prompt, max_tokens=_CLAUDE_CFG["call1_max_tokens"], call_label="merge")
     if not result:
         return {}, pre_suppressed, set()
 
@@ -1230,7 +1378,7 @@ Post threshold: MW_RELEVANCE >= {MW_RELEVANCE_MIN} and tier is not skip.
 legolas_special requires MW_RELEVANCE >= {LEGOLAS_SPECIAL_MIN}.
 """
 
-    result = _call_claude(prompt, max_tokens=_CLAUDE_CFG["call2_max_tokens"])
+    result = _call_claude(prompt, max_tokens=_CLAUDE_CFG["call2_max_tokens"], call_label="assess")
     if not result:
         log.warning("Claude assessment returned nothing — using fallback")
         return [_fallback_assessment(c) for c in clusters]
@@ -1444,7 +1592,7 @@ Action guidelines:
 Be conservative with deltas. Most feedback should be ±0.5 to ±1.0.
 Respond with valid JSON only. No explanation outside the JSON."""
 
-    result = _call_claude(prompt, max_tokens=200)
+    result = _call_claude(prompt, max_tokens=200, call_label="feedback")
     if not result:
         return None
     try:
@@ -1553,7 +1701,7 @@ Rules for writing notes:
 
 Output notes only — no bullet points, no numbers, no preamble."""
 
-    result = _call_claude(prompt, max_tokens=500)
+    result = _call_claude(prompt, max_tokens=500, call_label="synthesize")
     if not result:
         log.warning("Editorial synthesis returned nothing")
         return
@@ -1777,7 +1925,7 @@ MECHANISM: [which mechanism you used]
 REASON: [one sentence — why you're keeping/killing, or what you changed and why]
 """
 
-    result = _call_claude(prompt, max_tokens=1200)
+    result = _call_claude(prompt, max_tokens=1200, call_label="aragorn")
     if not result:
         log.warning("Aragorn returned nothing — passing all stories through unchanged")
         return will_post
@@ -1852,7 +2000,9 @@ def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
 
     def relevance_score(item):
         title_words = set(re.findall(r'\b\w{4,}\b', item["title"].lower()))
-        return len(title_words & story_keywords) + (2 if item["source_tier"] == 1 else 0)
+        # Priority bonus: authoritative outlets win ties (P1→+3, P2→+2, P3→+1)
+        prio_bonus  = 4 - _source_priority(item["source_name"], item.get("source_tier", 2))
+        return len(title_words & story_keywords) + prio_bonus
 
     seen_pubs   = set()
     scored      = sorted([(relevance_score(it), it) for it in items], key=lambda x: (-x[0], x[1]["published_dt"]))
@@ -1875,7 +2025,8 @@ def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
 
     def url_score(item):
         tw = set(w.lower() for w in item.get("title", "").split() if len(w) > 4)
-        return len(headline_words_url & tw) + (2 if item.get("source_tier") == 1 else 0) + (1 if not item.get("_from_cache") else 0)
+        prio_bonus = 4 - _source_priority(item.get("source_name", ""), item.get("source_tier", 2))
+        return len(headline_words_url & tw) + prio_bonus + (1 if not item.get("_from_cache") else 0)
 
     all_url_items = [it for _, it in display]
     best_url = max(all_url_items, key=url_score)["url"] if all_url_items else ""
@@ -1994,9 +2145,9 @@ def run():
     synthesize_editorial_notes(learnings)
     save_learnings(learnings)
 
-    # 3. Load seen GUIDs
-    ensure_seen_tab(svc)
-    seen_guids = load_seen_guids(svc)
+    # 3. Load seen GUIDs (local SQLite store; prune stale rows first)
+    prune_seen_db()
+    seen_guids = load_seen_guids_db()
 
     # 3b. Load recently posted for dupe suppression (Step 3b per PRD)
     recently_posted = load_recently_posted(learnings)
@@ -2046,9 +2197,9 @@ def run():
     posted_this_run: List[str]   = []
 
     def _is_mid_run_dupe(headline: str) -> bool:
-        words = set(w for w in headline.lower().split() if len(w) > 4)
+        tokens = _title_tokens(headline)
         for prev in posted_this_run:
-            if len(words & set(w for w in prev.lower().split() if len(w) > 4)) >= 3:
+            if _titles_match(tokens, _title_tokens(prev)):
                 log.info(f"Mid-run dupe suppressed: '{headline[:60]}'")
                 return True
         return False
@@ -2091,7 +2242,7 @@ def run():
 
     # 9. Write seen GUIDs + save learnings
     if new_seen_items:
-        append_seen_guids(svc, list({i["guid"]: i for i in new_seen_items}.values()))
+        mark_seen_db(list({i["guid"]: i for i in new_seen_items}.values()))
     save_learnings(learnings)
 
     log.info(f"Run complete — {posted} stories posted")
