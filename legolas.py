@@ -974,7 +974,7 @@ def restore_cached_items(cached: List[dict]) -> List[dict]:
 # call) — see flush_usage_to_sheet(). Cleared at the start of each run.
 _USAGE_LOG: List[dict] = []
 
-def _call_claude(prompt: str, max_tokens: int, call_label: str = "unknown") -> Optional[str]:
+def _call_claude(prompt: str, max_tokens: int, call_label: str = "unknown", system: Optional[str] = None) -> Optional[str]:
     headers = {
         "x-api-key":         ANTHROPIC_API_KEY,
         "anthropic-version": "2023-06-01",
@@ -985,6 +985,16 @@ def _call_claude(prompt: str, max_tokens: int, call_label: str = "unknown") -> O
         "max_tokens": max_tokens,
         "messages":   [{"role": "user", "content": prompt}],
     }
+    if system:
+        # Cached system block — static instructions that repeat identically across
+        # calls (e.g. every chunk of a chunked assess run) get written to cache once
+        # and read back at ~0.1x cost on subsequent calls within the TTL window.
+        # Note: caching only activates if this block alone clears the model's minimum
+        # cacheable-prefix size (2048 tokens for claude-sonnet-4-6) — below that, this
+        # is a harmless no-op (cache_created/cache_read stay 0, no behavior change).
+        body["system"] = [
+            {"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}
+        ]
     retry_wait = _CLAUDE_CFG["retry_wait_seconds"]
     max_retries = _CLAUDE_CFG["max_retries"]
     for attempt in range(max_retries + 1):
@@ -1350,7 +1360,7 @@ def claude_assess_clusters(clusters: list, priority_tags: dict, learnings: dict,
                 + "\n".join(parts) + "\n"
             )
 
-    prompt = f"""You are the editorial brain of Legolas, a news scout for MovieWeb (MW) — a mainstream US entertainment website covering movies, TV, streaming, and pop culture.
+    system_prompt = f"""You are the editorial brain of Legolas, a news scout for MovieWeb (MW) — a mainstream US entertainment website covering movies, TV, streaming, and pop culture.
 
 Your default stance is SKEPTIC. Most clusters should be skipped. You are looking for the rare story that is genuinely worth interrupting a reader's day.
 
@@ -1427,8 +1437,6 @@ MW_RELEVANCE (only score after pre-check passes — if pre-check fails, score 1-
 4-5 = niche — do not post
 1-3 = skip (pre-check failed, wrong audience, evergreen)
 
-{editorial_section}{boost_section}{chr(10).join(cluster_blocks)}
-
 For EACH cluster respond with EXACTLY this format:
 
 CLUSTER [N]
@@ -1444,7 +1452,16 @@ Post threshold: MW_RELEVANCE >= {MW_RELEVANCE_MIN} and tier is not skip.
 legolas_special requires MW_RELEVANCE >= {LEGOLAS_SPECIAL_MIN}.
 """
 
-    result = _call_claude(prompt, max_tokens=_CLAUDE_CFG["call2_max_tokens"], call_label="assess")
+    # Dynamic per-run/per-chunk content — NOT cached. editorial_section/boost_section
+    # change whenever learnings.json is updated; cluster_blocks are unique every call.
+    user_prompt = f"{editorial_section}{boost_section}{chr(10).join(cluster_blocks)}"
+
+    result = _call_claude(
+        user_prompt,
+        max_tokens=_CLAUDE_CFG["call2_max_tokens"],
+        call_label="assess",
+        system=system_prompt,
+    )
     if not result:
         log.warning("Claude assessment returned nothing — using fallback")
         return [_fallback_assessment(c) for c in clusters]
