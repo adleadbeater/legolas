@@ -35,7 +35,7 @@ scoring:
   tag_fr_max: 25                # Maximum failure rate % for proven_topic tags
   article_cache_hours: 6        # How long to retain articles for cross-run clustering
   recently_posted_hours: 48     # Suppress reposts of same event within this window
-  lookback_minutes: 60          # Fetch articles from last N minutes each run (cache handles cross-run clustering)
+  lookback_minutes: 1440        # TEMP — backfill after 24h outage, revert to 60 after manual run
 
 dedupe:
   jaccard_threshold: 0.5   # title-similarity cutoff (shared/total tokens) for dupe pre-suppression
