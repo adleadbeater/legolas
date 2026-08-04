@@ -7598,6 +7598,822 @@
       "published_dt": "2026-08-04T08:37:30+00:00",
       "source_name": "disneydining.com",
       "source_tier": 2
+    },
+    {
+      "guid": "https://deadline.com/?p=1237016290",
+      "title": "\u2018Baywatch\u2019 Reboot Beaches At Amazon Prime Video Across Europe, India & Canada",
+      "url": "https://deadline.com/2026/08/baywatch-reboot-amazon-prime-video-europe-1237016290/",
+      "published_dt": "2026-08-04T10:00:00+00:00",
+      "source_name": "Deadline",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236826714",
+      "title": "\u2018Gagarine\u2019 Directors Fanny Liatard and J\u00e9r\u00e9my Trouilh Talk \u2018The Green Eyes\u2019 as Kinology Announces First Sales: \u2018Dreamers Know No Borders\u2019 (EXCLUSIVE)",
+      "url": "https://variety.com/2026/film/global/gagarine-fanny-liatard-jeremy-trouilh-green-eyes-kinology-1236826714/",
+      "published_dt": "2026-08-04T09:45:16+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.rollingstone.com/?p=1235603142",
+      "title": "Leonardo DiCaprio and the Bezos Earth Fund Launch Initiative to Recover Critically Endangered Species",
+      "url": "https://www.rollingstone.com/culture/culture-news/leonardo-dicaprio-bezos-earth-fund-endangered-species-1235603142/",
+      "published_dt": "2026-08-04T10:00:00+00:00",
+      "source_name": "Rolling Stone",
+      "source_tier": 1
+    },
+    {
+      "guid": "1c12fc1e-e325-4d42-a884-7a1934e0cdbb",
+      "title": "'She Ended on a Really Great Note': Jessica Henwick Says She's Turned Down Returning as Colleen Wing in Daredevil: Born Again Season 3",
+      "url": "https://www.ign.com/articles/she-ended-on-a-really-great-note-jessica-henwick-says-shes-turned-down-returning-as-colleen-wing-in-daredevil-born-again-season-3",
+      "published_dt": "2026-08-04T09:41:03+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/spider-man-2099-wanted-captain-america-what-if-comic-preview/",
+      "title": "Marvel Just Raised a Huge Question About Spider-Man 2099",
+      "url": "https://collider.com/spider-man-2099-wanted-captain-america-what-if-comic-preview/",
+      "published_dt": "2026-08-04T10:00:14+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/wonder-man-cancellation-andrew-guest-breaks-silence-reaction/",
+      "title": "Marvel Fans Were Right to Be Angry About This Cancellation",
+      "url": "https://collider.com/wonder-man-cancellation-andrew-guest-breaks-silence-reaction/",
+      "published_dt": "2026-08-04T10:00:14+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/disney-plus-hulu-profile-linking-update/",
+      "title": "Say Goodbye to a Major Streaming Service as Disney Quietly Announces Phaseout",
+      "url": "https://www.cbr.com/disney-plus-hulu-profile-linking-update/",
+      "published_dt": "2026-08-04T09:35:37+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/chrono-trigger-march-2027-31st-anniversary-release/",
+      "title": "Chrono Trigger Officially Returns March 2027",
+      "url": "https://screenrant.com/chrono-trigger-march-2027-31st-anniversary-release/",
+      "published_dt": "2026-08-04T10:00:11+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/legend-of-zelda-quartet-of-time-new-release/",
+      "title": "The Legend Of Zelda: Quartet Of Time Officially Unveiled",
+      "url": "https://screenrant.com/legend-of-zelda-quartet-of-time-new-release/",
+      "published_dt": "2026-08-04T09:44:32+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.denofgeek.com/?p=1016220",
+      "title": "Odd Photos Teaching You to Expect the Unexpected",
+      "url": "https://www.denofgeek.com/msn/odd-photos-teaching-you-to-expect-the-unexpected/",
+      "published_dt": "2026-08-04T10:00:00+00:00",
+      "source_name": "Den of Geek",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/this-action-thriller-which-helped-inspire-one-of-christopher-nolans-best-films-is-currently-free-to-stream/",
+      "title": "The iconic 170-minute crime thriller that inspired The Dark Knight is finally free on streaming",
+      "url": "https://www.polygon.com/this-action-thriller-which-helped-inspire-one-of-christopher-nolans-best-films-is-currently-free-to-stream/",
+      "published_dt": "2026-08-04T10:00:12+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/fantasy/dave-bautista-god-of-war-kratos-recast-newsupdate/",
+      "title": "Dave Bautista tipped to take on God of War's Kratos role after injury forced role recast",
+      "url": "https://www.radiotimes.com/tv/fantasy/dave-bautista-god-of-war-kratos-recast-newsupdate/",
+      "published_dt": "2026-08-04T09:33:00+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/sport/football/man-utd-2026-27-tv-fixtures/",
+      "title": "Man Utd pre-season 2026: TV coverage, fixtures, dates and UK times",
+      "url": "https://www.radiotimes.com/tv/sport/football/man-utd-2026-27-tv-fixtures/",
+      "published_dt": "2026-08-04T09:30:16+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://comicbook.com/?p=1710649",
+      "title": "The Fast & The Furious Released Its First & Last Spinoff Movie 7 Years Ago, Despite Vin Diesel Feuding With Its Star",
+      "url": "https://comicbook.com/movies/feature/the-fast-the-furious-released-its-first-last-spinoff-movie-7-years-ago-despite-vin-diesel-feuding-with-its-star/",
+      "published_dt": "2026-08-04T10:00:00+00:00",
+      "source_name": "ComicBook.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.comingsoon.net/?p=2170921",
+      "title": "Dave Bautista\u2019s God of War Talks Have Kratos Fans Saying the Same Thing",
+      "url": "https://www.comingsoon.net/tv/news/2170921-god-of-war-dave-bautista-kratos-replacement-actor",
+      "published_dt": "2026-08-04T09:54:15+00:00",
+      "source_name": "ComingSoon",
+      "source_tier": 2
+    },
+    {
+      "guid": "http://www.digitalspy.com/soaps/coronation-street/a73341079/coronation-street-ross-new-threat-after-cassie-exit/",
+      "title": "Coronation Street's Ross faces new threat after Cassie exit in early release episode",
+      "url": "https://www.digitalspy.com/soaps/coronation-street/a73341079/coronation-street-ross-new-threat-after-cassie-exit/",
+      "published_dt": "2026-08-04T09:58:00+00:00",
+      "source_name": "Digital Spy",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiuwFBVV95cUxQNkZVVGxFTlZSWlRJbWxuVE5RUlRFNWRWamtNNGs4aFlnVlpWeUFiMEVHaUhDLU54SkVNLVNmd3FURzJKS2ptODJaaW9vT0tRNmJESXdiWVBzX01LNlphWXhfSWFkdTU1N0F5alZDYm14R0NyZ0pYOFk2cVE3MHlEM2FscXY0ZWdmS3dkZld4cm0xSlFxbWh3UGhELTFxTUp4NDcybUpEbDdacVpveUhBTG1yTXV2LXlPMXNR",
+      "title": "Renfrewshire\u2019s young people look forward to future careers on Results Day",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNkZVVGxFTlZSWlRJbWxuVE5RUlRFNWRWamtNNGs4aFlnVlpWeUFiMEVHaUhDLU54SkVNLVNmd3FURzJKS2ptODJaaW9vT0tRNmJESXdiWVBzX01LNlphWXhfSWFkdTU1N0F5alZDYm14R0NyZ0pYOFk2cVE3MHlEM2FscXY0ZWdmS3dkZld4cm0xSlFxbWh3UGhELTFxTUp4NDcybUpEbDdacVpveUhBTG1yTXV2LXlPMXNR?oc=5",
+      "published_dt": "2026-08-04T09:37:00+00:00",
+      "source_name": "GlasgowWorld",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMivwFBVV95cUxNZ09yWGpXQUVXeXFpY3AwTlQtU3Q4c0ppb0FtcXhobGdwX0xETHNFTVF0OHg5MWt0NDU0RzhIalQyVl9QOEFiRWdJRTRFNXFUOWgtWlR2aHg5SExQdTRmMFZyRW5xbGlQbDVfSTF1aWJQbkhhRVhrd21ZcXFTZDNCS0JuM0p0emhHeHVvTi12cE1sb3MyN2I0QkNyOVppVnMwMWdMTGdsLXFkZDRmdnViYjRBWEtZakl1LUVfdnV1OA",
+      "title": "Thousands of Renfrewshire pupils receive exam results as they plan next steps",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ09yWGpXQUVXeXFpY3AwTlQtU3Q4c0ppb0FtcXhobGdwX0xETHNFTVF0OHg5MWt0NDU0RzhIalQyVl9QOEFiRWdJRTRFNXFUOWgtWlR2aHg5SExQdTRmMFZyRW5xbGlQbDVfSTF1aWJQbkhhRVhrd21ZcXFTZDNCS0JuM0p0emhHeHVvTi12cE1sb3MyN2I0QkNyOVppVnMwMWdMTGdsLXFkZDRmdnViYjRBWEtZakl1LUVfdnV1OA?oc=5",
+      "published_dt": "2026-08-04T09:39:33+00:00",
+      "source_name": "renfrewshire24.co.uk",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMibkFVX3lxTFAtNWZiOG1ieEpEUnJHdDczc2x1eFdDc2tfbE9EdDJIVVJ4Wmpscmo1RnhDNmVBUklDQnA5dmFGUk5ndmVwT3hMRzNKUkNPYUd0VE1QT2lGbjZBOWdjbnlMVXN3VldnTmpJYi1LR2Nn",
+      "title": "Game Of Thrones Is Still New York's Most Searched TV Show In 2026 \u2014 Six Years After It Ended",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtNWZiOG1ieEpEUnJHdDczc2x1eFdDc2tfbE9EdDJIVVJ4Wmpscmo1RnhDNmVBUklDQnA5dmFGUk5ndmVwT3hMRzNKUkNPYUd0VE1QT2lGbjZBOWdjbnlMVXN3VldnTmpJYi1LR2Nn?oc=5",
+      "published_dt": "2026-08-04T09:57:58+00:00",
+      "source_name": "cnynews.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiekFVX3lxTE1XZktsQU50dkE5Q2hUbUFSMzA2SzFFWko2THQxaks5ZVRaUW9iWEZJOVpvc2tKRjIzM0JLUGM2TmFtZm9adjh6MWJCTldBMTJ5U0pSSEJSeVp2VTNKMTgwSW02c1BHS3JWMXdQbXhINlR1V1BSeU9fZTB3",
+      "title": "Army Of Shadows: What Do We Know About Ronan Bennett\u2019s New Thriller?",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XZktsQU50dkE5Q2hUbUFSMzA2SzFFWko2THQxaks5ZVRaUW9iWEZJOVpvc2tKRjIzM0JLUGM2TmFtZm9adjh6MWJCTldBMTJ5U0pSSEJSeVp2VTNKMTgwSW02c1BHS3JWMXdQbXhINlR1V1BSeU9fZTB3?oc=5",
+      "published_dt": "2026-08-04T09:44:25+00:00",
+      "source_name": "Country and Town House",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqAFBVV95cUxQeTFLRkpKM1M5OXlUanRxVGd5N3VXNGJTcTRVZWRoUWFDcHdLeDl4cTJ6aC1OT09LLVVqaDhnM09idjZWbDFsWVZDbFU4WnFqRjFWLVQzX2dxNzUxMEx5NWR1M3Q0RThBOGZvbHdlSUtjTTdHRHBpS2dwcDlJZUtwcElUQ1F0UzRjTExDYk80M1lOb3dhTGs5NnMwUmFoYkVZX2ZNSHJGUTk",
+      "title": "NI Renewables Firm Approved To Install Tesla Powerwall",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeTFLRkpKM1M5OXlUanRxVGd5N3VXNGJTcTRVZWRoUWFDcHdLeDl4cTJ6aC1OT09LLVVqaDhnM09idjZWbDFsWVZDbFU4WnFqRjFWLVQzX2dxNzUxMEx5NWR1M3Q0RThBOGZvbHdlSUtjTTdHRHBpS2dwcDlJZUtwcElUQ1F0UzRjTExDYk80M1lOb3dhTGs5NnMwUmFoYkVZX2ZNSHJGUTk?oc=5",
+      "published_dt": "2026-08-04T09:09:37+00:00",
+      "source_name": "4ni",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMivAFBVV95cUxQZWE3NEFDVXZ5eVJGMF8wOGNicWRoU3dzbmJZbmx5OXpTZ1BCTkNvTFJjek1WTWdOZ2h4M1NTOFppQ3hpM2xRYVpLSWJyMFhHMHBaNTBJZXVWNDRYdk4wWGVWTlZHN2g3R3hjWGVoUHpTb0g2dXdYYzM5MW5xdURCMTVHZjZieE8xaEk2WFZqWTdsSlEwNG1mUE1kWldFSHJzRDIyVk01azV6WThlOVJlYkhSU0xFYlp5NlhRbw",
+      "title": "PHA Launches Living Well Pharmacy Drive To Help People Manage Anxiety",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZWE3NEFDVXZ5eVJGMF8wOGNicWRoU3dzbmJZbmx5OXpTZ1BCTkNvTFJjek1WTWdOZ2h4M1NTOFppQ3hpM2xRYVpLSWJyMFhHMHBaNTBJZXVWNDRYdk4wWGVWTlZHN2g3R3hjWGVoUHpTb0g2dXdYYzM5MW5xdURCMTVHZjZieE8xaEk2WFZqWTdsSlEwNG1mUE1kWldFSHJzRDIyVk01azV6WThlOVJlYkhSU0xFYlp5NlhRbw?oc=5",
+      "published_dt": "2026-08-04T09:10:07+00:00",
+      "source_name": "4ni",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiowFBVV95cUxPOUtFR2xoV0xtS3g3dnI0aTc2Y0ZUMGc5SnhrM0xvSkxYOTNpNDRGT196TlZ3RGZBMVpldVpvR01QVkRRamtZSElQek1Bckk4Vmo2YktsTlY3NUEzTUFVV0QxSFBha08taHNHOURSR1U2bkdNQTNaYzhpNzFVc0p4bTVUM1ZHaVNsWHhRa1N3bWpFa1FwTWFfc2Ztc3BrV0tOaG9Z",
+      "title": "Marvel Boss Weighs In On Whether Tom Holland Will Return As Spider-Man",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOUtFR2xoV0xtS3g3dnI0aTc2Y0ZUMGc5SnhrM0xvSkxYOTNpNDRGT196TlZ3RGZBMVpldVpvR01QVkRRamtZSElQek1Bckk4Vmo2YktsTlY3NUEzTUFVV0QxSFBha08taHNHOURSR1U2bkdNQTNaYzhpNzFVc0p4bTVUM1ZHaVNsWHhRa1N3bWpFa1FwTWFfc2Ztc3BrV0tOaG9Z?oc=5",
+      "published_dt": "2026-08-04T09:41:56+00:00",
+      "source_name": "huffingtonpost.co.uk",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiwgFBVV95cUxNMUhZVU1nMGJ5QzdOcXE0dExNT3E3cGhEWGF3czlpcXQ0VmRqd2pyVmNWQkFXZlR0Nml2cnkwbDR0M0tkTDBaVEgxSTVZeU55a2NaMDN6eUVodDdZaWFLOFRfc2RMZGFlQk9Od0ZwZ2FmQlJLUXFzQXcyVkxvWms3SlhXdDdURVNaM05vTEJmR1FLLTdBX0s5ZUFiU1VxeENTUU1uMkxZQlNaZk9xWUJkaVlrU1F5U0RSVTViODRTUDRxZw",
+      "title": "Samantha Morton Reveals the Harsh Truth About Hollywood After Her Acclaimed Turn in \u2018The Odyssey'",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUhZVU1nMGJ5QzdOcXE0dExNT3E3cGhEWGF3czlpcXQ0VmRqd2pyVmNWQkFXZlR0Nml2cnkwbDR0M0tkTDBaVEgxSTVZeU55a2NaMDN6eUVodDdZaWFLOFRfc2RMZGFlQk9Od0ZwZ2FmQlJLUXFzQXcyVkxvWms3SlhXdDdURVNaM05vTEJmR1FLLTdBX0s5ZUFiU1VxeENTUU1uMkxZQlNaZk9xWUJkaVlrU1F5U0RSVTViODRTUDRxZw?oc=5",
+      "published_dt": "2026-08-04T09:49:42+00:00",
+      "source_name": "Comic Basics",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMingFBVV95cUxNMTBvTEp4TU9iTmZ4VUJyMVRVVmRYT3JMb1E2bkIzU29UaHFGQnl3U29va19NY01KNlM3VjBETHZOMHpYWUNvMWFadFNDWmM0eWpORGNUTnNWd09PQzFGWmtWNDc3enNWZmFqY1ViNXg3Nk9NNFpZS3dNd0tBa2pJTmRwa1RJWjk0NU53cE5GaW9VSEk3ZE1mOEVwMW94dw",
+      "title": "\u201cI Haven\u2019t Worked for a Year\u201d \u2013 Samantha Morton on Hollywood\u2019s Age Problem at 49",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMTBvTEp4TU9iTmZ4VUJyMVRVVmRYT3JMb1E2bkIzU29UaHFGQnl3U29va19NY01KNlM3VjBETHZOMHpYWUNvMWFadFNDWmM0eWpORGNUTnNWd09PQzFGWmtWNDc3enNWZmFqY1ViNXg3Nk9NNFpZS3dNd0tBa2pJTmRwa1RJWjk0NU53cE5GaW9VSEk3ZE1mOEVwMW94dw?oc=5",
+      "published_dt": "2026-08-04T09:33:22+00:00",
+      "source_name": "feminegra.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi5wFBVV95cUxNRTBFWEdOUjd6UnQzeUxQSXRFTUtkMDdvWndMeWJIQ09RSGo2YjFQVVJLSjJHYWE3ZHd0Z3lpMUhvbF9ua0lSaGMwbUVSSWRHNDdvUWFzYmo3UGRZRk9BTm9fMmdkeTE3LTZmd0VMWi1TSWlUWjFLMDRIQUpUT3pBUnhpb212bmlnUHF0TFlZUVd0amRJR1hib01PZEVJMzlMa19QZ3lwYTdjZW9yTjFSRmRoeV9BS2FYSFBNcFVYVVh6aHhLdTlwekpuMHZDWXo2VlpnZDNBMTFuQTRBYXR1RkhBblJCalk",
+      "title": "The Odyssey China Box Office: Crosses $2M In Pre-Sales In Just 3 Days As Christopher Nolan's Epic Gains Momentum",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRTBFWEdOUjd6UnQzeUxQSXRFTUtkMDdvWndMeWJIQ09RSGo2YjFQVVJLSjJHYWE3ZHd0Z3lpMUhvbF9ua0lSaGMwbUVSSWRHNDdvUWFzYmo3UGRZRk9BTm9fMmdkeTE3LTZmd0VMWi1TSWlUWjFLMDRIQUpUT3pBUnhpb212bmlnUHF0TFlZUVd0amRJR1hib01PZEVJMzlMa19QZ3lwYTdjZW9yTjFSRmRoeV9BS2FYSFBNcFVYVVh6aHhLdTlwekpuMHZDWXo2VlpnZDNBMTFuQTRBYXR1RkhBblJCalk?oc=5",
+      "published_dt": "2026-08-04T09:08:30+00:00",
+      "source_name": "Koimoi",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMirwFBVV95cUxNWVNVeFFrbW8zV2JoWXc5ekpaZ2ZoYmVDemFtVEtuZUxabFpHdUpMS3JodjRBSXAzZTFoazltc3pZX1QwZmhrb1ZWNWZYa3h1bnVEVFNramNvRWNKMFRXa0NxX2xVaHBnQTlPRkxNcE1sNXI5Q3RUTGRlUGpZM0pMX0RYZGpyeklVUkx2TmpDVXpXd1d6TF9RSTJvdkVJZU9YUm8yZXkxS3I4OHpvVVpZ",
+      "title": "Murder Before Evensong stage adaptation reveals world premiere cast",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVNVeFFrbW8zV2JoWXc5ekpaZ2ZoYmVDemFtVEtuZUxabFpHdUpMS3JodjRBSXAzZTFoazltc3pZX1QwZmhrb1ZWNWZYa3h1bnVEVFNramNvRWNKMFRXa0NxX2xVaHBnQTlPRkxNcE1sNXI5Q3RUTGRlUGpZM0pMX0RYZGpyeklVUkx2TmpDVXpXd1d6TF9RSTJvdkVJZU9YUm8yZXkxS3I4OHpvVVpZ?oc=5",
+      "published_dt": "2026-08-04T09:58:59+00:00",
+      "source_name": "WhatsOnStage",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMigAFBVV95cUxOTXpnRFV3bFhUOFNxcGxCMzJkSmo1ZE01RVV1YXExVXMtb3FDSXdJb0lJSmF5YU5Eb09TQ2Y3enV6dmRPWks5UWIwVVRRc0FQVVNyYXlqaktZczdvdy1JNXA5akxsd1RuMFhZQkVMZTgtTm1ZaE1LMG9WUTY1YTVKUw",
+      "title": "Lego May Have Canceled All New Sets For Two Huge Gaming IPs",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTXpnRFV3bFhUOFNxcGxCMzJkSmo1ZE01RVV1YXExVXMtb3FDSXdJb0lJSmF5YU5Eb09TQ2Y3enV6dmRPWks5UWIwVVRRc0FQVVNyYXlqaktZczdvdy1JNXA5akxsd1RuMFhZQkVMZTgtTm1ZaE1LMG9WUTY1YTVKUw?oc=5",
+      "published_dt": "2026-08-04T09:49:54+00:00",
+      "source_name": "thegamer.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiekFVX3lxTE15UVhpNG83aWtKWk9RVi1YT2pzVk9QaFRqRDZhZ0FrUkNWZU9taU9pVS1COTFFSUk1VlczMUhKN3Ruc3pINE9XMzBBOW1TVlhpa2tXbG9ObGhpaXNmRHJ5bG1OQnF5dGJONUhCUTJxRm1LZVhUZXZfWUxB",
+      "title": "When does Ted Lasso Season 4 arrive in the UK and how to watch for free on Apple TV+",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE15UVhpNG83aWtKWk9RVi1YT2pzVk9QaFRqRDZhZ0FrUkNWZU9taU9pVS1COTFFSUk1VlczMUhKN3Ruc3pINE9XMzBBOW1TVlhpa2tXbG9ObGhpaXNmRHJ5bG1OQnF5dGJONUhCUTJxRm1LZVhUZXZfWUxB?oc=5",
+      "published_dt": "2026-08-04T09:34:00+00:00",
+      "source_name": "gazettelive.co.uk",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMihAFBVV95cUxPQmIxRms0STVQNm1FcHlxQ2RMel84bGxxblpQZXVWWFpQSWhGU1ppMFBDNVEwZlY4WTBzbDNlTERGclVJcHgwTlhzZXVFSDZpY0N3Snk1SDBIakRaR0lPV1QyUzNGYnhlcU10YlFIeE8wT1dRNjd2X2VkWGJaSGxQYzlHNEc",
+      "title": "Star Trek\u2019s Love Letter To The Creepiest Horror Film Ever Made",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQmIxRms0STVQNm1FcHlxQ2RMel84bGxxblpQZXVWWFpQSWhGU1ppMFBDNVEwZlY4WTBzbDNlTERGclVJcHgwTlhzZXVFSDZpY0N3Snk1SDBIakRaR0lPV1QyUzNGYnhlcU10YlFIeE8wT1dRNjd2X2VkWGJaSGxQYzlHNEc?oc=5",
+      "published_dt": "2026-08-04T09:40:28+00:00",
+      "source_name": "Giant Freakin Robot",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiowFBVV95cUxQTi1fVVE0YVkxUmlSZ2MxajJjQmVzUV9pSEVhVkJnYWU5RDNpNHdlNVdEdHRYWlFYcG9KSWFJd0VjQ19KeWw5WXR6TUJMbjl0QkpHZFZJcE9iWWtFV1FuUExQbGczc1dxUW5FaUR1S3RFYUEta1V0dlZOZkpUUTFqX2h4SWJ4eTRDckVTWk1CQVJ1eVQyR2tud2JPcG50RFJlM1hr",
+      "title": "Nicole Kidman Has a Vast Real Estate Portfolio\u2014Take a Look at All of Her Homes",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTi1fVVE0YVkxUmlSZ2MxajJjQmVzUV9pSEVhVkJnYWU5RDNpNHdlNVdEdHRYWlFYcG9KSWFJd0VjQ19KeWw5WXR6TUJMbjl0QkpHZFZJcE9iWWtFV1FuUExQbGczc1dxUW5FaUR1S3RFYUEta1V0dlZOZkpUUTFqX2h4SWJ4eTRDckVTWk1CQVJ1eVQyR2tud2JPcG50RFJlM1hr?oc=5",
+      "published_dt": "2026-08-04T09:42:50+00:00",
+      "source_name": "ELLE Decor",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMisAFBVV95cUxNbWxZMHdLYlVQVThIMHNsc0dkZHdrZDNPVkJZM0lLT1gwbjZOaE11Yy1RaHY5elprUndReDd1LXJJSmxJQTg0bVdOODVVU05Ic2dPOTY3RFVidHI0Y2JYeGZHdG90V0ZkSnQydWt5Sy1YRDFWV3laTm94RUQteFgxbXJGU2NVbUlySEJCTElyUWZyZnhPaVptUEQtUU9oeXpQRi1DQi1nSmZwM2VaaTQ0dw",
+      "title": "Warhammer 40,000 Getting Animated Series; Henry Cavill To Be Executive Producer",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbWxZMHdLYlVQVThIMHNsc0dkZHdrZDNPVkJZM0lLT1gwbjZOaE11Yy1RaHY5elprUndReDd1LXJJSmxJQTg0bVdOODVVU05Ic2dPOTY3RFVidHI0Y2JYeGZHdG90V0ZkSnQydWt5Sy1YRDFWV3laTm94RUQteFgxbXJGU2NVbUlySEJCTElyUWZyZnhPaVptUEQtUU9oeXpQRi1DQi1nSmZwM2VaaTQ0dw?oc=5",
+      "published_dt": "2026-08-04T09:30:05+00:00",
+      "source_name": "SciFiNow",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi8wFBVV95cUxQUWFibUFia041UE5jRmF4VDgzWDljR09IcDVsaFQ4bEhadEozWGFuYjFrQXpqR0FFMC0wQzNXeklVNjkxdG50V0FLRy1udWNfSnBIT3pOYVZfcGdxR0V2SGN1ZTRyNFd3QzRYNWMtUWcwNk0waklHbS1CVjJvTjZ2MGhnazZJdnJKLWh0ZkFIM3JpU1R4Ty1ibHFmbnFBSFI1VzA2WWR1X2plTG9ReHlyX3Zyc2pGbm5mT1A3WjVoR0YtRVExcENobVRKX0JPVGpLWW1yZE1Oc19RYnJmT3p4M3ltZGVtclVvN0dKRkhjeFZKTDQ",
+      "title": "Despite 4 years of development hell, Henry Cavill confirms he's still starring in Amazon's Warhammer 40K show",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUWFibUFia041UE5jRmF4VDgzWDljR09IcDVsaFQ4bEhadEozWGFuYjFrQXpqR0FFMC0wQzNXeklVNjkxdG50V0FLRy1udWNfSnBIT3pOYVZfcGdxR0V2SGN1ZTRyNFd3QzRYNWMtUWcwNk0waklHbS1CVjJvTjZ2MGhnazZJdnJKLWh0ZkFIM3JpU1R4Ty1ibHFmbnFBSFI1VzA2WWR1X2plTG9ReHlyX3Zyc2pGbm5mT1A3WjVoR0YtRVExcENobVRKX0JPVGpLWW1yZE1Oc19RYnJmT3p4M3ltZGVtclVvN0dKRkhjeFZKTDQ?oc=5",
+      "published_dt": "2026-08-04T09:35:37+00:00",
+      "source_name": "GamesRadar+",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiogFBVV95cUxNUi1uTl96UU1WU3c5MXI0TFQwU0M4QUVaMjNsekNGSlZmV25wU01uT2k2dXpHRHgxLU9IdlpzZm84eS1MbFhxdUhJeFlJQnk2Wk51TFZPSjd6SVlnel92dkdPaGZ5MEtBOGJWS1NnSjQteXhfSmkzM2ItQWtNVVVDYXNxRlRHNzUwaFVEOG5PTXdOSmJrZmpCY2IxMXRDZFZXc1E",
+      "title": "Dave Bautista in Talks to Star as Kratos in Amazon's 'God of War' Series",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUi1uTl96UU1WU3c5MXI0TFQwU0M4QUVaMjNsekNGSlZmV25wU01uT2k2dXpHRHgxLU9IdlpzZm84eS1MbFhxdUhJeFlJQnk2Wk51TFZPSjd6SVlnel92dkdPaGZ5MEtBOGJWS1NnSjQteXhfSmkzM2ItQWtNVVVDYXNxRlRHNzUwaFVEOG5PTXdOSmJrZmpCY2IxMXRDZFZXc1E?oc=5",
+      "published_dt": "2026-08-04T09:02:18+00:00",
+      "source_name": "Hypebeast",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiigFBVV95cUxOQ2NOZl9vekNIa19scWpCV3NSRkszVjNyYllBcUZGM29TZ3BzbGhnUVU1VTM4ZVNSTGloZ0VjSHdwVEFEVnVmVGRhREUwaGVCNDcyMzA1Q1NYYm9SeE5EdXNJb3ZLNzZSckY3QjBDYzFYYmNITVRqTF9sdWF0TmwxT2RhQXkxNHZMNUE",
+      "title": "Chicago Cubs vs. Los Angeles Dodgers - August 04, 2026",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ2NOZl9vekNIa19scWpCV3NSRkszVjNyYllBcUZGM29TZ3BzbGhnUVU1VTM4ZVNSTGloZ0VjSHdwVEFEVnVmVGRhREUwaGVCNDcyMzA1Q1NYYm9SeE5EdXNJb3ZLNzZSckY3QjBDYzFYYmNITVRqTF9sdWF0TmwxT2RhQXkxNHZMNUE?oc=5",
+      "published_dt": "2026-08-04T09:00:55+00:00",
+      "source_name": "Bleacher Report",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMingFBVV95cUxNMlZrOTVIUTBIV01zVklIX00zVDRSVHVyS2NLeE9QLVVJZVQ1SzktRFZ1SzZwSTY5Y2NGOF9fYXEybXVvVmZ2NWIyZkRDcERfUmpTME5KY0ZTT3lCTGsxODdFN1dBXzlnVExZM2FjUlJOOGJONUIyeFlhUDR2SEZrbWoxeW1OR0pmQndXaEJyaXJ6UTZxSVZRU1M3QUg4QQ",
+      "title": "Slow moving storms will bring heavy rain fall Tuesday afternoon",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMlZrOTVIUTBIV01zVklIX00zVDRSVHVyS2NLeE9QLVVJZVQ1SzktRFZ1SzZwSTY5Y2NGOF9fYXEybXVvVmZ2NWIyZkRDcERfUmpTME5KY0ZTT3lCTGsxODdFN1dBXzlnVExZM2FjUlJOOGJONUIyeFlhUDR2SEZrbWoxeW1OR0pmQndXaEJyaXJ6UTZxSVZRU1M3QUg4QQ?oc=5",
+      "published_dt": "2026-08-04T09:48:03+00:00",
+      "source_name": "WXII",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMirwFBVV95cUxNWWJ5Vm96Nnl3T1U1WjZ2aGY0cEd1d1lOcWxramFOZlktMmtKNlV5bW45TC1MNXZxaFYxWHVfWWV1M1FrYjZYdlhrZU91QU04ZlI3OGdIc1dfblRqNlJoR0hGTjZjeXBadXhZTGlyUlRCUU9pQlFfUnkxa3JNVEVTTFhMWTZ6emhENU9WTk1DRU1CTlN1VUhZZ1BfUFYtNnNNM3VDS3MwRC02SW1Jb3NF",
+      "title": "Sharon Osbourne discusses OzzFest, AI Ozzy and upcoming biopic",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWJ5Vm96Nnl3T1U1WjZ2aGY0cEd1d1lOcWxramFOZlktMmtKNlV5bW45TC1MNXZxaFYxWHVfWWV1M1FrYjZYdlhrZU91QU04ZlI3OGdIc1dfblRqNlJoR0hGTjZjeXBadXhZTGlyUlRCUU9pQlFfUnkxa3JNVEVTTFhMWTZ6emhENU9WTk1DRU1CTlN1VUhZZ1BfUFYtNnNNM3VDS3MwRC02SW1Jb3NF?oc=5",
+      "published_dt": "2026-08-04T09:40:59+00:00",
+      "source_name": "Far Out Magazine",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMigAFBVV95cUxOTW1RMGV4ZnhYMXZTZjFDemJ5NWJ6R3I2ZlBjY3hMMTdTN3ZTS054MmlNMnNoTGhjeVhObE5iSlZrNGM0Nmh5YW9nYWN6VGtoMDFCSUh1cHd3NWJwQTlJTTA5ZEUxczJTTVdqcDZJbVhFVDl0dWhIdlJSYzZ4NE44VQ",
+      "title": "Family snorkeling trip in Bahamas turns into race to save man's leg after shark attack",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTW1RMGV4ZnhYMXZTZjFDemJ5NWJ6R3I2ZlBjY3hMMTdTN3ZTS054MmlNMnNoTGhjeVhObE5iSlZrNGM0Nmh5YW9nYWN6VGtoMDFCSUh1cHd3NWJwQTlJTTA5ZEUxczJTTVdqcDZJbVhFVDl0dWhIdlJSYzZ4NE44VQ?oc=5",
+      "published_dt": "2026-08-04T09:29:00+00:00",
+      "source_name": "WXII",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMixgFBVV95cUxQMTFDbk9ad2FHZy02SmdpNGVFRmNhMEFUOVk5bXZMakNXVzBUVW9EeDJSUzhkMktGNjg0ZDRGTGI4Rl84TzF1TlBDMmt6ZkpBNnNubDVlMjgyZzRKVHAxckNiM1FKWHVMY1B5TFJMbGFhM1VNcVI2RWxjNU50eV8zamFDbVYtUlU1MENXR1Jad3FldXkxaHRJTWl2WlZ1eVZiR0U5c3FweEczSl9fQ1ZmWDFxaElaX25FWVlpbFpLTVYwcnk0MFE",
+      "title": "Devonshires strengthens Construction team with appointment of Partner Sean Garbutt",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMTFDbk9ad2FHZy02SmdpNGVFRmNhMEFUOVk5bXZMakNXVzBUVW9EeDJSUzhkMktGNjg0ZDRGTGI4Rl84TzF1TlBDMmt6ZkpBNnNubDVlMjgyZzRKVHAxckNiM1FKWHVMY1B5TFJMbGFhM1VNcVI2RWxjNU50eV8zamFDbVYtUlU1MENXR1Jad3FldXkxaHRJTWl2WlZ1eVZiR0U5c3FweEczSl9fQ1ZmWDFxaElaX25FWVlpbFpLTVYwcnk0MFE?oc=5",
+      "published_dt": "2026-08-04T09:31:56+00:00",
+      "source_name": "Devonshires Solicitors",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMirgFBVV95cUxNOW0xVGdjajJha05kemZxUklYcEw4VDhQVDFpbmplNGhKOGlNVFpEcjdaZHZKMGIwOGJfMGZQYVZnREltaTNPeG1fRmRsR2lkTzZKZ0pGTVBBeW5FVjVvWUV6OE5aVWJ6RWh1a05PZDBCUXZid2VWQnZ6RDJvb18wQUE5aEhQZ2NzQXREUHZNSVBSeGRzY3l2YkpiSklFNHBRUk5rMDRsUm54VzA5QkE",
+      "title": "Brandon McGinley: This should be the beginning of the end of Ohio River Boulevard",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOW0xVGdjajJha05kemZxUklYcEw4VDhQVDFpbmplNGhKOGlNVFpEcjdaZHZKMGIwOGJfMGZQYVZnREltaTNPeG1fRmRsR2lkTzZKZ0pGTVBBeW5FVjVvWUV6OE5aVWJ6RWh1a05PZDBCUXZid2VWQnZ6RDJvb18wQUE5aEhQZ2NzQXREUHZNSVBSeGRzY3l2YkpiSklFNHBRUk5rMDRsUm54VzA5QkE?oc=5",
+      "published_dt": "2026-08-04T09:45:10+00:00",
+      "source_name": "Pittsburgh Post-Gazette",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiekFVX3lxTE1XZktsQU50dkE5Q2hUbUFSMzA2SzFFWko2THQxaks5ZVRaUW9iWEZJOVpvc2tKRjIzM0JLUGM2TmFtZm9adjh6MWJCTldBMTJ5U0pSSEJSeVp2VTNKMTgwSW02c1BHS3JWMXdQbXhINlR1V1BSeU9fZTB3",
+      "title": "Army Of Shadows: What Do We Know About Ronan Bennett\u2019s New Thriller?",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XZktsQU50dkE5Q2hUbUFSMzA2SzFFWko2THQxaks5ZVRaUW9iWEZJOVpvc2tKRjIzM0JLUGM2TmFtZm9adjh6MWJCTldBMTJ5U0pSSEJSeVp2VTNKMTgwSW02c1BHS3JWMXdQbXhINlR1V1BSeU9fZTB3?oc=5",
+      "published_dt": "2026-08-04T09:44:25+00:00",
+      "source_name": "Country and Town House",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMia0FVX3lxTFA4LTlwOEhGWm1PUlhpOFNNYlZtZ3oxaVBJeFp6bHYtU3o4aUJXeWJ5MDdsdkVjMGwyanUwQVdYcUdPMGRYbzZ4UzR6MUw2TEtlNnlxcHozOFo5TTFMcWg4dUxGR0NQWklEYlpF",
+      "title": "The Week in Light & Sound",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4LTlwOEhGWm1PUlhpOFNNYlZtZ3oxaVBJeFp6bHYtU3o4aUJXeWJ5MDdsdkVjMGwyanUwQVdYcUdPMGRYbzZ4UzR6MUw2TEtlNnlxcHozOFo5TTFMcWg4dUxGR0NQWklEYlpF?oc=5",
+      "published_dt": "2026-08-04T09:33:49+00:00",
+      "source_name": "LSi Online",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi0AFBVV95cUxNSzZhdlJRMkV1cjkyTFBvbnR2am5rWkc4MkZLX01zazExR1RJdWU2Uk02SmhZZVUxMFZYbXo4eHpfTUk0SnlQWGdSSEk2VWQyOWc5RFNfcTZ0QWh4WFJEQjM3V05sMkVyeElVb0RFejRuNXFyUkhHNm5DUm9nYnNWMU1ZYmxTZzRvY25BclFxUmNfdUI1eDZJNUlCQXM5NU9uUkFiUVB4dVJBQXNkSkR0NHo0ei11RHpMNTZDMjlCd1NmMWw5bUt6am5kbmx2MHRa",
+      "title": "Hollywood legends\u2019 tense on-set stoush exposed",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSzZhdlJRMkV1cjkyTFBvbnR2am5rWkc4MkZLX01zazExR1RJdWU2Uk02SmhZZVUxMFZYbXo4eHpfTUk0SnlQWGdSSEk2VWQyOWc5RFNfcTZ0QWh4WFJEQjM3V05sMkVyeElVb0RFejRuNXFyUkhHNm5DUm9nYnNWMU1ZYmxTZzRvY25BclFxUmNfdUI1eDZJNUlCQXM5NU9uUkFiUVB4dVJBQXNkSkR0NHo0ei11RHpMNTZDMjlCd1NmMWw5bUt6am5kbmx2MHRa?oc=5",
+      "published_dt": "2026-08-04T09:30:50+00:00",
+      "source_name": "NT News",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiwAFBVV95cUxOaU9zRWxsQmt1YTdOVXRSOUpLTjZ2Nm1IWGl6bGZmNm5vVXZoVXFfcmdfZkVQcHZJWl9NSEJXYUxxTlVaMXByMmFIQ1RwUEdjZ2RlZVZWbnlGZmxjUzM5T1g0emxjRmFIVWQ5MFZJQ3VmZFRZMUt1TEZfRF9XQk1tNThXS3BPTnh3QWJnWTBuNEQ4VEFuVWRfUnZ5SnloSVpkeGUyMmRfZFNlQWpBTWtXWlRzT1MxMnFmVkNGUFBkMDg",
+      "title": "6-Time WWE Champion 'In Talks' to Play One of the 'Greatest Video Game Characters of All Time'",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaU9zRWxsQmt1YTdOVXRSOUpLTjZ2Nm1IWGl6bGZmNm5vVXZoVXFfcmdfZkVQcHZJWl9NSEJXYUxxTlVaMXByMmFIQ1RwUEdjZ2RlZVZWbnlGZmxjUzM5T1g0emxjRmFIVWQ5MFZJQ3VmZFRZMUt1TEZfRF9XQk1tNThXS3BPTnh3QWJnWTBuNEQ4VEFuVWRfUnZ5SnloSVpkeGUyMmRfZFNlQWpBTWtXWlRzT1MxMnFmVkNGUFBkMDg?oc=5",
+      "published_dt": "2026-08-04T09:33:00+00:00",
+      "source_name": "Men's Journal",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiuAFBVV95cUxNQ1NoUU9WMzNlZEIwOFQzWEtRX0ZWaEFfVEZ0ZTNMOWpHODZRMThtZ25jTzAzN2xjMDJFUmFLOVhZbi04WWJVMzdjWFJRclBIT2pGRDNzM0k4UjREeUozam43d3VPUnUyZmtCRWRYY2JDd2VBUUZaOXdhVERVM1UtZEoyeDZPOURfVVo3ZlV5aDUwQ09aaVdDR3AweFBkY2hxN0FhaFNmTmFqQ2dsUXZKWi1qT3lnSHRv",
+      "title": "Here's how much Texas, Nueces County spent on OnlyFans in 2025",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQ1NoUU9WMzNlZEIwOFQzWEtRX0ZWaEFfVEZ0ZTNMOWpHODZRMThtZ25jTzAzN2xjMDJFUmFLOVhZbi04WWJVMzdjWFJRclBIT2pGRDNzM0k4UjREeUozam43d3VPUnUyZmtCRWRYY2JDd2VBUUZaOXdhVERVM1UtZEoyeDZPOURfVVo3ZlV5aDUwQ09aaVdDR3AweFBkY2hxN0FhaFNmTmFqQ2dsUXZKWi1qT3lnSHRv?oc=5",
+      "published_dt": "2026-08-04T09:45:00+00:00",
+      "source_name": "Corpus Christi Caller-Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMijAFBVV95cUxPdWlmTW1BcHhsNTJGMjJHb1I3Xy1kOFFGd1RRVFhCaXN4dlJ2LVRZMlJzek5ZUFZOOGlJSE5NamxQbnRMRHRPdkl5WE5DREtURWRwS1dsVXk1UGFxVmdVb3BFZUdzNkxGaUZQY2JXR3ZZRGtVNTdYZ091bS0zekZzTWhEaWpPMjA5dGlVUQ",
+      "title": "Where will the total solar eclipse be visible across the world? A guide to August\u2019s spectacle",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdWlmTW1BcHhsNTJGMjJHb1I3Xy1kOFFGd1RRVFhCaXN4dlJ2LVRZMlJzek5ZUFZOOGlJSE5NamxQbnRMRHRPdkl5WE5DREtURWRwS1dsVXk1UGFxVmdVb3BFZUdzNkxGaUZQY2JXR3ZZRGtVNTdYZ091bS0zekZzTWhEaWpPMjA5dGlVUQ?oc=5",
+      "published_dt": "2026-08-04T09:42:00+00:00",
+      "source_name": "The Independent",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMihAFBVV95cUxQZnJRYXQxZl9TMXIxdk0wcnJPRk5WdjRLZGxCeThtcFFyQWRNZmNEVFR6M01GdkFzZDB3QWwzZHNmcGUzdl9hOU9iZmYzMlVGSURVRmZxcXMzeGI1Q1FydHNPbmZuMW5qNzEtZHN6NWlTdTZ5dmQ1Tmt3RmRJRXZ6RmI3U2Q",
+      "title": "Two million pairs of free protective glasses made available across Spain ahead of 12 August total eclipse",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZnJRYXQxZl9TMXIxdk0wcnJPRk5WdjRLZGxCeThtcFFyQWRNZmNEVFR6M01GdkFzZDB3QWwzZHNmcGUzdl9hOU9iZmYzMlVGSURVRmZxcXMzeGI1Q1FydHNPbmZuMW5qNzEtZHN6NWlTdTZ5dmQ1Tmt3RmRJRXZ6RmI3U2Q?oc=5",
+      "published_dt": "2026-08-04T09:48:18+00:00",
+      "source_name": "Sur in English",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqAFBVV95cUxQWE1LNjBES0FsYjNJWkZtNGtKdFVZbW9KNUJqNTJDLU5Vb3ozTnZHajNGd2F3VGJkVGlFeTg5cEpXMjR3b2ZmRnlHQ01Mdy02QTA2YnhfTFFrU0lhUlZTNldRN09oemtlS1NSR3gxdGdrWGxfaHRpY0tmNEtwUkVnbjM5TGlkMEFxMjBoRHJJejQ5bnVIWl82Ti02aTJlVS1RYkg2SEQ5cWg",
+      "title": "Vietnam's trade turnover tops $659B in 7 months",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWE1LNjBES0FsYjNJWkZtNGtKdFVZbW9KNUJqNTJDLU5Vb3ozTnZHajNGd2F3VGJkVGlFeTg5cEpXMjR3b2ZmRnlHQ01Mdy02QTA2YnhfTFFrU0lhUlZTNldRN09oemtlS1NSR3gxdGdrWGxfaHRpY0tmNEtwUkVnbjM5TGlkMEFxMjBoRHJJejQ5bnVIWl82Ti02aTJlVS1RYkg2SEQ5cWg?oc=5",
+      "published_dt": "2026-08-04T09:41:47+00:00",
+      "source_name": "VnExpress International",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMieEFVX3lxTE5HQU9QVlNjZUZXa2xkUmM0SWNiaVo3R2RtQm1aRUxXZi03dFdpaTg1NEROd3RxdC1QZDNnVWRKRUlVZnZHSk81djVpbW9IZnpWWDZTVzhhSC1BaVdwaGNVMVBxWVFqcnJmaDlEcTczbW5Ua2Z1TENTWQ",
+      "title": "June retail sales up 4.6%",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HQU9QVlNjZUZXa2xkUmM0SWNiaVo3R2RtQm1aRUxXZi03dFdpaTg1NEROd3RxdC1QZDNnVWRKRUlVZnZHSk81djVpbW9IZnpWWDZTVzhhSC1BaVdwaGNVMVBxWVFqcnJmaDlEcTczbW5Ua2Z1TENTWQ?oc=5",
+      "published_dt": "2026-08-04T09:57:43+00:00",
+      "source_name": "news.gov.hk",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMihwFBVV95cUxQcktjTXFmZHlma2pmb2VMYlpRU3EyOVRXRWR2V1dIaFR1eGlFaXFOQXJfUndYcFVmbWZsNUczcUtJMzFleXpsaDlLZHlPbnVTeTRBRVN6Z2h6UGItT3hqdUJsajdESXZXRDh4VVJHbkttYVpEbGU1cno3TTdVR2tENktwX2lSVEE",
+      "title": "24.6 billion shoes produced in 2025",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcktjTXFmZHlma2pmb2VMYlpRU3EyOVRXRWR2V1dIaFR1eGlFaXFOQXJfUndYcFVmbWZsNUczcUtJMzFleXpsaDlLZHlPbnVTeTRBRVN6Z2h6UGItT3hqdUJsajdESXZXRDh4VVJHbkttYVpEbGU1cno3TTdVR2tENktwX2lSVEE?oc=5",
+      "published_dt": "2026-08-04T09:45:19+00:00",
+      "source_name": "World Footwear",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMipAFBVV95cUxOamw2YVZqbV8zSjRZS3k3bXkwZmpaU3FtOFJNdjN0bmpSQjc1VkpRLUxxT3hXRW5fQlZYdmpTMnJqdS1lOXRpSzM2aUt4YmFQM2dJemdZRVMxQk9NenRaTTdyNTVHY3ZUMEk1eVpFaVI0akY3ZHBYMFNDZFA1VkpMeHYyREN5WGg3N2F2czJfSmx2aXhieUxfTElyR29nZmlYS2FwSg",
+      "title": "Russian and Ukrainian drone strikes kill at least 5 in each country",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOamw2YVZqbV8zSjRZS3k3bXkwZmpaU3FtOFJNdjN0bmpSQjc1VkpRLUxxT3hXRW5fQlZYdmpTMnJqdS1lOXRpSzM2aUt4YmFQM2dJemdZRVMxQk9NenRaTTdyNTVHY3ZUMEk1eVpFaVI0akY3ZHBYMFNDZFA1VkpMeHYyREN5WGg3N2F2czJfSmx2aXhieUxfTElyR29nZmlYS2FwSg?oc=5",
+      "published_dt": "2026-08-04T09:26:00+00:00",
+      "source_name": "Audacy",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMikwFBVV95cUxOelRMOGZwR1dVeVUtWHhSNnF5WWZmRE9XYkhESC1VWXR2U2NCTGFNZDB5X1k4b19CT3dPdXBNX0c2RWlidWJaV0kzV19GWjlBZkVfcVAtcnN3eWpZMkJ0Q0FvbzBoWlRuWTJzS3RlMUpHdExwdV90a3pScGlTRklIVG84SnpIUEloazVLakRCQU1jSU0",
+      "title": "Ebola kills 1,700 in eastern Congo as the fastest-growing outbreak surges",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOelRMOGZwR1dVeVUtWHhSNnF5WWZmRE9XYkhESC1VWXR2U2NCTGFNZDB5X1k4b19CT3dPdXBNX0c2RWlidWJaV0kzV19GWjlBZkVfcVAtcnN3eWpZMkJ0Q0FvbzBoWlRuWTJzS3RlMUpHdExwdV90a3pScGlTRklIVG84SnpIUEloazVLakRCQU1jSU0?oc=5",
+      "published_dt": "2026-08-04T09:22:00+00:00",
+      "source_name": "Audacy",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiwwFBVV95cUxOYXFzdW0zcmJ1aHVlWFNiZTIyUlFTVGlYdEQ5WlVXcHBmcW12VEFfZjR4SUdqRXRYclFxY1U0OGZfbXk3am5iMENWTTlfT3NnMEItb3dpVl8wZW5oVEFDM3RHOG5LQU1qeF9UVm9pTDF4VExLTmhzM0ZyUmJnZjBGYk9vY2M2QUxTZHNhSXAwQklSemwzOWFaOXdjbHRVM24wMUJSc1JiN0kyd0owblZNeDFNNEM4dHlWQ1NnOFlFZWdlaHM",
+      "title": "Pakistan teams search on foot for remains of climbers as weather grounds helicopters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYXFzdW0zcmJ1aHVlWFNiZTIyUlFTVGlYdEQ5WlVXcHBmcW12VEFfZjR4SUdqRXRYclFxY1U0OGZfbXk3am5iMENWTTlfT3NnMEItb3dpVl8wZW5oVEFDM3RHOG5LQU1qeF9UVm9pTDF4VExLTmhzM0ZyUmJnZjBGYk9vY2M2QUxTZHNhSXAwQklSemwzOWFaOXdjbHRVM24wMUJSc1JiN0kyd0owblZNeDFNNEM4dHlWQ1NnOFlFZWdlaHM?oc=5",
+      "published_dt": "2026-08-04T09:29:00+00:00",
+      "source_name": "Audacy",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMie0FVX3lxTFBlQ0VnRXEycmV3X1ZHdVJTMDRJOTBpRHpmLXJtVzRKN3BHakdOdjE0bXdXM0g4eTZQa0FXMDFRM054b0JndHpEMHZfUmxOb2ZMbEU3Y1BCMDhZcFVhalpsYXYwbEhVWUY3blQ2d3FvWlBfcWpIQ1NqV0x5OA",
+      "title": "Shijiazhuang int'l land port handles 814 China-Europe, China-Central Asia freight train trips in H1",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlQ0VnRXEycmV3X1ZHdVJTMDRJOTBpRHpmLXJtVzRKN3BHakdOdjE0bXdXM0g4eTZQa0FXMDFRM054b0JndHpEMHZfUmxOb2ZMbEU3Y1BCMDhZcFVhalpsYXYwbEhVWUY3blQ2d3FvWlBfcWpIQ1NqV0x5OA?oc=5",
+      "published_dt": "2026-08-04T09:45:22+00:00",
+      "source_name": "english.news.cn",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMimwFBVV95cUxOa2doTWozSUtWU25hZ3ZNRWVxWEpteGRJdWdpRVRXSEpLRlZwWV9obnhSZjdkYUhYaF9IN3g3MmNBTXBXc0oyTWZLYjVWMzVqaFRxUG55Qm9wck1PckJyd2ZoOTRjdDF4cEpkYlI2Y2xKUm5aV2hGRFBlQVlnQXN3eGgxZFR3ZjdjZFNnWFZGaXRpUzBNa2xEZ0ZGWQ",
+      "title": "Government invests six million euros in five-star hotel in La Herradura",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa2doTWozSUtWU25hZ3ZNRWVxWEpteGRJdWdpRVRXSEpLRlZwWV9obnhSZjdkYUhYaF9IN3g3MmNBTXBXc0oyTWZLYjVWMzVqaFRxUG55Qm9wck1PckJyd2ZoOTRjdDF4cEpkYlI2Y2xKUm5aV2hGRFBlQVlnQXN3eGgxZFR3ZjdjZFNnWFZGaXRpUzBNa2xEZ0ZGWQ?oc=5",
+      "published_dt": "2026-08-04T09:17:05+00:00",
+      "source_name": "Sur in English",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi3gFBVV95cUxOOFAxbUszaFdsN0NISmZsZnA3X3pYRTRJdlZfTzlSZm5MSnIwQWYyTUFfQ0p4YUpQeUU1SFY1a1hJc1dwOU12NHl3ZEhkcjF6X2psTDBIdUEtNzR0ZENmTHdfU3ZxVzJ2ejhOVkFNSXVmVEF5S1pMVkZHYm9lekpBWWVhY3dSbFFkRnJ5UXZWWXpLbExwYVF4MHgxLXRkbUlPZVBUZk1oUHNtYjllaVNGcEFnX1R2SHBLWTY5a1lzcTdJeFFMYkhjMjMzU0c3TXVtN3JlemVzX1QzblJFR0E",
+      "title": "August 2026 could bring the decade\u2019s best skywatching week: a six-planet parade, Perseids, and a total solar eclipse",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOFAxbUszaFdsN0NISmZsZnA3X3pYRTRJdlZfTzlSZm5MSnIwQWYyTUFfQ0p4YUpQeUU1SFY1a1hJc1dwOU12NHl3ZEhkcjF6X2psTDBIdUEtNzR0ZENmTHdfU3ZxVzJ2ejhOVkFNSXVmVEF5S1pMVkZHYm9lekpBWWVhY3dSbFFkRnJ5UXZWWXpLbExwYVF4MHgxLXRkbUlPZVBUZk1oUHNtYjllaVNGcEFnX1R2SHBLWTY5a1lzcTdJeFFMYkhjMjMzU0c3TXVtN3JlemVzX1QzblJFR0E?oc=5",
+      "published_dt": "2026-08-04T09:22:30+00:00",
+      "source_name": "en.softonic.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMihwFBVV95cUxOSWtfcnVnM21EYW9ldWkxSHFYMU9aMklmdEpzWW5OSW9ZSjhfWWxMUWFIUFoyV2NjTHcySm9uNGZIdllDQXloYjhQbnJTbUxSbExvbVpza053TjUwcjhZYzFlVG1RT3hoRk5felM0dHdkUGN1RWdDd2dRNGs4THpRNGJiak1JT1E",
+      "title": "KSB Limited: Unaudited Financial Results for Q2 FY26 Released",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSWtfcnVnM21EYW9ldWkxSHFYMU9aMklmdEpzWW5OSW9ZSjhfWWxMUWFIUFoyV2NjTHcySm9uNGZIdllDQXloYjhQbnJTbUxSbExvbVpza053TjUwcjhZYzFlVG1RT3hoRk5felM0dHdkUGN1RWdDd2dRNGs4THpRNGJiak1JT1E?oc=5",
+      "published_dt": "2026-08-04T09:31:14+00:00",
+      "source_name": "InvestyWise",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMijwFBVV95cUxQTHFhVi11eG1RRWg1WU1TRVZzWWVvQlF3UVVSWnNjWXV1UnlTeElTY2lxUlRhMGVFdlFROTFfMDE4cGJzVkt5WHlVUXkwTDJwSUYzc1IwdFZiVVFEemhQOEZpdE1zM21CYkNZWXhYR1U5eklhVzRZZ0U4T2tXUE44N3VPdVNuVWkzdm5qUkc0TQ",
+      "title": "TeamLease: Completes \u20b914.87 Crore Equity Share Buyback and Extinguishment",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTHFhVi11eG1RRWg1WU1TRVZzWWVvQlF3UVVSWnNjWXV1UnlTeElTY2lxUlRhMGVFdlFROTFfMDE4cGJzVkt5WHlVUXkwTDJwSUYzc1IwdFZiVVFEemhQOEZpdE1zM21CYkNZWXhYR1U5eklhVzRZZ0U4T2tXUE44N3VPdVNuVWkzdm5qUkc0TQ?oc=5",
+      "published_dt": "2026-08-04T09:45:40+00:00",
+      "source_name": "InvestyWise",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiywFBVV95cUxNeHZzQWVqX1B3MFNRMHZOVG1tVzdrbnU2V3ZFellSQWFEU3ZBR2I2TnJHTk80S3lzZW1ZUzJSVmhoZjM4RTVXRXBzVDYxM2hlRmtMbmRrUFNIWHdCbTkzc3hsZXRWWVJQYVZaZDR5dXhkNmlJWFNhZ0x2c1JYRy1RYVN2clRhX0VGenVGYTFTNzB3Q1BoOVJlanBucmlLVGdmbThTdjBabVd0b0UtY3M2VFdzNzBseTAycXpwbDlWZEg2b3FFRDdiekNPQQ",
+      "title": "Legendary rock band may be retiring from touring: \u2018We are all getting old\u2019",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeHZzQWVqX1B3MFNRMHZOVG1tVzdrbnU2V3ZFellSQWFEU3ZBR2I2TnJHTk80S3lzZW1ZUzJSVmhoZjM4RTVXRXBzVDYxM2hlRmtMbmRrUFNIWHdCbTkzc3hsZXRWWVJQYVZaZDR5dXhkNmlJWFNhZ0x2c1JYRy1RYVN2clRhX0VGenVGYTFTNzB3Q1BoOVJlanBucmlLVGdmbThTdjBabVd0b0UtY3M2VFdzNzBseTAycXpwbDlWZEg2b3FFRDdiekNPQQ?oc=5",
+      "published_dt": "2026-08-04T09:30:00+00:00",
+      "source_name": "Lehighvalleylive.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMihAFBVV95cUxOMlJkTEF0Rm03S2YzMU8zampMS183b3c4YUZibl84a1UyV243aGg5cnEzYzJSQVc0M2podW5YVjhUdnIzMmZBY2U5X1BWczhTbkFnaGdxblpFR0lkcU9FSGpMdFE0ZUpLQXFfeXNoMnBaa0JvYkgyNGhTUzhncmFqMk4yMUw",
+      "title": "Is Tainan the world\u2019s most dangerous city?",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMlJkTEF0Rm03S2YzMU8zampMS183b3c4YUZibl84a1UyV243aGg5cnEzYzJSQVc0M2podW5YVjhUdnIzMmZBY2U5X1BWczhTbkFnaGdxblpFR0lkcU9FSGpMdFE0ZUpLQXFfeXNoMnBaa0JvYkgyNGhTUzhncmFqMk4yMUw?oc=5",
+      "published_dt": "2026-08-04T09:08:32+00:00",
+      "source_name": "The Spectator Australia",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMimAFBVV95cUxNNmpjbFdzMHpGbDFyWk40TC1NYjQyMXYxUVZjWWFrN1BEUTVDNGRxOFpBSVF2T2xfUkVzWUwyTVdkd1lKamVseG05MEVJMlVOUHdZQTlGWjYtdy1VYVJEYWlFWFJxT3QzLUlEVVFCUnptYmtkT1RaX1lOSmpTSDBXS3hGb0JNdjJQbXZ1aEROUXNYTVoxQlRobQ",
+      "title": "Eisteddfod visitors offered dream driveaway prize",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNmpjbFdzMHpGbDFyWk40TC1NYjQyMXYxUVZjWWFrN1BEUTVDNGRxOFpBSVF2T2xfUkVzWUwyTVdkd1lKamVseG05MEVJMlVOUHdZQTlGWjYtdy1VYVJEYWlFWFJxT3QzLUlEVVFCUnptYmtkT1RaX1lOSmpTSDBXS3hGb0JNdjJQbXZ1aEROUXNYTVoxQlRobQ?oc=5",
+      "published_dt": "2026-08-04T09:32:40+00:00",
+      "source_name": "Cambrian News",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi2gFBVV95cUxNaVJkUVNUQ1hlWjJYQzZObTBZWWptY1NzSlhPOWVMdWNvbUxmaFdPcHRJeWRwOGt6d2t3NDNKMnJlNGwxQXM1R20ydllGci1NYUJBVGxfYzBHRlVsSVFIeUcyQkhFeDdjVS1JRzg5bHgtSjY3cndWS3RZLTdnaHJzdGk1bVY3c0ZnM012MnhiWkNOdnItb3RNSGhMakdMX3U0UElURmVGS0JOdWM0bUhYak9ZNXIzX19vRkJOajJxVkRtaWdNd2pVSGlzRmZqRENNcWpJWGdWNkx6QdIB5AFBVV95cUxQNzRnbE81ekJZR0I5VERzM1EydV9LVVE3MmVSOGtDaC1GT2doUlFDc0kzelY5OXlHeEdZcE1fMzlLZFJPZTVNaFNVNmZTeXdlcU1qbjNxVDVqb3ZyNFA3Mlh1R2xBOG1XSk11OU5xb0l1cVE4eEMzYXIzVW4wUUtUZjZONDZna2NHTXBLWlpscFc4Q0wxNHRQLTNiODN5S3BaZFJRc1FIZlVfMUlWcHp2UkZ0NEhSMVRybDRvOUZSSzEwNFNvSEowdG1MTjVoQ1h6bHR1ZDJhZGhncHdBclBqVE95UUI",
+      "title": "Nagaland Dear Lottery Result Today 31.7.2026 1 PM 6 PM 8 PM | Lottery Sambad LIVE: Full Winners List Here",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaVJkUVNUQ1hlWjJYQzZObTBZWWptY1NzSlhPOWVMdWNvbUxmaFdPcHRJeWRwOGt6d2t3NDNKMnJlNGwxQXM1R20ydllGci1NYUJBVGxfYzBHRlVsSVFIeUcyQkhFeDdjVS1JRzg5bHgtSjY3cndWS3RZLTdnaHJzdGk1bVY3c0ZnM012MnhiWkNOdnItb3RNSGhMakdMX3U0UElURmVGS0JOdWM0bUhYak9ZNXIzX19vRkJOajJxVkRtaWdNd2pVSGlzRmZqRENNcWpJWGdWNkx6QdIB5AFBVV95cUxQNzRnbE81ekJZR0I5VERzM1EydV9LVVE3MmVSOGtDaC1GT2doUlFDc0kzelY5OXlHeEdZcE1fMzlLZFJPZTVNaFNVNmZTeXdlcU1qbjNxVDVqb3ZyNFA3Mlh1R2xBOG1XSk11OU5xb0l1cVE4eEMzYXIzVW4wUUtUZjZONDZna2NHTXBLWlpscFc4Q0wxNHRQLTNiODN5S3BaZFJRc1FIZlVfMUlWcHp2UkZ0NEhSMVRybDRvOUZSSzEwNFNvSEowdG1MTjVoQ1h6bHR1ZDJhZGhncHdBclBqVE95UUI?oc=5",
+      "published_dt": "2026-08-04T09:47:26+00:00",
+      "source_name": "Goodreturns",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiX0FVX3lxTE5DS2MxNUVJT3pCRWxIakVkTTVtNTRiUmdRTW5uRnE4eXZZUnQzR3ZsQkRmTnhSQWp1ZkhuaWRXVTJLaGI3dzMxQWk2Rkt1VWtWUmdHdElqem1uSHJIUmFR",
+      "title": "Chicken Farm codes (August 2026)",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DS2MxNUVJT3pCRWxIakVkTTVtNTRiUmdRTW5uRnE4eXZZUnQzR3ZsQkRmTnhSQWp1ZkhuaWRXVTJLaGI3dzMxQWk2Rkt1VWtWUmdHdElqem1uSHJIUmFR?oc=5",
+      "published_dt": "2026-08-04T09:31:11+00:00",
+      "source_name": "PCGamesN",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMihwFBVV95cUxOOE5LRGJmRHFadUgyd3lxTUhDWVdXWmR5NDVPTHd6TWpPS3dWUnpzQ0VzLW5rbDFEX0pkN0Q1dmJTOXBqYkZTaFFLVVJlNmltaVo3R3o4VEd1dnRObW5jNFdCaGp1d1lQWUo1Sk9CbEk4MDJXd2cxcEVvUWhzV0trSXlYejI2RXM",
+      "title": "Houston strip club accused of 'Hustlers'-type scheme is being sued again",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOE5LRGJmRHFadUgyd3lxTUhDWVdXWmR5NDVPTHd6TWpPS3dWUnpzQ0VzLW5rbDFEX0pkN0Q1dmJTOXBqYkZTaFFLVVJlNmltaVo3R3o4VEd1dnRObW5jNFdCaGp1d1lQWUo1Sk9CbEk4MDJXd2cxcEVvUWhzV0trSXlYejI2RXM?oc=5",
+      "published_dt": "2026-08-04T09:51:45+00:00",
+      "source_name": "Chron",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMibEFVX3lxTE8wbWpUMG1sbkNlX2xZaVpJeHpRTXRLWFhjaDVIcG9QYldxcUdydVlIckZDNTAtdzNuTjBOZWlZVjFSeDNiRUNOUEszbG04SHRTNkRtN3NCSmkyZmFWOWdWM2NlTW1lazJESTRWYQ",
+      "title": "Say Goodbye to a Major Streaming Service as Disney Quietly Announces Phaseout",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wbWpUMG1sbkNlX2xZaVpJeHpRTXRLWFhjaDVIcG9QYldxcUdydVlIckZDNTAtdzNuTjBOZWlZVjFSeDNiRUNOUEszbG04SHRTNkRtN3NCSmkyZmFWOWdWM2NlTW1lazJESTRWYQ?oc=5",
+      "published_dt": "2026-08-04T09:38:48+00:00",
+      "source_name": "Comic Book Resources",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMihAFBVV95cUxPQmIxRms0STVQNm1FcHlxQ2RMel84bGxxblpQZXVWWFpQSWhGU1ppMFBDNVEwZlY4WTBzbDNlTERGclVJcHgwTlhzZXVFSDZpY0N3Snk1SDBIakRaR0lPV1QyUzNGYnhlcU10YlFIeE8wT1dRNjd2X2VkWGJaSGxQYzlHNEc",
+      "title": "Star Trek\u2019s Love Letter To The Creepiest Horror Film Ever Made",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQmIxRms0STVQNm1FcHlxQ2RMel84bGxxblpQZXVWWFpQSWhGU1ppMFBDNVEwZlY4WTBzbDNlTERGclVJcHgwTlhzZXVFSDZpY0N3Snk1SDBIakRaR0lPV1QyUzNGYnhlcU10YlFIeE8wT1dRNjd2X2VkWGJaSGxQYzlHNEc?oc=5",
+      "published_dt": "2026-08-04T09:40:28+00:00",
+      "source_name": "Giant Freakin Robot",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMizgFBVV95cUxQZndiTmhka3h2WnVvWFdfd0otVnZnaXAzUHhXMC1YUC1ISE5xVWVJMmpwVURSbndYZmM1U3BkSFFsZ0xpS0JPbnFiTlZkTGFTZUt1RnN4bkJTLV9yRDhlX3pnQWhyVWFaVDhtMEx1WTZUc2s5bjlVM2haQzlsZ2Q1UVVTYTZjcXFQV1liT3pfemxWZVU5d19GTURkSzlUZ1dSRXJXb3NZN3pCdUFhRzBoYk1YZHJ6WlNia2JLQWsyR2NNX3l3aWpWSDNKeE1DQQ",
+      "title": "Dan Campbell discusses Lions' right tackle competition",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZndiTmhka3h2WnVvWFdfd0otVnZnaXAzUHhXMC1YUC1ISE5xVWVJMmpwVURSbndYZmM1U3BkSFFsZ0xpS0JPbnFiTlZkTGFTZUt1RnN4bkJTLV9yRDhlX3pnQWhyVWFaVDhtMEx1WTZUc2s5bjlVM2haQzlsZ2Q1UVVTYTZjcXFQV1liT3pfemxWZVU5d19GTURkSzlUZ1dSRXJXb3NZN3pCdUFhRzBoYk1YZHJ6WlNia2JLQWsyR2NNX3l3aWpWSDNKeE1DQQ?oc=5",
+      "published_dt": "2026-08-04T09:46:00+00:00",
+      "source_name": "Lions Wire",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMimgFBVV95cUxQZ0ZKX2tyOVItTUp3LUI5UTMybG40cHNKenZiYUVXN1Z5ZlAtMGJPVnp2N3gxYzI4NUNmSnpSNXdzdzZBN21mVTVBUGx6QWowUlVKV2tKWk0xd0pISGhWaUItSHExdVZ2cmdxWGRQeWVPRnRfdUtmRkxIdVozRG1fS2EtOVpNQnd5aU5QMHNTRGc1ZW82SmFlWmhB",
+      "title": "The Curious, Jubilant Life of John John Florence, Explorer at Sea",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0ZKX2tyOVItTUp3LUI5UTMybG40cHNKenZiYUVXN1Z5ZlAtMGJPVnp2N3gxYzI4NUNmSnpSNXdzdzZBN21mVTVBUGx6QWowUlVKV2tKWk0xd0pISGhWaUItSHExdVZ2cmdxWGRQeWVPRnRfdUtmRkxIdVozRG1fS2EtOVpNQnd5aU5QMHNTRGc1ZW82SmFlWmhB?oc=5",
+      "published_dt": "2026-08-04T09:40:07+00:00",
+      "source_name": "BeachGrit.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiigFBVV95cUxNQzBxSjBrLXhWbGxSUWoyZ2RWT2RkRnI3dWpzSDYtRS03SnpVNV9jUi1Rd2N2STlnVGhzajVxUDIzWkUyWEFSMzh3VzNZMTNINzh0dDFRcm1iTkZBd19Bd2dCcUxEeGsybEI2Qm1xWXgxOXBKOGdSMmtnT1FOYWZxMDJVMzVkR0xjV1E",
+      "title": "The best upcoming movies for August 2026 and beyond",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQzBxSjBrLXhWbGxSUWoyZ2RWT2RkRnI3dWpzSDYtRS03SnpVNV9jUi1Rd2N2STlnVGhzajVxUDIzWkUyWEFSMzh3VzNZMTNINzh0dDFRcm1iTkZBd19Bd2dCcUxEeGsybEI2Qm1xWXgxOXBKOGdSMmtnT1FOYWZxMDJVMzVkR0xjV1E?oc=5",
+      "published_dt": "2026-08-04T09:42:31+00:00",
+      "source_name": "stuff.tv",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiigFBVV95cUxQeHdmVUlXeUhFTTRfZGJZNy0weU4zOU4tZUFsRDlvYWVVQUpVRjItWjhUVnF4TlppSzJzanlXZUUyVUEtYlBNaWVoaXEyNENsdURBclJpVWZnYUV0LW4wb0xuREVYeXRoU1RaNlVwRVFMX0NjRVdMS1pBVWV3ZE5pZy1QYTNTWWlhVGc",
+      "title": "GEMS Education appoints Edward Staton as Principal of GEMS Metropole School Motor City",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeHdmVUlXeUhFTTRfZGJZNy0weU4zOU4tZUFsRDlvYWVVQUpVRjItWjhUVnF4TlppSzJzanlXZUUyVUEtYlBNaWVoaXEyNENsdURBclJpVWZnYUV0LW4wb0xuREVYeXRoU1RaNlVwRVFMX0NjRVdMS1pBVWV3ZE5pZy1QYTNTWWlhVGc?oc=5",
+      "published_dt": "2026-08-04T09:46:00+00:00",
+      "source_name": "albawaba.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiowFBVV95cUxPOUtFR2xoV0xtS3g3dnI0aTc2Y0ZUMGc5SnhrM0xvSkxYOTNpNDRGT196TlZ3RGZBMVpldVpvR01QVkRRamtZSElQek1Bckk4Vmo2YktsTlY3NUEzTUFVV0QxSFBha08taHNHOURSR1U2bkdNQTNaYzhpNzFVc0p4bTVUM1ZHaVNsWHhRa1N3bWpFa1FwTWFfc2Ztc3BrV0tOaG9Z",
+      "title": "Marvel Boss Weighs In On Whether Tom Holland Will Return As Spider-Man",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOUtFR2xoV0xtS3g3dnI0aTc2Y0ZUMGc5SnhrM0xvSkxYOTNpNDRGT196TlZ3RGZBMVpldVpvR01QVkRRamtZSElQek1Bckk4Vmo2YktsTlY3NUEzTUFVV0QxSFBha08taHNHOURSR1U2bkdNQTNaYzhpNzFVc0p4bTVUM1ZHaVNsWHhRa1N3bWpFa1FwTWFfc2Ztc3BrV0tOaG9Z?oc=5",
+      "published_dt": "2026-08-04T09:41:56+00:00",
+      "source_name": "huffingtonpost.co.uk",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMivAFBVV95cUxQS09zNkh0bF9XeTBiZGpCeVdwRHhXZkpPQ0xGeUZieGNVeTBvVGV0WHVOLUNiUVQ4ZmpXaUlJUHBOa2FncHV5Vzc1VkRoUG52akI1RXgyNHd0eU55QzFueEwtV0V5eS1ybXR4TnpUdlVOTzNrdE9ZVG8wSnZFbUpNUWNSa3k5X1lrR2JfNXR1WlVyLUswT0g3NkEwVk05bVF3UmtzOXA4eFZzenMyYVlHWDNLRmJaaXlaS2NuTNIBwgFBVV95cUxNalFWZnhWalBWRW1IdnlvNFpFdElqUUZwUkhkcVdOMXlCeDB0SWhYOVIwY2J6OUJKbjFwdDJRd1ZBT2xmMVlmUlo3N2d4LVBTcTRMUC00SmQ3VVhVR3l5ZGptWG9VMnVCZVUtc3Y0WXpCSFAwNHFVR3o4cm1pdDVsSHNGTVgzLUxhMW9hWUh0SWRiV1AyVjJjUEVTQ2ZMdnJLWjJNNG8yNDJOU2JvM0dMa1puYUZkRXAtODZDUlZ0RWl2dw",
+      "title": "\u2018Spider-Man: Brand New Day\u2019 through the lens of a comic book collector and reader",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS09zNkh0bF9XeTBiZGpCeVdwRHhXZkpPQ0xGeUZieGNVeTBvVGV0WHVOLUNiUVQ4ZmpXaUlJUHBOa2FncHV5Vzc1VkRoUG52akI1RXgyNHd0eU55QzFueEwtV0V5eS1ybXR4TnpUdlVOTzNrdE9ZVG8wSnZFbUpNUWNSa3k5X1lrR2JfNXR1WlVyLUswT0g3NkEwVk05bVF3UmtzOXA4eFZzenMyYVlHWDNLRmJaaXlaS2NuTNIBwgFBVV95cUxNalFWZnhWalBWRW1IdnlvNFpFdElqUUZwUkhkcVdOMXlCeDB0SWhYOVIwY2J6OUJKbjFwdDJRd1ZBT2xmMVlmUlo3N2d4LVBTcTRMUC00SmQ3VVhVR3l5ZGptWG9VMnVCZVUtc3Y0WXpCSFAwNHFVR3o4cm1pdDVsSHNGTVgzLUxhMW9hWUh0SWRiV1AyVjJjUEVTQ2ZMdnJLWjJNNG8yNDJOU2JvM0dMa1puYUZkRXAtODZDUlZ0RWl2dw?oc=5",
+      "published_dt": "2026-08-04T09:17:00+00:00",
+      "source_name": "Inquirer.net",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiyAFBVV95cUxPMEpCYWJFX0d5My1jMnMwc1owejNnclhoVlZrckp2TnFhbW5DMWhnR2d3SmhYVUhXcGw2dG9EdlpDRGdtNlFocnk3WlFHam45UFFMeFVmeTlhSlduWXhTUjl2V3R5bWt5WnhWZUNhYVc1LWNZZDdWeGlPc0dHNFJHMDU4TzRETk5rU28zSVFPRkhPVVZoc1p5dFZiQVJpU2x3cG9FVTIzRC16QVJ0SnFsNWlnWm9nM3o1bWRNQjNGUzEwRUxqczA1dg",
+      "title": "Where Peter Parker and MJ\u2019s Relationship Stands at the End of Spider-Man: Brand New Day",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMEpCYWJFX0d5My1jMnMwc1owejNnclhoVlZrckp2TnFhbW5DMWhnR2d3SmhYVUhXcGw2dG9EdlpDRGdtNlFocnk3WlFHam45UFFMeFVmeTlhSlduWXhTUjl2V3R5bWt5WnhWZUNhYVc1LWNZZDdWeGlPc0dHNFJHMDU4TzRETk5rU28zSVFPRkhPVVZoc1p5dFZiQVJpU2x3cG9FVTIzRC16QVJ0SnFsNWlnWm9nM3o1bWRNQjNGUzEwRUxqczA1dg?oc=5",
+      "published_dt": "2026-08-04T09:38:27+00:00",
+      "source_name": "ELLE",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi2wFBVV95cUxOWkVpM0pTbFI5YTVkdmgtVVY1cUExQ0NCVjh0Q2JEeGNnSWRZVUFSalpqZ09VMWVMRG9OZUNpdFZqbWxYaFZCVUZvNzZOVkRkUDY0Y2x0eGpwOWVFM2E5VEN2bENaZE9OOHdnTEdERXFQSkszRjk0Rzd4cEZ0RXJTTHEweE11bzBkdHBrbzItcGwzLUNRdnBXU2xQMFBUdW5ieWUzaHZDMjdSRlhnb0xIdDBDNVBRUUZFNHVVeFdsS3dOcEVuU25CclNCcGZjTUNJNHRlWUpPYU1YYzjSAeABQVVfeXFMUDVfdzI4VHJ3NzBJTFhYNkxoeTZPZDJSUHEta3dxcDMtcFFVOE5qblpIOEw2R1pQQVVQTHFyOXdmUExLZDJteGlHTVdwV29zVG9vYnZIN0c4WHRsejNSS2MwN0tha183eE03ZUpsMW1JRG02c2tWZ2g5bzY1ajBHdU13c3QtOXdYOGdSTkYyM25pbE02VXpQdFZkQ1RDeHM0MEFJMnZMcGpvUVpPVDVERTBHRUdpS3I4SjNjVkxDNE4yWFNMd1ZvYklEMzYtakJaV0gzSjlEUmRzSWpQTko1ZFA",
+      "title": "Spider-Man 5 confirmed after Brand New Day as Marvel head eyes next chapter",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWkVpM0pTbFI5YTVkdmgtVVY1cUExQ0NCVjh0Q2JEeGNnSWRZVUFSalpqZ09VMWVMRG9OZUNpdFZqbWxYaFZCVUZvNzZOVkRkUDY0Y2x0eGpwOWVFM2E5VEN2bENaZE9OOHdnTEdERXFQSkszRjk0Rzd4cEZ0RXJTTHEweE11bzBkdHBrbzItcGwzLUNRdnBXU2xQMFBUdW5ieWUzaHZDMjdSRlhnb0xIdDBDNVBRUUZFNHVVeFdsS3dOcEVuU25CclNCcGZjTUNJNHRlWUpPYU1YYzjSAeABQVVfeXFMUDVfdzI4VHJ3NzBJTFhYNkxoeTZPZDJSUHEta3dxcDMtcFFVOE5qblpIOEw2R1pQQVVQTHFyOXdmUExLZDJteGlHTVdwV29zVG9vYnZIN0c4WHRsejNSS2MwN0tha183eE03ZUpsMW1JRG02c2tWZ2g5bzY1ajBHdU13c3QtOXdYOGdSTkYyM25pbE02VXpQdFZkQ1RDeHM0MEFJMnZMcGpvUVpPVDVERTBHRUdpS3I4SjNjVkxDNE4yWFNMd1ZvYklEMzYtakJaV0gzSjlEUmRzSWpQTko1ZFA?oc=5",
+      "published_dt": "2026-08-04T09:46:19+00:00",
+      "source_name": "India Today",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMid0FVX3lxTE9BWi1BR0FmTkp5ZUdsNVB0Z3pmM3FyME1nVHJ1ejE1bG1WRTFseGZoZmYwYzc2QlpBQVNLZXoyUG5zMHlXRjZTZ3FPZUMtSk1jYW53dkx2dEZ0RUlFTlNTV09iWGM2a05rZGVUWW8xeERjVlhZZVpv",
+      "title": "Who is Sadie Sink? Inside the career of the \u2018Spider-Man: A Brand New Day\u2019 actress",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9BWi1BR0FmTkp5ZUdsNVB0Z3pmM3FyME1nVHJ1ejE1bG1WRTFseGZoZmYwYzc2QlpBQVNLZXoyUG5zMHlXRjZTZ3FPZUMtSk1jYW53dkx2dEZ0RUlFTlNTV09iWGM2a05rZGVUWW8xeERjVlhZZVpv?oc=5",
+      "published_dt": "2026-08-04T09:30:18+00:00",
+      "source_name": "Tatler Asia",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMigAFBVV95cUxNbTd1Zzh1ekJNYU95RW5nQWZWWWZiZDk0R0IzaVJ3M1VXeXpwUElRSjBLOWtrZTV5Z3AwMy1CWWRTNWxpbnE0a2dfWWJxS3RDdW1pMU5zczFGWTN4dGEydVBXZXRHTHNnc21nZ21BcG1KbWU0NVJoRDMwQ3RBemc1VA",
+      "title": "Andrew Garfield Reveals One Thing That'd Bring Him Back for 'Amazing Spider-Man 3'",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbTd1Zzh1ekJNYU95RW5nQWZWWWZiZDk0R0IzaVJ3M1VXeXpwUElRSjBLOWtrZTV5Z3AwMy1CWWRTNWxpbnE0a2dfWWJxS3RDdW1pMU5zczFGWTN4dGEydVBXZXRHTHNnc21nZ21BcG1KbWU0NVJoRDMwQ3RBemc1VA?oc=5",
+      "published_dt": "2026-08-04T09:32:34+00:00",
+      "source_name": "MovieWeb",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMinAJBVV95cUxNTXhGVEpTa1ZKWThMODJYMHFYYXBGMGRrUGxOdnBKdEFIblE3VTZJRU5tYVpiT0k0eG5TY29KajVwWDdVMWdHclVjRXJtS1pnMGREdVBjOTByWUJ3R0JFeXlkd2NWRTVQWGZ6X29ieXhCakw5ellJaDdZRlpsV1hDNWZaVjFaa2tPSzA1UjkwOFI4Y3psQVRmemxjbGpoc2J1SXVteFVLX1llQi1TbkttLV9sMU84ZFIwc09PRkIzdFpONExFTFkwUGJ3bWJVeF82QlNodXNNU3lwYndvZFRXaWxUbGlYMC1kendfRVZ2Vm5mZzUzeE14c21yOFhjRzc2QXE4LUZqOWVsS1dBc2ZuTk9GZ1BvQldQZzgtQw",
+      "title": "Kevin Feige says Sadie Sink's Jean Grey \"has immense significance\" in the Marvel Universe and will play a \"key role in the future of the MCU\"",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNTXhGVEpTa1ZKWThMODJYMHFYYXBGMGRrUGxOdnBKdEFIblE3VTZJRU5tYVpiT0k0eG5TY29KajVwWDdVMWdHclVjRXJtS1pnMGREdVBjOTByWUJ3R0JFeXlkd2NWRTVQWGZ6X29ieXhCakw5ellJaDdZRlpsV1hDNWZaVjFaa2tPSzA1UjkwOFI4Y3psQVRmemxjbGpoc2J1SXVteFVLX1llQi1TbkttLV9sMU84ZFIwc09PRkIzdFpONExFTFkwUGJ3bWJVeF82QlNodXNNU3lwYndvZFRXaWxUbGlYMC1kendfRVZ2Vm5mZzUzeE14c21yOFhjRzc2QXE4LUZqOWVsS1dBc2ZuTk9GZ1BvQldQZzgtQw?oc=5",
+      "published_dt": "2026-08-04T09:51:12+00:00",
+      "source_name": "GamesRadar+",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi-AFBVV95cUxNbFE2RkpLZUZ6ejQtejl3ZklEZktWNHdpY2g3bmRIQkVpVVJfVVh3RDlYeGtVckt3Q2NMTzFQVnBUcDhqQVlxUlhGbEVPMkZ3YkZCV2pvR2VybjdDOTRqV2JuMC1LazZrWnB5YWFIUm5Vc1VzOGJ4X2p4Yi1kYVdFa0k5YmxtRk9ncGtYcWN3M2JUb2FneEdCTXdPTnlyd0s0T0traGJEeUNwZVYzeVFJdEVRb3BhTngtdnYyZ2p0bXFBOXZNZWxtOXZob01iT1JLX3lZQ1lTU2RacFRYSmRpaWd4RVZBVlVxSUh3YmxWR04xdGNUcWJlYw",
+      "title": "WHO SAID THIS: How Uncle Ben's timeless lesson became the foundation of Peter Parker's heroism in 'Spider-Man'",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbFE2RkpLZUZ6ejQtejl3ZklEZktWNHdpY2g3bmRIQkVpVVJfVVh3RDlYeGtVckt3Q2NMTzFQVnBUcDhqQVlxUlhGbEVPMkZ3YkZCV2pvR2VybjdDOTRqV2JuMC1LazZrWnB5YWFIUm5Vc1VzOGJ4X2p4Yi1kYVdFa0k5YmxtRk9ncGtYcWN3M2JUb2FneEdCTXdPTnlyd0s0T0traGJEeUNwZVYzeVFJdEVRb3BhTngtdnYyZ2p0bXFBOXZNZWxtOXZob01iT1JLX3lZQ1lTU2RacFRYSmRpaWd4RVZBVlVxSUh3YmxWR04xdGNUcWJlYw?oc=5",
+      "published_dt": "2026-08-04T09:48:54+00:00",
+      "source_name": "ABS-CBN",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMimgFBVV95cUxPc1k1ejR5ZjRXcVBCeTh0NHlNckFNYUJrMjA3clI1Y2VwamFwcmVFd2V6Z1Exck41ZEtxNnU5SC0zcjg4bEk2MUNXdUtDZU5TamI0bEJ3Nzh6NG5HWFNKa0RWVEhJUUFrNnRGNTZIWmNQUzV2OXBjQWszcU1wdUhUZ3JLeDdWdzJsME9oVXJ1N2hodloweTRNcGVB",
+      "title": "\u2018Spider-Man: Brand New Day\u2019 beats \u2018Avengers: Endgame\u2019 box office record",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPc1k1ejR5ZjRXcVBCeTh0NHlNckFNYUJrMjA3clI1Y2VwamFwcmVFd2V6Z1Exck41ZEtxNnU5SC0zcjg4bEk2MUNXdUtDZU5TamI0bEJ3Nzh6NG5HWFNKa0RWVEhJUUFrNnRGNTZIWmNQUzV2OXBjQWszcU1wdUhUZ3JLeDdWdzJsME9oVXJ1N2hodloweTRNcGVB?oc=5",
+      "published_dt": "2026-08-04T09:32:21+00:00",
+      "source_name": "Manila Bulletin",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi0wFBVV95cUxOazVRWGZDbm9TY3JuWEdUeUlwRk5hMjc0QlJ5UWFLdzdUdDRoM1Jya3czcjh5U05ZMXkyWEhyMG43NTI0ZDU2MWpNaXBoekYyQzBBMXJjd2Q0S1RIdlZNbTlKYlpoc2tQbVVsLUVkZWlQdXl0QVNvdGpEQlpUZEpibHVwRHR3UHgxWktrR095b3pWSHU1emtyb3hFczFCNllHTFJOdlI4blZWMUlXWTZQU2pDTDVaQmNtWVVfWVh1LVUwaTFRSWZwVmlNNUszWjIzQkpj",
+      "title": "Spider-Man screening in Colombia interrupted as 'fart attack' forces hundreds to evacuate cinema",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOazVRWGZDbm9TY3JuWEdUeUlwRk5hMjc0QlJ5UWFLdzdUdDRoM1Jya3czcjh5U05ZMXkyWEhyMG43NTI0ZDU2MWpNaXBoekYyQzBBMXJjd2Q0S1RIdlZNbTlKYlpoc2tQbVVsLUVkZWlQdXl0QVNvdGpEQlpUZEpibHVwRHR3UHgxWktrR095b3pWSHU1emtyb3hFczFCNllHTFJOdlI4blZWMUlXWTZQU2pDTDVaQmNtWVVfWVh1LVUwaTFRSWZwVmlNNUszWjIzQkpj?oc=5",
+      "published_dt": "2026-08-04T09:16:33+00:00",
+      "source_name": "The Express Tribune",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiugFBVV95cUxQYzJqanNuY0hIanlVcTAtYmdpZE1HOWItclpQa0tNNWtBUXhHUUxLUWNYdGpvb2pPYU93WC02SHpEcnFZNFZBNEI0WnZZU1NPYV9IS24xNmYtcjVWZkNPamhQYS1OYlloZ0R5RjlCWFNFbW10cnJUcWtRb2ZxdHZLQ0JzQS04Qi16UHNTNWJXMTBfRThWeWlfSUV0UExqM05DTnl1ck4tdm85RVpNemE3bFkwMERrSkI4a0E",
+      "title": "Spider-Man: Brand New Day debuts to \u20ac804 million at global box office",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYzJqanNuY0hIanlVcTAtYmdpZE1HOWItclpQa0tNNWtBUXhHUUxLUWNYdGpvb2pPYU93WC02SHpEcnFZNFZBNEI0WnZZU1NPYV9IS24xNmYtcjVWZkNPamhQYS1OYlloZ0R5RjlCWFNFbW10cnJUcWtRb2ZxdHZLQ0JzQS04Qi16UHNTNWJXMTBfRThWeWlfSUV0UExqM05DTnl1ck4tdm85RVpNemE3bFkwMERrSkI4a0E?oc=5",
+      "published_dt": "2026-08-04T09:31:04+00:00",
+      "source_name": "Irish Independent",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi1gFBVV95cUxQVVhfVFk2VWxWcUpBT0ZDcld1b21WVDJDMXloZFpfbUFJdlVKb1hmVG1IbFFpdUFLbTdDdXlXWG9XNjdYLXJhLVU4U3RJbjN4MFdyLTRsckM3bXY4aXctVVR4dnN0bTRZSi10MkJtRUZndWQtOE9mT0hLSW1POWhsQkpRSXE1bTNvNW5ZQzB0MEkwakpkX29CTFF4a2czMDJySkFPT0NLcXd3aTJ0a09XMTFzb1lqekRMLUZBQS1Pemw5b0tpOFo4RWtDNDNkbF8yWW52Zzhn",
+      "title": "Identity of new 007: 'Good bet' that next actor to play James Bond announced this year says producer",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVVhfVFk2VWxWcUpBT0ZDcld1b21WVDJDMXloZFpfbUFJdlVKb1hmVG1IbFFpdUFLbTdDdXlXWG9XNjdYLXJhLVU4U3RJbjN4MFdyLTRsckM3bXY4aXctVVR4dnN0bTRZSi10MkJtRUZndWQtOE9mT0hLSW1POWhsQkpRSXE1bTNvNW5ZQzB0MEkwakpkX29CTFF4a2czMDJySkFPT0NLcXd3aTJ0a09XMTFzb1lqekRMLUZBQS1Pemw5b0tpOFo4RWtDNDNkbF8yWW52Zzhn?oc=5",
+      "published_dt": "2026-08-04T09:21:21+00:00",
+      "source_name": "Inbox.eu",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMifEFVX3lxTE5kVGF3cHlxT3J6UzJEY29aMTBvRnpta0VSVHdtZUhEYjVpNHFYQ0g4Yk1MeWM0T0Y3Rkx4SVFNazdialMzUDF4Nk5YWlpDWDVVRzhjUl9Wd21CQWZXMklhMVpBNlFkbUNRY25HTVlwUkRrWnZFdU9MTF9jQkY",
+      "title": "Identity of new 007: 'Good bet' that next actor to play James Bond announced this year says producer",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kVGF3cHlxT3J6UzJEY29aMTBvRnpta0VSVHdtZUhEYjVpNHFYQ0g4Yk1MeWM0T0Y3Rkx4SVFNazdialMzUDF4Nk5YWlpDWDVVRzhjUl9Wd21CQWZXMklhMVpBNlFkbUNRY25HTVlwUkRrWnZFdU9MTF9jQkY?oc=5",
+      "published_dt": "2026-08-04T09:30:31+00:00",
+      "source_name": "AOL.co.uk",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi0gFBVV95cUxQWHJqSFc2QnR0UFhybVhRTVNqUVRsQ1FkWU1kY2NzOXpJRHpBNFZoVFpvam1LUnJiUV9mYS16OER6andKUDRBelE2aVFnWkVvR2tHQjBXcHZySDVUVlFkVEpMOTk3RWF3WGgxVVVHMkNyZWxldHRJcllKS2JLWmc2TjFMQ1JwNFFFY3BrM2htTG9VZjE3RGVJaFFvTXB4eFJhd3NyZk1HdEprblVyTXl3ZFBwcGJldlFvM01iZUI5S2hmMmRfTzUxNi1xTTAtX0tKRGfSAdIBQVVfeXFMUFhyakhXNkJ0dFBYcm1YUU1TalFUbENRZFlNZGNjczl6SUR6QTRWaFRab2ptS1JyYlFfZmEtejhEemp3SlA0QXpRNmlRZ1pFb0drR0IwV3B2ckg1VFZRZFRKTDk5N0Vhd1hoMVVVRzJDcmVsZXR0SXJZSktiS1pnNk4xTENScDRRRWNwazNobUxvVWYxN0RlSWhRb01weHhSYXdzcmZNR3RKa25Vck15d2RQcHBiZXZRbzNNYmVCOUtoZjJkX081MTYtcU0wLV9LSkRn",
+      "title": "'Spider-Man: Brand New Day' Beats 'Avengers: Endgame' Box Office Record",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWHJqSFc2QnR0UFhybVhRTVNqUVRsQ1FkWU1kY2NzOXpJRHpBNFZoVFpvam1LUnJiUV9mYS16OER6andKUDRBelE2aVFnWkVvR2tHQjBXcHZySDVUVlFkVEpMOTk3RWF3WGgxVVVHMkNyZWxldHRJcllKS2JLWmc2TjFMQ1JwNFFFY3BrM2htTG9VZjE3RGVJaFFvTXB4eFJhd3NyZk1HdEprblVyTXl3ZFBwcGJldlFvM01iZUI5S2hmMmRfTzUxNi1xTTAtX0tKRGfSAdIBQVVfeXFMUFhyakhXNkJ0dFBYcm1YUU1TalFUbENRZFlNZGNjczl6SUR6QTRWaFRab2ptS1JyYlFfZmEtejhEemp3SlA0QXpRNmlRZ1pFb0drR0IwV3B2ckg1VFZRZFRKTDk5N0Vhd1hoMVVVRzJDcmVsZXR0SXJZSktiS1pnNk4xTENScDRRRWNwazNobUxvVWYxN0RlSWhRb01weHhSYXdzcmZNR3RKa25Vck15d2RQcHBiZXZRbzNNYmVCOUtoZjJkX081MTYtcU0wLV9LSkRn?oc=5",
+      "published_dt": "2026-08-04T09:10:50+00:00",
+      "source_name": "Rozana Spokesman",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMizAFBVV95cUxNVWxRa3JUOEdMZElOM2pIek81NHB2ZlhBcHppYUItUUtsT1M2STFFRjc3OUVBX1Z3N3podWg0ZndLYU5wSURCZEVCNXJnSVo5dEVHdWRXcE55TVVENzRHbU1nZnpOMkM0aVBkckVRTWRnN1VrSTRZZU1uUlZ2S01ZZjBNM0M3Z0swZkQ2czlIX25kNFpmbU9GUmJlclpUamgtYkVYUGNQbU1NUFdlNTRkdHVjcVotVE93TG02cjBnQVlxVFpVMVVzb042RDM",
+      "title": "Rosario Dawson\u2019s Cut \u2018Spider-Man: Brand New Day\u2019 Scene Details Have Finally Surfaced, and It Sounds Adorable",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVWxRa3JUOEdMZElOM2pIek81NHB2ZlhBcHppYUItUUtsT1M2STFFRjc3OUVBX1Z3N3podWg0ZndLYU5wSURCZEVCNXJnSVo5dEVHdWRXcE55TVVENzRHbU1nZnpOMkM0aVBkckVRTWRnN1VrSTRZZU1uUlZ2S01ZZjBNM0M3Z0swZkQ2czlIX25kNFpmbU9GUmJlclpUamgtYkVYUGNQbU1NUFdlNTRkdHVjcVotVE93TG02cjBnQVlxVFpVMVVzb042RDM?oc=5",
+      "published_dt": "2026-08-04T09:34:45+00:00",
+      "source_name": "Comic Basics",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqgFBVV95cUxPb2xqRTlNdU15MU9nUHQtYlVtcjNSdUMxYTRLckNxSDJFMFo5NHdDT3U5a3gycUxzZHUwY282Q0h2bGFBMXZxSjE1ZXFHTnctU2E1VW5QMW5lR1U5WmdNbmZuS2ZFc09EREE3WGVsM1U5NEFpX0hWTGxXM0NXc282WUFxUkJfVEk1c1h3WkhkVExWdUx3SlpfYjl3RDVHMkk5TC1zSUU5T2xZdw",
+      "title": "Spider-Man Euphoria Hangs Over Varun Tej\u2019s Korean Kanakaraju",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb2xqRTlNdU15MU9nUHQtYlVtcjNSdUMxYTRLckNxSDJFMFo5NHdDT3U5a3gycUxzZHUwY282Q0h2bGFBMXZxSjE1ZXFHTnctU2E1VW5QMW5lR1U5WmdNbmZuS2ZFc09EREE3WGVsM1U5NEFpX0hWTGxXM0NXc282WUFxUkJfVEk1c1h3WkhkVExWdUx3SlpfYjl3RDVHMkk5TC1zSUU5T2xZdw?oc=5",
+      "published_dt": "2026-08-04T09:41:07+00:00",
+      "source_name": "GreatAndhra",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiwgFBVV95cUxNMUhZVU1nMGJ5QzdOcXE0dExNT3E3cGhEWGF3czlpcXQ0VmRqd2pyVmNWQkFXZlR0Nml2cnkwbDR0M0tkTDBaVEgxSTVZeU55a2NaMDN6eUVodDdZaWFLOFRfc2RMZGFlQk9Od0ZwZ2FmQlJLUXFzQXcyVkxvWms3SlhXdDdURVNaM05vTEJmR1FLLTdBX0s5ZUFiU1VxeENTUU1uMkxZQlNaZk9xWUJkaVlrU1F5U0RSVTViODRTUDRxZw",
+      "title": "Samantha Morton Reveals the Harsh Truth About Hollywood After Her Acclaimed Turn in \u2018The Odyssey'",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUhZVU1nMGJ5QzdOcXE0dExNT3E3cGhEWGF3czlpcXQ0VmRqd2pyVmNWQkFXZlR0Nml2cnkwbDR0M0tkTDBaVEgxSTVZeU55a2NaMDN6eUVodDdZaWFLOFRfc2RMZGFlQk9Od0ZwZ2FmQlJLUXFzQXcyVkxvWms3SlhXdDdURVNaM05vTEJmR1FLLTdBX0s5ZUFiU1VxeENTUU1uMkxZQlNaZk9xWUJkaVlrU1F5U0RSVTViODRTUDRxZw?oc=5",
+      "published_dt": "2026-08-04T09:49:42+00:00",
+      "source_name": "Comic Basics",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi3AFBVV95cUxQR0U2QVVVRzhHVEZGYnZKNGFyY0RnTkZoMVR0aVp6ak4xUEt0Qy1MT254Z3JIWTVQeUFaMjdPWHN2YUREbTBkWDdrVlJWTmE5WlQxTkt1S2JHbV9TdG5ibDlVRTJudHFucTJPdWhsbWVXUFFsZHNsc1Zhd244d0ctZnVQR2xOY0Y4SVNzOWJRQi1MZVIwbWlrWktSek9XMHctdUdZVWdqZnBYYlB2VVpaRjBDbHkzVkVQa3NONXpIS1VIT0wzRmhjdXZlRGgwdHZWRFZNOTZfZjVlYmY2",
+      "title": "Christopher Nolan\u2019s Old Take on Robert Downey Jr.\u2019s Iron Man Casting Is Going Viral Again, Here\u2019s Why It Still Holds Up",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQR0U2QVVVRzhHVEZGYnZKNGFyY0RnTkZoMVR0aVp6ak4xUEt0Qy1MT254Z3JIWTVQeUFaMjdPWHN2YUREbTBkWDdrVlJWTmE5WlQxTkt1S2JHbV9TdG5ibDlVRTJudHFucTJPdWhsbWVXUFFsZHNsc1Zhd244d0ctZnVQR2xOY0Y4SVNzOWJRQi1MZVIwbWlrWktSek9XMHctdUdZVWdqZnBYYlB2VVpaRjBDbHkzVkVQa3NONXpIS1VIT0wzRmhjdXZlRGgwdHZWRFZNOTZfZjVlYmY2?oc=5",
+      "published_dt": "2026-08-04T09:31:39+00:00",
+      "source_name": "Comic Basics",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiuwFBVV95cUxOOGxBeXZ3eXRoTzdlRWxBSm9Cbi04ZlZCMXlrdktRZ2NwV3hYSlVxY1RqemtVN0poeVpuMzFPU0VES051QWFJMW9OSV9BTjBzMHRIb1M3N05sejZ6YXNFUzdjNXlJaXhfXzEzM2ZkZWZSdG9pLXQxSnZ1NGhlSFpBaTZJZGFFdTFJTXJrUFRXZE9oVnJaTGo3WjRkdUhyZFJIMFowVk5ucC0tQ0xEaEU0WkNoeWhCbU02NDVn",
+      "title": "Billie Eilish Is Almost Unrecognizable in New Set Photos from Her Movie Debut \u2018The Bell Jar'",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOGxBeXZ3eXRoTzdlRWxBSm9Cbi04ZlZCMXlrdktRZ2NwV3hYSlVxY1RqemtVN0poeVpuMzFPU0VES051QWFJMW9OSV9BTjBzMHRIb1M3N05sejZ6YXNFUzdjNXlJaXhfXzEzM2ZkZWZSdG9pLXQxSnZ1NGhlSFpBaTZJZGFFdTFJTXJrUFRXZE9oVnJaTGo3WjRkdUhyZFJIMFowVk5ucC0tQ0xEaEU0WkNoeWhCbU02NDVn?oc=5",
+      "published_dt": "2026-08-04T09:45:43+00:00",
+      "source_name": "Comic Basics",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiowFBVV95cUxQTi1fVVE0YVkxUmlSZ2MxajJjQmVzUV9pSEVhVkJnYWU5RDNpNHdlNVdEdHRYWlFYcG9KSWFJd0VjQ19KeWw5WXR6TUJMbjl0QkpHZFZJcE9iWWtFV1FuUExQbGczc1dxUW5FaUR1S3RFYUEta1V0dlZOZkpUUTFqX2h4SWJ4eTRDckVTWk1CQVJ1eVQyR2tud2JPcG50RFJlM1hr",
+      "title": "Nicole Kidman Has a Vast Real Estate Portfolio\u2014Take a Look at All of Her Homes",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTi1fVVE0YVkxUmlSZ2MxajJjQmVzUV9pSEVhVkJnYWU5RDNpNHdlNVdEdHRYWlFYcG9KSWFJd0VjQ19KeWw5WXR6TUJMbjl0QkpHZFZJcE9iWWtFV1FuUExQbGczc1dxUW5FaUR1S3RFYUEta1V0dlZOZkpUUTFqX2h4SWJ4eTRDckVTWk1CQVJ1eVQyR2tud2JPcG50RFJlM1hr?oc=5",
+      "published_dt": "2026-08-04T09:42:50+00:00",
+      "source_name": "ELLE Decor",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiVkFVX3lxTE5HekJlMGFDVklHU0hQZGYxeTdoeEVCTm82TlpSeGdzUWp6S1NnRFFHdkZOT2FmdlJkUEpfQWtYNTR3RFdielROYmF1V1BkVUhaWXM5VzBR",
+      "title": "Record heat kills 3 lions at Tama zoo, more still struggling",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HekJlMGFDVklHU0hQZGYxeTdoeEVCTm82TlpSeGdzUWp6S1NnRFFHdkZOT2FmdlJkUEpfQWtYNTR3RFdielROYmF1V1BkVUhaWXM5VzBR?oc=5",
+      "published_dt": "2026-08-04T09:28:00+00:00",
+      "source_name": "asahi.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMimwFBVV95cUxOMHJOTzJ6bDY5Wm5zbnk4eGFKNnJjczkzLXloa21DTUdhM0JHb2g3T2xtNDQ2VG9yNjU3Q3pPODV1dy02cVQ5RWtXZ2FLVnJHa0JGUE82MnFUYklseTJCY1U4bVNzWTNsT2ctOVlTRWlpWl94MXAwMVRBSjE2ZWtYOXU4RFJjeWhvUVdGQ2lsY3lNeDhZSHYyUGFwSQ",
+      "title": "Football comedy hit \u2018ted lasso\u2019 returns after 3 years",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHJOTzJ6bDY5Wm5zbnk4eGFKNnJjczkzLXloa21DTUdhM0JHb2g3T2xtNDQ2VG9yNjU3Q3pPODV1dy02cVQ5RWtXZ2FLVnJHa0JGUE82MnFUYklseTJCY1U4bVNzWTNsT2ctOVlTRWlpWl94MXAwMVRBSjE2ZWtYOXU4RFJjeWhvUVdGQ2lsY3lNeDhZSHYyUGFwSQ?oc=5",
+      "published_dt": "2026-08-04T09:31:43+00:00",
+      "source_name": "PressReader",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMigAFBVV95cUxNUEc1VE1qcW9oLVNxdnB5eUJGdkpYWnp1ZnhISjFZNkJYZXZOTXVqR2VSLUJTWkM1eGtXWUMyWHhfRGFkemhzT1F4TWxWdUVpVGlHUHdYTUp2Nk1pOU15TVp3RDRwTUJFcGZ0aXVyQ0NsdHZhZUVGbThmVUtBWTJ0Tg",
+      "title": "Watch Ted Lasso Season 4 for free as new series arrives on Apple TV+",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUEc1VE1qcW9oLVNxdnB5eUJGdkpYWnp1ZnhISjFZNkJYZXZOTXVqR2VSLUJTWkM1eGtXWUMyWHhfRGFkemhzT1F4TWxWdUVpVGlHUHdYTUp2Nk1pOU15TVp3RDRwTUJFcGZ0aXVyQ0NsdHZhZUVGbThmVUtBWTJ0Tg?oc=5",
+      "published_dt": "2026-08-04T09:45:00+00:00",
+      "source_name": "Daily Star",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMieEFVX3lxTE4wODEyc2pVZzR6Q2pQbXpZdVJKN1g3RWlMcGJ5VFBrTm05UkQ4NHl1T1E3NndFWlZRTHkzejk1eS0wUE53cnpleG45MWF0emJMTUJLUVFKY3d3aEk5X19LM1VESlAxM0loMlZUYlFPNEp1VGRhdTNibg",
+      "title": "When does Ted Lasso Season 4 arrive in the UK and how to watch for free on Apple TV+",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wODEyc2pVZzR6Q2pQbXpZdVJKN1g3RWlMcGJ5VFBrTm05UkQ4NHl1T1E3NndFWlZRTHkzejk1eS0wUE53cnpleG45MWF0emJMTUJLUVFKY3d3aEk5X19LM1VESlAxM0loMlZUYlFPNEp1VGRhdTNibg?oc=5",
+      "published_dt": "2026-08-04T09:34:00+00:00",
+      "source_name": "Leeds Live",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMixwFBVV95cUxPMC1rUzd2T0wxZHVrbUNkWUZndFVTQUpfc3ZlREc3Vk5FeGxXU29RWnBWeGpXQk5fWDZOamVfNXJ1TFRrZmVCeVpSZ0FOWHhXS1ZwWFhEUEVxMFZiSGM2N2ZzLWtaeDZoZlBIa19yNVBtRURrVlotSnJsTzlxOTJvX3hleUkwV1ZVSUFrZjFveVp3ODRvdDdtMmJTd25hZzJMZWtLTnBrRk8wVEN1VG13a1NHaGI5UjlHWDE3R1ByVXdQbTU5OUww",
+      "title": "Callum Turner & Dua Lipa's 'One Night Only' date",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMC1rUzd2T0wxZHVrbUNkWUZndFVTQUpfc3ZlREc3Vk5FeGxXU29RWnBWeGpXQk5fWDZOamVfNXJ1TFRrZmVCeVpSZ0FOWHhXS1ZwWFhEUEVxMFZiSGM2N2ZzLWtaeDZoZlBIa19yNVBtRURrVlotSnJsTzlxOTJvX3hleUkwV1ZVSUFrZjFveVp3ODRvdDdtMmJTd25hZzJMZWtLTnBrRk8wVEN1VG13a1NHaGI5UjlHWDE3R1ByVXdQbTU5OUww?oc=5",
+      "published_dt": "2026-08-04T09:26:34+00:00",
+      "source_name": "lufkindailynews.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMikAFBVV95cUxPY1kwRWRfdmFrd0VtSzlTWUhaZGlWTmZadHE2cURGbHp2SWJISWZCTC1TZHFBNThCUjU5V0FGX3VITGlLOVJkYmpwMHFsZ2NDYUt1SlZ3SXpvVG9qb1h1aC1kUWd3NFRJTHl3cHEwWFFsUE42Z0w0Y0QwM0dRN1c3bVpoVkVtYjdRTzlCRFdzWVo",
+      "title": "Legendary 90s one hit wonders surprise fans by dropping new single in 28yrs",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY1kwRWRfdmFrd0VtSzlTWUhaZGlWTmZadHE2cURGbHp2SWJISWZCTC1TZHFBNThCUjU5V0FGX3VITGlLOVJkYmpwMHFsZ2NDYUt1SlZ3SXpvVG9qb1h1aC1kUWd3NFRJTHl3cHEwWFFsUE42Z0w0Y0QwM0dRN1c3bVpoVkVtYjdRTzlCRFdzWVo?oc=5",
+      "published_dt": "2026-08-04T09:49:06+00:00",
+      "source_name": "the-sun.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMivAFBVV95cUxPVF9UQ0Y5YVBvc1VnQmFzb3FqRjNNc2xPaGVNSXNYUG1RcnpXUFlKNV9WSWFLRFMyTEFyWHZlcE1Edjh1WWIwN2VUUjB6cHQ3Vm9walZSSi1VVVJYOU1XeXVrOE1FTUtoZ3k5dkNMbnFJX1VLSFpLc3ZTZGE5c1RRUEdOaVJhNkFPNmRJc01laHp4Q2phT3VKOV9TTGJRMms0dG9JVWhfckEtNWN6Rkd3ejZTNlZfRXF2MEF6dQ",
+      "title": "Dua Lipa and Callum Turner make their red carpet debut at film premiere",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVF9UQ0Y5YVBvc1VnQmFzb3FqRjNNc2xPaGVNSXNYUG1RcnpXUFlKNV9WSWFLRFMyTEFyWHZlcE1Edjh1WWIwN2VUUjB6cHQ3Vm9walZSSi1VVVJYOU1XeXVrOE1FTUtoZ3k5dkNMbnFJX1VLSFpLc3ZTZGE5c1RRUEdOaVJhNkFPNmRJc01laHp4Q2phT3VKOV9TTGJRMms0dG9JVWhfckEtNWN6Rkd3ejZTNlZfRXF2MEF6dQ?oc=5",
+      "published_dt": "2026-08-04T09:55:51+00:00",
+      "source_name": "East Lothian Courier",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqwFBVV95cUxQVlJ6bmxKa2hNcHI3TDBYWlRtd1BteFNhZG5obkNZN3pCOUNqS0Q1dGtlQVdPVnN6dWFJdGk5U1g5TDkzWXFQdW5RaVFid1RDTWw3MVUzYm9tM0NSWnFGdWVEbGt1YTBSdW9xQUNzMDlMT2R3ZnJpX1FhaUhwbS1JWHF1YjNyOWtVamQ2YUJVNTI3aUsxUGFIOTlrSGJybnRTRzJMUWIwXzVydm8",
+      "title": "Dua Lipa Joins Callum Turner and Monica Barbaro at One Night Only Premiere in Star Studded Appearance",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVlJ6bmxKa2hNcHI3TDBYWlRtd1BteFNhZG5obkNZN3pCOUNqS0Q1dGtlQVdPVnN6dWFJdGk5U1g5TDkzWXFQdW5RaVFid1RDTWw3MVUzYm9tM0NSWnFGdWVEbGt1YTBSdW9xQUNzMDlMT2R3ZnJpX1FhaUhwbS1JWHF1YjNyOWtVamQ2YUJVNTI3aUsxUGFIOTlrSGJybnRTRzJMUWIwXzVydm8?oc=5",
+      "published_dt": "2026-08-04T09:52:02+00:00",
+      "source_name": "chshyd.in",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMilAFBVV95cUxNekQzclFNZ09ZQVdEa3NBNEdQV19sZzFSem1IeTVRbVRqSWhnczdMOXA4MGszZjctcHpRc29Fa2IyMzdhVzE1U3J1NlRTMEZZVml1Tk1fellEZ3YzRHJIQ3FIejVMbTN2MnFxUVJwYzJwU0JPd2FXVUNGMmxpUlVHVWNBVC1OTkRMZ3VKa3NQejI4V2NO",
+      "title": "Dua Lipa and Callum Turner make their first red-carpet appearance post-honeymoon",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNekQzclFNZ09ZQVdEa3NBNEdQV19sZzFSem1IeTVRbVRqSWhnczdMOXA4MGszZjctcHpRc29Fa2IyMzdhVzE1U3J1NlRTMEZZVml1Tk1fellEZ3YzRHJIQ3FIejVMbTN2MnFxUVJwYzJwU0JPd2FXVUNGMmxpUlVHVWNBVC1OTkRMZ3VKa3NQejI4V2NO?oc=5",
+      "published_dt": "2026-08-04T09:34:00+00:00",
+      "source_name": "The Telegraph",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiiwFBVV95cUxOUWZHOTdkLTdoOTh3TXBMM2lVQ3Jyb1hLVTR3ZEZsdzEwVFhROGhlLWtIMTlVUUNxc1dOU1BodHExLWMweV96SlB1d1dBMTJaMUJlSVRoVXYxZ0ZjTS1fR2MtMFpqN1VSVlozVVhPVXBpN3QzSHRoRkxNUzNQMGNUM1V6dE1zVjBXNG1Z",
+      "title": "James Robert Woods: hip hip hooray for The Birthday Trip",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUWZHOTdkLTdoOTh3TXBMM2lVQ3Jyb1hLVTR3ZEZsdzEwVFhROGhlLWtIMTlVUUNxc1dOU1BodHExLWMweV96SlB1d1dBMTJaMUJlSVRoVXYxZ0ZjTS1fR2MtMFpqN1VSVlozVVhPVXBpN3QzSHRoRkxNUzNQMGNUM1V6dE1zVjBXNG1Z?oc=5",
+      "published_dt": "2026-08-04T09:38:51+00:00",
+      "source_name": "FilmInk",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi6wFBVV95cUxOdUFqX05aOEdsRUw2c3BKeU91a2w5ZTVDQzNXc1ZMWkpmSHhyNmo5cTdja3A2M0taZ2VoYThEVzhhQjE4UV9WYWl3TFpaRHYtWDVTRWJQYWNwbVJXaUM1R2xDYTRRSHRTT0MyX1NCdzBzd1FvbGNWMEhzVjNIN0VKOTNIaU10cVhIYWR5X3FaY0hiTHBSd1UxMHJseUpnM3pMQXJWN2VxNHR1V1Z2RW04Tk5JQVlwbFo1X0VJQTR1R1pPMHZ6eTJjY3AwalN1OUthQmV0b3dJOWUtd0diLVZiTUlpTjNTRDhfTEln",
+      "title": "8 Exciting Movies Releasing In Theaters In First Week Of August 2026: Prahaar, Hanuman Ansh And More",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdUFqX05aOEdsRUw2c3BKeU91a2w5ZTVDQzNXc1ZMWkpmSHhyNmo5cTdja3A2M0taZ2VoYThEVzhhQjE4UV9WYWl3TFpaRHYtWDVTRWJQYWNwbVJXaUM1R2xDYTRRSHRTT0MyX1NCdzBzd1FvbGNWMEhzVjNIN0VKOTNIaU10cVhIYWR5X3FaY0hiTHBSd1UxMHJseUpnM3pMQXJWN2VxNHR1V1Z2RW04Tk5JQVlwbFo1X0VJQTR1R1pPMHZ6eTJjY3AwalN1OUthQmV0b3dJOWUtd0diLVZiTUlpTjNTRDhfTEln?oc=5",
+      "published_dt": "2026-08-04T09:49:00+00:00",
+      "source_name": "The Daily Jagran",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiigFBVV95cUxNQzBxSjBrLXhWbGxSUWoyZ2RWT2RkRnI3dWpzSDYtRS03SnpVNV9jUi1Rd2N2STlnVGhzajVxUDIzWkUyWEFSMzh3VzNZMTNINzh0dDFRcm1iTkZBd19Bd2dCcUxEeGsybEI2Qm1xWXgxOXBKOGdSMmtnT1FOYWZxMDJVMzVkR0xjV1E",
+      "title": "The best upcoming movies for August 2026 and beyond",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQzBxSjBrLXhWbGxSUWoyZ2RWT2RkRnI3dWpzSDYtRS03SnpVNV9jUi1Rd2N2STlnVGhzajVxUDIzWkUyWEFSMzh3VzNZMTNINzh0dDFRcm1iTkZBd19Bd2dCcUxEeGsybEI2Qm1xWXgxOXBKOGdSMmtnT1FOYWZxMDJVMzVkR0xjV1E?oc=5",
+      "published_dt": "2026-08-04T09:42:31+00:00",
+      "source_name": "stuff.tv",
+      "source_tier": 2
     }
   ]
 }
