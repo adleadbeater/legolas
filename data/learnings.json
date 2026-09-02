@@ -1,30 +1,6 @@
 {
   "recently_posted": [
     {
-      "headline": "David Fincher Directs Brad Pitt in Tarantino's 'Once Upon a Time in Hollywood' Follow-Up \u2014 Coming to IMAX",
-      "tag": "once upon a time in hollywood",
-      "posted_at": "2026-08-26T17:04:18.701897+00:00",
-      "urls": [
-        "https://theplaylist.net/the-further-mis-adventures-of-cliff-booth-iimax-november-25-20260826/"
-      ],
-      "article_titles": [
-        "\u2018The Further Mis-Adventures Of Cliff Booth\u2019 Officially Heading To IMAX On November 25 As David Fincher Directs Brad Pitt In Tarantino Follow-Up"
-      ]
-    },
-    {
-      "headline": "Tim Curry Has Died \u2014 Hollywood Pays Tribute to the Beloved Icon",
-      "tag": "tim curry",
-      "posted_at": "2026-08-26T17:04:18.919303+00:00",
-      "urls": [
-        "https://variety.com/2026/film/news/tim-curry-remembered-michael-mckean-muppets-luke-evans-1236844041/",
-        "https://variety.com/2026/film/news/tim-curry-remembered-michael-mckean-muppets-luke-evans-1236844041/"
-      ],
-      "article_titles": [
-        "Tim Curry Remembered by Michael McKean, the Muppets, Luke Evans and More: \u2018Thank You\u2019 for \u2018Inspiring Generations of Actors to Be a Little Braver\u2019",
-        "Tim Curry Remembered by Michael McKean, the Muppets, Luke Evans and More: \u2018Thank You\u2019 for \u2018Inspiring Generations of Actors to Be a Little Braver\u2019"
-      ]
-    },
-    {
       "headline": "Once Upon a Time in Hollywood Sequel Gets an Official Title \u2014 and It's Heading to IMAX",
       "tag": "once upon a time in hollywood",
       "posted_at": "2026-08-26T17:33:28.991794+00:00",
@@ -5466,6 +5442,17 @@
         "Elliot Page Shares Shocking Career Update After \u2018The Odyssey\u2019",
         "Elliot Page Says He\u2019s Not Getting Lots of Offers After Acclaimed \u2018The Odyssey\u2019 Role",
         "Elliot Page Says He\u2019s Not Getting Lots of Offers After Acclaimed \u2018The Odyssey\u2019 Role"
+      ]
+    },
+    {
+      "headline": "Marshals Season 2 Reveals the Youngest Dutton's Fate After That Shocking Betrayal",
+      "tag": "marshals",
+      "posted_at": "2026-09-02T17:22:50.725380+00:00",
+      "urls": [
+        "https://screenrant.com/marshals-season-2-trailer-tate-dutton-fate-revealed-yellowstone/"
+      ],
+      "article_titles": [
+        "CBS Finally Reveals Youngest Dutton\u2019s Fate In Marshals Season 2 After Surprise Betrayal"
       ]
     }
   ],
@@ -15510,6 +15497,166 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aMUtxOExzMjM5Uk5rbFc1eXRneWVwX1BEa1p0ZHdITGgyNnVVcC0wa2FjVnZwdjI3dmxwcEhMSTY3SG03SXI1VDYzUVc3U0ZoQnhULUZWQ2w3cFdwNHBkRlpzNzQ?oc=5",
       "published_dt": "2026-09-02T16:05:32+00:00",
       "source_name": "Daijiworld",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://variety.com/?p=1236848857",
+      "title": "Joel Crawford to Receive the Creative Impact in Animation Award from Variety at SCAD AnimationFest",
+      "url": "https://variety.com/2026/film/awards/joel-crawford-variety-creative-impact-animation-award-1236848857/",
+      "published_dt": "2026-09-02T17:00:00+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvline.com/2249597/swat-exiles-full-trailer-cast-returning-starz-spin-off/",
+      "title": "S.W.A.T. Exiles Trailer: Hondo Leads A New Team With Help From Old Friends In Starz Spin-Off",
+      "url": "https://www.tvline.com/2249597/swat-exiles-full-trailer-cast-returning-starz-spin-off/",
+      "published_dt": "2026-09-02T17:00:00+00:00",
+      "source_name": "TVLine",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1285140",
+      "title": "\u2018Big Brother\u2019 Season 24 Winner Taylor Hale Reveals She Talked to a Psychologist While in the House",
+      "url": "https://www.tvinsider.com/1285140/big-brother-24-taylor-hale-reveals-talked-psychologist-house/",
+      "published_dt": "2026-09-02T17:12:50+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1284983",
+      "title": "\u2018S.W.A.T. Exiles\u2019 Trailer: Hondo\u2019s After a Mole on His New Team",
+      "url": "https://www.tvinsider.com/1284983/swat-exiles-shemar-moore-hondo-trailer-mole/",
+      "published_dt": "2026-09-02T17:00:26+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.nytimes.com/2026/08/31/arts/design/geoffrey-pithon-frieze-seoul.html",
+      "title": "Geoffroy Pithon Is a French Artist Who Is Over \u2018Quiet Luxury\u2019",
+      "url": "https://www.nytimes.com/2026/08/31/arts/design/geoffrey-pithon-frieze-seoul.html",
+      "published_dt": "2026-09-02T17:02:13+00:00",
+      "source_name": "NYT Arts",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.nytimes.com/2026/08/31/movies/hollywood-federal-tax-credit-trump.html",
+      "title": "Trump Renews Push for Federal Film Tax Credit",
+      "url": "https://www.nytimes.com/2026/08/31/movies/hollywood-federal-tax-credit-trump.html",
+      "published_dt": "2026-09-02T17:03:52+00:00",
+      "source_name": "NYT Arts",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.latimes.com/entertainment-arts/story/2026-09-02/inside-gutsy-defiant-lucas-museum-of-narrative-art",
+      "title": "Commentary: Fresh or infuriating? Lucas Museum of Narrative Art defiantly breaks the rules",
+      "url": "https://www.latimes.com/entertainment-arts/story/2026-09-02/inside-gutsy-defiant-lucas-museum-of-narrative-art",
+      "published_dt": "2026-09-02T17:00:00+00:00",
+      "source_name": "LA Times",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.slashfilm.com/2249661/caller-the-runner-actor-damian-lewis/",
+      "title": "Why The Caller From The Runner Looks So Familiar",
+      "url": "https://www.slashfilm.com/2249661/caller-the-runner-actor-damian-lewis/",
+      "published_dt": "2026-09-02T17:00:58+00:00",
+      "source_name": "Slash Film",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.slashfilm.com/2249210/harrison-ford-sci-fi-box-office-flop-enders-game-streaming-prime-video/",
+      "title": "Harrison Ford's Sci-Fi Box Office Flop Based On A Beloved Book Is Streaming On Prime Video",
+      "url": "https://www.slashfilm.com/2249210/harrison-ford-sci-fi-box-office-flop-enders-game-streaming-prime-video/",
+      "published_dt": "2026-09-02T17:00:00+00:00",
+      "source_name": "Slash Film",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3966013",
+      "title": "10 Horror Movies That Turn Everyday Places Into Deadly Traps",
+      "url": "https://bloody-disgusting.com/editorials/3966013/10-horror-movies-that-turn-everyday-places-into-deadly-traps/",
+      "published_dt": "2026-09-02T17:02:29+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/the-outer-threat-pluto-tv-success-september-2026/",
+      "title": "New 94-Minute Sci-Fi 'Better Than Disclosure Day' Lands as Free Streaming Hit",
+      "url": "https://www.cbr.com/the-outer-threat-pluto-tv-success-september-2026/",
+      "published_dt": "2026-09-02T17:01:11+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/marshals-season-2-trailer-tate-dutton-fate-revealed-yellowstone/",
+      "title": "CBS Finally Reveals Youngest Dutton\u2019s Fate In Marshals Season 2 After Surprise Betrayal",
+      "url": "https://screenrant.com/marshals-season-2-trailer-tate-dutton-fate-revealed-yellowstone/",
+      "published_dt": "2026-09-02T17:09:09+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/ea-fc-26-the-grounds-interview/",
+      "title": "\"It's About Authenticity:\" EA FC 27 The Grounds Directors On The Joy That Comes With An Open-World",
+      "url": "https://screenrant.com/ea-fc-26-the-grounds-interview/",
+      "published_dt": "2026-09-02T17:02:23+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/gta-6-preview-sprint-change-l3-hold-tap-how-does-it-work/",
+      "title": "Controversial GTA 6 Change Has Fans Flipping Out",
+      "url": "https://www.polygon.com/gta-6-preview-sprint-change-l3-hold-tap-how-does-it-work/",
+      "published_dt": "2026-09-02T17:11:06+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/movies/best-films-released-uk-september-2026/",
+      "title": "Best films released in the UK this month: September 2026",
+      "url": "https://www.radiotimes.com/movies/best-films-released-uk-september-2026/",
+      "published_dt": "2026-09-02T16:30:04+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.radiotimes.com/tv/documentaries/70-up-the-final-chapter-air-date-newsupdate/",
+      "title": "70 Up: The Final Chapter air date officially confirmed by ITV as seminal documentary returns one last time",
+      "url": "https://www.radiotimes.com/tv/documentaries/70-up-the-final-chapter-air-date-newsupdate/",
+      "published_dt": "2026-09-02T16:29:44+00:00",
+      "source_name": "Radio Times",
+      "source_tier": 2
+    },
+    {
+      "guid": "http://www.digitalspy.com/tv/a73590589/where-to-buy-christine-lampard-outfits-this-morning-lorraine/",
+      "title": "Where to buy Christine Lampard's outfits from This Morning and Lorraine",
+      "url": "https://www.digitalspy.com/tv/a73590589/where-to-buy-christine-lampard-outfits-this-morning-lorraine/",
+      "published_dt": "2026-09-02T17:12:00+00:00",
+      "source_name": "Digital Spy",
+      "source_tier": 2
+    },
+    {
+      "guid": "http://www.digitalspy.com/tv/a73593945/ray-winstone-gentlemen-season-2-change/",
+      "title": "Ray Winstone on the one change he didn't want for The Gentlemen season 2",
+      "url": "https://www.digitalspy.com/tv/a73593945/ray-winstone-gentlemen-season-2-change/",
+      "published_dt": "2026-09-02T17:03:00+00:00",
+      "source_name": "Digital Spy",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://consequence.net/?p=1622425",
+      "title": "Van Halen Drummer Alex Van Halen Knighted in the Netherlands",
+      "url": "https://consequence.net/2026/09/alex-van-halen-knighted-netherlands/",
+      "published_dt": "2026-09-02T17:03:59+00:00",
+      "source_name": "Consequence",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.dreadcentral.com/?p=587386",
+      "title": "\u2018Obsession\u2019 Star Inde Navarrette Officially Set to Campaign for Best Actress Oscar!",
+      "url": "https://www.dreadcentral.com/news/587386/obsession-star-inde-navarrette-officially-set-to-campaign-for-best-actress-oscar/",
+      "published_dt": "2026-09-02T16:18:53+00:00",
+      "source_name": "Dread Central",
       "source_tier": 2
     }
   ]
