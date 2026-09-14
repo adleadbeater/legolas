@@ -240,7 +240,8 @@ def load_watched_topics(svc) -> dict:
     boost_p    = pcfg.get("boost_perennial", 1)
     boost_r    = pcfg.get("boost_new_release", 1)
     boost_hot  = pcfg.get("boost_new_release_hot", 2)
-    hot_days   = pcfg.get("hot_window_days", 3)
+    hot_before = pcfg.get("hot_window_before", 5)
+    hot_after  = pcfg.get("hot_window_after", 10)
     before     = pcfg.get("release_window_before", 14)
     after      = pcfg.get("release_window_after", 42)
     data_start = pcfg.get("data_start_row", 7)
@@ -292,9 +293,11 @@ def load_watched_topics(svc) -> dict:
             window_end   = release_date + timedelta(days=after)
             if not (window_start <= today <= window_end):
                 continue
-            # Hot window: ±3 days of release date gets +2, wider window gets +1
-            days_from_release = abs((today - release_date).days)
-            is_hot = days_from_release <= hot_days
+            # Hot window: asymmetric — releases stay "hot" longer after landing than
+            # before, since post-release coverage (reviews, reactions, box office) runs
+            # for longer than the pre-release build-up. Hot gets +2 and a 🔥 in Slack.
+            days_from_release = (today - release_date).days   # negative = not out yet
+            is_hot = -hot_before <= days_from_release <= hot_after
             topics[name.lower()] = {
                 "name":         name,
                 "type":         rtype,
@@ -1573,6 +1576,7 @@ def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dic
                 "topics":   [matched_topic["name"]],
                 "boost":    matched_topic["boost"],
                 "category": matched_topic["category"],
+                "hot":      matched_topic.get("_hot", False),
             }
 
     matched_tags    = match_cluster_tags(cluster, priority_tags, learnings)
@@ -2157,10 +2161,14 @@ def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
     # Layout order: Title → Sources → First Seen (small) → Angle → Pri Tag + topic (small) → Cluster → URL
     blocks = []
 
-    # 1. Headline
+    # 1. Headline — 🔥 leads the line for new releases inside the hot window, so the
+    # channel is scannable down its left edge. Deliberately no text: the "New Release"
+    # label already appears in the context block below.
+    _tb  = assessment.get("_topic_boost") or {}
+    hot  = "🔥 " if _tb.get("hot") else ""
     blocks.append({"type": "section", "text": {
         "type": "mrkdwn",
-        "text": f"{tier_label} — *{assessment['headline']}*",
+        "text": f"{hot}{tier_label} — *{assessment['headline']}*",
     }})
 
     # 2. Sources
