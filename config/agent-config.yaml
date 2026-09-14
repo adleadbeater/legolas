@@ -60,6 +60,15 @@ publisher_groups:
   "The Guardian Film": Guardian
   "The Guardian TV": Guardian
 
+legolas_pick_excluded_sources:
+  # These outlets lean heavily on baity framing. They still count normally toward
+  # trending (breadth) and can corroborate a proven_topic, but a cluster sourced
+  # ONLY from these cannot post as legolas_special — that tier has no mechanical
+  # backstop, so it shouldn't rest on a headline that oversells the story.
+  - Screen Rant
+  - CBR
+  - Collider
+
 corporate_half_weight:
   # Outlets owned by the same corporate parent count as 0.5 each toward the
   # trending source threshold — so one company publishing the same story across

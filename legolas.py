@@ -124,6 +124,9 @@ _HALF_WEIGHT_SOURCE = {
     for src in srcs
 }
 _TIER2_SET  = set(TIER_2_SOURCES.keys())
+# Outlets whose house style is aggressively baity — fine as corroboration for
+# trending/proven_topic, but a story carried ONLY by these is not a legolas_special.
+_PICK_EXCLUDED_SOURCES = set(_CFG.get("legolas_pick_excluded_sources", []))
 _GENERIC_TAGS = set(_CFG.get("generic_tag_blocklist", []))
 # Common English words that also appear as MW sheet tags — rejected as priority
 # tags because substring matching produces false MW Proven Topics.
@@ -1642,6 +1645,20 @@ def enforce_tier(story: dict, cluster: dict, priority_tags: dict, learnings: dic
     if tier == "legolas_special" and mw < LEGOLAS_SPECIAL_MIN:
         log.info(f"Demote legolas_special→skip (mw={mw} < {LEGOLAS_SPECIAL_MIN}): {story['headline'][:60]}")
         tier = "skip"
+
+    # Baity-source gate: legolas_special is a pure taste call with no mechanical
+    # corroboration behind it, so it must not rest solely on outlets whose headlines
+    # oversell the story. If EVERY publisher in the cluster is on the excluded list,
+    # skip it. Mixed clusters are fine — one non-excluded outlet means someone else
+    # independently thought it was worth covering. trending/proven_topic are
+    # unaffected: those tiers have their own corroboration (breadth / sheet tag).
+    if tier == "legolas_special" and _PICK_EXCLUDED_SOURCES:
+        if cluster["sources"] and all(s in _PICK_EXCLUDED_SOURCES for s in cluster["sources"]):
+            log.info(
+                f"Demote legolas_special→skip (baity-source only: {', '.join(cluster['sources'])}): "
+                f"{story['headline'][:60]}"
+            )
+            tier = "skip"
 
     # Global MW gate
     if mw < MW_RELEVANCE_MIN:
