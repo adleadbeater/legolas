@@ -2,14 +2,39 @@ name: Legolas News Scout
 
 on:
   schedule:
-    # Every 30 min, 5am–8pm EDT (09:00–23:30 UTC)
-    - cron: '*/30 9-23 * * *'
-    # Once at 10pm EDT (02:00 UTC)
-    - cron: '0 2 * * *'
+    # Every 30 min 5am–7:30pm ET, plus once at 10pm ET, in both seasons.
+    # GitHub cron is UTC-only, so season-specific slots are listed separately
+    # and the gate job below skips the ones for the other season.
+    - cron: '*/30 10-23 * * *'  # 6am–7:30pm EDT / 5am–6:30pm EST (both)
+    - cron: '*/30 9 * * *'      # 5am, 5:30am EDT (EDT only)
+    - cron: '0,30 0 * * *'      # 7pm, 7:30pm EST (EST only)
+    - cron: '0 2 * * *'         # 10pm EDT (EDT only)
+    - cron: '0 3 * * *'         # 10pm EST (EST only)
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.season.outputs.run }}
+    steps:
+      - name: Skip slots meant for the other DST season
+        id: season
+        env:
+          SLOT: ${{ github.event.schedule }}
+        run: |
+          zone=$(TZ=America/New_York date +%Z)
+          case "$zone|$SLOT" in
+            "EST|*/30 9 * * *"|"EST|0 2 * * *"|"EDT|0,30 0 * * *"|"EDT|0 3 * * *")
+              echo "Slot '$SLOT' is for the other season (now $zone); skipping."
+              echo "run=false" >> "$GITHUB_OUTPUT" ;;
+            *)
+              echo "run=true" >> "$GITHUB_OUTPUT" ;;
+          esac
+
   run:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
