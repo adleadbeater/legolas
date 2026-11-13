@@ -9,24 +9,22 @@ from __future__ import annotations
 
 import json
 import logging
-import os
 import re
-from pathlib import Path
 from typing import Dict, List
 
 from scout.config import REPO_ROOT
 from scout.llm import LLM, BudgetBlocked, KillSwitchOff
+from scout.private_text import load_title_rules
 from scout.textutil import fold
 
 log = logging.getLogger("legolas.card")
 
 
 def title_rules(cfg: dict) -> str:
+    """Full rules from the LEGOLAS_TITLE_RULES secret (or _B64 / _PATH); else the public
+    placeholder. See scout/private_text.py."""
     tr = cfg.get("title_rules", {})
-    p = os.environ.get(tr.get("path_env", "LEGOLAS_TITLE_RULES_PATH"), "")
-    if p and Path(p).exists():
-        return Path(p).read_text()
-    return (REPO_ROOT / tr.get("fallback", "config/prompts/title_rules_public.md")).read_text()
+    return load_title_rules(tr.get("fallback", "config/prompts/title_rules_public.md"))
 
 
 def system_prompt(cfg: dict) -> str:

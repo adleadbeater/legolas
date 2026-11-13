@@ -59,7 +59,7 @@ def _sources_line(items: List[dict], outlets: Outlets) -> str:
 
 
 def _best_url(items: List[dict], outlets: Outlets) -> str:
-    good = [i for i in items if i.get("url") and "news.google.com" not in i["url"]] or items
+    good = [i for i in items if i.get("url")] or items
     return min(good, key=lambda i: (outlets.tier_of(i["source_name"]), i["published_dt"])).get("url", "")
 
 
@@ -84,6 +84,27 @@ def _feed_row(c: dict, now: datetime, outlets: Outlets, status: str) -> dict:
     }
 
 
+def budget_exhausted(ctx: Ctx, where: str, stats: dict) -> bool:
+    """Daily $ cap (budget.daily_usd_cap, global for Legolas: every model + web search).
+
+    True when the cap is already spent, or when any call in this run was blocked by it
+    (the pre-call worst-case estimate in scout.llm). The run then stops and posts
+    NOTHING to Slack or the story feed; the stop is logged and written to the ledger.
+    """
+    llm = ctx.llm
+    if not (llm.budget_hit or llm.remaining() <= 0):
+        return False
+    spent = ctx.ledger.spent(llm.app)
+    if not stats.get("budget_stop"):
+        ctx.ledger.record_event(app=llm.app, lane=ctx.lane, event="budget_stop",
+                                detail=f"{where}: spent={spent:.4f} cap={llm.cap}")
+        log.warning("Legolas daily cap $%.2f reached (spent $%.4f) at %s - stopping, nothing posted",
+                    llm.cap, spent, where)
+    stats["budget_stop"] = where
+    stats["usd_today"] = round(spent, 4)
+    return True
+
+
 def run_once(ctx: Ctx, now: datetime, fetched: List[dict],
              mw_articles: Optional[List[dict]] = None) -> dict:
     cfg, store, outlets = ctx.cfg, ctx.store, ctx.outlets
@@ -96,18 +117,21 @@ def run_once(ctx: Ctx, now: datetime, fetched: List[dict],
         log.warning("Legolas is switched off (%s) - nothing to do", why)
         stats["killed_switch"] = why
         return stats
+    if budget_exhausted(ctx, "run start", stats):
+        return stats
     if mw_articles:
         store.add_mw_articles(mw_articles)
 
-    # 1. normalise outlets, drop MW itself, Google-News allowlist
+    # 1. normalise outlets, drop MW itself; only our own RSS feeds are sources
+    #    (Google News was dropped on 13 Nov 2026)
     items, own = [], []
     for it in fetched:
         name = outlets.canonical(it["source_name"])
         if outlets.is_self(name):
             own.append(it)   # MW's own article: evidence for the coverage check, never a source
             continue
-        if (it.get("via") == "gnews" or name not in ctx.feed_names) and not outlets.google_news_allowed(name):
-            continue
+        if it.get("via", "rss") != "rss":
+            continue  # anything not read from feeds.yaml (e.g. old Google News items)
         items.append({**it, "source_name": name, "source_tier": outlets.tier_of(name)})
     if own:
         store.add_mw_articles(own)
@@ -127,6 +151,9 @@ def run_once(ctx: Ctx, now: datetime, fetched: List[dict],
     touched, created = assign(store, [(i, ext[i["guid"]]) for i in kept], now,
                               cfg.get("clustering", {}).get("open_story_hours", 72), ctx.lane)
     stats["touched"] = len(touched)
+    if budget_exhausted(ctx, "after extraction", stats):
+        store.commit()   # keep the seen-set so these articles are never re-billed
+        return stats
 
     # pending candidates from earlier runs that missed the top-N cut
     pending = store.kv_get("pending", {})
@@ -222,8 +249,18 @@ def run_once(ctx: Ctx, now: datetime, fetched: List[dict],
                 c["verify"] = v
                 stats["searched"] += 1
 
+    if budget_exhausted(ctx, "before cards", stats):
+        store.kv_set("pending", pending)
+        store.commit()
+        return stats
+
     # 6. Sonnet cards for the top N, then post + feed
-    for c in cardmod.write_cards(ctx.llm, top, cfg):
+    written = cardmod.write_cards(ctx.llm, top, cfg)
+    if budget_exhausted(ctx, "card call", stats):
+        written = []      # never post Python-only fallback cards once the cap is hit
+        for c in top:
+            pending.setdefault(c["story"]["id"], now.isoformat())
+    for c in written:
         st, card = c["story"], c["card"]
         pending.pop(st["id"], None)
         for f in st["facts"]:

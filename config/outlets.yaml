@@ -6,8 +6,8 @@
 #   2 = established fan / genre / scoop sites with their own sourcing
 #   3 = aggregators, re-runs, wire syndication, finance/SEO sites. Never count
 #       towards a trend; can only corroborate.
-# Outlets not listed here (and not in feeds.yaml) are dropped when they arrive via
-# Google News (allowlist), and default to tier 3 otherwise.
+# Outlets not listed here (and not in feeds.yaml) default to tier 3. Legolas reads
+# only the RSS feeds in feeds.yaml (Google News was dropped on 13 Nov 2026).
 
 aliases:
   # spelling variant (lower-case) -> canonical outlet name
@@ -100,9 +100,3 @@ sister_sites: [Screen Rant, Collider, CBR]
 
 # MW itself: never counted as a source; its articles feed the MW coverage check.
 self_outlets: [MovieWeb]
-
-google_news:
-  # Items from Google News are kept only if the (normalised) outlet is in tiers 1-2
-  # or in this extra list. Everything else (shop listings, SEO farms, regional
-  # re-posters) is dropped before any processing.
-  extra_allow: []

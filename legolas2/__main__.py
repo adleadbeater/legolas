@@ -1,9 +1,12 @@
-"""Run Legolas V2 once:  python -m legolas2 [--dry-run] [--mock]
+"""Run Legolas V2 once:  python -m legolas2 [--dry-run] [--mock] [--post]
 
 --mock     never call Claude (heuristic/mock responders); for local checks
 --dry-run  force Slack posting off (the default config already has it off)
+--post     turn Slack posting on for this run (the GitHub Actions workflow uses this;
+           local runs stay silent unless you ask)
 Secrets come from env only: ANTHROPIC_API_KEY, SLACK_WEBHOOK, SLACK_BOT_TOKEN,
-LEGOLAS_POST_CHANNEL, LEGOLAS_FEEDBACK_CHANNEL, GOOGLE_APPLICATION_CREDENTIALS.
+LEGOLAS_POST_CHANNEL, LEGOLAS_FEEDBACK_CHANNEL, GOOGLE_APPLICATION_CREDENTIALS,
+LEGOLAS_TITLE_RULES / LEGOLAS_TITLE_RULES_B64 / LEGOLAS_TITLE_RULES_PATH.
 """
 from __future__ import annotations
 
@@ -17,7 +20,7 @@ from datetime import datetime, timezone
 from scout import extract, websearch
 from scout.config import get, load_yaml, state_dir
 from scout.feed import FeedWriter
-from scout.fetch import fetch_feeds, fetch_google_news, fetch_mw_articles
+from scout.fetch import fetch_feeds, fetch_mw_articles
 from scout.killswitch import KillSwitch
 from scout.ledger import Ledger, format_summary
 from scout.llm import LLM, AnthropicBackend, MockBackend
@@ -55,10 +58,13 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--mock", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--post", action="store_true")
     ap.add_argument("--config", default="config/legolas-v2.yaml")
     a = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)-7s %(name)s %(message)s")
     cfg = load_yaml(a.config)
+    if a.post and not a.dry_run:
+        cfg.setdefault("slack", {})["post_enabled"] = True
     if a.dry_run:
         cfg.setdefault("slack", {})["post_enabled"] = False
     use_mock = a.mock or not os.environ.get("ANTHROPIC_API_KEY")
@@ -70,6 +76,14 @@ def main() -> None:
     if not ctx.llm.ks.is_on():
         logging.warning("kill switch: %s", ctx.llm.ks.reason_off())
         return
+    if ctx.llm.remaining() <= 0:
+        spent = ctx.ledger.spent(ctx.llm.app)
+        ctx.ledger.record_event(app=ctx.llm.app, lane="legolas", event="budget_stop",
+                                detail=f"run start: spent={spent:.4f} cap={ctx.llm.cap}")
+        logging.warning("Legolas daily cap $%.2f already spent ($%.4f) - skipping this run, nothing posted",
+                        ctx.llm.cap, spent)
+        print(format_summary(ctx.ledger.summary(ctx.ledger.today())))
+        return
     v1 = load_yaml("config/agent-config.yaml")
     ctx.priority_tags, ctx.watched = sheets.load(v1, get(cfg, "gates.tag_sa_min", 5000),
                                                  get(cfg, "gates.tag_fr_max", 25), DEFAULT_STOPWORD_TAGS)
@@ -79,10 +93,6 @@ def main() -> None:
     tiers = {e["name"]: (1 if t == "tier1" else 2) for t in ("tier1", "tier2") for e in feeds.get(t, [])}
     lb = get(cfg, "fetch.lookback_minutes", 120)
     items = fetch_feeds(srcs, tiers, ctx.outlets, lb, get(cfg, "fetch.max_text_chars", 600))
-    gn = get(cfg, "fetch.google_news", {})
-    if gn.get("enabled") and ctx.watched:
-        q = [m["name"] for m in ctx.watched.values() if m.get("type") not in set(gn.get("skip_types", []))]
-        items += fetch_google_news(q, ctx.outlets, gn.get("lookback", "2h"), lb, get(cfg, "fetch.max_text_chars", 600))
     mw = fetch_mw_articles(get(cfg, "mw_check.sitemap_url"))
     stats = run_once(ctx, now, items, mw)
     ctx.store.prune(now)

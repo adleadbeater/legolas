@@ -75,7 +75,7 @@ ALL_SOURCES   = {**TIER_1_SOURCES, **TIER_2_SOURCES}
 def _source_priority(source_name: str, source_tier: int = 2) -> int:
     """Authoritativeness rank for an outlet — lower number wins ties.
     Falls back to a tier-based default (T1→2, T2→3) for sources not in feeds.yaml
-    (e.g. Google News topic results, restored cache items)."""
+    (e.g. restored cache items)."""
     return SOURCE_PRIORITY.get(source_name, 2 if source_tier == 1 else 3)
 
 _SCORING      = _CFG["scoring"]
@@ -329,109 +329,7 @@ def _parse_release_date(s: str):
     return None
 
 
-# Syndication aggregators — block from Google News results (they duplicate
-# original reporting and have no editorial value as a source signal).
-_GNEWS_SOURCE_BLOCKLIST = {
-    s.lower() for s in [
-        "AOL", "AOL.com", "Yahoo", "Yahoo Entertainment", "Yahoo News",
-        "Yahoo Movies", "Yahoo Finance", "MSN", "MSN.com",
-        "Newser", "Flipboard", "SmartNews",
-        # Regional / non-English outlets that appear in English Google News
-        "Glamsham.com", "Glamsham", "Bollyinside", "BollyInside.com",
-        "Sportskeeda", "PINKVILLA", "Republic World",
-        "Daily Asian Age", "dailyasianage.com",
-        "Cumnock Chronicle", "Victoria Buzz",
-        "The Astana Times", "Business Today Malaysia",
-    ]
-}
-
-# Domain-suffix patterns that indicate regional / non-English outlets.
-# Source names from Google News often look like domain names.
-_GNEWS_REGIONAL_SUFFIX_RE = re.compile(
-    r'\.(co\.id|co\.ke|co\.za|co\.kr|com\.my|com\.pk|com\.bd|com\.ng|'
-    r'com\.ph|com\.gh|com\.tr|com\.eg|co\.tz|co\.zw|lk|pk|bd|ke|ng|'
-    r'gh|tz|zw|eg)$', re.IGNORECASE
-)
-
-
-def fetch_google_news_topics(topics: dict, lookback: str = "2h") -> list:
-    """
-    Fetch Google News RSS for each watched topic that's specific enough to search.
-    Returns items in the same format as fetch_rss_items().
-    Genre/Service/Other types are skipped (too broad for search — "Thriller" returns noise).
-    """
-    skip_types = set(_PERENNIALS_CFG.get("skip_search_types", ["Genre", "Service", "Other"]))
-    lookback   = _PERENNIALS_CFG.get("gnews_lookback", lookback)
-    cutoff     = datetime.now(timezone.utc) - timedelta(minutes=LOOKBACK_MINS)
-    items: list = []
-
-    searchable = {k: v for k, v in topics.items() if v["type"] not in skip_types}
-    log.info(f"Google News topic search: {len(searchable)} topics (skipped {len(topics) - len(searchable)} broad types)")
-
-    for topic_key, meta in searchable.items():
-        query = meta["name"]
-        url   = f'https://news.google.com/rss/search?q="{query}"+when:{lookback}&hl=en-US&gl=US'
-        try:
-            resp = requests.get(url, timeout=15, headers={"User-Agent": "Legolas/2.0"})
-            resp.raise_for_status()
-            feed  = feedparser.parse(resp.content)
-            count = 0
-            for entry in feed.entries:
-                title_raw = getattr(entry, "title", "").strip()
-                if not title_raw:
-                    continue
-                # Google News titles: "Article Title - Publisher Name"
-                source_name = "Google News"
-                if " - " in title_raw:
-                    parts = title_raw.rsplit(" - ", 1)
-                    title = parts[0].strip()
-                    source_name = parts[1].strip() if len(parts) > 1 else "Google News"
-                else:
-                    title = title_raw
-
-                # Block syndication aggregators
-                if source_name.lower() in _GNEWS_SOURCE_BLOCKLIST:
-                    continue
-
-                # Block non-English / non-legit sources (non-ASCII in name)
-                if not all(ord(c) < 128 for c in source_name):
-                    continue
-
-                # Block regional domain-style source names (.co.id, .com.my, etc.)
-                if _GNEWS_REGIONAL_SUFFIX_RE.search(source_name):
-                    continue
-
-                if hasattr(entry, "published_parsed") and entry.published_parsed:
-                    pub_dt = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-                else:
-                    # No published date = can't verify timeliness, skip
-                    continue
-
-                # Enforce same lookback window as regular RSS
-                if pub_dt < cutoff:
-                    continue
-
-                guid = getattr(entry, "id", None) or getattr(entry, "link", None) or title
-                link  = getattr(entry, "link", "")
-
-                items.append({
-                    "guid":           guid,
-                    "title":          title,
-                    "summary":        (getattr(entry, "summary", "") or "")[:400],
-                    "url":            link,
-                    "published_dt":   pub_dt,
-                    "source_name":    source_name,
-                    "source_tier":    2,         # treat as T2 breadth
-                    "_from_topic":    topic_key, # tag for tracing
-                })
-                count += 1
-            if count:
-                log.info(f"  [Topic] {meta['name']:<30} {count} items")
-        except Exception as e:
-            log.warning(f"Google News fetch failed for '{meta['name']}': {e}")
-
-    log.info(f"Total topic-search items: {len(items)}")
-    return items
+# Google News topic search was removed on 13 Nov 2026 (Alex's decision): RSS feeds only.
 
 
 def match_watched_topics(cluster: dict, watched_topics: dict) -> list:
@@ -1950,6 +1848,14 @@ def _write_feedback_to_sheet(svc, story_headline, story_tag, reply_text, action,
     except Exception as e:
         log.warning(f"Could not write to Feedback Log sheet: {e}")
 
+def _aragorn_rules() -> str:
+    """House title rules for Aragorn. The full rules contain MW performance data, so they
+    are NOT in this public repo: they come from the LEGOLAS_TITLE_RULES secret (or its
+    _B64 / _PATH variants); otherwise the qualitative public summary is used."""
+    from scout.private_text import load_title_rules
+    return load_title_rules()
+
+
 # ── Aragorn: title audit + rewrite ────────────────────────────────────────────
 def aragorn_audit(will_post: List[Tuple]) -> List[Tuple]:
     """
@@ -1977,50 +1883,7 @@ def aragorn_audit(will_post: List[Tuple]) -> List[Tuple]:
 
 Legolas (the news scout) has approved the stories below. Your job is to audit each one: kill it if it has no path to performance, or keep it with the strongest possible headline.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-THE SINGLE MOST IMPORTANT RULE
-
-Descriptor-led, not show-name-led.
-Screen Rant leads with a show name in quotes in 0.5% of titles. MovieWeb does it 41% of the time. SR averages 7,992 sessions vs MW's 3,575 on identical stories — framing is the entire gap.
-
-Every headline must describe the show or film for someone who has never heard of it. Sell the concept, not the brand name. Withhold enough to create a curiosity gap — the reader must need to click.
-
-YOU MUST REWRITE THE HEADLINE if:
-- It opens with a show/film title in quotes (e.g. "'Euphoria' Star..." → "Sydney Sweeney...")
-- It buries a star name when one is available (lead with the star)
-- It gives away the full story with nothing left to click for
-- It is passive, vague, or uses "reportedly," "eyes," "addresses," "reflects on"
-- It reads like a wire service headline, not a Discover-optimised title
-Only leave the headline unchanged if it already passes all of the above.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-KILL if ANY of these are true:
-- Uses "almost," "nearly," "tried to" (0% hit rate, 60% fail — nothing happened)
-- Purely backward-looking with no forward news
-- Minor announcement for a cold IP with no A-list star or major platform hook
-- Celebrity quote with no concrete news attached ("reflects on," "remembers," "offers take on")
-- IP in the 0% hit rate list with no overriding hook: Daredevil: Born Again, Star Wars: Maul, Man of Tomorrow, Hoppers, Sinners, Superman
-
-These are not suggestions. If a kill signal is present, KILL.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-TITLE CONSTRUCTION — apply in order:
-
-1. Lead with the biggest name: Star > Director > Platform > Property
-2. Point forward: "confirms filming" beats "remembers working on"
-3. Create a curiosity gap: reader must need to click, withhold the punchline
-4. Concrete achievements: numbers, rankings, records — never vague praise
-5. Describe unknown properties: genre + scale + platform + pedigree
-6. Discover scroll test: would you scroll past this in a feed? If yes, rewrite.
-
-Proven mechanisms (use in priority order):
-1. STAR-LED — 46% hit, 6% fail. Tier-1 names: Cavill, Statham, Cruise, Hemsworth, Ritchson, Crowe, Butler, Jackman, DiCaprio, Keanu Reeves, Taylor Swift (cultural scale), Scarlett Johansson, Sydney Sweeney. Pattern: [Star]'s [Genre Descriptor] [Forward verb]
-2. X YEARS LATER — 39% hit. ONLY on household-name IPs.
-3. PLATFORM-LED — 25% hit. "Netflix's…" / "HBO's…" triggers the streamer-browsing instinct.
-4. MILESTONE — 22% hit. Concrete numbers and records only.
-5. GENRE COMP — 20% hit. "X meets Y" stacked on a Tier 1 anchor.
-6. REVELATION / CONTROVERSY — sparingly, only on culturally massive IPs.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{_aragorn_rules()}
 
 {chr(10).join(story_blocks)}
 
@@ -2215,14 +2078,10 @@ def post_to_slack(cluster: dict, assessment: dict, tier: str) -> bool:
             "text": "*In this cluster:*\n" + "\n".join(article_lines),
         }})
 
-    # 7. Best URL — show Google News redirects as "Search Link"
+    # 7. Best URL
     if best_url:
-        if "news.google.com" in best_url:
-            url_text = f"<{best_url}|Search Link>"
-        else:
-            url_text = best_url
         blocks.append({"type": "section", "text": {
-            "type": "mrkdwn", "text": url_text,
+            "type": "mrkdwn", "text": best_url,
         }})
 
     blocks.append({"type": "divider"})
@@ -2267,11 +2126,6 @@ def run():
 
     # 4. Fetch RSS + filter
     all_items = fetch_rss_items(ALL_SOURCES, LOOKBACK_MINS)
-
-    # 4b. Google News organic search for watched topics
-    if watched_topics:
-        topic_items = fetch_google_news_topics(watched_topics)
-        all_items.extend(topic_items)
 
     new_items = [i for i in all_items if i["guid"] not in seen_guids]
     log.info(f"{len(new_items)} new items after seen filter")

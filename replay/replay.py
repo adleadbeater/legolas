@@ -51,6 +51,7 @@ def load_corpus(path: Path, text_chars: int, feed_names: set):
         arts.append({"guid": a["guid"], "title": a["title"], "url": a.get("url", ""),
                      "published_dt": dt, "source_name": a["source_name"],
                      "source_tier": a.get("source_tier", 2), "text": filler[:text_chars],
+                     # non-feed items were Google News results; the pipeline now drops them
                      "via": "rss" if a["source_name"] in feed_names else "gnews"})
     arts.sort(key=lambda a: a["published_dt"])
     return arts, d.get("posts", [])

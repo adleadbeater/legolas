@@ -1,5 +1,5 @@
-"""Collection (no AI): RSS / Atom feeds, Google News topic search with an outlet
-allowlist, and MW's own Google News sitemap for the coverage check.
+"""Collection (no AI): RSS / Atom feeds from config/feeds.yaml, and MW's own news
+sitemap for the coverage check. Google News search was removed on 13 Nov 2026.
 
 RSS and official feeds only - no page scraping. The text kept per article is the feed
 summary plus the first paragraph of content:encoded when the feed carries it.
@@ -42,17 +42,10 @@ def parse_feed(content: bytes, source_name: str, source_tier: int, outlets: Outl
             continue
         dt = _entry_dt(e)
         if dt is None:
-            if via == "gnews":
-                continue  # can't verify timeliness
             dt = datetime.now(timezone.utc)
         if dt < cutoff:
             continue
-        name = source_name
-        if via == "gnews" and " - " in title:
-            title, name = [p.strip() for p in title.rsplit(" - ", 1)]
-        name = outlets.canonical(name)
-        if via == "gnews" and not outlets.google_news_allowed(name):
-            continue
+        name = outlets.canonical(source_name)
         content_html = ""
         if e.get("content"):
             content_html = e["content"][0].get("value", "")
@@ -62,7 +55,7 @@ def parse_feed(content: bytes, source_name: str, source_tier: int, outlets: Outl
             "url": getattr(e, "link", "") or "",
             "published_dt": dt,
             "source_name": name,
-            "source_tier": outlets.tier_of(name) if via == "gnews" else source_tier,
+            "source_tier": source_tier,
             "text": article_text(getattr(e, "summary", "") or "", content_html, max_text_chars),
             "via": via,
         })
@@ -87,24 +80,6 @@ def fetch_feeds(sources: Dict[str, str], tiers: Dict[str, int], outlets: Outlets
 
     with ThreadPoolExecutor(workers) as ex:
         return [i for chunk in ex.map(one, sources.items()) for i in chunk]
-
-
-def fetch_google_news(queries: List[str], outlets: Outlets, lookback: str,
-                      lookback_minutes: int, max_text_chars: int = 600,
-                      timeout: int = 15) -> List[dict]:
-    cutoff = datetime.now(timezone.utc) - timedelta(minutes=lookback_minutes)
-    items = []
-    for q in queries:
-        url = ("https://news.google.com/rss/search?q=" + urllib.parse.quote(f'"{q}" when:{lookback}')
-               + "&hl=en-US&gl=US")
-        try:
-            r = requests.get(url, timeout=timeout, headers=UA)
-            r.raise_for_status()
-            items.extend(parse_feed(r.content, "Google News", 2, outlets, cutoff,
-                                    max_text_chars, via="gnews"))
-        except Exception as e:
-            log.warning("google news %r failed: %s", q, e)
-    return items
 
 
 _NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9",

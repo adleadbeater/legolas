@@ -15,10 +15,8 @@ fetch:
   lookback_minutes: 120       # window read from each feed; the seen-set makes overlap free
   max_text_chars: 600         # summary + first paragraph sent to the model per article
   timeout_seconds: 15
-  google_news:
-    enabled: true             # NOTE: robots.txt disallows /rss/search; Alex to decide
-    lookback: "2h"
-    skip_types: [Genre, Service, Other]
+  # Sources: the RSS feeds in config/feeds.yaml only. Google News was dropped on
+  # 13 Nov 2026 (Alex's decision; its robots.txt disallows /rss/search).
 
 models:
   extract: claude-haiku-5-5          # entities / event type / key fact / relevance
@@ -54,9 +52,14 @@ caching:
   ttl: 1h
 
 budget:
-  daily_usd_cap: 3.00         # Legolas hard cap; Claude calls stop when reached
+  # Approved 13 Nov 2026: "Start at $1". One global cap for everything Legolas spends
+  # (extraction, change detection, feedback, web search, cards). Every call is checked
+  # first against a pessimistic estimate (all input uncached, full max_tokens); when
+  # the cap is reached the run STOPS and posts nothing (no Python-only cards), and a
+  # budget_stop event is written to the ledger + Actions log. Resets at ET midnight.
+  daily_usd_cap: 1.00
   timezone: America/New_York  # budget day boundary
-  on_exhausted: headline_only # post Python-only cards (source headline + facts) | skip
+  on_exhausted: skip          # do not change: the approved behaviour is "stop, post nothing"
 
 web_search:
   enabled: true
@@ -98,14 +101,14 @@ feed:
   path: state/story-feed.jsonl
 
 slack:
-  post_enabled: false         # dry-run by default in V2 until Alex approves
+  post_enabled: false         # off for local runs; the Actions workflow passes --post
   card_style: lean            # title, what happened, one meta line, link
   # Env: SLACK_WEBHOOK (post), SLACK_BOT_TOKEN (threads + feedback),
   #      LEGOLAS_POST_CHANNEL, LEGOLAS_FEEDBACK_CHANNEL (both private IDs, env only)
 
 title_rules:
   # The full house rules contain MW performance data and are NOT committed (public
-  # repo). Point this at the private file at run time; the committed fallback has
-  # the qualitative rules only.
-  path_env: LEGOLAS_TITLE_RULES_PATH
+  # repo). They come from the GitHub Actions secret LEGOLAS_TITLE_RULES_B64 (or
+  # LEGOLAS_TITLE_RULES as plain text, or LEGOLAS_TITLE_RULES_PATH locally); see
+  # scout/private_text.py. The committed fallback is a qualitative placeholder only.
   fallback: config/prompts/title_rules_public.md

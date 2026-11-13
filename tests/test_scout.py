@@ -119,8 +119,8 @@ def test_outlet_normalisation_and_independence():
     wire = [item(str(i), "Darth Vader lightsaber sells for record sum at auction house", s, tier=1)
             for i, s in enumerate(["Associated Press", "Reuters"])]
     assert o.weighted_sources(wire) == 1.0          # syndicated copy counts once
-    assert not o.google_news_allowed("alphavilleearredores.com.br")
-    assert o.google_news_allowed("Variety") and not o.google_news_allowed("MovieWeb")
+    assert o.tier_of("alphavilleearredores.com.br") == 3     # unknown outlets never count
+    assert o.is_self("MovieWeb")
 
 
 # ── tags ─────────────────────────────────────────────────────────────────────

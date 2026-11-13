@@ -25,7 +25,6 @@ class Outlets:
                 self.parent[n.lower()] = parent
         self.sisters = {n.lower() for n in cfg.get("sister_sites") or []}
         self.self_outlets = {n.lower() for n in cfg.get("self_outlets") or []}
-        self.gnews_extra = {n.lower() for n in (cfg.get("google_news") or {}).get("extra_allow") or []}
 
     def canonical(self, name: str) -> str:
         n = (name or "").strip()
@@ -46,12 +45,6 @@ class Outlets:
 
     def is_sister(self, name: str) -> bool:
         return self.canonical(name).lower() in self.sisters
-
-    def google_news_allowed(self, name: str) -> bool:
-        c = self.canonical(name).lower()
-        if c in self.self_outlets:
-            return False
-        return self.tier.get(c, 3) <= 2 or c in self.gnews_extra
 
     def independence_key(self, name: str) -> str:
         c = self.canonical(name)

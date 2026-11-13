@@ -217,6 +217,7 @@ class LLM:
         self.ttl = cache_ttl
         self.run_id = run_id
         self.record_path = record_path
+        self.budget_hit = False   # set once the daily cap blocks a call in this run
 
     def remaining(self) -> float:
         return self.cap - self.ledger.spent(self.app)
@@ -229,8 +230,11 @@ class LLM:
             raise KillSwitchOff(why)
         worst = self.ledger.pricing.worst_case(model, est_in, max_tokens, searches, batch)
         if self.ledger.spent(self.app) + worst > self.cap:
+            self.budget_hit = True
             self.ledger.record_event(app=self.app, lane=lane, event="budget_block",
-                                     detail=f"spent={self.ledger.spent(self.app):.4f} cap={self.cap}")
+                                     detail=f"spent={self.ledger.spent(self.app):.4f} est={worst:.4f} cap={self.cap}")
+            log.warning("%s daily cap $%.2f reached (spent $%.4f, next call est. $%.4f) - call blocked",
+                        self.app, self.cap, self.ledger.spent(self.app), worst)
             raise BudgetBlocked(f"{self.app} daily cap ${self.cap:.2f} reached")
 
     def call(self, label: str, *, model: str, system: str, user: str, max_tokens: int,

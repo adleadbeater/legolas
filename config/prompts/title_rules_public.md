@@ -1,4 +1,4 @@
-MovieWeb title rules (qualitative summary; the full house rules with performance data are loaded privately at run time when LEGOLAS_TITLE_RULES_PATH is set)
+MovieWeb title rules (PUBLIC PLACEHOLDER: qualitative summary only. The full house rules contain MW performance data and are never committed; at run time they come from the LEGOLAS_TITLE_RULES_B64 GitHub secret and replace this file.)
 
 1. Shape: subject the reader already cares about, then a genre descriptor, then a strong verb, then a concrete payload. Every element is replaceable except the payload.
 2. Vagueness is the main failure. Name the thing that happened: the actor, the role, the date, the number, the exit. If the source headline is vague, fix it; never copy the vagueness and never hold back the name or number to create a curiosity gap.
