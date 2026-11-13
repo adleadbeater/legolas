@@ -1,0 +1,102 @@
+# Outlet normalisation, credibility tiers and independence rules (shared scout library).
+# DRAFT FOR EDITOR SIGN-OFF: the tier list below is a starting proposal.
+#
+# Credibility tiers
+#   1 = original reporting (trades, national press, the outlet that broke it)
+#   2 = established fan / genre / scoop sites with their own sourcing
+#   3 = aggregators, re-runs, wire syndication, finance/SEO sites. Never count
+#       towards a trend; can only corroborate.
+# Outlets not listed here (and not in feeds.yaml) default to tier 3. Legolas reads
+# only the RSS feeds in feeds.yaml (Google News was dropped on 13 Nov 2026).
+
+aliases:
+  # spelling variant (lower-case) -> canonical outlet name
+  screenrant: Screen Rant
+  screen rant: Screen Rant
+  the wrap: The Wrap
+  thewrap: The Wrap
+  comic book resources: CBR
+  cbr: CBR
+  cbr.com: CBR
+  the hollywood reporter: Hollywood Reporter
+  hollywood reporter: Hollywood Reporter
+  thr: Hollywood Reporter
+  thr tv: Hollywood Reporter
+  deadline hollywood: Deadline
+  deadline.com: Deadline
+  variety.com: Variety
+  imdb news: IMDb
+  imdb: IMDb
+  slashfilm: Slash Film
+  /film: Slash Film
+  slash film: Slash Film
+  polygon.com: Polygon
+  ign india: IGN
+  ign africa: IGN
+  ign: IGN
+  the a.v. club: The AV Club
+  av club: The AV Club
+  the av club: The AV Club
+  comicbook.com: ComicBook.com
+  comicbook: ComicBook.com
+  comingsoon.net: ComingSoon
+  comingsoon: ComingSoon
+  collider.com: Collider
+  ew.com: Entertainment Weekly
+  entertainment weekly: Entertainment Weekly
+  the new york times: NYT Arts
+  new york times: NYT Arts
+  nyt arts: NYT Arts
+  los angeles times: LA Times
+  la times: LA Times
+  the guardian: The Guardian
+  the guardian film: The Guardian
+  the guardian tv: The Guardian
+  guardian: The Guardian
+  tvline: TVLine
+  tv line: TVLine
+  indiewire: IndieWire
+  vulture: Vulture
+  den of geek: Den of Geek
+  bloody disgusting: Bloody Disgusting
+  bloody-disgusting: Bloody Disgusting
+  dread central: Dread Central
+  people.com: People
+  today.com: TODAY
+  the boston globe: Boston Globe
+  far out magazine: Far Out
+  movieweb: MovieWeb
+  movieweb.com: MovieWeb
+
+tiers:
+  1: [Deadline, Variety, Hollywood Reporter, The Wrap, TVLine, IndieWire, Vulture,
+      Entertainment Weekly, Vanity Fair, Rolling Stone, TIME, NYT Arts, LA Times,
+      The Guardian, Associated Press, Reuters, BBC, People, Entertainment Tonight,
+      USA Today, NBC News, CNN, CBS News, Boston Globe, TODAY, Empire, Total Film]
+  2: [TV Insider, GQ, Esquire, IGN, Collider, Screen Rant, CBR, Polygon, Den of Geek,
+      The AV Club, Slash Film, Bloody Disgusting, Dread Central, The Playlist,
+      Discussing Film, Star Wars News Net, Redanian Intelligence, DisInsider,
+      Heroic Hollywood, Screen Crush, Inverse, Bleeding Cool, Decider, Radio Times,
+      JoBlo, ComicBook.com, ComingSoon, The Direct, Looper, Digital Spy, Consequence,
+      The Film Stage, Gold Derby, CinemaBlend, The Cinema Spot, Gizmodo, io9,
+      What's on Netflix, The Independent, Forbes, Mashable, GamesRadar, Kotaku,
+      Game Rant, Us Weekly, E! News, Uproxx, TV Guide, Moviefone, GeekTyrant,
+      Far Out, Just Jared, Flickering Myth]
+  3: [IMDb, Yahoo, Yahoo Entertainment, MSN, AOL, TradingView, Newser, Flipboard,
+      SmartNews, Inkl, Head Topics, Biz Pac Review]
+
+# Same-parent outlets count 0.5 each towards independent breadth (one company
+# publishing across its mastheads cannot manufacture a trend).
+corporate_parents:
+  PMC: [Deadline, Variety, Hollywood Reporter, Rolling Stone, IndieWire, TVLine,
+        Gold Derby, Vibe, Billboard]
+  Valnet: [Screen Rant, CBR, Collider, Game Rant, MovieWeb]
+  Static Media: [Looper, SlashGear]
+  Paramount: [ComicBook.com]
+
+# Sister sites: "sister has it" signal for the MW coverage check. Never counted as
+# MW's own coverage.
+sister_sites: [Screen Rant, Collider, CBR]
+
+# MW itself: never counted as a source; its articles feed the MW coverage check.
+self_outlets: [MovieWeb]
