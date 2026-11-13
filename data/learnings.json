@@ -6063,774 +6063,6 @@
   "processed_replies": [],
   "article_cache": [
     {
-      "guid": "https://www.thewrap.com/?p=8106869",
-      "title": "Why Hollywood\u2019s Biggest Stars Are Suddenly Opening Up About Steroid Use",
-      "url": "https://www.thewrap.com/creative-content/movies/why-hollywoods-biggest-stars-are-suddenly-opening-up-about-steroid-use/",
-      "published_dt": "2026-11-13T14:15:00+00:00",
-      "source_name": "The Wrap",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://variety.com/?p=1236946939",
-      "title": "Lena Dunham on Media\u2019s Misogyny Over \u2018Girls\u2019: \u2018People Were Angrier at Us for Giving Handjobs on TV Than They Were at Walter White or Tony Soprano\u2019",
-      "url": "https://variety.com/2026/tv/news/lena-dunham-girls-media-misogyny-revival-enthusiasm-1236946939/",
-      "published_dt": "2026-11-13T14:27:11+00:00",
-      "source_name": "Variety",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.tvline.com/2310924/law-and-order-sam-waterston-abraham-lincoln-two-civil-war-tv-shows/",
-      "title": "Law & Order's Sam Waterston Played Abraham Lincoln In Two Civil War TV Shows",
-      "url": "https://www.tvline.com/2310924/law-and-order-sam-waterston-abraham-lincoln-two-civil-war-tv-shows/",
-      "published_dt": "2026-11-13T14:12:00+00:00",
-      "source_name": "TVLine",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.tvline.com/2315771/virgin-river-season-9-renewed-netflix/",
-      "title": "Virgin River Renewed For Season 9, Becoming Netflix's Longest-Running Scripted Drama Series",
-      "url": "https://www.tvline.com/2315771/virgin-river-season-9-renewed-netflix/",
-      "published_dt": "2026-11-13T14:01:11+00:00",
-      "source_name": "TVLine",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.indiewire.com/?p=1235227284",
-      "title": "\u201912 12 12\u2032 Review: Anthony Mackie and Jamie Dornan\u2019s Ticking-Clock Heist Thriller Runs on Broken Time",
-      "url": "https://www.indiewire.com/criticism/shows/12-12-12-review-apple-tv-series-heist-anthony-mackie-1235227284/",
-      "published_dt": "2026-11-13T14:30:00+00:00",
-      "source_name": "IndieWire",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.tvinsider.com/?p=1303511",
-      "title": "\u2018Kindergarten Cop\u2019 & \u2018Knots Landing\u2019 Child Star Christian Cousins Dies at 43",
-      "url": "https://www.tvinsider.com/1303511/christian-cousins-dead-kindergarten-cop-knots-landing/",
-      "published_dt": "2026-11-13T14:23:54+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://www.tvinsider.com/?p=1303505",
-      "title": "Jack Nicholson\u2019s Lookalike Son Ray Makes Candid Confession About Famous Father",
-      "url": "https://www.tvinsider.com/1303505/jack-nicholson-lookalike-son-ray-candid-confession-famous-dad/",
-      "published_dt": "2026-11-13T14:23:52+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://time.com/?p=blta034d4401fd1d2b0",
-      "title": "Microsoft Struggles to Repair Worldwide Outage. Here's What You Need to Know",
-      "url": "https://time.com/article/2026/11/13/microsoft-outage-worldwide-disruption-teams-outlook-emails/",
-      "published_dt": "2026-11-13T14:06:20+00:00",
-      "source_name": "TIME",
-      "source_tier": 1
-    },
-    {
-      "guid": "https://theplaylist.net/?p=497059",
-      "title": "Maika Monroe Talks \u2018They Follow,\u2019 A Possible \u2018Longlegs\u2019 Return & Playing A Psychopath In \u2018Victorian Psycho\u2019",
-      "url": "https://theplaylist.net/maika-monroe-they-follow-longlegs-victorian-psycho-interview-20261113/",
-      "published_dt": "2026-11-13T14:19:00+00:00",
-      "source_name": "The Playlist",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screencrush.com/?p=551111",
-      "title": "Netflix Announces \u2018KPop Demon Hunters\u2019 Tour Dates",
-      "url": "https://screencrush.com/kpop-demon-hunters-tour-dates/",
-      "published_dt": "2026-11-13T14:09:01+00:00",
-      "source_name": "Screen Crush",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.slashfilm.com/2315819/johnny-depp-ebenezer-a-christmas-carol-story-change/",
-      "title": "Johnny Depp's Ebenezer Makes An Alarming Change To The Story Of A Christmas Carol",
-      "url": "https://www.slashfilm.com/2315819/johnny-depp-ebenezer-a-christmas-carol-story-change/",
-      "published_dt": "2026-11-13T14:20:48+00:00",
-      "source_name": "Slash Film",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://collider.com/marshals-season-2-episode-6-return-release-date/",
-      "title": "\u2018Marshals\u2019 Officially Returns to CBS This Sunday With a Major Shake-Up",
-      "url": "https://collider.com/marshals-season-2-episode-6-return-release-date/",
-      "published_dt": "2026-11-13T14:16:12+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://collider.com/classic-rock-songs-belong-in-these-tv-shows/",
-      "title": "10 Classic Rock Songs That Belong in These TV Shows",
-      "url": "https://collider.com/classic-rock-songs-belong-in-these-tv-shows/",
-      "published_dt": "2026-11-13T14:01:12+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.cbr.com/disney-amphibia-cartoon-returns-free-comic-book-day/",
-      "title": "Disney Channel's Most Adorable Cartoon Officially Returns For Free Comic Book Day",
-      "url": "https://www.cbr.com/disney-amphibia-cartoon-returns-free-comic-book-day/",
-      "published_dt": "2026-11-13T14:30:12+00:00",
-      "source_name": "CBR",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/best-classic-epic-fantasy-book-series/",
-      "title": "6 Classic Epic Fantasy Series Worth Reading Again and Again",
-      "url": "https://screenrant.com/best-classic-epic-fantasy-book-series/",
-      "published_dt": "2026-11-13T14:30:19+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/ncis-origins-season-3-gibbs-fornell-reunion-confirm/",
-      "title": "NCIS: Origins Is Officially Reuniting Gibbs' Most Important Relationship",
-      "url": "https://screenrant.com/ncis-origins-season-3-gibbs-fornell-reunion-confirm/",
-      "published_dt": "2026-11-13T14:30:19+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/virgin-river-season-9-renewal-netflix/",
-      "title": "Virgin River Season 9's Fate Officially Decided By Netflix",
-      "url": "https://screenrant.com/virgin-river-season-9-renewal-netflix/",
-      "published_dt": "2026-11-13T14:07:14+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://screenrant.com/kpop-demon-hunters-golden-world-tour-2027-dates-confirmed/",
-      "title": "KPop Demon Hunters Officially Confirms Major New 2027 Release",
-      "url": "https://screenrant.com/kpop-demon-hunters-golden-world-tour-2027-dates-confirmed/",
-      "published_dt": "2026-11-13T14:07:08+00:00",
-      "source_name": "Screen Rant",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.denofgeek.com/?p=1036805",
-      "title": "14 Famous Couples That Kept Getting Back Together",
-      "url": "https://www.denofgeek.com/msn/15-famous-couples-that-kept-getting-back-together/",
-      "published_dt": "2026-11-13T14:30:00+00:00",
-      "source_name": "Den of Geek",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.denofgeek.com/?p=1037087",
-      "title": "15 Fun Historical Facts About Spies and Espionage",
-      "url": "https://www.denofgeek.com/msn/15-fun-historical-facts-about-spies-and-espionage/",
-      "published_dt": "2026-11-13T14:15:00+00:00",
-      "source_name": "Den of Geek",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://decider.com/?post_type=article&p=2127850",
-      "title": "Is There a New \u2018Outlander\u2019 This Week? How Many \u2018Blood of My Blood\u2019 Season 2 Episodes Are Left?",
-      "url": "https://decider.com/2026/11/13/is-there-a-new-outlander-this-week-how-many-blood-of-my-blood-season-2-episodes-are-left/",
-      "published_dt": "2026-11-13T14:30:00+00:00",
-      "source_name": "Decider",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.joblo.com/?p=956447",
-      "title": "How to Rob a Bank Review: David Leitch\u2019s Heist Movie Comes Up Short",
-      "url": "https://www.joblo.com/how-to-rob-a-bank-review-david-leitchs-heist-movie-comes-up-short/",
-      "published_dt": "2026-11-13T14:30:21+00:00",
-      "source_name": "JoBlo",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://www.joblo.com/?p=956460",
-      "title": "What Happened to the Programming of Certain TV Channels?",
-      "url": "https://www.joblo.com/what-happened-programming-tv-channels/",
-      "published_dt": "2026-11-13T14:27:11+00:00",
-      "source_name": "JoBlo",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://comicbook.com/?p=1786874",
-      "title": "Wolfenstein 3 Officially Announced With First Tease",
-      "url": "https://comicbook.com/gaming/news/wolfenstein-3-announcement/",
-      "published_dt": "2026-11-13T14:26:40+00:00",
-      "source_name": "ComicBook.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "http://www.digitalspy.com/movies/a74422626/avengers-doomsday-sebastian-stan-fjord-movie-uk-cinema-release/",
-      "title": "Sebastian Stan's \"breathtaking\" drama is now available to watch in the UK",
-      "url": "https://www.digitalspy.com/movies/a74422626/avengers-doomsday-sebastian-stan-fjord-movie-uk-cinema-release/",
-      "published_dt": "2026-11-13T14:05:00+00:00",
-      "source_name": "Digital Spy",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMihwFBVV95cUxPenJpd1RpcFdoZWltMDNXaVZMcy0xblRqVUQ5ZmhLTjJSdDdNMVBydlhPOHE3bkxfR0VuYlhITnpnMm5ielFqLUMtRHROdUFOSVNIeDRjLUJIeHVKSGU0MzZ0azlYRkp1TTZkYjJhVmRONHptS21aQk9TSFZzZXUzV2Q5aDV4dkU",
-      "title": "New Friday the 13th Movie From Franchise Veteran Steve Miner Confirmed",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPenJpd1RpcFdoZWltMDNXaVZMcy0xblRqVUQ5ZmhLTjJSdDdNMVBydlhPOHE3bkxfR0VuYlhITnpnMm5ielFqLUMtRHROdUFOSVNIeDRjLUJIeHVKSGU0MzZ0azlYRkp1TTZkYjJhVmRONHptS21aQk9TSFZzZXUzV2Q5aDV4dkU?oc=5",
-      "published_dt": "2026-11-13T14:06:22+00:00",
-      "source_name": "Horror Geek Life",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiZ0FVX3lxTE9UTjdZMUZ3UjV3dDF1V2drSlFaUGlnOGFjR1FwTzBGQ0h2R1JVd2tiTXBWTUFwTlg4NHZIdUVBVU0yNzdvdWQ1MlNZYzZnREQxNHdmazBGUFd2MFA1T0Z5eGdCUm1nNms",
-      "title": "Jessica Chastain Is the Queen of Mean in Netflix's New \"Taylor Sheridan Meets Taken\" Thriller",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UTjdZMUZ3UjV3dDF1V2drSlFaUGlnOGFjR1FwTzBGQ0h2R1JVd2tiTXBWTUFwTlg4NHZIdUVBVU0yNzdvdWQ1MlNZYzZnREQxNHdmazBGUFd2MFA1T0Z5eGdCUm1nNms?oc=5",
-      "published_dt": "2026-11-13T14:15:58+00:00",
-      "source_name": "IMDb",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMieEFVX3lxTFBEMFM3V2ROc3lmQ3NfNm9oYnpScWp3MUFqN0lLbDRfNlZUSXhReFk4cTFHOGxndENUeTdYTDB1eWhyQ055WU9mMVdiWVQyM0tYS0hQaXFhSEVqRnAzY3dqT3dUdjJ0cXZZVHVnZm84clp5dFpzTVhKVg",
-      "title": "\u2018Marshals\u2019 Officially Returns to CBS This Sunday With a Major Shake-Up",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEMFM3V2ROc3lmQ3NfNm9oYnpScWp3MUFqN0lLbDRfNlZUSXhReFk4cTFHOGxndENUeTdYTDB1eWhyQ055WU9mMVdiWVQyM0tYS0hQaXFhSEVqRnAzY3dqT3dUdjJ0cXZZVHVnZm84clp5dFpzTVhKVg?oc=5",
-      "published_dt": "2026-11-13T14:16:12+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiuwFBVV95cUxQbWNIOWs2amR2cDdBNWJjS2Rnb1RwQXBNSld3VnFuRXdqWVQwV2FxaDhOaVNWNU9SdUZyazhYNzdfSnZLMlZ0X0tkVFhOekZtY001SldaNUZmaXlyNGstdUZkVi1ncFNCNjJBWUMzNEFFNDExVnVJQm5saFA5UDhpLTJJODBtMDJZeUNaRm1LQWdYa0w1MDcwNEFIMjdYdTNBbmZhQ0RCU3Vhd0ZQakhnTkd3SU96anFyaFVV",
-      "title": "Why Hollywood\u2019s Biggest Stars Are Suddenly Opening Up About Steroid Use",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbWNIOWs2amR2cDdBNWJjS2Rnb1RwQXBNSld3VnFuRXdqWVQwV2FxaDhOaVNWNU9SdUZyazhYNzdfSnZLMlZ0X0tkVFhOekZtY001SldaNUZmaXlyNGstdUZkVi1ncFNCNjJBWUMzNEFFNDExVnVJQm5saFA5UDhpLTJJODBtMDJZeUNaRm1LQWdYa0w1MDcwNEFIMjdYdTNBbmZhQ0RCU3Vhd0ZQakhnTkd3SU96anFyaFVV?oc=5",
-      "published_dt": "2026-11-13T14:15:00+00:00",
-      "source_name": "TheWrap",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMic0FVX3lxTE9QUVhNRTgxU19KWFJLd2RZZklVTjZ3TVJxdVltRlB1TDZQeW03NERoc043OU1BaW5TSVB1MnVCblEyZHoybTd1b2NJRHJhckpjX1hyQ0VESDNWQlV4TmlqYnRQbXNPX290SmdWVm9jRmxxbUU",
-      "title": "10 Classic Rock Songs That Belong in These TV Shows",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QUVhNRTgxU19KWFJLd2RZZklVTjZ3TVJxdVltRlB1TDZQeW03NERoc043OU1BaW5TSVB1MnVCblEyZHoybTd1b2NJRHJhckpjX1hyQ0VESDNWQlV4TmlqYnRQbXNPX290SmdWVm9jRmxxbUU?oc=5",
-      "published_dt": "2026-11-13T14:01:12+00:00",
-      "source_name": "Collider",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMipgFBVV95cUxNd2c5MDBHeVZfVVVpd3I1NFhodDVEbk80V0ZwdXdTQks0ZzZoelE4ek1vUUtrOUstVmNfRTVXR0p1b0lEajBnQTJHc2ZmczEwLWxUSnBBYTBzaVpaOThZeFcxeXczRDdqRlYzUEx1cWYzejVkYm5NTXp4UFY0SzJSSXdnSEJTWkV1aExCc2NBWnFMYmRVbW5vV2Q0cURkYWhvcFZGeHJn",
-      "title": "Sean Bean Set to Return as the Sheriff of Nottingham in MGM+\u2019s Robin Hood Series",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd2c5MDBHeVZfVVVpd3I1NFhodDVEbk80V0ZwdXdTQks0ZzZoelE4ek1vUUtrOUstVmNfRTVXR0p1b0lEajBnQTJHc2ZmczEwLWxUSnBBYTBzaVpaOThZeFcxeXczRDdqRlYzUEx1cWYzejVkYm5NTXp4UFY0SzJSSXdnSEJTWkV1aExCc2NBWnFMYmRVbW5vV2Q0cURkYWhvcFZGeHJn?oc=5",
-      "published_dt": "2026-11-13T14:10:56+00:00",
-      "source_name": "Yorkshire Magazine",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMisgFBVV95cUxNMVlOa1h1T1Q0Z2tUN29fZ1oyNjBmLU55V2M0WkhJUnoxNTg1U3NqUVFHclJyekIzRVlrLWpVUXRmSk9XTVB6cU04Ti1RYTltZUtKZmNpbzB0My0zcTMtdnFub0RaLXNiTF9vN1pDdFk1NUlYVWNWeXV0U3AyLVVHSVQ5N2NmbkRvcDBGVmdYUjVMZkdFQnZLN2FBQ1lEUEJnZHdaYW5PNXRKVEwyQkxseENR",
-      "title": "Literary Hub vote to choose the best TV adaptation of a literary work",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVlOa1h1T1Q0Z2tUN29fZ1oyNjBmLU55V2M0WkhJUnoxNTg1U3NqUVFHclJyekIzRVlrLWpVUXRmSk9XTVB6cU04Ti1RYTltZUtKZmNpbzB0My0zcTMtdnFub0RaLXNiTF9vN1pDdFk1NUlYVWNWeXV0U3AyLVVHSVQ5N2NmbkRvcDBGVmdYUjVMZkdFQnZLN2FBQ1lEUEJnZHdaYW5PNXRKVEwyQkxseENR?oc=5",
-      "published_dt": "2026-11-13T14:21:36+00:00",
-      "source_name": "Foro3D",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMijwFBVV95cUxNZFdCZUlMeHJiUzRYdEZxNDdPZTd2aHlFaWRRempqUGFBZ0V4TFVWODFFQkxQcVYzNElZaVRSV2FjQkxucWpiS3hlcFNwXzVhT2s3YUpwU1FHa0xvODIyZ0hZRFItY2kyWjFpd3huUWhaZXc2YkE2LVJFZWNBU0I2VjEwNXR3MlBFc3RKVHJCUQ",
-      "title": "Candlelight: The Lord of the Rings Comes to Houston for 25th Anniversary",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZFdCZUlMeHJiUzRYdEZxNDdPZTd2aHlFaWRRempqUGFBZ0V4TFVWODFFQkxQcVYzNElZaVRSV2FjQkxucWpiS3hlcFNwXzVhT2s3YUpwU1FHa0xvODIyZ0hZRFItY2kyWjFpd3huUWhaZXc2YkE2LVJFZWNBU0I2VjEwNXR3MlBFc3RKVHJCUQ?oc=5",
-      "published_dt": "2026-11-13T14:20:10+00:00",
-      "source_name": "Secret Houston",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMi1AFBVV95cUxPNng2c2FpbWtzVm8wVEsxaEcwR3NkYmoyaHc3T0dtWXNDMWhnREt3THYzTFFmRmhNTEZkOXBmd3hOeVB5a0pydXFkMVdnUkk2OTNnT3pWSEM1YXNvbEVMU1AxWTg0b2xNbVZFNkwyM0p5V2VQX1FCR3VtQ0FGS1J2S2RZNDdfajdPNVJfUGhKV3g2OUlaQkI5dzFDZjVTSk94dndNdnFvZE1hYTBneEwxSmZYR0pUTUpuLVRaT0toMl9ZNDhCZkpWYnhOOURQdzdjQzA1ZA",
-      "title": "Jacob Elordi to play convicted murderer Gary Gilmore in 'The Executioner's Song' for United Artists. Read more below.",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNng2c2FpbWtzVm8wVEsxaEcwR3NkYmoyaHc3T0dtWXNDMWhnREt3THYzTFFmRmhNTEZkOXBmd3hOeVB5a0pydXFkMVdnUkk2OTNnT3pWSEM1YXNvbEVMU1AxWTg0b2xNbVZFNkwyM0p5V2VQX1FCR3VtQ0FGS1J2S2RZNDdfajdPNVJfUGhKV3g2OUlaQkI5dzFDZjVTSk94dndNdnFvZE1hYTBneEwxSmZYR0pUTUpuLVRaT0toMl9ZNDhCZkpWYnhOOURQdzdjQzA1ZA?oc=5",
-      "published_dt": "2026-11-13T14:30:18+00:00",
-      "source_name": "Facebook",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiiwFBVV95cUxPRzZFYm5wZUlWSEpYeXc2eHJ2QUFqYXBIVWZWZERtR3hjYS02ai1BbjJ5YW1fS2luUi03RmRTTGRjZDZ2dldPWnNYbG9LTFdiaDNzMkY4MXE0V0haY0djVnpORHM3aFo3ZGtkQ3dfSHBYVFFRMmdjeXF0bVFYMUpmWXJBb0JTcld5X1Rn",
-      "title": "Scotland freshen up back three for Australia clash as Wallabies boosted by Carter Gordon return",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRzZFYm5wZUlWSEpYeXc2eHJ2QUFqYXBIVWZWZERtR3hjYS02ai1BbjJ5YW1fS2luUi03RmRTTGRjZDZ2dldPWnNYbG9LTFdiaDNzMkY4MXE0V0haY0djVnpORHM3aFo3ZGtkQ3dfSHBYVFFRMmdjeXF0bVFYMUpmWXJBb0JTcld5X1Rn?oc=5",
-      "published_dt": "2026-11-13T14:06:28+00:00",
-      "source_name": "AOL.co.uk",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMisgFBVV95cUxOYV9KTDdHeXYzNTM1UkM1Vld3WUg3aXlmVWNvaFhyZWR1di1rc09tYXZjRGZsaHd3LTlKTVBMZ2p3VWxWVENwb2RIaTd0THZRd3BkSWpKMl9faU1QeExkaXhxNXZZZHgzWjZwemtwSGw3el9DMk5Pc1pUS2Fxa2RQTHVFR3pCTm4zQnlBZUt5XzMtSlVyR21QaXpqQWxyRUt5ZEtQZWVGNHB4aDFQbU1ScE9R",
-      "title": "Harry Potter series: release dates and episode length set the pace for VFX",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYV9KTDdHeXYzNTM1UkM1Vld3WUg3aXlmVWNvaFhyZWR1di1rc09tYXZjRGZsaHd3LTlKTVBMZ2p3VWxWVENwb2RIaTd0THZRd3BkSWpKMl9faU1QeExkaXhxNXZZZHgzWjZwemtwSGw3el9DMk5Pc1pUS2Fxa2RQTHVFR3pCTm4zQnlBZUt5XzMtSlVyR21QaXpqQWxyRUt5ZEtQZWVGNHB4aDFQbU1ScE9R?oc=5",
-      "published_dt": "2026-11-13T14:21:33+00:00",
-      "source_name": "Foro3D",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiiwFBVV95cUxPS05JeUpuejVkNFlnRXlDdDYwTEYtWXljeF9UWF9JUFkzMVRzYlFQOUl5SDF5bzVGQ2pkdFFIMlVVaDhlQ185STQ4bXpkeXFMYlZROXBrNTNnRFBya3F0eGIxcXRETm9SWURnXzUycllBLXl1TF9COU5LeThwQXhvenZISVl6eFV0czFZ",
-      "title": "KILLHOUSE Academy prepares a new challenge for FPV pilots",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS05JeUpuejVkNFlnRXlDdDYwTEYtWXljeF9UWF9JUFkzMVRzYlFQOUl5SDF5bzVGQ2pkdFFIMlVVaDhlQ185STQ4bXpkeXFMYlZROXBrNTNnRFBya3F0eGIxcXRETm9SWURnXzUycllBLXl1TF9COU5LeThwQXhvenZISVl6eFV0czFZ?oc=5",
-      "published_dt": "2026-11-13T14:17:00+00:00",
-      "source_name": "Root-Nation.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiXkFVX3lxTE9odkJhbUF0Q0NWaTJQbHFlajB1bWdsZlRqU1VpcTNmR0VGWFQxaTNXUDFzaFZHaWF0Rk5WY0J3b3QzTTNuTUxYMjRudVIwbDV5b0lrTVVuNEtINVdiZmc",
-      "title": "VisionQuest Viewership Tops Lanterns on Nielsen Streaming Charts",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9odkJhbUF0Q0NWaTJQbHFlajB1bWdsZlRqU1VpcTNmR0VGWFQxaTNXUDFzaFZHaWF0Rk5WY0J3b3QzTTNuTUxYMjRudVIwbDV5b0lrTVVuNEtINVdiZmc?oc=5",
-      "published_dt": "2026-11-13T14:22:18+00:00",
-      "source_name": "Cosmic Book News",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMixwFBVV95cUxQWVl5azZZUUZsNkdRQ1NlT2ZBNHBBSGNZc3ZHMEd2Z1RUS1l4T1lvVVlHSVJFcUVGUGNtamhiOEg0b0M2cWp5Q2NjQm8zUFk5MkwxM1B1XzR0aDNIMGtHUUFsRkwtU1ZmZmRsZklIUURZSDBvUHo1U1VxYThTaFp2VVNLUGZOTG1rV0RIcGdJbWNKQVlKd0dMbEM4XzhiLUY2NlNTbEt2ckliSXBGLTJwcGVpZ2UweE5HVDd3d0psUF9SOUdjbHhB",
-      "title": "Next James Bond Betting Odds: Callum Turner Slight Favourite Over Jack Lowden",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWVl5azZZUUZsNkdRQ1NlT2ZBNHBBSGNZc3ZHMEd2Z1RUS1l4T1lvVVlHSVJFcUVGUGNtamhiOEg0b0M2cWp5Q2NjQm8zUFk5MkwxM1B1XzR0aDNIMGtHUUFsRkwtU1ZmZmRsZklIUURZSDBvUHo1U1VxYThTaFp2VVNLUGZOTG1rV0RIcGdJbWNKQVlKd0dMbEM4XzhiLUY2NlNTbEt2ckliSXBGLTJwcGVpZ2UweE5HVDd3d0psUF9SOUdjbHhB?oc=5",
-      "published_dt": "2026-11-13T14:06:41+00:00",
-      "source_name": "Bookies.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiqwFBVV95cUxQaXJJamwzQzNJWF8xeGs4TEZKRVBnN3M2cFJLbUNmSzVJUDd4YjRfM2RaV2dHTlJndEc4d0g2ZjMtYkxHSVkyRkVyMTNyWmVIaXU4dnVTajNLTUtzY25QMmt5SC1qVmhlcTBPeU5UbnRhSi0zZEUzQThBc3V5V1JpeTJMb1BNMHQ3VjVOQjFEaVA3cm5HbkphVWJRVjBXbFA4a24tZm1oRUw2NGs",
-      "title": "THERE'S ANOTHER ARTIST'S NEBULA FLOATING IN THE 'MAGIC: THE GATHERING' COFFEE",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaXJJamwzQzNJWF8xeGs4TEZKRVBnN3M2cFJLbUNmSzVJUDd4YjRfM2RaV2dHTlJndEc4d0g2ZjMtYkxHSVkyRkVyMTNyWmVIaXU4dnVTajNLTUtzY25QMmt5SC1qVmhlcTBPeU5UbnRhSi0zZEUzQThBc3V5V1JpeTJMb1BNMHQ3VjVOQjFEaVA3cm5HbkphVWJRVjBXbFA4a24tZm1oRUw2NGs?oc=5",
-      "published_dt": "2026-11-13T14:05:59+00:00",
-      "source_name": "ICv2",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiZ0FVX3lxTE9iSUlTWlV0SzJDNV80WVFqQ0FWSUVkVlh6QlprOGNfTFlEVVVvdE8yVDdMOWdscHJhaEtxTUI4SUtpQ0RJeEYwMm03bFMwMkdKQlNsWWF2Sm1YVEhHLVRyejc5anNvdkE",
-      "title": "PDAP Hosts Uncut Screening of \u2018The Last Angel of History\u2019",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iSUlTWlV0SzJDNV80WVFqQ0FWSUVkVlh6QlprOGNfTFlEVVVvdE8yVDdMOWdscHJhaEtxTUI4SUtpQ0RJeEYwMm03bFMwMkdKQlNsWWF2Sm1YVEhHLVRyejc5anNvdkE?oc=5",
-      "published_dt": "2026-11-13T14:23:03+00:00",
-      "source_name": "I Love the Burg",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiZEFVX3lxTE9wYjMzVXI4STZQcHYyc3hhdi03RUk5SjU0bERBbWNuT3RKbWR5bV9MWFk0YkI0cnp0Q2tOUTR5T19EYjRCZ0VhTDkwSjdVRzA4cUd1OVdUYkl6RU16eE1Xb3lHMno",
-      "title": "GTA 6 is coming, so I tried Barbie Rewind",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wYjMzVXI4STZQcHYyc3hhdi03RUk5SjU0bERBbWNuT3RKbWR5bV9MWFk0YkI0cnp0Q2tOUTR5T19EYjRCZ0VhTDkwSjdVRzA4cUd1OVdUYkl6RU16eE1Xb3lHMno?oc=5",
-      "published_dt": "2026-11-13T14:13:21+00:00",
-      "source_name": "PCGamesN",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMimwFBVV95cUxQVlB5d1g5dlNScnVmcjFDMHFkeURCc2xGX1dGTklRajhRM1pCNXJEM1lyT1F2RkVJcW80OUFKTHh2TEd3NUdNZHpmSEVqeXd5MlhWNnB5WC0xNUdKdXlKc2p1ODU0WDBhU3RQcGR6YlFVUzVlb2ZxdGpwSk93bVdTTzE1Tk1JZnRIU0FCU2I0RmRZR0F1M2N5MVNXVQ",
-      "title": "What Kat McAllister\u2019s Black Flag Means for the Harrigans in \u2018MobLand\u2019",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlB5d1g5dlNScnVmcjFDMHFkeURCc2xGX1dGTklRajhRM1pCNXJEM1lyT1F2RkVJcW80OUFKTHh2TEd3NUdNZHpmSEVqeXd5MlhWNnB5WC0xNUdKdXlKc2p1ODU0WDBhU3RQcGR6YlFVUzVlb2ZxdGpwSk93bVdTTzE1Tk1JZnRIU0FCU2I0RmRZR0F1M2N5MVNXVQ?oc=5",
-      "published_dt": "2026-11-13T14:10:26+00:00",
-      "source_name": "Comic Basics",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMimwFBVV95cUxQVlB5d1g5dlNScnVmcjFDMHFkeURCc2xGX1dGTklRajhRM1pCNXJEM1lyT1F2RkVJcW80OUFKTHh2TEd3NUdNZHpmSEVqeXd5MlhWNnB5WC0xNUdKdXlKc2p1ODU0WDBhU3RQcGR6YlFVUzVlb2ZxdGpwSk93bVdTTzE1Tk1JZnRIU0FCU2I0RmRZR0F1M2N5MVNXVQ",
-      "title": "What Kat McAllister\u2019s Black Flag Means for the Harrigans in \u2018MobLand\u2019",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlB5d1g5dlNScnVmcjFDMHFkeURCc2xGX1dGTklRajhRM1pCNXJEM1lyT1F2RkVJcW80OUFKTHh2TEd3NUdNZHpmSEVqeXd5MlhWNnB5WC0xNUdKdXlKc2p1ODU0WDBhU3RQcGR6YlFVUzVlb2ZxdGpwSk93bVdTTzE1Tk1JZnRIU0FCU2I0RmRZR0F1M2N5MVNXVQ?oc=5",
-      "published_dt": "2026-11-13T14:10:26+00:00",
-      "source_name": "Comic Basics",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiWEFVX3lxTFAwelh1dWJqbGJScVlTMUllVjBCN1RERE11U3JnWmwyelR5X0tGb0xwalpRSkZMLU1VdjFuaHZ1d0xQWlJTZXcyVHZLN2U2SEpweTA0TDVEckQ",
-      "title": "TV shows that came back after a long hiatus: 10 revivals",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwelh1dWJqbGJScVlTMUllVjBCN1RERE11U3JnWmwyelR5X0tGb0xwalpRSkZMLU1VdjFuaHZ1d0xQWlJTZXcyVHZLN2U2SEpweTA0TDVEckQ?oc=5",
-      "published_dt": "2026-11-13T14:28:17+00:00",
-      "source_name": "qz.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMibEFVX3lxTE9rZl9lZWFUTmxvOC1OVXBEOEl5UGNEZlQ0WHNfUWhjeU1RTlE5bGNMaFMzOHRqcWxtdGJIZVNJUmx4bmhLOGhmOGdRallHT2lPWmoxbDk4Y0VDQ05LeHZGVWNZUnN5bTRiczRNWQ",
-      "title": "Family, Fraternity, and Fealty in the Godfather",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rZl9lZWFUTmxvOC1OVXBEOEl5UGNEZlQ0WHNfUWhjeU1RTlE5bGNMaFMzOHRqcWxtdGJIZVNJUmx4bmhLOGhmOGdRallHT2lPWmoxbDk4Y0VDQ05LeHZGVWNZUnN5bTRiczRNWQ?oc=5",
-      "published_dt": "2026-11-13T14:28:29+00:00",
-      "source_name": "TheCollector",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiyAFBVV95cUxPZVFIWmJJY19aUWJFMzM0UmQ1VVFHRXdTUm5mT3c2QU11d3liWC1GRllnRjhIdEs1MG5vZjE5bGhJZTY5Y2NGT05KVmZUNDBRdjN6S0FsMjlISzJ6ei1RemI4NUVHNWpjc0sxLVFMSWxCSkdrcWd0a1JqazJTUzVHZFZIdzJrWHlmQjFDcHRJUEQ5RFF5UHdBR3ZzODhHYUhfbkV2N1pBOS14YXpwdzVydi1jNjczNkFxSkJSaUVfdDhlcTRVbU83ag",
-      "title": "Head to Head: Are benchmarks outdated in a total portfolio model?",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZVFIWmJJY19aUWJFMzM0UmQ1VVFHRXdTUm5mT3c2QU11d3liWC1GRllnRjhIdEs1MG5vZjE5bGhJZTY5Y2NGT05KVmZUNDBRdjN6S0FsMjlISzJ6ei1RemI4NUVHNWpjc0sxLVFMSWxCSkdrcWd0a1JqazJTUzVHZFZIdzJrWHlmQjFDcHRJUEQ5RFF5UHdBR3ZzODhHYUhfbkV2N1pBOS14YXpwdzVydi1jNjczNkFxSkJSaUVfdDhlcTRVbU83ag?oc=5",
-      "published_dt": "2026-11-13T14:18:05+00:00",
-      "source_name": "Benefits Canada.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMioAFBVV95cUxQT0ZiSGd6TDIxd2dqcXZJcjAwdVMxNTBuQXJEN1pYVmJpblNCMm1RRU1XeUgyejlCeGQwbHpKSktaVm9xWmpDSm9YT3dRdHhkQzdlSG93MFAyNUZtcW4tNmQzX19rZi0tQkFFcXVWc21rcGNKVjg0RmtmWEpETFVJaDJNUlZsazg5Q2Zfd2FxQVNyWERZbHo3WV9Qd2hyWExy",
-      "title": "Southern California transportation projects awarded new state funding",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT0ZiSGd6TDIxd2dqcXZJcjAwdVMxNTBuQXJEN1pYVmJpblNCMm1RRU1XeUgyejlCeGQwbHpKSktaVm9xWmpDSm9YT3dRdHhkQzdlSG93MFAyNUZtcW4tNmQzX19rZi0tQkFFcXVWc21rcGNKVjg0RmtmWEpETFVJaDJNUlZsazg5Q2Zfd2FxQVNyWERZbHo3WV9Qd2hyWExy?oc=5",
-      "published_dt": "2026-11-13T14:10:00+00:00",
-      "source_name": "Urbanize LA",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiygFBVV95cUxOY3Q1NzZFQ3ctNkdHUU1ZLTVTNmlONzlnTU1sWkExR2JXY25ubDU2ZXExTFhBNUVaVUVKeTVGX0g0c29tblZ5YU43WEN5MEdKRXY2UWhyYTlRWWVwemFobjBSQmVyTnA5SjBNN0s3a1k2cDdyZW9YWkJROUFDalBYSFJaamk3eXZ5Ui1sUFBsdGpCSnA0clRNY3RycUNoeDZ5c2dXRW1qQW04TW5USzhVQnFoOFhDYXZjN2FoM2ZpR2Z1X0lyTDZKS1d3",
-      "title": "PharmaCyte reports $17.7M cash, $36.7M total assets for Q1 FY2027",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY3Q1NzZFQ3ctNkdHUU1ZLTVTNmlONzlnTU1sWkExR2JXY25ubDU2ZXExTFhBNUVaVUVKeTVGX0g0c29tblZ5YU43WEN5MEdKRXY2UWhyYTlRWWVwemFobjBSQmVyTnA5SjBNN0s3a1k2cDdyZW9YWkJROUFDalBYSFJaamk3eXZ5Ui1sUFBsdGpCSnA0clRNY3RycUNoeDZ5c2dXRW1qQW04TW5USzhVQnFoOFhDYXZjN2FoM2ZpR2Z1X0lyTDZKS1d3?oc=5",
-      "published_dt": "2026-11-13T14:16:44+00:00",
-      "source_name": "StreetInsider",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMihAFBVV95cUxPNFI1UTVYZmJXbjdENFdTaW1JZHNoN0lfMzRVc1FmSEk2X3lGSnBhVkwybWZtT0l5a1hxTUd3dWlLaUFPTXBQQV90Q1Y2aG5YMHdVbWxORTdKN2lGTFpNWWp2UG5mM3U1MGlNLXQ4ellEem02REp0eG42VFM5dUhpUVlZQ0g",
-      "title": "BBDO: SEC Form 6-K filed by Banco Bradesco Sa",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNFI1UTVYZmJXbjdENFdTaW1JZHNoN0lfMzRVc1FmSEk2X3lGSnBhVkwybWZtT0l5a1hxTUd3dWlLaUFPTXBQQV90Q1Y2aG5YMHdVbWxORTdKN2lGTFpNWWp2UG5mM3U1MGlNLXQ4ellEem02REp0eG42VFM5dUhpUVlZQ0g?oc=5",
-      "published_dt": "2026-11-13T14:07:46+00:00",
-      "source_name": "Quantisnow",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiXEFVX3lxTE1JbmFYSFRCNWRkR2ZhaFY4SzNwWTRIeE1JUUhnc1lLN2ZhVTNFcUpqYTM1MVdpYS10VHRUVmtubVpPemdOVU5WeXhTWjIxX0dYeFY3V2dOWUxZR1BQ",
-      "title": "EVEDEX Total Value Locked on Arbitrum Rises 418% Over 12 Months",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JbmFYSFRCNWRkR2ZhaFY4SzNwWTRIeE1JUUhnc1lLN2ZhVTNFcUpqYTM1MVdpYS10VHRUVmtubVpPemdOVU5WeXhTWjIxX0dYeFY3V2dOWUxZR1BQ?oc=5",
-      "published_dt": "2026-11-13T14:16:53+00:00",
-      "source_name": "Cryptonews.net",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiiwFBVV95cUxPZjZBMzVPQ1JNMFlPSl95Nm5WTzVTT096Tm9laFlfdGplV0ptUXhTN0lObWpaR0s1RWo4OG5Ia2NhbDZSb0pEaF9zaFB2QXV3bWR4LUkxTEEyejZYWGMwVWtvbW9uVnhHb0RyZXNNSVRRdWlZemxUQl9GUWlISEhMaFBraDVzaVJYTWV3",
-      "title": "Michelin reports total voting rights and shares as of October 31, 2026, including treasury shares.",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZjZBMzVPQ1JNMFlPSl95Nm5WTzVTT096Tm9laFlfdGplV0ptUXhTN0lObWpaR0s1RWo4OG5Ia2NhbDZSb0pEaF9zaFB2QXV3bWR4LUkxTEEyejZYWGMwVWtvbW9uVnhHb0RyZXNNSVRRdWlZemxUQl9GUWlISEhMaFBraDVzaVJYTWV3?oc=5",
-      "published_dt": "2026-11-13T14:02:33+00:00",
-      "source_name": "Pluang",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMijwFBVV95cUxQd2hxT3dxUkM3VjhlOURzR2tVQVpLNmlSZGdzSnhNU1FBTThJQUdhMV9JWEhNSExKajJ4M0M4cHlBUUlkck9nM2VpdnpOcF9PY2JyQW94UDluVkduYWFMdEYzV3hfS1ltcGEyTVpFWmJnWmZuNFlwd2pONU50ZkEtMm44dHZxRU45dGRaV2pQYw",
-      "title": "Michelin discloses total voting rights and shar...",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd2hxT3dxUkM3VjhlOURzR2tVQVpLNmlSZGdzSnhNU1FBTThJQUdhMV9JWEhNSExKajJ4M0M4cHlBUUlkck9nM2VpdnpOcF9PY2JyQW94UDluVkduYWFMdEYzV3hfS1ltcGEyTVpFWmJnWmZuNFlwd2pONU50ZkEtMm44dHZxRU45dGRaV2pQYw?oc=5",
-      "published_dt": "2026-11-13T14:02:33+00:00",
-      "source_name": "Pluang",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiugFBVV95cUxNcVMxeWtady1CTk41UVRESXhCem94TG0tV2NGeUU1NC04UWFUZm1HRk5NMGM2V2xHQmFtd0pEajZ0LWg5QmtxcFlRdHV3UkEwV1pUVGU3UWptUjFFWjZuV0ZDdHZ4eTRSdHJXeTAtdDZOdTBYLUdGUU1WVGJuVTlKcERwOThkeUVyRXdXMzV6SG42SlJDWDk2YVQxTDRWUDFocXEtd0U5TjJITURIMTZ0ZmZMdmpFeVQ2OUE",
-      "title": "Bombay Talkies Q2FY27 Results: Net loss narrows to \u20b91.865 lacs YoY",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcVMxeWtady1CTk41UVRESXhCem94TG0tV2NGeUU1NC04UWFUZm1HRk5NMGM2V2xHQmFtd0pEajZ0LWg5QmtxcFlRdHV3UkEwV1pUVGU3UWptUjFFWjZuV0ZDdHZ4eTRSdHJXeTAtdDZOdTBYLUdGUU1WVGJuVTlKcERwOThkeUVyRXdXMzV6SG42SlJDWDk2YVQxTDRWUDFocXEtd0U5TjJITURIMTZ0ZmZMdmpFeVQ2OUE?oc=5",
-      "published_dt": "2026-11-13T14:26:53+00:00",
-      "source_name": "scanx.trade",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMipwFBVV95cUxOelJaWFZudDZKLUlqS0RzYkVLNlFRazBKXzE1RmRnMHRTTThweHl0bXQ0RnUtQnBMV0dQMmVUWng2bnRKZzNOeXk2R1RpYlA2MktYRXR0cHlHSTJxWHg0OGhkakFoT1UyeUN0TzlqNDVDOUxwa0pSRENGVTBaeGJ2V3REM3E3OTcxaXpnTFh4V0s3WU5UNHlkelVFLW4yN243NHphbjJqMA",
-      "title": "Annu Projects Limited reports \u20b9111 lakh profit for Q2 FY27",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOelJaWFZudDZKLUlqS0RzYkVLNlFRazBKXzE1RmRnMHRTTThweHl0bXQ0RnUtQnBMV0dQMmVUWng2bnRKZzNOeXk2R1RpYlA2MktYRXR0cHlHSTJxWHg0OGhkakFoT1UyeUN0TzlqNDVDOUxwa0pSRENGVTBaeGJ2V3REM3E3OTcxaXpnTFh4V0s3WU5UNHlkelVFLW4yN243NHphbjJqMA?oc=5",
-      "published_dt": "2026-11-13T14:21:26+00:00",
-      "source_name": "InvestyWise",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiWEFVX3lxTFAwelh1dWJqbGJScVlTMUllVjBCN1RERE11U3JnWmwyelR5X0tGb0xwalpRSkZMLU1VdjFuaHZ1d0xQWlJTZXcyVHZLN2U2SEpweTA0TDVEckQ",
-      "title": "TV shows that came back after a long hiatus: 10 revivals",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwelh1dWJqbGJScVlTMUllVjBCN1RERE11U3JnWmwyelR5X0tGb0xwalpRSkZMLU1VdjFuaHZ1d0xQWlJTZXcyVHZLN2U2SEpweTA0TDVEckQ?oc=5",
-      "published_dt": "2026-11-13T14:28:17+00:00",
-      "source_name": "qz.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMifkFVX3lxTE03RWxuYXFqTS1Na09PTDlVSkRSaWRpUHlXYk9qanZWRDJKMDVyQktaSTBIal9hMGVfT1I1TTBKUlJnVmpTdVdTNmNTU2QxOGdMX2N3cDUxNUx5QUc4RHNHU0NQNG4wZzVIbDR6QXlFYW5qR1pjRXFhVXpRV1Iydw",
-      "title": "Martial Arts On Building A Community",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03RWxuYXFqTS1Na09PTDlVSkRSaWRpUHlXYk9qanZWRDJKMDVyQktaSTBIal9hMGVfT1I1TTBKUlJnVmpTdVdTNmNTU2QxOGdMX2N3cDUxNUx5QUc4RHNHU0NQNG4wZzVIbDR6QXlFYW5qR1pjRXFhVXpRV1Iydw?oc=5",
-      "published_dt": "2026-11-13T14:20:21+00:00",
-      "source_name": "Clash Magazine",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMinwFBVV95cUxQNWltbmthVlNJUDFsaXpWNm9TREo4NklDQlY0d04wYk4zQW9xWVBYYTc1c28ybTFraTdqOXBCUlB6eXJ1aWk0WWpCbFhFcWpUUTN6Rngwc3p1eUxEX1dyaU9FVUtIXzYta2VSZUhqZVJiZGtJako2LUxjc0NieWVXU0ZXbWR3MHhkWmY1YnBuTE9XczdSS1B1bGlLOHFxT3M",
-      "title": "Six from Team Nurmagomedov, eight in all get prison time over Dvalishvili brawl",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNWltbmthVlNJUDFsaXpWNm9TREo4NklDQlY0d04wYk4zQW9xWVBYYTc1c28ybTFraTdqOXBCUlB6eXJ1aWk0WWpCbFhFcWpUUTN6Rngwc3p1eUxEX1dyaU9FVUtIXzYta2VSZUhqZVJiZGtJako2LUxjc0NieWVXU0ZXbWR3MHhkWmY1YnBuTE9XczdSS1B1bGlLOHFxT3M?oc=5",
-      "published_dt": "2026-11-13T14:22:09+00:00",
-      "source_name": "ESPN",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiuwFBVV95cUxQeGV5SmxLR0VORG9adFRCUnA2S1RwalpvNHBYUnNzcHg5dmRFaVFKYUxlekVHLXgwVGo2Slc2UXdtQlJVcFZWWDJiQlpqU3N4ZWFtZmV6dkVzSVRzeXlhTlBKWlVwcjU3X29NUGUtV0lLeWpsb1I4NnVqcEVGYmpDaklBWkZQNEFoSXA5dUVzS1JOcEw0OUc1TTRiSVhJU1BJd3NKT095Zkt0d1J1aThIMENIakJFT21UOWI0",
-      "title": "Usman Nurmagomedov sentenced to six months in prison after attacking Merab Dvalishvili",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeGV5SmxLR0VORG9adFRCUnA2S1RwalpvNHBYUnNzcHg5dmRFaVFKYUxlekVHLXgwVGo2Slc2UXdtQlJVcFZWWDJiQlpqU3N4ZWFtZmV6dkVzSVRzeXlhTlBKWlVwcjU3X29NUGUtV0lLeWpsb1I4NnVqcEVGYmpDaklBWkZQNEFoSXA5dUVzS1JOcEw0OUc1TTRiSVhJU1BJd3NKT095Zkt0d1J1aThIMENIakJFT21UOWI0?oc=5",
-      "published_dt": "2026-11-13T14:19:00+00:00",
-      "source_name": "Geo News",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiZ0FVX3lxTE9EQzNPRlRfRlp0NnY4Mm5oN3Rabi1md1l3aWE1U0k2ckxEVDAzLTRDemRFLVdmblhoSDliMHJjR0NKNncxWTFXdmVKam1NNXpWRDdwRFZ1dkhwbG1ZY2E2cVhUbmZ5b1E",
-      "title": "Is \u2018The Body\u2019 on Netflix Actually Scary? What Horror Fans Should Expect From the New Series",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EQzNPRlRfRlp0NnY4Mm5oN3Rabi1md1l3aWE1U0k2ckxEVDAzLTRDemRFLVdmblhoSDliMHJjR0NKNncxWTFXdmVKam1NNXpWRDdwRFZ1dkhwbG1ZY2E2cVhUbmZ5b1E?oc=5",
-      "published_dt": "2026-11-13T14:15:58+00:00",
-      "source_name": "IMDb",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMinAFBVV95cUxNblFuRV9sTEZEd2ZzRnZVMlhlamsyRExDZTl3Qm1xNkQtUHNmc190bmRWQzRZOE9kVEM0U2RIdmJkeFZUMlJQMzdhYWtMcnRxaXRtU0pSZ25BT1p2SXRSMnpRUXRhMlRIWXY2Mng5TlJ5LVZ4OXcydW56Q3hHaERkVG1aTk4tSy1qdXhEeUVlcU9RN3ZnU3MtTEUzN2Y",
-      "title": "Garda\u00ed investigating after body discovered in Phoenix Park",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNblFuRV9sTEZEd2ZzRnZVMlhlamsyRExDZTl3Qm1xNkQtUHNmc190bmRWQzRZOE9kVEM0U2RIdmJkeFZUMlJQMzdhYWtMcnRxaXRtU0pSZ25BT1p2SXRSMnpRUXRhMlRIWXY2Mng5TlJ5LVZ4OXcydW56Q3hHaERkVG1aTk4tSy1qdXhEeUVlcU9RN3ZnU3MtTEUzN2Y?oc=5",
-      "published_dt": "2026-11-13T14:14:01+00:00",
-      "source_name": "Newstalk",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMipwFBVV95cUxNd1F1TEtYRjdTbTBnbXFLd0tTRDd0ME5XVERraWNfZlVYTGF2clQ0cGNoTEFaTW8ybmhtaFJrSy1ELXJYaFBXelNUd01yVUJTX2VyRlZHX3JZTkNfX25KcUhDLWdTN2hYMFJqLXhpN1FJT29JM1V4MlJjQTRLa3VfVzY1SGdPU002UWQ2LWdPVFJVekxmRVJjU2pWWlo4RXFvMHctdFZsUdIBqgFBVV95cUxQRkFnd1dnZVJrVGIwQkszYXZqYnVVVGdkNFh3TEtYUEZqcmRCQ0ZEU1NyVUVvaGVqMVBYMlNLemUwX2c0R1E0dGd0NDVITXNVcEhVOG1aSDQ4ejhiajR3S25uQkprOU5aYi1xVVBnV2dSR3JEd0pCM1M1RkZ6eVpaLU9mNlZ3NnlzdDVacnZQVXpFTVFRang1bF9tV0c4NmNjOEVoeWhNUUxNUQ",
-      "title": "Horrific Murder In Jharkhand: Woman's Body Parts Found In Cooking Pot",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd1F1TEtYRjdTbTBnbXFLd0tTRDd0ME5XVERraWNfZlVYTGF2clQ0cGNoTEFaTW8ybmhtaFJrSy1ELXJYaFBXelNUd01yVUJTX2VyRlZHX3JZTkNfX25KcUhDLWdTN2hYMFJqLXhpN1FJT29JM1V4MlJjQTRLa3VfVzY1SGdPU002UWQ2LWdPVFJVekxmRVJjU2pWWlo4RXFvMHctdFZsUdIBqgFBVV95cUxQRkFnd1dnZVJrVGIwQkszYXZqYnVVVGdkNFh3TEtYUEZqcmRCQ0ZEU1NyVUVvaGVqMVBYMlNLemUwX2c0R1E0dGd0NDVITXNVcEhVOG1aSDQ4ejhiajR3S25uQkprOU5aYi1xVVBnV2dSR3JEd0pCM1M1RkZ6eVpaLU9mNlZ3NnlzdDVacnZQVXpFTVFRang1bF9tV0c4NmNjOEVoeWhNUUxNUQ?oc=5",
-      "published_dt": "2026-11-13T14:11:56+00:00",
-      "source_name": "Rediff",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMi-wFBVV95cUxObFpsbzZFWlVPckdyMXlkT2hTd1hDeG01ZDd5UkI4NDNJQmIzVGplQ2R1UVcyUEN5T2FzeW9DV3dYd0ZFMHZmbFVMN1NVYlU2b3JlZ25hRzJPSXNPX3poRkpTVml2QWpSVWw1bFo3R1d3czU3X2gzNF81VGdoVXJva2xHMVQwZU9fTmdwSVpra3duUXFYb1lsZjVMUWREY2w1YW5WdExJY09vXzVDdE5BUjN1OUxoVzlFd0JQakRabTliSDVxYlNvVDVuSHhQaDlBY0VEdk1BbEplVFBUYzNaRDZkZU9rMXdRb09YZE1ET1M5WmFQNGlFLXFDTQ",
-      "title": "Son allegedly cut skin from father\u2019s corpse to preserve stem cells",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxObFpsbzZFWlVPckdyMXlkT2hTd1hDeG01ZDd5UkI4NDNJQmIzVGplQ2R1UVcyUEN5T2FzeW9DV3dYd0ZFMHZmbFVMN1NVYlU2b3JlZ25hRzJPSXNPX3poRkpTVml2QWpSVWw1bFo3R1d3czU3X2gzNF81VGdoVXJva2xHMVQwZU9fTmdwSVpra3duUXFYb1lsZjVMUWREY2w1YW5WdExJY09vXzVDdE5BUjN1OUxoVzlFd0JQakRabTliSDVxYlNvVDVuSHhQaDlBY0VEdk1BbEplVFBUYzNaRDZkZU9rMXdRb09YZE1ET1M5WmFQNGlFLXFDTQ?oc=5",
-      "published_dt": "2026-11-13T14:02:09+00:00",
-      "source_name": "The Courier Mail",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMijwFBVV95cUxNVlgyS0FuVG5jcE9rVExwcUZHdExNRU5CNVV0WER6aHhkS1FCS29wY05HMW1vUVhPMVNQZzg4MWM5WGNaNDRBV0NmOTkzZl8yY0h4ZDdkZUczMy1kS1EwTXBEMDlSb3JtcXdsdzFOaW8tTnR0NExIY3R6NjFjajRMd0pXUThYNjhoYmZiNjQyOA",
-      "title": "Body Of Man Discovered In Dublin's Phoenix Park",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVlgyS0FuVG5jcE9rVExwcUZHdExNRU5CNVV0WER6aHhkS1FCS29wY05HMW1vUVhPMVNQZzg4MWM5WGNaNDRBV0NmOTkzZl8yY0h4ZDdkZUczMy1kS1EwTXBEMDlSb3JtcXdsdzFOaW8tTnR0NExIY3R6NjFjajRMd0pXUThYNjhoYmZiNjQyOA?oc=5",
-      "published_dt": "2026-11-13T14:08:15+00:00",
-      "source_name": "www.kfmradio.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMisAFBVV95cUxQN21rU0hfSm84RTRMQVlzeDJvMTN1aHotb3UtanJobzQ2b004LTZ6VURKOG9qZXpFbmN1VTlfOXozUzNWLTdFZjM3YmNXUWVkZ0c2aVd6MWJLeXlGWHgwLU1aUDlSc2s5RWxyQ0hTZTl5bmJiV3pQVnZ6WW5vWklqdktDUFpGVUlLNFR6RkxrbFhmMl9ic0dHSzExeW9WYjJIR3doY2J2dnJqdGNKX2EyVQ",
-      "title": "The truth behind Grace\u2019s smile in The Body as Netflix writers explain that confusing ending",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN21rU0hfSm84RTRMQVlzeDJvMTN1aHotb3UtanJobzQ2b004LTZ6VURKOG9qZXpFbmN1VTlfOXozUzNWLTdFZjM3YmNXUWVkZ0c2aVd6MWJLeXlGWHgwLU1aUDlSc2s5RWxyQ0hTZTl5bmJiV3pQVnZ6WW5vWklqdktDUFpGVUlLNFR6RkxrbFhmMl9ic0dHSzExeW9WYjJIR3doY2J2dnJqdGNKX2EyVQ?oc=5",
-      "published_dt": "2026-11-13T14:13:13+00:00",
-      "source_name": "The Tab",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMipgFBVV95cUxNYUR2d3ZBS1Y2N1h4Rm9rclI5T1FQMVJocXViMi1hZzNPOC1POXhLbUo0dEpFbFlrRnppZ096ekxER0V3bkU4b1FHeXpMMWdLanNWS0hFWDZNUWRnUXZBRTJnTVM4aWdUczlRNVhmSDBqRURuQWExVFRRdFQtczJ6SlhmdmNCeDBUQS10U1kwZnFUbk5PQjg1MjVZWXYydDJyc3JHQ1Z3",
-      "title": "God laughs: Veronesi turns history into the image of an idea",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYUR2d3ZBS1Y2N1h4Rm9rclI5T1FQMVJocXViMi1hZzNPOC1POXhLbUo0dEpFbFlrRnppZ096ekxER0V3bkU4b1FHeXpMMWdLanNWS0hFWDZNUWRnUXZBRTJnTVM4aWdUczlRNVhmSDBqRURuQWExVFRRdFQtczJ6SlhmdmNCeDBUQS10U1kwZnFUbk5PQjg1MjVZWXYydDJyc3JHQ1Z3?oc=5",
-      "published_dt": "2026-11-13T14:21:42+00:00",
-      "source_name": "Foro3D",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMirgFBVV95cUxQeV9lTHZEMmE5UTc4WXZZX3FXWTliVDd3UFVoRHFrbUtfdmc1YjM2SWtMekhKdUdzYV8xYVRGdlZDYUtuMk1mSHdjQUpFdlpnbXVyYVFQU01ZaFJNRzJFOFYwQjg3NkIyY3JGLVBkVXNKbjMwZjNqMGttanRXVVdYQzlYcmhhTDQyekVzU1VfMWk4aFlnalRxdXAxb0dybHFuUXJlM09kTG82ejBfcWc",
-      "title": "Dexter: Resurrection \u2013 Season 2, Episode 3: Live Free Or Die (2026) \u2013 Review",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeV9lTHZEMmE5UTc4WXZZX3FXWTliVDd3UFVoRHFrbUtfdmc1YjM2SWtMekhKdUdzYV8xYVRGdlZDYUtuMk1mSHdjQUpFdlpnbXVyYVFQU01ZaFJNRzJFOFYwQjg3NkIyY3JGLVBkVXNKbjMwZjNqMGttanRXVVdYQzlYcmhhTDQyekVzU1VfMWk4aFlnalRxdXAxb0dybHFuUXJlM09kTG82ejBfcWc?oc=5",
-      "published_dt": "2026-11-13T14:12:42+00:00",
-      "source_name": "https://wevegotbackissues.com/",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMingFBVV95cUxQRVVSV3BtTkdhTDVhLTVUTEp6a1FEZjR5UE1QMkJ4ZUtnaGl0amhSdTJxX25wamlHaGpKQzNxNF9kUmpRNVZHLXhmYlFjdm4xQVpGQWlkTHZUOHBIUTRMVEZ1bmVjdTdFZmp6SVlCTXYxRXhTQVh3NWxtb0xBME9FR0UxY2tKTW9tVkhLNkxxSC1raHlzRnNRX1BuMTVydw",
-      "title": "FILM: HOW TO ROB A BANK ***1/2 \u2013 much like \u201cThe Italian Job\u201d or \u201cBaby Driver\u201d",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRVVSV3BtTkdhTDVhLTVUTEp6a1FEZjR5UE1QMkJ4ZUtnaGl0amhSdTJxX25wamlHaGpKQzNxNF9kUmpRNVZHLXhmYlFjdm4xQVpGQWlkTHZUOHBIUTRMVEZ1bmVjdTdFZmp6SVlCTXYxRXhTQVh3NWxtb0xBME9FR0UxY2tKTW9tVkhLNkxxSC1raHlzRnNRX1BuMTVydw?oc=5",
-      "published_dt": "2026-11-13T14:20:34+00:00",
-      "source_name": "Le News",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiqwFBVV95cUxNWmVfbGxvaVI1TzR3VHlBMGlVY08tZ1FBWllqMHJLaUZNdDlUX1YwVFJCTldWZ3RfUW5PdE43UTgwYmlIeWFldFpGQzZhNDJjN3htaXZyWm1ObVB6b1RQSDVHczd4dVZ0cEZZTzJ4NV9TdTRxcDlsemdsVmg3NWkwSDNlX09heEhEb2RjSEhMZlVEU3E2U0U2MlI5eXdLYnYzNk1IX1hRQTFhUlE",
-      "title": "What parents need to know about \u2018Ebenezer,\u2019 \u2018I Play Rocky\u2019 and more",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWmVfbGxvaVI1TzR3VHlBMGlVY08tZ1FBWllqMHJLaUZNdDlUX1YwVFJCTldWZ3RfUW5PdE43UTgwYmlIeWFldFpGQzZhNDJjN3htaXZyWm1ObVB6b1RQSDVHczd4dVZ0cEZZTzJ4NV9TdTRxcDlsemdsVmg3NWkwSDNlX09heEhEb2RjSEhMZlVEU3E2U0U2MlI5eXdLYnYzNk1IX1hRQTFhUlE?oc=5",
-      "published_dt": "2026-11-13T14:07:43+00:00",
-      "source_name": "The Washington Post",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiqwFBVV95cUxNWmVfbGxvaVI1TzR3VHlBMGlVY08tZ1FBWllqMHJLaUZNdDlUX1YwVFJCTldWZ3RfUW5PdE43UTgwYmlIeWFldFpGQzZhNDJjN3htaXZyWm1ObVB6b1RQSDVHczd4dVZ0cEZZTzJ4NV9TdTRxcDlsemdsVmg3NWkwSDNlX09heEhEb2RjSEhMZlVEU3E2U0U2MlI5eXdLYnYzNk1IX1hRQTFhUlE",
-      "title": "What parents need to know about \u2018Ebenezer,\u2019 \u2018I Play Rocky\u2019 and more",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWmVfbGxvaVI1TzR3VHlBMGlVY08tZ1FBWllqMHJLaUZNdDlUX1YwVFJCTldWZ3RfUW5PdE43UTgwYmlIeWFldFpGQzZhNDJjN3htaXZyWm1ObVB6b1RQSDVHczd4dVZ0cEZZTzJ4NV9TdTRxcDlsemdsVmg3NWkwSDNlX09heEhEb2RjSEhMZlVEU3E2U0U2MlI5eXdLYnYzNk1IX1hRQTFhUlE?oc=5",
-      "published_dt": "2026-11-13T14:07:43+00:00",
-      "source_name": "The Washington Post",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMi8gFBVV95cUxPUk1Fd2dhbi1HTVk5bFpOUUhvRS02bUlnUlctQkhNblVPejg1MEYwMTZwY09CaE9HdWpVYlhGaTBRSEM0U3BDbHFiaGZBV280bVhiODZFMjdZWlBLQ2dJR29hcllnVWZtOFdtTElVcWxqYkZEZTZjLXRVZ2lPVGM3ZUhEaDljSHE0TXd0UFgyOFhGMjVBMU13YkZxQWJiMmZXS0hBMzZlMG1YNzJPNTdJSV9XMWRDRWliZ1B1WHhuQUdSdzBZUmxiYjhKZ1lWcUluOTdDczJvdm9fcXdmbHAzLXRSdmljd2RrZlo0akhabTVxUdIB-AFBVV95cUxQMkZnM3dRR0x4UVhnMW5qMkxfVWt0SXRFalVDSXlmYXNPX0VPQ3ZJbVYycHNkY19qeklXamtUbG9XSHFhTVc3djhPczN5bU5QSTRsaVJLa1F2T0hvZ1VwMGl0aGZGZzRoTmlGbm1PRS0yMXVfZUo0TDVJdTJqZUtGQVd2UzdsZU8yMVlpRWwtVjVTNWVtYU9FUjczOUtWelRDSmFMMVVnbHQ3ZmpXc2RCeTMxcFBWZjk0VmZwUWEyaGItRHZERHRUelUwemE4ek1kM01tWVI3bkdUWk0yWWE3eVJqVTF3QXlFdFAwRnFuUF9Tb3pNRWlwOQ",
-      "title": "I Play Rocky review: Anthony Ippolito shines in a delightful tribute to Sylvester Stallone",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUk1Fd2dhbi1HTVk5bFpOUUhvRS02bUlnUlctQkhNblVPejg1MEYwMTZwY09CaE9HdWpVYlhGaTBRSEM0U3BDbHFiaGZBV280bVhiODZFMjdZWlBLQ2dJR29hcllnVWZtOFdtTElVcWxqYkZEZTZjLXRVZ2lPVGM3ZUhEaDljSHE0TXd0UFgyOFhGMjVBMU13YkZxQWJiMmZXS0hBMzZlMG1YNzJPNTdJSV9XMWRDRWliZ1B1WHhuQUdSdzBZUmxiYjhKZ1lWcUluOTdDczJvdm9fcXdmbHAzLXRSdmljd2RrZlo0akhabTVxUdIB-AFBVV95cUxQMkZnM3dRR0x4UVhnMW5qMkxfVWt0SXRFalVDSXlmYXNPX0VPQ3ZJbVYycHNkY19qeklXamtUbG9XSHFhTVc3djhPczN5bU5QSTRsaVJLa1F2T0hvZ1VwMGl0aGZGZzRoTmlGbm1PRS0yMXVfZUo0TDVJdTJqZUtGQVd2UzdsZU8yMVlpRWwtVjVTNWVtYU9FUjczOUtWelRDSmFMMVVnbHQ3ZmpXc2RCeTMxcFBWZjk0VmZwUWEyaGItRHZERHRUelUwemE4ek1kM01tWVI3bkdUWk0yWWE3eVJqVTF3QXlFdFAwRnFuUF9Tb3pNRWlwOQ?oc=5",
-      "published_dt": "2026-11-13T14:01:51+00:00",
-      "source_name": "The Indian Express",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMimgFBVV95cUxQMzVRclFRSHJ6cm9FX2VpRWQ2OUhKcmQwM0Q5WDBQYWdzbDlfS2FYY2F3b19CeFBPRldsakp6VFZabHhmMkZFWFVSbVp2ZU5NUG5NM0wtekdFUHdVWGZEdGZrYlRjR29RRlp3TWhLY0FudlVyb0d0MmlnYTNqcjltU1Bvc3daX2hsM2JTYzhMVHBtUW9NSWdRTXJR",
-      "title": "Two Rockys meet at Gold Derby before the Oscars",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMzVRclFRSHJ6cm9FX2VpRWQ2OUhKcmQwM0Q5WDBQYWdzbDlfS2FYY2F3b19CeFBPRldsakp6VFZabHhmMkZFWFVSbVp2ZU5NUG5NM0wtekdFUHdVWGZEdGZrYlRjR29RRlp3TWhLY0FudlVyb0d0MmlnYTNqcjltU1Bvc3daX2hsM2JTYzhMVHBtUW9NSWdRTXJR?oc=5",
-      "published_dt": "2026-11-13T14:21:33+00:00",
-      "source_name": "Foro3D",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiXkFVX3lxTFA3SlRia2N2c3dYT1VGNXFBbWd0VFg1VFVzTE53VGV1X3pLSEo1c2twa2tVSnc3VXJhMkpJMVhLZmJqak5zWkdYQVJJRkZkbTdNdmo2RXZaN2o2eGJ4Mmc",
-      "title": "Movie Review: \u2018Ebenezer\u2019",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3SlRia2N2c3dYT1VGNXFBbWd0VFg1VFVzTE53VGV1X3pLSEo1c2twa2tVSnc3VXJhMkpJMVhLZmJqak5zWkdYQVJJRkZkbTdNdmo2RXZaN2o2eGJ4Mmc?oc=5",
-      "published_dt": "2026-11-13T14:26:17+00:00",
-      "source_name": "Catholic Review",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiqwFBVV95cUxNWmVfbGxvaVI1TzR3VHlBMGlVY08tZ1FBWllqMHJLaUZNdDlUX1YwVFJCTldWZ3RfUW5PdE43UTgwYmlIeWFldFpGQzZhNDJjN3htaXZyWm1ObVB6b1RQSDVHczd4dVZ0cEZZTzJ4NV9TdTRxcDlsemdsVmg3NWkwSDNlX09heEhEb2RjSEhMZlVEU3E2U0U2MlI5eXdLYnYzNk1IX1hRQTFhUlE",
-      "title": "What parents need to know about \u2018Ebenezer,\u2019 \u2018I Play Rocky\u2019 and more",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWmVfbGxvaVI1TzR3VHlBMGlVY08tZ1FBWllqMHJLaUZNdDlUX1YwVFJCTldWZ3RfUW5PdE43UTgwYmlIeWFldFpGQzZhNDJjN3htaXZyWm1ObVB6b1RQSDVHczd4dVZ0cEZZTzJ4NV9TdTRxcDlsemdsVmg3NWkwSDNlX09heEhEb2RjSEhMZlVEU3E2U0U2MlI5eXdLYnYzNk1IX1hRQTFhUlE?oc=5",
-      "published_dt": "2026-11-13T14:07:43+00:00",
-      "source_name": "The Washington Post",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMijwJBVV95cUxQd080UG0wdFNpSTltUHBBTy1KUDZFR24wdTJ0YmlRSDlsNUcwaFk4aExPNFZFemNBT1laQTR6QmZJRnJYV3k5VERaUXk2bzBtSWpzc0JmY3l4ak1qVTNrZEx1R2J5blRHa3BybzRhSGpWeDl0M3ZhWHZSVV9uOWRSMFJvU0gzbVZucVA0c1hZdG43cTJTV1RGZHlyRldlQzZYS25ESkF3eHNfdW1jUWhuMGo0Ukd4SlNGVGlKd1hBUVFLUXVzWVNFb2hnUHNkdXU1YzRlYVJpblBDc3B4VUIwdi1XLWI2dUltZlNMN2VQZ1paOEFpZXp0TzQ3NkJyaUxlUERtTFpRcExqN0JtMEFj",
-      "title": "Johnny Depp plays grumpy literary icon Ebenezer Scrooge in \"Ebenezer,\" a new take on Charles Dickens' \"A Christmas Carol.\"",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQd080UG0wdFNpSTltUHBBTy1KUDZFR24wdTJ0YmlRSDlsNUcwaFk4aExPNFZFemNBT1laQTR6QmZJRnJYV3k5VERaUXk2bzBtSWpzc0JmY3l4ak1qVTNrZEx1R2J5blRHa3BybzRhSGpWeDl0M3ZhWHZSVV9uOWRSMFJvU0gzbVZucVA0c1hZdG43cTJTV1RGZHlyRldlQzZYS25ESkF3eHNfdW1jUWhuMGo0Ukd4SlNGVGlKd1hBUVFLUXVzWVNFb2hnUHNkdXU1YzRlYVJpblBDc3B4VUIwdi1XLWI2dUltZlNMN2VQZ1paOEFpZXp0TzQ3NkJyaUxlUERtTFpRcExqN0JtMEFj?oc=5",
-      "published_dt": "2026-11-13T14:27:15+00:00",
-      "source_name": "The Daily News | Texas' Oldest Newspaper",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMijwFBVV95cUxQSHkxbEVxa0FMNUFtLUZzem41X1ozN3JPU0xrajVrMEhUakVwOWFndFJ3ZWVWSG4tWExCOWF2OTJibXRZdjFqd0dCT1BGT2ROMFFYQjNzVWM4enU5aExMU3NaS1ZneW5sYi1XNlpreUcxMloxbzY4T3lYTXB3VTVybld3U0psdVZ6NTlsZmFXbw",
-      "title": "Johnny Depp's Ebenezer Makes An Alarming Change To The Story Of A Christmas Carol",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSHkxbEVxa0FMNUFtLUZzem41X1ozN3JPU0xrajVrMEhUakVwOWFndFJ3ZWVWSG4tWExCOWF2OTJibXRZdjFqd0dCT1BGT2ROMFFYQjNzVWM4enU5aExMU3NaS1ZneW5sYi1XNlpreUcxMloxbzY4T3lYTXB3VTVybld3U0psdVZ6NTlsZmFXbw?oc=5",
-      "published_dt": "2026-11-13T14:20:48+00:00",
-      "source_name": "SlashFilm",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiugFBVV95cUxQMUFSbnB6WlNxZllCSE4wc2tRazE2QS11b19oQ292c0xmM0xzVmxsaFpDMnktOVZvc3hGSFVVampZNWhGTGlmcWpyc0tQTkJhVC0tcUc5UlpudG5UOWtEZHNhREZMallZZEphWG9NV0pqTHFzbHpzNTdBTzMwNE91Sm51QVNzd3pPVWZtcFBvSGNBdk5OVmprSkJkX0ZOd212eWt1OENvQXJhRkdCdG02OTBxMG44c1h5cnc",
-      "title": "Paper Tiger review: Adam Driver thriller roars with the best of the year",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMUFSbnB6WlNxZllCSE4wc2tRazE2QS11b19oQ292c0xmM0xzVmxsaFpDMnktOVZvc3hGSFVVampZNWhGTGlmcWpyc0tQTkJhVC0tcUc5UlpudG5UOWtEZHNhREZMallZZEphWG9NV0pqTHFzbHpzNTdBTzMwNE91Sm51QVNzd3pPVWZtcFBvSGNBdk5OVmprSkJkX0ZOd212eWt1OENvQXJhRkdCdG02OTBxMG44c1h5cnc?oc=5",
-      "published_dt": "2026-11-13T14:04:28+00:00",
-      "source_name": "Roger Ebert",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiiAJBVV95cUxPeFZiVTlUTi1icHJ0V3JqQ1FteFpvNjlxYVFRQUNIc0Y2Z3hyeDRCMkx5TUI2OWhtcU1KcjJWMUxpWUhwaXNBTDgwcFZpV2hNbE1Ec2xSYUtLbXhfZEJULVJRVjcyRkkyWEUxc2JiaHhmSFVXc2FFenU3VG0wTkp0SU9EMXpVLWdUWXZVZk1ubTV3M2JmVmkxQ1ZRMDAtLThCa2RDSEsxdk9YQnJGNEVXdkJXcEZfR3cwaU1rakw4RFJEQndicWdoOHFYZ25PcThOckc0ZW5oaDNWMEk4TDlHZlEyUXkxbUU5QW53Nk1wUmdkbWdRVUNCYmlCcmVlaUdzUUtGV2RtaHHSAY4CQVVfeXFMTVZaT2tjRGJsSjdwckxfYVE5VU83WFJyYjB2ZWF3akkyM2pXekJDTTBrSXl1eWx5UU54Z3NQVXFndU5XV1JsZWVheGdFUVBIX2o0Wi1QQVNqLVJITnpidDB4c3VVdGlYRnQ3Zmw0RFdxa3F2enhoRFV6ZWhhY3VoeTdEdjY1b3JOcG11S1RXejJFQTI2ZTAxc1ZNTXRGZlF2akdhM3BBeGQxTjdyNnQycDZiN2JvY1dQOUQ1aVI3NjBqY2YtQkluUDRUbGlDc3BBVXhUc0U3V1ZtUldEd2Z0TFlJTG5CYXBXQWlCRlJybXVObFAtUmNFOHE3NnVUUWZsQy1SdEw1Tm93ZDNFNVZB",
-      "title": "Iran Unleashes Missile Power, Keeps Revenge Timing Secret: \u2018Horrifying And Painful\u2019 Response Awaited",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPeFZiVTlUTi1icHJ0V3JqQ1FteFpvNjlxYVFRQUNIc0Y2Z3hyeDRCMkx5TUI2OWhtcU1KcjJWMUxpWUhwaXNBTDgwcFZpV2hNbE1Ec2xSYUtLbXhfZEJULVJRVjcyRkkyWEUxc2JiaHhmSFVXc2FFenU3VG0wTkp0SU9EMXpVLWdUWXZVZk1ubTV3M2JmVmkxQ1ZRMDAtLThCa2RDSEsxdk9YQnJGNEVXdkJXcEZfR3cwaU1rakw4RFJEQndicWdoOHFYZ25PcThOckc0ZW5oaDNWMEk4TDlHZlEyUXkxbUU5QW53Nk1wUmdkbWdRVUNCYmlCcmVlaUdzUUtGV2RtaHHSAY4CQVVfeXFMTVZaT2tjRGJsSjdwckxfYVE5VU83WFJyYjB2ZWF3akkyM2pXekJDTTBrSXl1eWx5UU54Z3NQVXFndU5XV1JsZWVheGdFUVBIX2o0Wi1QQVNqLVJITnpidDB4c3VVdGlYRnQ3Zmw0RFdxa3F2enhoRFV6ZWhhY3VoeTdEdjY1b3JOcG11S1RXejJFQTI2ZTAxc1ZNTXRGZlF2akdhM3BBeGQxTjdyNnQycDZiN2JvY1dQOUQ1aVI3NjBqY2YtQkluUDRUbGlDc3BBVXhUc0U3V1ZtUldEd2Z0TFlJTG5CYXBXQWlCRlJybXVObFAtUmNFOHE3NnVUUWZsQy1SdEw1Tm93ZDNFNVZB?oc=5",
-      "published_dt": "2026-11-13T14:13:21+00:00",
-      "source_name": "The Times of India",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMihwFBVV95cUxNQ1Y4TkM2ZVJyYXd4QmVhbjBVWEhXU1JCR3F1X2xwNFhWV09mVFhGRG9VUFdxWjNBQm9rNDNWTzBCRWZ2bWVvRHNfQ2xaMmNVSTZKMHRpUm41b2dvTjl6bVZqVDZ3V1AweUdhZEx4ZUM4S1BiNGNjdkhuZXNBcElfUFV0a1F0LW8",
-      "title": "Film Review: Victorian Psycho blends sharp class satire and macabre humor in 1858 England",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ1Y4TkM2ZVJyYXd4QmVhbjBVWEhXU1JCR3F1X2xwNFhWV09mVFhGRG9VUFdxWjNBQm9rNDNWTzBCRWZ2bWVvRHNfQ2xaMmNVSTZKMHRpUm41b2dvTjl6bVZqVDZ3V1AweUdhZEx4ZUM4S1BiNGNjdkhuZXNBcElfUFV0a1F0LW8?oc=5",
-      "published_dt": "2026-11-13T14:01:42+00:00",
-      "source_name": "Palisades News",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMimgFBVV95cUxQS0cyblMwbWVtQU4xSDhWbFlKZmxibW5QbDNqaFZHOXdpTkRzZ1lhaWs3TmpOYTFBQVFteHFZN1J2ZnFWWEUyQkxWT0xDcHJMY1JNREFpM3I5OUdnVWMwTDM2UjF3d1NmWGRYd1lSZnF4WU1kU0NfTFFYd25OUDVSOTBFZHpVVjJnS244UFNxYnZkY1A5MWJCVjhn",
-      "title": "Maika Monroe Talks \u2018They Follow,\u2019 A Possible \u2018Longlegs\u2019 Return & Playing A Psychopath In \u2018Victorian Psycho\u2019",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS0cyblMwbWVtQU4xSDhWbFlKZmxibW5QbDNqaFZHOXdpTkRzZ1lhaWs3TmpOYTFBQVFteHFZN1J2ZnFWWEUyQkxWT0xDcHJMY1JNREFpM3I5OUdnVWMwTDM2UjF3d1NmWGRYd1lSZnF4WU1kU0NfTFFYd25OUDVSOTBFZHpVVjJnS244UFNxYnZkY1A5MWJCVjhn?oc=5",
-      "published_dt": "2026-11-13T14:19:00+00:00",
-      "source_name": "The Playlist",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiYEFVX3lxTE1NLXg5R1hsbTJ3WFkxVTlDZFAyYnJIS1dXXzJRMUpUQ19PdUs0RlE5NVRCel9sbl81MGlDVnJkY2xleFNLdUtoSU5OeUNQM1ZoNWxQcVRVT3FkekhDTHhzeg",
-      "title": "National American Legion commander hopeful Matthew Shuman visits Pacific Palisades this Saturday",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NLXg5R1hsbTJ3WFkxVTlDZFAyYnJIS1dXXzJRMUpUQ19PdUs0RlE5NVRCel9sbl81MGlDVnJkY2xleFNLdUtoSU5OeUNQM1ZoNWxQcVRVT3FkekhDTHhzeg?oc=5",
-      "published_dt": "2026-11-13T14:11:42+00:00",
-      "source_name": "Palisades News",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiiAFBVV95cUxPcUV5T1h0eTd1Njc0bFNCTW9wYWxTUFpBQmhpREh3TlJOU2tFRnUwWjlOR093VEZzYTgzWnEyR1BKWVVFdjJaMW1ZMy1HMzdPdzJMMXhtZ0ljQldxNENWbEhTbVdVWkRJQTY4OGY5bkZvVE8zY3lmak9fQUxqX3QwUHR0R19lU21X",
-      "title": "Volunteers to clear Palisades Turkey Trot route Saturday ahead of LAPD holiday tree deadline",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcUV5T1h0eTd1Njc0bFNCTW9wYWxTUFpBQmhpREh3TlJOU2tFRnUwWjlOR093VEZzYTgzWnEyR1BKWVVFdjJaMW1ZMy1HMzdPdzJMMXhtZ0ljQldxNENWbEhTbVdVWkRJQTY4OGY5bkZvVE8zY3lmak9fQUxqX3QwUHR0R19lU21X?oc=5",
-      "published_dt": "2026-11-13T14:01:42+00:00",
-      "source_name": "Palisades News",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiggFBVV95cUxQbGk4VEk1SE9ORWd0WXhpTjlvdVUwQVZyMFNKcE5YUWFPc1NvYXNKWjhsMWMwUFNWamlhRnBhN2ZLNS15X01Lajg2S0NqRnJvTzRVU2pQU3o3d3lwREt1eDU1dmIzZlRWcTlZT1JxamdtQk9DVWlOMUpuUThmeGxMdWFR",
-      "title": "\u201812 12 12\u2019 Shakes Up the Tired Heist Formula with One Great Idea",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbGk4VEk1SE9ORWd0WXhpTjlvdVUwQVZyMFNKcE5YUWFPc1NvYXNKWjhsMWMwUFNWamlhRnBhN2ZLNS15X01Lajg2S0NqRnJvTzRVU2pQU3o3d3lwREt1eDU1dmIzZlRWcTlZT1JxamdtQk9DVWlOMUpuUThmeGxMdWFR?oc=5",
-      "published_dt": "2026-11-13T14:23:00+00:00",
-      "source_name": "Esquire",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMilwFBVV95cUxPdW9tRUdYQXNadE1BQmRKQmo0OTYxTTBjcjI0VFphajdsTDdEUEdMQU1mNHQ2d2VkTmdKaThSRFZ4ek1Ha1UyZXpPakpjZjFubXp3d1MxcFBNRmtIWUVjanJBTkxtS3ZlcnVBMW1MNUJaUldIU2ZQREVCWWxzUFFfckNGcERjcGJqQ0xNSTR3Q2ZTUFVyQkQw",
-      "title": "Anthony Mackie Talks New High-Stakes Heist Thriller \u201812 12 12\u2019",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdW9tRUdYQXNadE1BQmRKQmo0OTYxTTBjcjI0VFphajdsTDdEUEdMQU1mNHQ2d2VkTmdKaThSRFZ4ek1Ha1UyZXpPakpjZjFubXp3d1MxcFBNRmtIWUVjanJBTkxtS3ZlcnVBMW1MNUJaUldIU2ZQREVCWWxzUFFfckNGcERjcGJqQ0xNSTR3Q2ZTUFVyQkQw?oc=5",
-      "published_dt": "2026-11-13T14:04:17+00:00",
-      "source_name": "TODAY.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMikwFBVV95cUxQckdETlJMX25UWlRJaU5QbGNkNkNDWnluREc4NnAtOHEwN1VVdjFHa3BBa0M3eGtWMVp1WEJtVTdUMndQYTRGWlE5TVN3QkEzZVBWMHM3YlpUSVJmWU1mZDF2bFNjM1BDZG5fTzJWM3p2bEpVd0tOcXBwR1I0RkNLbUttRDhJSm8xUHZ6RkNZbW1aNTg",
-      "title": "Elle Fanning on Joining \u2018Hunger Games\u2019 Franchise",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQckdETlJMX25UWlRJaU5QbGNkNkNDWnluREc4NnAtOHEwN1VVdjFHa3BBa0M3eGtWMVp1WEJtVTdUMndQYTRGWlE5TVN3QkEzZVBWMHM3YlpUSVJmWU1mZDF2bFNjM1BDZG5fTzJWM3p2bEpVd0tOcXBwR1I0RkNLbUttRDhJSm8xUHZ6RkNZbW1aNTg?oc=5",
-      "published_dt": "2026-11-13T14:23:56+00:00",
-      "source_name": "TODAY.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiiAFBVV95cUxPamJucDZYdmIxNmdiVURGRkFKSGJFZzY1clJ6bjN4bHJXN0NwSEZqS0FKeXhUTzBxdkYxbHk5Ukt0X2xteENnTzR0OUJqXzZQRVFVT0x2VWZQQUdFSkFkX01ONzJidzMxWXl4eFNvd2k2QTFlQVcweVZFUmpSWndNazVaWGhjdHpR",
-      "title": "Amazon Prime\u2019s \u2018The Chosen\u2019 Season 6 Cast (with Pictures)",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPamJucDZYdmIxNmdiVURGRkFKSGJFZzY1clJ6bjN4bHJXN0NwSEZqS0FKeXhUTzBxdkYxbHk5Ukt0X2xteENnTzR0OUJqXzZQRVFVT0x2VWZQQUdFSkFkX01ONzJidzMxWXl4eFNvd2k2QTFlQVcweVZFUmpSWndNazVaWGhjdHpR?oc=5",
-      "published_dt": "2026-11-13T14:07:37+00:00",
-      "source_name": "Comic Basics",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMisAFBVV95cUxQajhvX013aTRZVVpFZUtfM1hmbnZqMGZyRDRPcndjMXJhem8ydm9rcUJvUjZNSW9vbUtOdDJlQzZueFRXRDN1akpUYzBDdExsOWdPdzlRQ1BNZDA1QU9VV1oyVk5sS3dZVC1WRWpkdUU5dFh2bzBZaFdWbjRGNHZ6RGJKM0cyZ2tOZHZpVW9Sa3NPREhXdXZYTEtkdWdPWVVqU1lNUEFycjRfekJXUm1Jag",
-      "title": "Aquilla Varsity Football @ Chester",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQajhvX013aTRZVVpFZUtfM1hmbnZqMGZyRDRPcndjMXJhem8ydm9rcUJvUjZNSW9vbUtOdDJlQzZueFRXRDN1akpUYzBDdExsOWdPdzlRQ1BNZDA1QU9VV1oyVk5sS3dZVC1WRWpkdUU5dFh2bzBZaFdWbjRGNHZ6RGJKM0cyZ2tOZHZpVW9Sa3NPREhXdXZYTEtkdWdPWVVqU1lNUEFycjRfekJXUm1Jag?oc=5",
-      "published_dt": "2026-11-13T14:13:10+00:00",
-      "source_name": "MaxPreps",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMirwFBVV95cUxQME42QzR3ZWVLMmNlR0Y1bUxYcnE3aHJhdjEyRGktZ1gxNlFQZGdlWXBJaWJxUTBDVHQ0bXR5bmZJbGpKb0J0MzZLUFAyaFltaHpJYVo3OXp4WEJoelpQaGRlYkYtdFUwQVVpSnBRYzI3UVJCcUdqMlhFV2NPQzc4NFlMbW9UWmlsbExXdkxhOTl4azlyTGNaQks4TjIyMFB5ajctX2lHLW5FLW4xMkxB",
-      "title": "\u2018Focker-In-Law\u2019 Cast: Who\u2019s Back, Who\u2019s New, and the \u2018Meet the Parents\u2019 Movies in Order",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQME42QzR3ZWVLMmNlR0Y1bUxYcnE3aHJhdjEyRGktZ1gxNlFQZGdlWXBJaWJxUTBDVHQ0bXR5bmZJbGpKb0J0MzZLUFAyaFltaHpJYVo3OXp4WEJoelpQaGRlYkYtdFUwQVVpSnBRYzI3UVJCcUdqMlhFV2NPQzc4NFlMbW9UWmlsbExXdkxhOTl4azlyTGNaQks4TjIyMFB5ajctX2lHLW5FLW4xMkxB?oc=5",
-      "published_dt": "2026-11-13T14:03:59+00:00",
-      "source_name": "FanBolt",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMipAFBVV95cUxNQUVFaGliVjJKNzhLVkFDWDdEalY5bHZYZ3VZSHE1NVBzYWRtRlBQeFY1Zmg1ZURUNHpRWFQzR05sUFZZdDNlYkpEdWNManRXc0gxVzdkellwVzloOGQ4N3RNNEppa0M0Rkw4NFZlMlB3TjVWMDhxVW9wOHFaOGIxaVh4VUVPakx5VHZtLVUtRWtQUDQySzZyeXo0b0lDZy1NQlFKcQ",
-      "title": "Holiday movies: \u2018Dunesday\u2019 could push 2026 box office past $10 billion",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQUVFaGliVjJKNzhLVkFDWDdEalY5bHZYZ3VZSHE1NVBzYWRtRlBQeFY1Zmg1ZURUNHpRWFQzR05sUFZZdDNlYkpEdWNManRXc0gxVzdkellwVzloOGQ4N3RNNEppa0M0Rkw4NFZlMlB3TjVWMDhxVW9wOHFaOGIxaVh4VUVPakx5VHZtLVUtRWtQUDQySzZyeXo0b0lDZy1NQlFKcQ?oc=5",
-      "published_dt": "2026-11-13T14:02:09+00:00",
-      "source_name": "San Francisco Chronicle",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMipAFBVV95cUxORFA3Vy1nSEtXZTBnQVVJeDBTY1NmRHM2MG5JcmNpdGE2ZGNwdDNFSkVPdFREVXZ5MWhRY1cwbm1aLWxCMkQ3Wm9DOXlOWFZ6a2d3YzR5OTVoXzlsanJ2MjhpeDZHem9hN3Y0SzZBdlE2OG00NG9JUjVxV2lKNmlPU09FTDRwMkoyZFZaOXVCbFhuQnlFU0F1TGJTWElMc2N6S000cw",
-      "title": "Andrew Garfield to Receive Palm Springs Award for 'Artificial' Role as Sam Altman",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORFA3Vy1nSEtXZTBnQVVJeDBTY1NmRHM2MG5JcmNpdGE2ZGNwdDNFSkVPdFREVXZ5MWhRY1cwbm1aLWxCMkQ3Wm9DOXlOWFZ6a2d3YzR5OTVoXzlsanJ2MjhpeDZHem9hN3Y0SzZBdlE2OG00NG9JUjVxV2lKNmlPU09FTDRwMkoyZFZaOXVCbFhuQnlFU0F1TGJTWElMc2N6S000cw?oc=5",
-      "published_dt": "2026-11-13T14:22:24+00:00",
-      "source_name": "Enstarz",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMipAFBVV95cUxNQUVFaGliVjJKNzhLVkFDWDdEalY5bHZYZ3VZSHE1NVBzYWRtRlBQeFY1Zmg1ZURUNHpRWFQzR05sUFZZdDNlYkpEdWNManRXc0gxVzdkellwVzloOGQ4N3RNNEppa0M0Rkw4NFZlMlB3TjVWMDhxVW9wOHFaOGIxaVh4VUVPakx5VHZtLVUtRWtQUDQySzZyeXo0b0lDZy1NQlFKcQ",
-      "title": "Holiday movies: \u2018Dunesday\u2019 could push 2026 box office past $10 billion",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQUVFaGliVjJKNzhLVkFDWDdEalY5bHZYZ3VZSHE1NVBzYWRtRlBQeFY1Zmg1ZURUNHpRWFQzR05sUFZZdDNlYkpEdWNManRXc0gxVzdkellwVzloOGQ4N3RNNEppa0M0Rkw4NFZlMlB3TjVWMDhxVW9wOHFaOGIxaVh4VUVPakx5VHZtLVUtRWtQUDQySzZyeXo0b0lDZy1NQlFKcQ?oc=5",
-      "published_dt": "2026-11-13T14:02:09+00:00",
-      "source_name": "San Francisco Chronicle",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiqAFBVV95cUxPemhRYmhvLWEzak5sZTUzM1Yyb2d3c1hmdDVXMVVKNE45ZVBVSFRyZy1RSGRXZTVId3R2X285LTZvd3FPY3dHSVV2RVRvTzljZUg0ckRTeEt0WGdRaXdLV3VRRGt0Tm1hRHNvczdOMVhZNVpOQV9RT1p3eW5pS2drc180SGdjeGxOeWdfZEp5aUl3TG1tSU9lTXRNNUMzYl8zOUVDMW02MG8",
-      "title": "Northeast Ohio native Yvette Nicole Brown dishes on \u2018Disney\u2019s HEXED\u2019",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPemhRYmhvLWEzak5sZTUzM1Yyb2d3c1hmdDVXMVVKNE45ZVBVSFRyZy1RSGRXZTVId3R2X285LTZvd3FPY3dHSVV2RVRvTzljZUg0ckRTeEt0WGdRaXdLV3VRRGt0Tm1hRHNvczdOMVhZNVpOQV9RT1p3eW5pS2drc180SGdjeGxOeWdfZEp5aUl3TG1tSU9lTXRNNUMzYl8zOUVDMW02MG8?oc=5",
-      "published_dt": "2026-11-13T14:01:12+00:00",
-      "source_name": "News-Herald",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMisAFBVV95cUxNQkN1R1BTd0FRUEZHLTZaNkYxdkNWWFBaRWJSRTl1UHhaWjhJQ1JaMi05SFpnYTc5UW5NbVV1bW5JUmRBRmFyVVgwa0UyUUU3Wnp5S29rb2VGalFsZERYbjNaMF90dkdmZy11SUhLN0dSdGxJdEVXcGZ2N2tVeFU1MjlxZ0ZGc0NxUkRUc0FqSkJoNXBxek5mcHVCUVlkVFNldWlsN0JjbnR4Qmo1R3I1YdIBtgFBVV95cUxQOVlkaHd1ZUs3QUQ3UVlsVC1ubVVBSUJKc2pELUxFbDhMSk1TbWZEaVdvZzkxdy1LVWZHQllGR1dNQWpfVmhWakpYZ25aWXpSTFJaRWplamgyb2wzT0RZMVhNZ05YakhhcXozZHlDczlNd0phZHZxR2lnQXZoTDJyU1pRTDVjbC1KWmtzNk0yWEFOQ1BUV2RHVVlzazhUcnI5dmFXTmhoX1ExWEVmcVdWU0VjekZFZw",
-      "title": "Children\u2019s Day 2026: 10 Fun Events To Enjoy With Your Little Ones This November",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQkN1R1BTd0FRUEZHLTZaNkYxdkNWWFBaRWJSRTl1UHhaWjhJQ1JaMi05SFpnYTc5UW5NbVV1bW5JUmRBRmFyVVgwa0UyUUU3Wnp5S29rb2VGalFsZERYbjNaMF90dkdmZy11SUhLN0dSdGxJdEVXcGZ2N2tVeFU1MjlxZ0ZGc0NxUkRUc0FqSkJoNXBxek5mcHVCUVlkVFNldWlsN0JjbnR4Qmo1R3I1YdIBtgFBVV95cUxQOVlkaHd1ZUs3QUQ3UVlsVC1ubVVBSUJKc2pELUxFbDhMSk1TbWZEaVdvZzkxdy1LVWZHQllGR1dNQWpfVmhWakpYZ25aWXpSTFJaRWplamgyb2wzT0RZMVhNZ05YakhhcXozZHlDczlNd0phZHZxR2lnQXZoTDJyU1pRTDVjbC1KWmtzNk0yWEFOQ1BUV2RHVVlzazhUcnI5dmFXTmhoX1ExWEVmcVdWU0VjekZFZw?oc=5",
-      "published_dt": "2026-11-13T14:12:37+00:00",
-      "source_name": "Curly Tales",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMihwFBVV95cUxNU0pTaXd2NlA4enFmWTYtWnhNSTdSNzFIaGNqM0Q4VUx5Mld0LUQ5VjRXSzRMX1lfbnB3eUpIY3JkUElRQ2tBaFYycndEaDlBaElwOURKTVhwNVJDeTd0NnFVdjh1MnpTeFM2a0hPa3hhS0wzaGNyX0ktMmdZNkExZFluU1huNGc",
-      "title": "Grimes Is Dating Her Producer",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU0pTaXd2NlA4enFmWTYtWnhNSTdSNzFIaGNqM0Q4VUx5Mld0LUQ5VjRXSzRMX1lfbnB3eUpIY3JkUElRQ2tBaFYycndEaDlBaElwOURKTVhwNVJDeTd0NnFVdjh1MnpTeFM2a0hPa3hhS0wzaGNyX0ktMmdZNkExZFluU1huNGc?oc=5",
-      "published_dt": "2026-11-13T14:22:06+00:00",
-      "source_name": "The Cut",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiqAFBVV95cUxORkRqYzdxbkl0QmlmRHFpUnltaWhfaU5BdGRDQU5XekgwRWMyNVJuM09JUU81OGR2c05rYlV4UDJBMDFwMlowS1ROX29sYlM4MHpHUWhfQzNTWi0wajhtOHQtQ2ZxVmkyM2VoUmh6LW1IUGIwU2ZORHo4UWZWenl4RU9sYlduN3BYMHQ2S0N6TVFUcXpKb1RPMWhSVWJFTHUzM3dxV1hUS18",
-      "title": "'Hunting Wives' cast reveal 'SNL' star shared spoof that changed everything",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkRqYzdxbkl0QmlmRHFpUnltaWhfaU5BdGRDQU5XekgwRWMyNVJuM09JUU81OGR2c05rYlV4UDJBMDFwMlowS1ROX29sYlM4MHpHUWhfQzNTWi0wajhtOHQtQ2ZxVmkyM2VoUmh6LW1IUGIwU2ZORHo4UWZWenl4RU9sYlduN3BYMHQ2S0N6TVFUcXpKb1RPMWhSVWJFTHUzM3dxV1hUS18?oc=5",
-      "published_dt": "2026-11-13T14:05:00+00:00",
-      "source_name": "USA Today",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMimgFBVV95cUxOckd4eWtJb0xSNE9NdlNkSUMwT3prcmtQTV90bDZjN3d6NlYyWTdIYTJOelBEbEZNODN4V1FxY25DOUdCQTNLTElkemYxVDYxUHVPUEtKRGlsbW0xRUdsNVFiUWx4X09XYk14NnJwLXlUWkJyZE5jbUlLV3ducFRndWpVaGRmU0tCU1FNTHJsU1NYdC1UQ1ZTaV93",
-      "title": "The Trump Admin Pats its Own Back Over \u2018Record\u2019 Deportations and Arrests",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOckd4eWtJb0xSNE9NdlNkSUMwT3prcmtQTV90bDZjN3d6NlYyWTdIYTJOelBEbEZNODN4V1FxY25DOUdCQTNLTElkemYxVDYxUHVPUEtKRGlsbW0xRUdsNVFiUWx4X09XYk14NnJwLXlUWkJyZE5jbUlLV3ducFRndWpVaGRmU0tCU1FNTHJsU1NYdC1UQ1ZTaV93?oc=5",
-      "published_dt": "2026-11-13T14:23:39+00:00",
-      "source_name": "www.jezebel.com",
-      "source_tier": 2
-    },
-    {
       "guid": "https://deadline.com/?p=1237222707",
       "title": "Microsoft \u201cContinuing To See Improvements\u201d As Outlook Email Comes Back Up",
       "url": "https://deadline.com/2026/11/microsoft-outlook-email-is-back-outage-recovery-1237222707/",
@@ -6927,14 +6159,6 @@
       "source_tier": 1
     },
     {
-      "guid": "https://www.tvinsider.com/?p=1303518",
-      "title": "\u2018GMA\u2019s Ginger Zee Gets Major Family Update After Celebrating Veterans Day",
-      "url": "https://www.tvinsider.com/1303518/ginger-zee-major-family-update-sister-us-navy-gma/",
-      "published_dt": "2026-11-13T14:29:53+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 1
-    },
-    {
       "guid": "https://www.nytimes.com/2026/11/12/arts/music/best-classical-music-albums-november-2026.html",
       "title": "5 Classical Music Albums You Can Listen to Right Now",
       "url": "https://www.nytimes.com/2026/11/12/arts/music/best-classical-music-albums-november-2026.html",
@@ -6948,14 +6172,6 @@
       "url": "https://screencrush.com/new-friday-the-13th-movie/",
       "published_dt": "2026-11-13T14:34:13+00:00",
       "source_name": "Screen Crush",
-      "source_tier": 2
-    },
-    {
-      "guid": "https://bloody-disgusting.com/?p=3975641",
-      "title": "Free Slaughter Mode Update Coming November 16 to \u2018DOOM: The Dark Ages | Revelations\u2019 [Trailer]",
-      "url": "https://bloody-disgusting.com/video-games/3975641/free-slaughter-mode-update-coming-november-16-to-doom-the-dark-ages-revelations-trailer/",
-      "published_dt": "2026-11-13T14:30:45+00:00",
-      "source_name": "Bloody Disgusting",
       "source_tier": 2
     },
     {
@@ -7191,14 +6407,6 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMibkFVX3lxTE5pTEZxaERoREN3UXlTUS16V0RDZGFXbE0wVFhJbGJDRGJQOC1mcmxWdmtxcEZic2J0RjdtNVhvVHpFN2tCcENQRVo1Z1JkdEYxQnNYY1pQQ1pzNzdKNkVSU3J4Rm5jMjZFcDNOT1J3",
-      "title": "6 Classic Epic Fantasy Series Worth Reading Again and Again",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pTEZxaERoREN3UXlTUS16V0RDZGFXbE0wVFhJbGJDRGJQOC1mcmxWdmtxcEZic2J0RjdtNVhvVHpFN2tCcENQRVo1Z1JkdEYxQnNYY1pQQ1pzNzdKNkVSU3J4Rm5jMjZFcDNOT1J3?oc=5",
-      "published_dt": "2026-11-13T14:30:19+00:00",
-      "source_name": "ScreenRant",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMid0FVX3lxTE9BNEowb1ZKR2E2aEdiaXZNUHZGU3NUZ3JPNFRyNGxGVDhtbVY2MFlyNVBUZENTeTgwRzlnSHJiM183V0dKWEthU3VERUxKbGJnLTJUQXJ4OGViQWtPZzFNS2VuWjY0WjlxaTYwcjBBQ1ZieUZienJz",
       "title": "Can GTA 6 fix console\u2019s issues?",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9BNEowb1ZKR2E2aEdiaXZNUHZGU3NUZ3JPNFRyNGxGVDhtbVY2MFlyNVBUZENTeTgwRzlnSHJiM183V0dKWEthU3VERUxKbGJnLTJUQXJ4OGViQWtPZzFNS2VuWjY0WjlxaTYwcjBBQ1ZieUZienJz?oc=5",
@@ -7215,14 +6423,6 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMibkFVX3lxTE5pTEZxaERoREN3UXlTUS16V0RDZGFXbE0wVFhJbGJDRGJQOC1mcmxWdmtxcEZic2J0RjdtNVhvVHpFN2tCcENQRVo1Z1JkdEYxQnNYY1pQQ1pzNzdKNkVSU3J4Rm5jMjZFcDNOT1J3",
-      "title": "6 Classic Epic Fantasy Series Worth Reading Again and Again",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pTEZxaERoREN3UXlTUS16V0RDZGFXbE0wVFhJbGJDRGJQOC1mcmxWdmtxcEZic2J0RjdtNVhvVHpFN2tCcENQRVo1Z1JkdEYxQnNYY1pQQ1pzNzdKNkVSU3J4Rm5jMjZFcDNOT1J3?oc=5",
-      "published_dt": "2026-11-13T14:30:19+00:00",
-      "source_name": "ScreenRant",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMiiwFBVV95cUxOUExMNWowZC04YmdNR2pISmxZSEc5ZFBPQnRmeU1UZWJzT2EtUThLMEhSdzQ2ZE5oUUNDeXpVeElWYlM4QkxuRC1MdGw2WGxpVDBQTlB2SWVnRHA0dUUwQjZ3a3JyRkpvUEZUMjZJODFROU9vaTZ1N29NeS1hYjlFMlVWcjJSNzYtN3hj",
       "title": "54 years after Howard Shore, the Oscar-winning composer behind 'The Lord of the Rings' soundtrack, graduated from Berklee, his celebrated Middle-earth score returns to Boston for a special anniversary concert",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUExMNWowZC04YmdNR2pISmxZSEc5ZFBPQnRmeU1UZWJzT2EtUThLMEhSdzQ2ZE5oUUNDeXpVeElWYlM4QkxuRC1MdGw2WGxpVDBQTlB2SWVnRHA0dUUwQjZ3a3JyRkpvUEZUMjZJODFROU9vaTZ1N29NeS1hYjlFMlVWcjJSNzYtN3hj?oc=5",
@@ -7236,22 +6436,6 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9tQVdmWjVGZWFBd2RyWTdWNEZyVUxVcHhwSFlMQ0U2cEFUZUZqSXFkdDZTMUUxTnlPY0FlM2FGZkVCRzZNV1FkRG91RTNQTlhpM2M5bEFRZWNxbkswcWZXVm82SERfZ3Y5YkllMXV3NkxmSklaOEZMTw?oc=5",
       "published_dt": "2026-11-13T14:36:54+00:00",
       "source_name": "Secret Chicago",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiigFBVV95cUxPTnUxMnRkWVg1MEl2cHozWG5jeTE1c3ZPYUJuQ3I5VFZnTXVPRXdaOWpnNlM5SnIzVFFOc3dBaUNxRnNDV2pyRFU1bXlBREZkcmxIVFBPZ2c5Sk1Rb1AyWWdweUdrUFB5S2dhallhVGoyQlRndEJZaC1kSzA5X2JvSE5ZRFQyN0Z2akE",
-      "title": "Under a stained-glass domed ceiling in downtown Seattle, this \"The Lord of the Rings\" concert is paying tribute to 13 of Howard Shore\u2019s iconic pieces on strings",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTnUxMnRkWVg1MEl2cHozWG5jeTE1c3ZPYUJuQ3I5VFZnTXVPRXdaOWpnNlM5SnIzVFFOc3dBaUNxRnNDV2pyRFU1bXlBREZkcmxIVFBPZ2c5Sk1Rb1AyWWdweUdrUFB5S2dhallhVGoyQlRndEJZaC1kSzA5X2JvSE5ZRFQyN0Z2akE?oc=5",
-      "published_dt": "2026-11-13T14:20:59+00:00",
-      "source_name": "Secret Seattle",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMilAFBVV95cUxNUkttQ0ZpX092ay1jenFqRko4MVp0eEZLWkZudGNSTUwzcTdxYzRoZUV4OElIZmpMU3M2NnNkZ0tmbmdDYjd6Tjd6alJDTlQxc2JNajJCUS1POFB4WjIxcjNMWUlwbGxRWUtZSS1sZXl2R0xpbVBoM0Y2b0dVNWNtTWpBTlNFdk1RbzVKMmEtYlZJWXVy",
-      "title": "In 2004, The Lord of the Rings swept the Oscars with 11 historic wins; 23 years later, a French Gothic landmark in Los Angeles is hosting a classical tribute to its score",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUkttQ0ZpX092ay1jenFqRko4MVp0eEZLWkZudGNSTUwzcTdxYzRoZUV4OElIZmpMU3M2NnNkZ0tmbmdDYjd6Tjd6alJDTlQxc2JNajJCUS1POFB4WjIxcjNMWUlwbGxRWUtZSS1sZXl2R0xpbVBoM0Y2b0dVNWNtTWpBTlNFdk1RbzVKMmEtYlZJWXVy?oc=5",
-      "published_dt": "2026-11-13T14:25:35+00:00",
-      "source_name": "Secret Los Angeles",
       "source_tier": 2
     },
     {
@@ -7303,14 +6487,6 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMibEFVX3lxTE1WRkxlOXI1aXc4Y0RmWExIaDh1aGJqM2RUZlV4ckd6YlRZaXRNb0x2cFlpRTRqTjBGZHdIU1ZMcWFCcGhTUzZzdWtOdGVVZk9fSkxwZjR1RjdrUGNBVUJJYVc5SFI5MFl4WHBtZtIBckFVX3lxTE1QUzNaTkJIb1pHVGRzeG5uczF3Z0pwemFEZ3VwZnMwb0FPekZGMDU3ZHd0ZWRYcnZkMklfcDE3Rk9DR2h0VTZDeUlpbTVTVFo1UXRVeUlMYldTMmtqdUhOYkZXYl9uU2tfVXp3SjJIeW8tQQ",
-      "title": "What Happened to the Programming of Certain TV Channels?",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WRkxlOXI1aXc4Y0RmWExIaDh1aGJqM2RUZlV4ckd6YlRZaXRNb0x2cFlpRTRqTjBGZHdIU1ZMcWFCcGhTUzZzdWtOdGVVZk9fSkxwZjR1RjdrUGNBVUJJYVc5SFI5MFl4WHBtZtIBckFVX3lxTE1QUzNaTkJIb1pHVGRzeG5uczF3Z0pwemFEZ3VwZnMwb0FPekZGMDU3ZHd0ZWRYcnZkMklfcDE3Rk9DR2h0VTZDeUlpbTVTVFo1UXRVeUlMYldTMmtqdUhOYkZXYl9uU2tfVXp3SjJIeW8tQQ?oc=5",
-      "published_dt": "2026-11-13T14:27:52+00:00",
-      "source_name": "JoBlo",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMifkFVX3lxTE5td1RzLVc4dWp4eHVyelpldkx3LVlmdnZ6VHBsVzdkZGplS1hpUm8yODc2QWsybExPVWU2dzk1ZWpTb2ZYd2xKNjRtcmcya2g1UE9hUGtWUGgyQkNmcDgtSm5MLUVjZUhuVEh4TFBMZmZxLVdmbTFkbmR2eEc5QQ",
       "title": "New 90-Minute \"The Beekeeper Meets Yellowstone\" Action Thriller Hailed as One of the Best of the Year",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5td1RzLVc4dWp4eHVyelpldkx3LVlmdnZ6VHBsVzdkZGplS1hpUm8yODc2QWsybExPVWU2dzk1ZWpTb2ZYd2xKNjRtcmcya2g1UE9hUGtWUGgyQkNmcDgtSm5MLUVjZUhuVEh4TFBMZmZxLVdmbTFkbmR2eEc5QQ?oc=5",
@@ -7319,43 +6495,11 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMivwFBVV95cUxNM1hlbVU0VHNsRW9QQWthNUkxTDNRanZ3bmYzRDVXYXg4R0VHeXVYNXo3RU9JY3BSbjZnUGtFMG1sQ2pxWkM2dTlYQzJyb3M2ZVQ2U3J2eVhYRXdyNkJuT1ZjSEZFcU1oVnV0WnkwSmxuSE9KNUtaWVRBYktSMHRoZUZDSjFORVhtcDd1a2tHLW9LNG5XcXpJVklnanpvUFcwSkJLXzEtZW1fYnFCUDg1NE5BYWZiZjltWDdxR1diRQ",
-      "title": "Springsteen says Spielberg ruined night swims at the Jersey Shore",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM1hlbVU0VHNsRW9QQWthNUkxTDNRanZ3bmYzRDVXYXg4R0VHeXVYNXo3RU9JY3BSbjZnUGtFMG1sQ2pxWkM2dTlYQzJyb3M2ZVQ2U3J2eVhYRXdyNkJuT1ZjSEZFcU1oVnV0WnkwSmxuSE9KNUtaWVRBYktSMHRoZUZDSjFORVhtcDd1a2tHLW9LNG5XcXpJVklnanpvUFcwSkJLXzEtZW1fYnFCUDg1NE5BYWZiZjltWDdxR1diRQ?oc=5",
-      "published_dt": "2026-11-13T14:31:00+00:00",
-      "source_name": "Asbury Park Press",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiuwJBVV95cUxOTnE4Q2Z3QURZWDgzanpVMlhkbHZYSkVXZS1KZ2JEYUNLX3NVYUgyX2dtVzhLclkzckZNZDBEU3ZXNi0yYnRzR29HVms3cWUyVmVyS0J6eTlhN0xjUFVkQ1ZqZGdYbGhHaFZvZ29jbVFJbjJzOXJBSjNITFlkSy0tbm1SdFctam5ZOTBCNkdOVzBQMzVwRTQtMnp2ZFotZFVoOGpmdVIxOEdZbDYxcXhKbmRoXzNwdU8tOXFwM1kyZHFyTm53ZjY3WEdZSjFRb0Q4WV96ZUl4d1d5QWlTNVlXREdsN1JoN0VkOThodDNDSlRLa0NZelB2RXJFLTh5R00tN040NnRORTlaN1h1WU4zUWlzUWtkb3BlUkRnRXRMaGlyOXM4RGd5SXdCdW00VEM0R1JjQ2ZiU1VtVTQ",
-      "title": "\"Steven Spielberg ****ed that up. He ****ed it up good.\" Bruce Springsteen reveals how the legendary Hollywood director ruined a raunchy Jersey Shore tradition with his blockbuster Jaws",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOTnE4Q2Z3QURZWDgzanpVMlhkbHZYSkVXZS1KZ2JEYUNLX3NVYUgyX2dtVzhLclkzckZNZDBEU3ZXNi0yYnRzR29HVms3cWUyVmVyS0J6eTlhN0xjUFVkQ1ZqZGdYbGhHaFZvZ29jbVFJbjJzOXJBSjNITFlkSy0tbm1SdFctam5ZOTBCNkdOVzBQMzVwRTQtMnp2ZFotZFVoOGpmdVIxOEdZbDYxcXhKbmRoXzNwdU8tOXFwM1kyZHFyTm53ZjY3WEdZSjFRb0Q4WV96ZUl4d1d5QWlTNVlXREdsN1JoN0VkOThodDNDSlRLa0NZelB2RXJFLTh5R00tN040NnRORTlaN1h1WU4zUWlzUWtkb3BlUkRnRXRMaGlyOXM4RGd5SXdCdW00VEM0R1JjQ2ZiU1VtVTQ?oc=5",
-      "published_dt": "2026-11-13T14:25:58+00:00",
-      "source_name": "Louder",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMiogFBVV95cUxObXV5Q0NwQlJWYzBrak9fT2dFc25LUHJZVEZJOGtzTUZoSkdRdkhYa3RmTkpWY1NWeHhWN0lueDVEM3RGYU5IcDVuV3dDQ1UzNXdqZ3dxY2VKZ0VHUUo2VGF5MWc0Y2ZfVWxwZGdYcThKdUROaWlxOTZ1amotb3A3S091NjdkbzV6bk43Q1FxcUFoSU5zRlR4a2lONE5pRFcyemc",
       "title": "Emily Blunt Picks an Optical Illusion Dress for a Giggly Date Night With Husband John Krasinski",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObXV5Q0NwQlJWYzBrak9fT2dFc25LUHJZVEZJOGtzTUZoSkdRdkhYa3RmTkpWY1NWeHhWN0lueDVEM3RGYU5IcDVuV3dDQ1UzNXdqZ3dxY2VKZ0VHUUo2VGF5MWc0Y2ZfVWxwZGdYcThKdUROaWlxOTZ1amotb3A3S091NjdkbzV6bk43Q1FxcUFoSU5zRlR4a2lONE5pRFcyemc?oc=5",
       "published_dt": "2026-11-13T14:39:24+00:00",
       "source_name": "InStyle",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMisAFBVV95cUxQQW5qUVM4cWM3VXM3azltNFg5dUtzSm5TNXVMNEMtUXNrbnp3Y2p0dEZNV1BjLWJKVjRLSEdZRVF6blhrbnhhZm9LTXc5aW9MV1U2SGRXbUFjajI5S1F0REp6Z1lBQURnSmhJRUxseXdkblNVRjU5SFprVVg1Wi0wNUZyekZHSU5KR2tPeUNXb3JnNTA3QnFKRzBoUUdyQzFJcnYtd2VudW5vYTU5bHljYw",
-      "title": "Spielberg Says He Has The Same Enthusiasm As He Did Making 8 Mm Movies As A Boy",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQW5qUVM4cWM3VXM3azltNFg5dUtzSm5TNXVMNEMtUXNrbnp3Y2p0dEZNV1BjLWJKVjRLSEdZRVF6blhrbnhhZm9LTXc5aW9MV1U2SGRXbUFjajI5S1F0REp6Z1lBQURnSmhJRUxseXdkblNVRjU5SFprVVg1Wi0wNUZyekZHSU5KR2tPeUNXb3JnNTA3QnFKRzBoUUdyQzFJcnYtd2VudW5vYTU5bHljYw?oc=5",
-      "published_dt": "2026-11-13T14:27:29+00:00",
-      "source_name": "VINnews",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiekFVX3lxTE1JeGdVYXV1M0RaWGpESXBXYUhVb2E0N1RCSDBuR3BWd0pDdFJvbUlQcFlmWGdlVmROR2hCbmhFZXdFbFNjTVFaS3dRMXhDTGNoTjJLRGo3Q3U3azd5TXRFV1FoUWpGM2NGN0dRWFhNeDhXcHdmdkl0NTJ3",
-      "title": "MobLand season 2 release schedule: When is episode 10 out on Paramount+?",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JeGdVYXV1M0RaWGpESXBXYUhVb2E0N1RCSDBuR3BWd0pDdFJvbUlQcFlmWGdlVmROR2hCbmhFZXdFbFNjTVFaS3dRMXhDTGNoTjJLRGo3Q3U3azd5TXRFV1FoUWpGM2NGN0dRWFhNeDhXcHdmdkl0NTJ3?oc=5",
-      "published_dt": "2026-11-13T14:30:42+00:00",
-      "source_name": "Radio Times",
       "source_tier": 2
     },
     {
@@ -7399,22 +6543,6 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMilAFBVV95cUxNUkttQ0ZpX092ay1jenFqRko4MVp0eEZLWkZudGNSTUwzcTdxYzRoZUV4OElIZmpMU3M2NnNkZ0tmbmdDYjd6Tjd6alJDTlQxc2JNajJCUS1POFB4WjIxcjNMWUlwbGxRWUtZSS1sZXl2R0xpbVBoM0Y2b0dVNWNtTWpBTlNFdk1RbzVKMmEtYlZJWXVy",
-      "title": "In 2004, The Lord of the Rings swept the Oscars with 11 historic wins; 23 years later, a French Gothic landmark in Los Angeles is hosting a classical tribute to its score",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUkttQ0ZpX092ay1jenFqRko4MVp0eEZLWkZudGNSTUwzcTdxYzRoZUV4OElIZmpMU3M2NnNkZ0tmbmdDYjd6Tjd6alJDTlQxc2JNajJCUS1POFB4WjIxcjNMWUlwbGxRWUtZSS1sZXl2R0xpbVBoM0Y2b0dVNWNtTWpBTlNFdk1RbzVKMmEtYlZJWXVy?oc=5",
-      "published_dt": "2026-11-13T14:25:35+00:00",
-      "source_name": "Secret Los Angeles",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiswFBVV95cUxPTDNBdlh6TE5fLUw1MW9Wd1ZXZ1U4WTZSZ3FNZ3VDcXp5c0g1TTJVWWtzLVJvZE93Yy1MZWFHYzBsZWp3N3VGOGhab0wxbjgzN3pVZzBjbEZsbWNSa2w2b1hINW5POGhGN3pCYW9xS04wTTFEZHFmdGhJX2FqaTd3aXJJemlHd05LVVRLMVpORlpjLTdoSk9mV2hvRDV6ZzljN0VhZXhRX1VQMUFHYi0wWVhlMNIBuAFBVV95cUxPd3hXakFxcXRoREw1d043THRUNnFYSlJsRzRHaUlqU0g4eHZxX0QyUFUxbHFhVmlUVTFPTDlBSlpXcmtNTmRuZmJXOTdrMXo1UEMxbUhKeURydlJ0allPN1JscVFlS1d5YmJDZ1dEenloaHpEUXRKX1BTLVdJaTgwRzVKRkUtaDRteDIzUl9KMldJUElOWklfT1hENWNoaFNmY3hXRFBpTWR4X3ZMZDdiczRKeHJvLVUx",
-      "title": "Macy's Thanksgiving Day Parade will soon celebrate its 100th edition: Which stars are in the lineup? - ABC News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDNBdlh6TE5fLUw1MW9Wd1ZXZ1U4WTZSZ3FNZ3VDcXp5c0g1TTJVWWtzLVJvZE93Yy1MZWFHYzBsZWp3N3VGOGhab0wxbjgzN3pVZzBjbEZsbWNSa2w2b1hINW5POGhGN3pCYW9xS04wTTFEZHFmdGhJX2FqaTd3aXJJemlHd05LVVRLMVpORlpjLTdoSk9mV2hvRDV6ZzljN0VhZXhRX1VQMUFHYi0wWVhlMNIBuAFBVV95cUxPd3hXakFxcXRoREw1d043THRUNnFYSlJsRzRHaUlqU0g4eHZxX0QyUFUxbHFhVmlUVTFPTDlBSlpXcmtNTmRuZmJXOTdrMXo1UEMxbUhKeURydlJ0allPN1JscVFlS1d5YmJDZ1dEenloaHpEUXRKX1BTLVdJaTgwRzVKRkUtaDRteDIzUl9KMldJUElOWklfT1hENWNoaFNmY3hXRFBpTWR4X3ZMZDdiczRKeHJvLVUx?oc=5",
-      "published_dt": "2026-11-13T14:03:14+00:00",
-      "source_name": "Breaking News, Latest News and Videos",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMiigFBVV95cUxPRXdSb3NDVFc2d1B2eE1KdS15NVBEbVRnN0VWcWlOTUFzdGZ4anRESU52elhycXV0cGhKQ0pGenQ5YVBCNXEzcDdaOHd1TzVvMDg0dlp5R1NxbktyNmdid1pnZG5oY3owWjNNSTJaUThmYzdvTURlUTJERHZzUW5ILUtOMW5RaXpnemc",
       "title": "Evaluating \u201cTotal Concept and Feel\u201d: Ninth Circuit Revisits Subjective \u201cIntrinsic\u201d Test in Determining Infringement",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRXdSb3NDVFc2d1B2eE1KdS15NVBEbVRnN0VWcWlOTUFzdGZ4anRESU52elhycXV0cGhKQ0pGenQ5YVBCNXEzcDdaOHd1TzVvMDg0dlp5R1NxbktyNmdid1pnZG5oY3owWjNNSTJaUThmYzdvTURlUTJERHZzUW5ILUtOMW5RaXpnemc?oc=5",
@@ -7428,14 +6556,6 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JU0JERnNxNW5UTW1Lc1RXMU9ZaElVVWlFS2xZVjNCZkdhYUlaNFhkT29ZTFozMFVQRF9pUUNEaXpaVWhNMVl0UlZQem9YVjVacUpLWjlKQnB4RlJJMHdsa0pyMWl3V0JLUi1sRUlfNTBndEl2SlE?oc=5",
       "published_dt": "2026-11-13T14:36:11+00:00",
       "source_name": "Jets X-Factor",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiigFBVV95cUxOY0h0c3NTM3RXV3NfQVhPWEI4THVPbE93VWk5TWVLSHlHLUdadmU4YmhpZS1kVktPTkhiWWJGS1R0el9qRDJFMzhManZNaWJHelpOLTJiZzhxZWxoQXJxU09pdzBNNkh6b25Bcm10c0xzdm5xV3FiRU1BRzBqUmlRdExCYjI0ODJMdGc",
-      "title": "BBDO: SEC Form 6-K filed by Banco Bradesco Sa",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOY0h0c3NTM3RXV3NfQVhPWEI4THVPbE93VWk5TWVLSHlHLUdadmU4YmhpZS1kVktPTkhiWWJGS1R0el9qRDJFMzhManZNaWJHelpOLTJiZzhxZWxoQXJxU09pdzBNNkh6b25Bcm10c0xzdm5xV3FiRU1BRzBqUmlRdExCYjI0ODJMdGc?oc=5",
-      "published_dt": "2026-11-13T14:06:59+00:00",
-      "source_name": "Quantisnow",
       "source_tier": 2
     },
     {
@@ -7455,43 +6575,11 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMibkFVX3lxTE5pTEZxaERoREN3UXlTUS16V0RDZGFXbE0wVFhJbGJDRGJQOC1mcmxWdmtxcEZic2J0RjdtNVhvVHpFN2tCcENQRVo1Z1JkdEYxQnNYY1pQQ1pzNzdKNkVSU3J4Rm5jMjZFcDNOT1J3",
-      "title": "6 Classic Epic Fantasy Series Worth Reading Again and Again",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pTEZxaERoREN3UXlTUS16V0RDZGFXbE0wVFhJbGJDRGJQOC1mcmxWdmtxcEZic2J0RjdtNVhvVHpFN2tCcENQRVo1Z1JkdEYxQnNYY1pQQ1pzNzdKNkVSU3J4Rm5jMjZFcDNOT1J3?oc=5",
-      "published_dt": "2026-11-13T14:30:19+00:00",
-      "source_name": "ScreenRant",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMiqAFBVV95cUxObkJJMXZVSERCbnBqaFBpVnJUZkJqSmt6TjJadVZ5emw3YXZ4OWFIbi1pQjlKM2J0ZDEyLTBWY3dsZm1yZ1dsMVVnSkdZUkNVOUUtN3FhdnBMT3Z0REFBSUJORWhWZC1kQWVxVFNpLTVQbXdiWE9EMF90UDhCbkUxRlI5M1VrazRDdVp5UDJxZFlla1dud0Z4al9wQWVldndDTm9FX3piQnM",
       "title": "Rivals Podcast reveals behind-the-scenes secrets from drama's second series",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkJJMXZVSERCbnBqaFBpVnJUZkJqSmt6TjJadVZ5emw3YXZ4OWFIbi1pQjlKM2J0ZDEyLTBWY3dsZm1yZ1dsMVVnSkdZUkNVOUUtN3FhdnBMT3Z0REFBSUJORWhWZC1kQWVxVFNpLTVQbXdiWE9EMF90UDhCbkUxRlI5M1VrazRDdVp5UDJxZFlla1dud0Z4al9wQWVldndDTm9FX3piQnM?oc=5",
       "published_dt": "2026-11-13T14:35:43+00:00",
       "source_name": "TellyMix",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMigwFBVV95cUxOeGhtQVBVU3FBOUpHcWJyTDdULVpZR1NjWkZwZ1JwNlAzRHV3bFBuTUlxY0dyUWQ0WUlsaEUzT0lVS3QxTVdIRTB1MWU1ZzZUSDBZMHBfMEc0bWJYUEdGcDF0b2hicWpuYjZjTnRhS2dodFVOZUlhZnJHVnBSZ0JKNzdzUQ",
-      "title": "In 1984, Robert Downey Jr was almost the Karate Kid. He joined the worst-ever season of \u2018Saturday Night Live\u2019 instead",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeGhtQVBVU3FBOUpHcWJyTDdULVpZR1NjWkZwZ1JwNlAzRHV3bFBuTUlxY0dyUWQ0WUlsaEUzT0lVS3QxTVdIRTB1MWU1ZzZUSDBZMHBfMEc0bWJYUEdGcDF0b2hicWpuYjZjTnRhS2dodFVOZUlhZnJHVnBSZ0JKNzdzUQ?oc=5",
-      "published_dt": "2026-11-13T14:30:00+00:00",
-      "source_name": "Far Out Magazine",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMifkFVX3lxTE91WDNuQkY4QlhJOWdLdlJoTHRFdFBDZWtZcWk2ZWpGQnBtN1J3RkxBNV96VEc3REV1d3Z3TjhTQTN4eUpvRkI0UEpmSVc3U3dYaEN5MlJva0tDLS1OVEJ4TmNQeHhzXzgyTHRCWmtKcVBTd3Y3QS1tYzNpQ0pkdw",
-      "title": "Nurmagomedov Sentenced To 6 Months Over Abu Dhabi Brawl",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91WDNuQkY4QlhJOWdLdlJoTHRFdFBDZWtZcWk2ZWpGQnBtN1J3RkxBNV96VEc3REV1d3Z3TjhTQTN4eUpvRkI0UEpmSVc3U3dYaEN5MlJva0tDLS1OVEJ4TmNQeHhzXzgyTHRCWmtKcVBTd3Y3QS1tYzNpQ0pkdw?oc=5",
-      "published_dt": "2026-11-13T14:31:13+00:00",
-      "source_name": "boxingnews.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMigAFBVV95cUxOOFMwaGdmekZOelJuOWNQUVVjbTJZbzQ2bkxNNkJlZUVWZWk5TGFORnhEN3pXZ3J2NG1xNmNFY290TDhDMWpXN0lFMm8zNmpRR0VzZWUxNGVEcUlsSVRraGN6N0VuVHNxRXdmM0t5Y2ozaTNpWnZ6d1BjUnd6XzkwbQ",
-      "title": "Usman Nurmagomedov Sentenced To Six Months After Dvalishvili Attack",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOFMwaGdmekZOelJuOWNQUVVjbTJZbzQ2bkxNNkJlZUVWZWk5TGFORnhEN3pXZ3J2NG1xNmNFY290TDhDMWpXN0lFMm8zNmpRR0VzZWUxNGVEcUlsSVRraGN6N0VuVHNxRXdmM0t5Y2ozaTNpWnZ6d1BjUnd6XzkwbQ?oc=5",
-      "published_dt": "2026-11-13T14:31:01+00:00",
-      "source_name": "boxingnews.com",
       "source_tier": 2
     },
     {
@@ -7535,14 +6623,6 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMiekFVX3lxTFA5Y19XbzkxVWdaNnBDLVVaN0pHUzkzR2dSM3hQMDBBN013WktmOThoT1JBOTAxbm15MlFvVFFZdVlpOE1ucjR5bUtidFdVcUEtcXFxOHVnbS1kZW9jcDlIeUphamsyTzRnT0NHTWFkdTVIQlBXRUdPQTNB",
-      "title": "How to reset when stress becomes chronic",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5Y19XbzkxVWdaNnBDLVVaN0pHUzkzR2dSM3hQMDBBN013WktmOThoT1JBOTAxbm15MlFvVFFZdVlpOE1ucjR5bUtidFdVcUEtcXFxOHVnbS1kZW9jcDlIeUphamsyTzRnT0NHTWFkdTVIQlBXRUdPQTNB?oc=5",
-      "published_dt": "2026-11-13T14:16:00+00:00",
-      "source_name": "WAFB",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMid0FVX3lxTE1KWkcyTjRqTmtIdGxhQlQ4djVJV21BcHlzdDBRVE16TTVVUGkzdzY3b29lUlA2dHZUeVh3MllNRE5CMmo3WTZrSUhhTVJSdTBnSEpja3N2VlFjMlBVTjhrLXl3eVJneG4taHlqT216QUZjWmpoWWlB",
       "title": "Deradicalizing Gaza is possible but will take decades, counterterrorism expert says",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KWkcyTjRqTmtIdGxhQlQ4djVJV21BcHlzdDBRVE16TTVVUGkzdzY3b29lUlA2dHZUeVh3MllNRE5CMmo3WTZrSUhhTVJSdTBnSEpja3N2VlFjMlBVTjhrLXl3eVJneG4taHlqT216QUZjWmpoWWlB?oc=5",
@@ -7575,51 +6655,11 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMi-gFBVV95cUxPNlVUZTlfYUcxRFFuZTNYbThwalR0SnFoa1pKcm5DZkVGQnVhU3BLWmcyVjdqNXVQOHFyTVRnd1hGTEJZOC1aUWp2S0ZYWW9qS2JWR2dRUmszSUp5ZFR6Y1BzQU9PQ1NURm5JbE81YWJIYWhXdEpmWnlfenRVWWs0RUFUYWxqcXB1VnFEdVRSbEpaT1hkWkJ3TXVLbmxzblVDMG5hdGc0NkF0N1dCZ1hxeVg3MjNpamtkOXF0RFltVnA1UGQtNENNeHcxaWJuUzFZZ0hHSldOLU85U20yeFk5YUZ4SnZJbHN3a0ZWTml1RWRNY2x6OXdqZHZn",
-      "title": "Son allegedly cut skin from father\u2019s corpse to preserve stem cells",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPNlVUZTlfYUcxRFFuZTNYbThwalR0SnFoa1pKcm5DZkVGQnVhU3BLWmcyVjdqNXVQOHFyTVRnd1hGTEJZOC1aUWp2S0ZYWW9qS2JWR2dRUmszSUp5ZFR6Y1BzQU9PQ1NURm5JbE81YWJIYWhXdEpmWnlfenRVWWs0RUFUYWxqcXB1VnFEdVRSbEpaT1hkWkJ3TXVLbmxzblVDMG5hdGc0NkF0N1dCZ1hxeVg3MjNpamtkOXF0RFltVnA1UGQtNENNeHcxaWJuUzFZZ0hHSldOLU85U20yeFk5YUZ4SnZJbHN3a0ZWTml1RWRNY2x6OXdqZHZn?oc=5",
-      "published_dt": "2026-11-13T14:02:23+00:00",
-      "source_name": "The Cairns Post",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiqgFBVV95cUxNaTdIQ0t1dG9Vdks4T0R4X01UMTNORWRGdDJtd2hRTkRBMXYzM1ZEeE9tZ2RyOGpFb0pVQ0JXYkJqa000V29xNGNGRGk4YlhGWWVDNEV6Q0lmbGFGN3lnREdJUGNKT1psbW1ENm1MU2drdGkwWWZuSUdXRjRrTkZVV1FYWkRrNlZmZlBLMEUwOFpKcW80Y1FGNm9JNFhwY2M1Y1JCdHdDUEdoQQ",
-      "title": "Reality star Gabby Windey wants to 'pay her dues' for acting dream",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaTdIQ0t1dG9Vdks4T0R4X01UMTNORWRGdDJtd2hRTkRBMXYzM1ZEeE9tZ2RyOGpFb0pVQ0JXYkJqa000V29xNGNGRGk4YlhGWWVDNEV6Q0lmbGFGN3lnREdJUGNKT1psbW1ENm1MU2drdGkwWWZuSUdXRjRrTkZVV1FYWkRrNlZmZlBLMEUwOFpKcW80Y1FGNm9JNFhwY2M1Y1JCdHdDUEdoQQ?oc=5",
-      "published_dt": "2026-11-13T14:02:23+00:00",
-      "source_name": "Female First",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMie0FVX3lxTE42dVN0LS1JV1MySTdJQnlUTlRIZjQweXdGY05hVDNWcUtkUVNhTGV1OWgxSlJ5YkZEWnktOENCcXBLNWlpU0J1YzBNc3FiSThCTS1ZYWpJd2xuZ2ZrOVNRWGJDdExyaWF3cFZGaWkwSzZ2SHZPRVh6Z0s3ONIBgAFBVV95cUxPQTlRbFpZQWdXVzFFSkVvOGtEaUxiZXl3T3p2NXlWWVlXeGRyRk9vVk9fZHJibDFHUHF6S1pVSkRXd0RwelhSV0VDeG9Nemhnbl9nWC16R2ZaRjkzMUhPa3lrdndha0J0VlVGRnJPOUJVaVR3c1JrLUdJOGpvNzFwcg",
-      "title": "Jordan Webb: Accused aged 22 denies murdering man whose body was found in house",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42dVN0LS1JV1MySTdJQnlUTlRIZjQweXdGY05hVDNWcUtkUVNhTGV1OWgxSlJ5YkZEWnktOENCcXBLNWlpU0J1YzBNc3FiSThCTS1ZYWpJd2xuZ2ZrOVNRWGJDdExyaWF3cFZGaWkwSzZ2SHZPRVh6Z0s3ONIBgAFBVV95cUxPQTlRbFpZQWdXVzFFSkVvOGtEaUxiZXl3T3p2NXlWWVlXeGRyRk9vVk9fZHJibDFHUHF6S1pVSkRXd0RwelhSV0VDeG9Nemhnbl9nWC16R2ZaRjkzMUhPa3lrdndha0J0VlVGRnJPOUJVaVR3c1JrLUdJOGpvNzFwcg?oc=5",
-      "published_dt": "2026-11-13T14:26:00+00:00",
-      "source_name": "Belfast Live",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMilgFBVV95cUxPU24xMnZEYUtFQW9ZZVg3OUlEZmphaGYtdHpGWl9jY2s1ajY2RHkycE1YbTVzdERpZHc5dWRKMTVUbUc0MzBKS3laWjcxWUx4eFAzbldwZG9FMDk5cHk2YmtNemhmY045SDlPOHdFVmhLcnVOYzhuLWxVb0xQNTNWSnFOOTg2WmZ4VjRKZGhUZmlFOEFQX1E",
       "title": "Alan Ritchson\u2019s Reacher Officially Crosses Vital 3-Month Prime Video Milestone Ahead Of Season 5",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU24xMnZEYUtFQW9ZZVg3OUlEZmphaGYtdHpGWl9jY2s1ajY2RHkycE1YbTVzdERpZHc5dWRKMTVUbUc0MzBKS3laWjcxWUx4eFAzbldwZG9FMDk5cHk2YmtNemhmY045SDlPOHdFVmhLcnVOYzhuLWxVb0xQNTNWSnFOOTg2WmZ4VjRKZGhUZmlFOEFQX1E?oc=5",
       "published_dt": "2026-11-13T14:41:22+00:00",
       "source_name": "ScreenRant",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMijAFBVV95cUxNeEt5WnluZldOdmxqVFNSZl85dFRVb1JVQ2ZucS1Fem1mLWxWZE1ac0d2N0xKY2trRkZ2Ym9ybUhWTXBvT0lEd2dOUFBWS3VkdnlubTMyNTJJcVlCcm9xcmd1N0QzMWhaejBsTUliV0ZmeTU5dzZmVjJhZkxwMHQyZ19INUFYNHpYSS1kZg",
-      "title": "'GMA's Ginger Zee Gets Major Family Update After Veterans Day",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeEt5WnluZldOdmxqVFNSZl85dFRVb1JVQ2ZucS1Fem1mLWxWZE1ac0d2N0xKY2trRkZ2Ym9ybUhWTXBvT0lEd2dOUFBWS3VkdnlubTMyNTJJcVlCcm9xcmd1N0QzMWhaejBsTUliV0ZmeTU5dzZmVjJhZkxwMHQyZ19INUFYNHpYSS1kZg?oc=5",
-      "published_dt": "2026-11-13T14:29:53+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiqgFBVV95cUxPOVl5S3FVc1VSVU1OaUpGbENYOGtMREQzYzEzV25wRXpfWHZTQmItdEthNXVfMGlJenQ3eF9EbXoxRmtVRTZRU2xNY2RRZFFMczZRNVRDUG1qMHBOTFJnVVZ3VmFMTXJuRzAzOF8wUE8wZThEb3dScmpVVl9fTDJ0U0pjMjBGVFl4d1l0Y2xlWnE0VGZ3bzdMemF4R05UMHdldWlWR1VxcEJfdw",
-      "title": "\u201912 12 12\u2032 Review: Anthony Mackie and Jamie Dornan\u2019s Ticking-Clock Heist Thriller Runs on Broken Time",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOVl5S3FVc1VSVU1OaUpGbENYOGtMREQzYzEzV25wRXpfWHZTQmItdEthNXVfMGlJenQ3eF9EbXoxRmtVRTZRU2xNY2RRZFFMczZRNVRDUG1qMHBOTFJnVVZ3VmFMTXJuRzAzOF8wUE8wZThEb3dScmpVVl9fTDJ0U0pjMjBGVFl4d1l0Y2xlWnE0VGZ3bzdMemF4R05UMHdldWlWR1VxcEJfdw?oc=5",
-      "published_dt": "2026-11-13T14:30:00+00:00",
-      "source_name": "IndieWire",
       "source_tier": 2
     },
     {
@@ -7635,14 +6675,6 @@
       "title": "Drew Brees Admits He Wants \u2018Monday Night Football\u2019 Job if Troy Aikman Leaves ESPN",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX3JJcTl1QWZMOWJjLVBfZWRPdEhQblBQSVlFeXN3MmQ1cDJncHlFLUdmZkQ5T2dwZy02cWxuVG9TN3pyOEZTSDFRQzM2R0FmLVQ1eEdRa3NrWjhaMHp6N193N3hpRkhYVm1WcXVIRTVLdWJrM3p1cXJ2aUZfanNmSTFJbmxNOTBXd1E5enEyMThVX1VGX2VuWnpHV0ROcXpreUwzWGZDcjlBSlpOUmFqN3JVbTA?oc=5",
       "published_dt": "2026-11-13T14:35:49+00:00",
-      "source_name": "TV Insider",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMinAFBVV95cUxNaHFUNFF6TnVZWklWS2JpTUxQcU5DMnlGUUk0XzRrTXA3aFI5ODFucmd2Q3RwQ3JuMmY5aUg0NmRHbWJlUEdKSDVmNW9KOWlRak9HN0F6UkYxbnVINFBVVFVIOFJLemFTWWozUC0weUFXenJYQXJWUGFpWllmekV0bFZYbkV3RkRZZEkwRGh4WTFLcEhvektCMnBLZ2I",
-      "title": "Jack Nicholson's Son Ray Makes Confession About Famous Dad",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaHFUNFF6TnVZWklWS2JpTUxQcU5DMnlGUUk0XzRrTXA3aFI5ODFucmd2Q3RwQ3JuMmY5aUg0NmRHbWJlUEdKSDVmNW9KOWlRak9HN0F6UkYxbnVINFBVVFVIOFJLemFTWWozUC0weUFXenJYQXJWUGFpWllmekV0bFZYbkV3RkRZZEkwRGh4WTFLcEhvektCMnBLZ2I?oc=5",
-      "published_dt": "2026-11-13T14:23:52+00:00",
       "source_name": "TV Insider",
       "source_tier": 2
     },
@@ -7663,27 +6695,11 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMilAFBVV95cUxQdUJPMzhCeHljWEJuRUNIUy1ldFdJaGtlNkpCcXBJYzZ3UHdFM1g3dm8wbVl2bUFTV0Y3SkVPR0ZrVUpTaDNNQzZqdlZXX0lPeWFVVjFwcGhIVzhNc2lSWDU0eVV5aG9BOEtRUjhJTUpHOFZzTWppRWhVemVvLUc0TXBvbURGdTlWcExNUzl0V2k4ZmNM0gGaAUFVX3lxTE85R2dWOEpqemxFdkhQT3BMOVFwYWdXakFQREp1NTJBNXo0TmJoUWctbW55LUoxTUdTRTJDSU40TXVvbHFxUDlhYlVvQmhzYVJMdnI4U2l6SVJ6bFVKS3JqV1pMRkdwYzBwcTNtWXZYYnZ5cUVNLWJ5dEtRSlZwRjI0c1lvV29IdEdvc2FROFNET2dPbUtGRGNHc3c",
-      "title": "New Releases: Ebenezer, I Play Rocky, How to Rob a Bank",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUJPMzhCeHljWEJuRUNIUy1ldFdJaGtlNkpCcXBJYzZ3UHdFM1g3dm8wbVl2bUFTV0Y3SkVPR0ZrVUpTaDNNQzZqdlZXX0lPeWFVVjFwcGhIVzhNc2lSWDU0eVV5aG9BOEtRUjhJTUpHOFZzTWppRWhVemVvLUc0TXBvbURGdTlWcExNUzl0V2k4ZmNM0gGaAUFVX3lxTE85R2dWOEpqemxFdkhQT3BMOVFwYWdXakFQREp1NTJBNXo0TmJoUWctbW55LUoxTUdTRTJDSU40TXVvbHFxUDlhYlVvQmhzYVJMdnI4U2l6SVJ6bFVKS3JqV1pMRkdwYzBwcTNtWXZYYnZ5cUVNLWJ5dEtRSlZwRjI0c1lvV29IdEdvc2FROFNET2dPbUtGRGNHc3c?oc=5",
-      "published_dt": "2026-11-13T14:19:52+00:00",
-      "source_name": "WGN-TV",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMiqAFBVV95cUxNUnVZUkZSVThrRWJaa051eVMwdlQzdDRsRGVha29oQkk0YnowaTZBY29YMUpHTjJlRXFwTmo4N21VRmxrdWtwQ2doVDQ4T3hiUlMtbmlhRUhkVmVvc2xkbnVpSDQyZk9CSkcxZFI2TVlJY0JEb0lzSVZXZkQwXzdKU1hhaEZwSnJkSGY0TnhmSHFyWXdxbUpXU2h1a18xMWFXWnZQaDF6WU8",
       "title": "How \u2018I Play Rocky\u2019 Actor Anthony Ippolito Nailed The Iconic Sylvester Stallone Voice",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUnVZUkZSVThrRWJaa051eVMwdlQzdDRsRGVha29oQkk0YnowaTZBY29YMUpHTjJlRXFwTmo4N21VRmxrdWtwQ2doVDQ4T3hiUlMtbmlhRUhkVmVvc2xkbnVpSDQyZk9CSkcxZFI2TVlJY0JEb0lzSVZXZkQwXzdKU1hhaEZwSnJkSGY0TnhmSHFyWXdxbUpXU2h1a18xMWFXWnZQaDF6WU8?oc=5",
       "published_dt": "2026-11-13T14:53:01+00:00",
       "source_name": "TODAY.com",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMilAFBVV95cUxQdUJPMzhCeHljWEJuRUNIUy1ldFdJaGtlNkpCcXBJYzZ3UHdFM1g3dm8wbVl2bUFTV0Y3SkVPR0ZrVUpTaDNNQzZqdlZXX0lPeWFVVjFwcGhIVzhNc2lSWDU0eVV5aG9BOEtRUjhJTUpHOFZzTWppRWhVemVvLUc0TXBvbURGdTlWcExNUzl0V2k4ZmNM0gGaAUFVX3lxTE85R2dWOEpqemxFdkhQT3BMOVFwYWdXakFQREp1NTJBNXo0TmJoUWctbW55LUoxTUdTRTJDSU40TXVvbHFxUDlhYlVvQmhzYVJMdnI4U2l6SVJ6bFVKS3JqV1pMRkdwYzBwcTNtWXZYYnZ5cUVNLWJ5dEtRSlZwRjI0c1lvV29IdEdvc2FROFNET2dPbUtGRGNHc3c",
-      "title": "New Releases: Ebenezer, I Play Rocky, How to Rob a Bank",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUJPMzhCeHljWEJuRUNIUy1ldFdJaGtlNkpCcXBJYzZ3UHdFM1g3dm8wbVl2bUFTV0Y3SkVPR0ZrVUpTaDNNQzZqdlZXX0lPeWFVVjFwcGhIVzhNc2lSWDU0eVV5aG9BOEtRUjhJTUpHOFZzTWppRWhVemVvLUc0TXBvbURGdTlWcExNUzl0V2k4ZmNM0gGaAUFVX3lxTE85R2dWOEpqemxFdkhQT3BMOVFwYWdXakFQREp1NTJBNXo0TmJoUWctbW55LUoxTUdTRTJDSU40TXVvbHFxUDlhYlVvQmhzYVJMdnI4U2l6SVJ6bFVKS3JqV1pMRkdwYzBwcTNtWXZYYnZ5cUVNLWJ5dEtRSlZwRjI0c1lvV29IdEdvc2FROFNET2dPbUtGRGNHc3c?oc=5",
-      "published_dt": "2026-11-13T14:19:52+00:00",
-      "source_name": "WGN-TV",
       "source_tier": 2
     },
     {
@@ -7700,30 +6716,6 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TMWdieWI5N3FpZHRoT041RjJtVTdYZDMwTTJYWkk1OEFHcGl4TjJEMXFkUVVBY0hzVVhzOUxpRHk3U0xweXowalhGVzU0UWJWQzFMcHFXMnRQZnltNHdz?oc=5",
       "published_dt": "2026-11-13T14:55:21+00:00",
       "source_name": "Variety",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMi8wFBVV95cUxQOGFlMTUzUXk4LU9WTzVuWTR0NGROeVZhc3ZDQUw5VkJOalNoSXBkd0FvVHJ4UmRrZzZzQ1pVdlVQZ19QaVMwX2RBWUVES1YtdmNmd1UtVGNCYWVkbG02RjVjVC1xcVVFWVVuTEpzbTJBa3lraElVUHRYS0tGRDI1TVptZW1FNnBPMUN4UlUwLTFJZjZMSThKSER1OWNUTkNTTkVZOGhabF80ZElhallBZ21zVnZFck1STG0wZWhjMFpzQU1NNXBPSmJ1QVp4RnhvVGJxTkh4NzZIdzgtV2dRaGVheERTaG5La1VVT1k5WVpnemPSAfoBQVVfeXFMT1VURkhxSWxONTZ4X2hoVFFTMlpEWk4zb2hRemFRb3puZ3c2RWN0ano5cURJT0JrVnhBY3E5bFZRVEEtQi1EenJnUTRNOWtXRV9nNHFBQkg1OXQ4eXVaMGtQNFpGam9hVWpWVU95V1BxYjRiWU5od0tRYm5EV291MmxGQm5qSFhlVlVobzBzWXRmNkVKZUg2aDRLcWF4ek9WdzdyLV83dVE2X1F5Wk96RGt6TmtzTmVIRlNzTEQ5QVUyeGo1Q3k1ZnhfRlQzWWh1dVh4QTNnOFZpWlNfRkJmb1k3amlXTzNmX0NleFJZa2laRUdlZVptWXFmUQ",
-      "title": "7 Years After Losing Her Elder Daughter, Moushumi Chatterjee Bids Farewell To Husband Jayanta Mukherjee",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOGFlMTUzUXk4LU9WTzVuWTR0NGROeVZhc3ZDQUw5VkJOalNoSXBkd0FvVHJ4UmRrZzZzQ1pVdlVQZ19QaVMwX2RBWUVES1YtdmNmd1UtVGNCYWVkbG02RjVjVC1xcVVFWVVuTEpzbTJBa3lraElVUHRYS0tGRDI1TVptZW1FNnBPMUN4UlUwLTFJZjZMSThKSER1OWNUTkNTTkVZOGhabF80ZElhallBZ21zVnZFck1STG0wZWhjMFpzQU1NNXBPSmJ1QVp4RnhvVGJxTkh4NzZIdzgtV2dRaGVheERTaG5La1VVT1k5WVpnemPSAfoBQVVfeXFMT1VURkhxSWxONTZ4X2hoVFFTMlpEWk4zb2hRemFRb3puZ3c2RWN0ano5cURJT0JrVnhBY3E5bFZRVEEtQi1EenJnUTRNOWtXRV9nNHFBQkg1OXQ4eXVaMGtQNFpGam9hVWpWVU95V1BxYjRiWU5od0tRYm5EV291MmxGQm5qSFhlVlVobzBzWXRmNkVKZUg2aDRLcWF4ek9WdzdyLV83dVE2X1F5Wk96RGt6TmtzTmVIRlNzTEQ5QVUyeGo1Q3k1ZnhfRlQzWWh1dVh4QTNnOFZpWlNfRkJmb1k3amlXTzNmX0NleFJZa2laRUdlZVptWXFmUQ?oc=5",
-      "published_dt": "2026-11-13T14:20:00+00:00",
-      "source_name": "The Daily Jagran",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMilAFBVV95cUxQdUJPMzhCeHljWEJuRUNIUy1ldFdJaGtlNkpCcXBJYzZ3UHdFM1g3dm8wbVl2bUFTV0Y3SkVPR0ZrVUpTaDNNQzZqdlZXX0lPeWFVVjFwcGhIVzhNc2lSWDU0eVV5aG9BOEtRUjhJTUpHOFZzTWppRWhVemVvLUc0TXBvbURGdTlWcExNUzl0V2k4ZmNM0gGaAUFVX3lxTE85R2dWOEpqemxFdkhQT3BMOVFwYWdXakFQREp1NTJBNXo0TmJoUWctbW55LUoxTUdTRTJDSU40TXVvbHFxUDlhYlVvQmhzYVJMdnI4U2l6SVJ6bFVKS3JqV1pMRkdwYzBwcTNtWXZYYnZ5cUVNLWJ5dEtRSlZwRjI0c1lvV29IdEdvc2FROFNET2dPbUtGRGNHc3c",
-      "title": "New Releases: Ebenezer, I Play Rocky, How to Rob a Bank",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUJPMzhCeHljWEJuRUNIUy1ldFdJaGtlNkpCcXBJYzZ3UHdFM1g3dm8wbVl2bUFTV0Y3SkVPR0ZrVUpTaDNNQzZqdlZXX0lPeWFVVjFwcGhIVzhNc2lSWDU0eVV5aG9BOEtRUjhJTUpHOFZzTWppRWhVemVvLUc0TXBvbURGdTlWcExNUzl0V2k4ZmNM0gGaAUFVX3lxTE85R2dWOEpqemxFdkhQT3BMOVFwYWdXakFQREp1NTJBNXo0TmJoUWctbW55LUoxTUdTRTJDSU40TXVvbHFxUDlhYlVvQmhzYVJMdnI4U2l6SVJ6bFVKS3JqV1pMRkdwYzBwcTNtWXZYYnZ5cUVNLWJ5dEtRSlZwRjI0c1lvV29IdEdvc2FROFNET2dPbUtGRGNHc3c?oc=5",
-      "published_dt": "2026-11-13T14:19:52+00:00",
-      "source_name": "WGN-TV",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMilwFBVV95cUxQSVV5NmZpU2hXR0duc2t2dlRKMkNOQU1DUHlYQ2lnenpMWTZxY1RDdUJDVmNLeEpMLUo1SXRma0kzTXN5RXJZTGpYYnVMNE5tZkg0cE41dVNNZmZ0RzBXXzROV0dFVXVrN2p4MTRYZEY2ejd4VndkN1VqT1BwVDZvdFEtendGa0hnQ1hxQkVNeGJpNk4tTmRN",
-      "title": "At the Movies: Film critic reviews \u2018Ebenezer\u2019 & \u2018Misty Green\u2019 \u2013 KLRT",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSVV5NmZpU2hXR0duc2t2dlRKMkNOQU1DUHlYQ2lnenpMWTZxY1RDdUJDVmNLeEpMLUo1SXRma0kzTXN5RXJZTGpYYnVMNE5tZkg0cE41dVNNZmZ0RzBXXzROV0dFVXVrN2p4MTRYZEY2ejd4VndkN1VqT1BwVDZvdFEtendGa0hnQ1hxQkVNeGJpNk4tTmRN?oc=5",
-      "published_dt": "2026-11-13T14:22:42+00:00",
-      "source_name": "FOX16.com",
       "source_tier": 2
     },
     {
@@ -7783,38 +6775,6 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMilwFBVV95cUxPYkE0VzNYcFh1aFJMWThvTDRsQi14SFBSdU5MQlNobmRkOThVX052VTlkU3RORXBVWUxGaFI5Zk4ybFYtd0dFZlA2Z21xSDhnbnBuZnR3WF9aRnhnbFhUeTAzNGktLUxCb2VLbEtSaC0xWGRKQ2ZOYW5Vb0JueDFUa0IwdEZTRHJiZkk1cjdOakdQbzdyXzFZ",
-      "title": "Venice bakery Ina Bakes opens online orders for Thanksgiving pies, cakes, and seasonal treats",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYkE0VzNYcFh1aFJMWThvTDRsQi14SFBSdU5MQlNobmRkOThVX052VTlkU3RORXBVWUxGaFI5Zk4ybFYtd0dFZlA2Z21xSDhnbnBuZnR3WF9aRnhnbFhUeTAzNGktLUxCb2VLbEtSaC0xWGRKQ2ZOYW5Vb0JueDFUa0IwdEZTRHJiZkk1cjdOakdQbzdyXzFZ?oc=5",
-      "published_dt": "2026-11-13T14:30:27+00:00",
-      "source_name": "Yo! Venice!",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMitAFBVV95cUxNakhmdlNHd3kxRTl1Um84Tl92eklSaUFnQVloUy0wazd3a3oybnJ6bmtzbDJEck4xR1ItcHFVTThhRXdTM2lYckE0U2Y0eVZOSzgwbXVVSzFpOHNsdnZOTWxqMFpRUGdCQlJVZHUzVUswdS1ZOHJ5a0JMbkZ1S3ZoUnhlNWxDektMa3VXdVBHbENUay1uaFVRTVhSRGNRQzBsQzlBZGFRazBvZlFSYUFFOVM4X1bSAcIBQVVfeXFMTktDcC1JcjQzVjJOb0w2RnFGM29QSkx0eEs1bFk3ZHNrWjRVaDk1cmMwaG5nOGxIOU15dmlKZ05RT3BIODBtWnlaX2h4T1FITDB4VEx5djFlR2ltbHpHTFl5ZEJ6M2tlV0F5RXlCcWJwdDdxR3hCZGRYS0I5Ni1mNXk5ZVRIbnNweFdhcGxLalFsWm5rZWw5VDJ3VjlwSmE5WUNlR3VSN3U2M3A0bVIwMkRLVUJMYmV1VmdONDM1X1F6U0E",
-      "title": "Victorian Psycho: Cast, Storyline, Release Date and Everything to Know",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNakhmdlNHd3kxRTl1Um84Tl92eklSaUFnQVloUy0wazd3a3oybnJ6bmtzbDJEck4xR1ItcHFVTThhRXdTM2lYckE0U2Y0eVZOSzgwbXVVSzFpOHNsdnZOTWxqMFpRUGdCQlJVZHUzVUswdS1ZOHJ5a0JMbkZ1S3ZoUnhlNWxDektMa3VXdVBHbENUay1uaFVRTVhSRGNRQzBsQzlBZGFRazBvZlFSYUFFOVM4X1bSAcIBQVVfeXFMTktDcC1JcjQzVjJOb0w2RnFGM29QSkx0eEs1bFk3ZHNrWjRVaDk1cmMwaG5nOGxIOU15dmlKZ05RT3BIODBtWnlaX2h4T1FITDB4VEx5djFlR2ltbHpHTFl5ZEJ6M2tlV0F5RXlCcWJwdDdxR3hCZGRYS0I5Ni1mNXk5ZVRIbnNweFdhcGxLalFsWm5rZWw5VDJ3VjlwSmE5WUNlR3VSN3U2M3A0bVIwMkRLVUJMYmV1VmdONDM1X1F6U0E?oc=5",
-      "published_dt": "2026-11-13T14:30:00+00:00",
-      "source_name": "Analytics Insight",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMipAFBVV95cUxNVFYzRnNNd0NKbkRtOWNYQnp0eTJNcEk4OXR5WV80WF9RV3o5d05xdHh6MDBlcUtFc3RIaHZFZUdwVnpJeHVrdjh4SWtTcEhnSTgybUs2ZV9OdTNvcTRYNDhrb1FvN3FTTG5PUGZhQlFRdkwtQkZjYmJ3THBXTkNlOS1iWXI5WE9fLWxETzJpNEpscGtNUWhYX3U2V2luWFVFV1paQQ",
-      "title": "12 12 12 review \u2013 Anthony Mackie and Jamie Dornan\u2019s super fun heist hunt",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVFYzRnNNd0NKbkRtOWNYQnp0eTJNcEk4OXR5WV80WF9RV3o5d05xdHh6MDBlcUtFc3RIaHZFZUdwVnpJeHVrdjh4SWtTcEhnSTgybUs2ZV9OdTNvcTRYNDhrb1FvN3FTTG5PUGZhQlFRdkwtQkZjYmJ3THBXTkNlOS1iWXI5WE9fLWxETzJpNEpscGtNUWhYX3U2V2luWFVFV1paQQ?oc=5",
-      "published_dt": "2026-11-13T14:26:00+00:00",
-      "source_name": "The Guardian",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiqgFBVV95cUxPOVl5S3FVc1VSVU1OaUpGbENYOGtMREQzYzEzV25wRXpfWHZTQmItdEthNXVfMGlJenQ3eF9EbXoxRmtVRTZRU2xNY2RRZFFMczZRNVRDUG1qMHBOTFJnVVZ3VmFMTXJuRzAzOF8wUE8wZThEb3dScmpVVl9fTDJ0U0pjMjBGVFl4d1l0Y2xlWnE0VGZ3bzdMemF4R05UMHdldWlWR1VxcEJfdw",
-      "title": "\u201912 12 12\u2032 Review: Anthony Mackie and Jamie Dornan\u2019s Ticking-Clock Heist Thriller Runs on Broken Time",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOVl5S3FVc1VSVU1OaUpGbENYOGtMREQzYzEzV25wRXpfWHZTQmItdEthNXVfMGlJenQ3eF9EbXoxRmtVRTZRU2xNY2RRZFFMczZRNVRDUG1qMHBOTFJnVVZ3VmFMTXJuRzAzOF8wUE8wZThEb3dScmpVVl9fTDJ0U0pjMjBGVFl4d1l0Y2xlWnE0VGZ3bzdMemF4R05UMHdldWlWR1VxcEJfdw?oc=5",
-      "published_dt": "2026-11-13T14:30:00+00:00",
-      "source_name": "IndieWire",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMivgFBVV95cUxNbUZBN0oxRGd2bFktSTZmNlo2VHpCR3VkRm80Q25UVnExZVdHNkpSalBiQ1BEbnJBSlc5cXR2WUhiQW95MFNQaTB2Ukt3QlNSbVJtRlhkclFncUJ2V3hWMnJnbW04OWNaV3ZrcUpmVFZJbUp0VHJ5ckl5WmVSbFlzRVdyNEE3YWJ5ZklVbkZIU0lKc3ZqWTVianBLQ2stXzh6dHBrSURTUjNTRXExeFU4aElQTzZNLXJsT3JXaW9R",
       "title": "Review: With Three Timelines and One Vault; Apple TV\u2019s \u201812 12 12\u2019 Pulls Off the Heist and Delivers",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbUZBN0oxRGd2bFktSTZmNlo2VHpCR3VkRm80Q25UVnExZVdHNkpSalBiQ1BEbnJBSlc5cXR2WUhiQW95MFNQaTB2Ukt3QlNSbVJtRlhkclFncUJ2V3hWMnJnbW04OWNaV3ZrcUpmVFZJbUp0VHJ5ckl5WmVSbFlzRVdyNEE3YWJ5ZklVbkZIU0lKc3ZqWTVianBLQ2stXzh6dHBrSURTUjNTRXExeFU4aElQTzZNLXJsT3JXaW9R?oc=5",
@@ -7863,14 +6823,6 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMirwFBVV95cUxOOW5za1d3TE94Um9YSDlNS3RkSXFGVUlMdVVXcTZnUnFOaXZUUmN3VDY3YVNxUEI5eldDUVREdHpheC1ybWx2OHhSTmtqRl94VDdIV09yMDhJRjNKTG8yX2lTT1l0cTVFbmxZNUFaS3dWQXduRFIyd25nYS1NNklyNjZ3NDBDLWtVMHkxSDJYdWxqdTFjeHAzUEFVQllPRE1kcllydjlYbXl0aEp6TVU4",
-      "title": "Wylie Varsity Football @ Rockwall",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOW5za1d3TE94Um9YSDlNS3RkSXFGVUlMdVVXcTZnUnFOaXZUUmN3VDY3YVNxUEI5eldDUVREdHpheC1ybWx2OHhSTmtqRl94VDdIV09yMDhJRjNKTG8yX2lTT1l0cTVFbmxZNUFaS3dWQXduRFIyd25nYS1NNklyNjZ3NDBDLWtVMHkxSDJYdWxqdTFjeHAzUEFVQllPRE1kcllydjlYbXl0aEp6TVU4?oc=5",
-      "published_dt": "2026-11-13T14:07:19+00:00",
-      "source_name": "MaxPreps",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMipwFBVV95cUxPU0lkbWt1WWd3ZDhWZ1d0Y3l0clloanFUTXRjdVFQRjRWeXpVelFvY2hlcG41Z1RkLUNYUnUxLVc2Y2xDVHJjdmJIcUVBYUdXRW9idjFCUmJBMmFiSnJEd09nUFV4RGxTbm0yYXZqS05nQk5HaXlVOFBCSF9icE9lVld4Vzh2Qk0xYW9maFRGa1NFX2ZSNHpjOXI1QUpkcldlb1htU3AwYw",
       "title": "Rory Culkin on Dark New Role in Psychological Thriller \u2018Nocturne\u2019",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU0lkbWt1WWd3ZDhWZ1d0Y3l0clloanFUTXRjdVFQRjRWeXpVelFvY2hlcG41Z1RkLUNYUnUxLVc2Y2xDVHJjdmJIcUVBYUdXRW9idjFCUmJBMmFiSnJEd09nUFV4RGxTbm0yYXZqS05nQk5HaXlVOFBCSF9icE9lVld4Vzh2Qk0xYW9maFRGa1NFX2ZSNHpjOXI1QUpkcldlb1htU3AwYw?oc=5",
@@ -7895,27 +6847,11 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMibEFVX3lxTE1WRkxlOXI1aXc4Y0RmWExIaDh1aGJqM2RUZlV4ckd6YlRZaXRNb0x2cFlpRTRqTjBGZHdIU1ZMcWFCcGhTUzZzdWtOdGVVZk9fSkxwZjR1RjdrUGNBVUJJYVc5SFI5MFl4WHBtZtIBckFVX3lxTE1QUzNaTkJIb1pHVGRzeG5uczF3Z0pwemFEZ3VwZnMwb0FPekZGMDU3ZHd0ZWRYcnZkMklfcDE3Rk9DR2h0VTZDeUlpbTVTVFo1UXRVeUlMYldTMmtqdUhOYkZXYl9uU2tfVXp3SjJIeW8tQQ",
-      "title": "What Happened to the Programming of Certain TV Channels?",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WRkxlOXI1aXc4Y0RmWExIaDh1aGJqM2RUZlV4ckd6YlRZaXRNb0x2cFlpRTRqTjBGZHdIU1ZMcWFCcGhTUzZzdWtOdGVVZk9fSkxwZjR1RjdrUGNBVUJJYVc5SFI5MFl4WHBtZtIBckFVX3lxTE1QUzNaTkJIb1pHVGRzeG5uczF3Z0pwemFEZ3VwZnMwb0FPekZGMDU3ZHd0ZWRYcnZkMklfcDE3Rk9DR2h0VTZDeUlpbTVTVFo1UXRVeUlMYldTMmtqdUhOYkZXYl9uU2tfVXp3SjJIeW8tQQ?oc=5",
-      "published_dt": "2026-11-13T14:27:52+00:00",
-      "source_name": "JoBlo",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMirwFBVV95cUxQMjJ1QWM5bEk3RFZxaW9MdU5oQTRUU2c2WHI3VmIxVlliVDJqcmZfeUZHbVB1ZlRIcTVrSmFVdy01eG1lQUdFSE1mWTM0THhuOUVvb1dreEl5Z0QzMTNxWHlZRlE1YmxvQm8wdVI4bVRxX3FabDQxOFRpVVRVV05GSEQ1ZDhBM1lwQWNDblEtdGliYWh6RFZwRDc3Q2ZvU1BTVVRQTXpuQi02dHRwdUJz",
       "title": "Henry Winkler shares details of upcoming book | Morning in America",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMjJ1QWM5bEk3RFZxaW9MdU5oQTRUU2c2WHI3VmIxVlliVDJqcmZfeUZHbVB1ZlRIcTVrSmFVdy01eG1lQUdFSE1mWTM0THhuOUVvb1dreEl5Z0QzMTNxWHlZRlE1YmxvQm8wdVI4bVRxX3FabDQxOFRpVVRVV05GSEQ1ZDhBM1lwQWNDblEtdGliYWh6RFZwRDc3Q2ZvU1BTVVRQTXpuQi02dHRwdUJz?oc=5",
       "published_dt": "2026-11-13T14:59:14+00:00",
       "source_name": "NewsNation",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMiswFBVV95cUxPdlQtOERPcVg5eUxfb1h2cjZPTGNHWnhOSTZkQml5RWdiUmxOU29RbXpIVlA3a0NHVm5xemdSMjF1bk1fZjRGYWVWV1g1XzIwbW1KUlU0Q3dHSXB2SXV4cGJ4dFgxQlFOXy1lTDVKXzRQd0JXRDZEMjJKeGxGNUNxVjY3bjJXb2l3dkgzSzlnTmRqMFpNOUhTVDVtWTRQNk8zbEVISFlDWjVDTmxlNFJKNDhZVQ",
-      "title": "Every Lilo & Stitch Movie And Series In Order, Plus Disney's New Lilo & Scratch Short",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdlQtOERPcVg5eUxfb1h2cjZPTGNHWnhOSTZkQml5RWdiUmxOU29RbXpIVlA3a0NHVm5xemdSMjF1bk1fZjRGYWVWV1g1XzIwbW1KUlU0Q3dHSXB2SXV4cGJ4dFgxQlFOXy1lTDVKXzRQd0JXRDZEMjJKeGxGNUNxVjY3bjJXb2l3dkgzSzlnTmRqMFpNOUhTVDVtWTRQNk8zbEVISFlDWjVDTmxlNFJKNDhZVQ?oc=5",
-      "published_dt": "2026-11-13T14:11:00+00:00",
-      "source_name": "Toonado.com",
       "source_tier": 2
     },
     {
@@ -8879,14 +7815,6 @@
       "source_tier": 2
     },
     {
-      "guid": "CBMibEFVX3lxTE9LWXdQWUZXZEJ0a0I1TjZFRXBnS3JBRmt0NkdaWThxWDJ0Qk1YV3Y4LVhOdjZVbDlCY2lubjJGNERCSGZTc210ZmZqZ1JiTzFtWnJ3MUtBel9hNF9CNEtEaEJfeVdGMzhZbG9KbNIBckFVX3lxTFB4M2pHWEhaUF91cWlSajV1WEdEY2JFNzh0TnlMclhrQVJPc3g3XzloZUZta0xtMVpQT0JJR3RsUjNfT0o1U1poc0llOUYzWWJVdk1SV1RaXzc4ajdaXzQ3MGE2R1FRSlc5NjVKc3ZXYkhodw",
-      "title": "How to Rob a Bank Review: David Leitch\u2019s Heist Movie Comes Up Short",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LWXdQWUZXZEJ0a0I1TjZFRXBnS3JBRmt0NkdaWThxWDJ0Qk1YV3Y4LVhOdjZVbDlCY2lubjJGNERCSGZTc210ZmZqZ1JiTzFtWnJ3MUtBel9hNF9CNEtEaEJfeVdGMzhZbG9KbNIBckFVX3lxTFB4M2pHWEhaUF91cWlSajV1WEdEY2JFNzh0TnlMclhrQVJPc3g3XzloZUZta0xtMVpQT0JJR3RsUjNfT0o1U1poc0llOUYzWWJVdk1SV1RaXzc4ajdaXzQ3MGE2R1FRSlc5NjVKc3ZXYkhodw?oc=5",
-      "published_dt": "2026-11-13T14:31:02+00:00",
-      "source_name": "JoBlo",
-      "source_tier": 2
-    },
-    {
       "guid": "CBMisAFBVV95cUxQX21TUDFHQkNEMU45NkRXYW83bnB0dzVHYS1wT2sxdjNndHVROWYyZFk1UF9SQmEyb3lKZUVxclBoTW5hNlVyWHBEOURkdGZEcUtyTlZrZWgtYzk2Q0lhZ2w1bXZfNC1qREdBZE5QTVdSa3R0VXhsNk53RTlJa3h5X08taGowVlBvbGRJRng1MWJFZnRwaWpyamhEOWZxSWdNTUdua0ZwN2Zab0NvVDFhVg",
       "title": "\u2018I Play Rocky\u2019 is \u2018inspirational\u2019 and \u2018uplifting\u2019: Film critic Richard Crouse",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX21TUDFHQkNEMU45NkRXYW83bnB0dzVHYS1wT2sxdjNndHVROWYyZFk1UF9SQmEyb3lKZUVxclBoTW5hNlVyWHBEOURkdGZEcUtyTlZrZWgtYzk2Q0lhZ2w1bXZfNC1qREdBZE5QTVdSa3R0VXhsNk53RTlJa3h5X08taGowVlBvbGRJRng1MWJFZnRwaWpyamhEOWZxSWdNTUdua0ZwN2Zab0NvVDFhVg?oc=5",
@@ -9108,14 +8036,6 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNGhmMEh6bTM3NGpYb3VoUlFVMnBwNzlfcGs4MnFzUjR0SXNfS3QzOVl6RWhES1dlM1h6QkhvSW4yQ2o4Zkw4M0tOTFJyZkM3QXNGdXhzY2lpV3I1UE8xell0NS00ZVhoek52QWFISDVjYUU3Ylg3dmhOY3k4R0dvVDE4V0pWb21tcUE?oc=5",
       "published_dt": "2026-11-13T15:08:10+00:00",
       "source_name": "OK Magazine",
-      "source_tier": 2
-    },
-    {
-      "guid": "CBMibEFVX3lxTE9LWXdQWUZXZEJ0a0I1TjZFRXBnS3JBRmt0NkdaWThxWDJ0Qk1YV3Y4LVhOdjZVbDlCY2lubjJGNERCSGZTc210ZmZqZ1JiTzFtWnJ3MUtBel9hNF9CNEtEaEJfeVdGMzhZbG9KbNIBckFVX3lxTFB4M2pHWEhaUF91cWlSajV1WEdEY2JFNzh0TnlMclhrQVJPc3g3XzloZUZta0xtMVpQT0JJR3RsUjNfT0o1U1poc0llOUYzWWJVdk1SV1RaXzc4ajdaXzQ3MGE2R1FRSlc5NjVKc3ZXYkhodw",
-      "title": "How to Rob a Bank Review: David Leitch\u2019s Heist Movie Comes Up Short",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LWXdQWUZXZEJ0a0I1TjZFRXBnS3JBRmt0NkdaWThxWDJ0Qk1YV3Y4LVhOdjZVbDlCY2lubjJGNERCSGZTc210ZmZqZ1JiTzFtWnJ3MUtBel9hNF9CNEtEaEJfeVdGMzhZbG9KbNIBckFVX3lxTFB4M2pHWEhaUF91cWlSajV1WEdEY2JFNzh0TnlMclhrQVJPc3g3XzloZUZta0xtMVpQT0JJR3RsUjNfT0o1U1poc0llOUYzWWJVdk1SV1RaXzc4ajdaXzQ3MGE2R1FRSlc5NjVKc3ZXYkhodw?oc=5",
-      "published_dt": "2026-11-13T14:31:02+00:00",
-      "source_name": "JoBlo",
       "source_tier": 2
     },
     {
@@ -19372,6 +18292,926 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTZCZXhCOF9pcC05ZjFkRkRYd0VCMGxaRWZVaGgxM3VuVGs5SXZnWWM1MV9wNS1ZTnEyRlI2RUYzb2RpWlJFTHk5bnRhZl9vQzdGMVhhV0V0eFprSXpBazVOUzkta2dzSEk5cjBfWFBIcE1mc3BPZ3d3cTM0Nm5PVC1ZNmtmMXNRVXJ2T0I1eEkyc25uMUk0U2wzNVRELWktbWpxa3FRd1c4STlBZlk0cGlacnlIcWVuUkJ0TkM3c2RaQUptNXc?oc=5",
       "published_dt": "2026-11-13T19:30:41+00:00",
       "source_name": "GO Magazine",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236754634",
+      "title": "Aaron Pierre Starrer \u2018Fairytale in New York\u2019 Lands at Netflix",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/aaron-pierre-fairytale-in-new-york-netflix-lionsgate-1236754634/",
+      "published_dt": "2026-11-13T20:22:56+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236754966",
+      "title": "Margot Robbie to Star in A24\u2019s \u2018The Week of Pain\u2019 From \u2018The Drama\u2019 Filmmaker Kristoffer Borgli",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/margot-robbie-the-week-of-pain-the-drama-kristoffer-borgli-1236754966/",
+      "published_dt": "2026-11-13T20:22:32+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.hollywoodreporter.com/?p=1236754352",
+      "title": "The 5 Best Red Light Therapy Panels for Improving Your Health At-Home",
+      "url": "https://www.hollywoodreporter.com/lifestyle/shopping/best-at-home-red-light-therapy-panels-health-skin-benefits-1236754352/",
+      "published_dt": "2026-11-13T20:09:05+00:00",
+      "source_name": "Hollywood Reporter",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://variety.com/?p=1236947182",
+      "title": "Top Limited Series Writers on the Importance of Episode Titles and Adapting Well-Known Films and True Stories: \u2018You Come Out With Something Familiar and Surprising\u2019",
+      "url": "https://variety.com/2026/tv/news/limited-series-night-in-the-writers-room-2-1236947182/",
+      "published_dt": "2026-11-13T20:10:23+00:00",
+      "source_name": "Variety",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvline.com/2315243/freaks-and-geeks-showrunner-upset-not-finish-one-character-story/",
+      "title": "Freaks And Geeks' Showrunner Was Most Upset About Not Finishing One Character's Story",
+      "url": "https://www.tvline.com/2315243/freaks-and-geeks-showrunner-upset-not-finish-one-character-story/",
+      "published_dt": "2026-11-13T20:12:00+00:00",
+      "source_name": "TVLine",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvline.com/2316129/cupertino-method-man-yungwood-love-is-blind-reunion-tv-questions/",
+      "title": "Should Method Man Return To Cupertino? Have We Recovered From Messy Love Is Blind Reunion? Should DWTS Stick To Prerecorded Tracks? And More",
+      "url": "https://www.tvline.com/2316129/cupertino-method-man-yungwood-love-is-blind-reunion-tv-questions/",
+      "published_dt": "2026-11-13T20:00:00+00:00",
+      "source_name": "TVLine",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvline.com/2310945/michael-j-fox-political-sitcom-spin-city-worth-watching-today/",
+      "title": "Michael J. Fox's Forgotten Political Sitcom Is Still Worth Watching Today",
+      "url": "https://www.tvline.com/2310945/michael-j-fox-political-sitcom-spin-city-worth-watching-today/",
+      "published_dt": "2026-11-13T19:52:00+00:00",
+      "source_name": "TVLine",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.tvinsider.com/?p=1303636",
+      "title": "Will Jamie Reagan Return to \u2018Boston Blue\u2019? Will Estes Weighs In",
+      "url": "https://www.tvinsider.com/1303636/will-jamie-reagan-return-boston-blue-will-estes-blue-bloods/",
+      "published_dt": "2026-11-13T20:13:45+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://time.com/?p=blt88193400a26962d1",
+      "title": "Breaking Down the Ending of Jessica Chastain's Nashville Thriller Heartland",
+      "url": "https://time.com/article/2026/11/13/heartland-ending-explained-netflix/",
+      "published_dt": "2026-11-13T20:04:58+00:00",
+      "source_name": "TIME",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.nytimes.com/2026/11/13/t-magazine/katsu-naito-1990s-new-york.html",
+      "title": "Katsu Naito on His Portraits of a \u201990s Red-Light District in Downtown Manhattan",
+      "url": "https://www.nytimes.com/2026/11/13/t-magazine/katsu-naito-1990s-new-york.html",
+      "published_dt": "2026-11-13T20:03:52+00:00",
+      "source_name": "NYT Arts",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.latimes.com/entertainment-arts/music/story/2026-11-13/medieval-england-of-werwulf-is-hell-ethel-cain-robin-carolan-make-it-sound-immaculate",
+      "title": "The medieval England of \"Werwulf\" is hell. Ethel Cain and Robin Carolan make it sound immaculate.",
+      "url": "https://www.latimes.com/entertainment-arts/music/story/2026-11-13/medieval-england-of-werwulf-is-hell-ethel-cain-robin-carolan-make-it-sound-immaculate",
+      "published_dt": "2026-11-13T19:59:28+00:00",
+      "source_name": "LA Times",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.latimes.com/entertainment-arts/story/2026-11-13/avril-lavigne-welcomes-first-child-girl",
+      "title": "Avril Lavigne welcomes her first child: It's a (skater) girl",
+      "url": "https://www.latimes.com/entertainment-arts/story/2026-11-13/avril-lavigne-welcomes-first-child-girl",
+      "published_dt": "2026-11-13T19:53:46+00:00",
+      "source_name": "LA Times",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.starwarsnewsnet.com/?p=185097",
+      "title": "Review \u2013 \u2018Star Wars X-Wing: Isard\u2019s Revenge\u2019 Audiobook Begins a New Chapter for Rogue Squadron",
+      "url": "https://www.starwarsnewsnet.com/2026/11/review-star-wars-x-wing-isards-revenge-audiobook-begins-a-new-chapter-for-rogue-squadron.html",
+      "published_dt": "2026-11-13T20:00:48+00:00",
+      "source_name": "Star Wars News Net",
+      "source_tier": 1
+    },
+    {
+      "guid": "https://www.starwarsnewsnet.com/?p=185102",
+      "title": "Review \u2013 \u2018Star Wars X-Wing: Starfighters of Adumar\u2019 Audiobook Brings an Embellished Reading to a Beloved Legends Novel",
+      "url": "https://www.starwarsnewsnet.com/2026/11/review-star-wars-x-wing-starfighters-of-adumar-audiobook-brings-an-embellished-reading-to-a-beloved-legends-novel.html",
+      "published_dt": "2026-11-13T19:40:25+00:00",
+      "source_name": "Star Wars News Net",
+      "source_tier": 1
+    },
+    {
+      "guid": "c5ae36a5-aaed-4ef9-9339-e68d3253fa66",
+      "title": "Multiple Versions of The Hobbit Illustrated Edition Are on Sale Before Black Friday",
+      "url": "https://www.ign.com/articles/the-hobbit-illustrated-edition-book-sale-black-friday-2026",
+      "published_dt": "2026-11-13T20:15:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "bdf85a35-2f4b-4adf-b080-b2bc5d217033",
+      "title": "Rainbow Six: Vegas Reportedly Returning With New Installment",
+      "url": "https://www.ign.com/articles/rainbow-six-vegas-reportedly-returning-with-new-installment",
+      "published_dt": "2026-11-13T20:14:03+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "a07ffbfb-54af-4d7c-8e1b-41e5c58b18dd",
+      "title": "The Game Awards 2026 Will Stream Live on Roblox for the First Time, Complete With Voting and Virtual Merch",
+      "url": "https://www.ign.com/articles/the-game-awards-2026-will-stream-live-on-roblox-for-the-first-time-complete-with-voting-and-virtual-merch",
+      "published_dt": "2026-11-13T20:07:50+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "b6f3fe42-4a5f-462d-ae0a-e6f95ac1d6b5",
+      "title": "The Tiny SanDisk 1TB Portable SSD With Speeds of up to 600MB/s Drops to $120 for Black Friday",
+      "url": "https://www.ign.com/articles/sandisk-portable-ssd-deal-november-2026",
+      "published_dt": "2026-11-13T20:05:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "4f7932d4-cd1c-4420-bfe9-ae27ad2e54c0",
+      "title": "Darth Vader's Actual Lightsaber Just Sold for $4.875 Million, Breaking Star Wars Auction Records",
+      "url": "https://www.ign.com/articles/darth-vaders-actual-lightsaber-just-sold-for-4875-million-breaking-star-wars-auction-records",
+      "published_dt": "2026-11-13T19:41:20+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://theplaylist.net/?p=497175",
+      "title": "\u2018Avengers: Doomsday\u2019: Kevin Feige Teases A Disorganized Avengers Team As James Marsden Hints At Cyclops\u2019 Catastrophic Choices",
+      "url": "https://theplaylist.net/avengers-doomsday-kevin-feige-avengers-cyclops-catastrophic-20261113/",
+      "published_dt": "2026-11-13T20:13:44+00:00",
+      "source_name": "The Playlist",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screencrush.com/?p=551155",
+      "title": "First Look at \u2018Magic: The Gathering\u2019 Animated Series",
+      "url": "https://screencrush.com/magic-animated-series-first-look/",
+      "published_dt": "2026-11-13T20:16:10+00:00",
+      "source_name": "Screen Crush",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3975718",
+      "title": "\u2018The X-Files\u2019 Creator Still Wants to Develop a Sequel Alongside Ryan Coogler Reboot Series",
+      "url": "https://bloody-disgusting.com/movie/3975718/the-x-files-sequel-series-david-duchovny-gillian-anderson-reboot/",
+      "published_dt": "2026-11-13T20:26:03+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bloody-disgusting.com/?p=3975712",
+      "title": "Tom Hopper, Rita Ora, & Mila Harris To Discover An Otherworldly Mystery In Sci-Fi Thriller \u2018The Signaler\u2019",
+      "url": "https://bloody-disgusting.com/movie/3975712/tom-hopper-rita-ora-mila-harris-to-discover-an-otherworldly-mystery-in-sci-fi-thriller-the-signaler/",
+      "published_dt": "2026-11-13T20:06:39+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/best-sci-fi-books-read-this-weekend-november-14/",
+      "title": "3 Best Sci-Fi Books To Read This Weekend (November 14-15)",
+      "url": "https://collider.com/best-sci-fi-books-read-this-weekend-november-14/",
+      "published_dt": "2026-11-13T20:29:12+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://collider.com/thriller-miniseries-perfect-no-notes/",
+      "title": "6 Thriller Miniseries That Are 10/10, No Notes",
+      "url": "https://collider.com/thriller-miniseries-perfect-no-notes/",
+      "published_dt": "2026-11-13T20:08:12+00:00",
+      "source_name": "Collider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/boruto-chapter-39-kawaki-moment-of-peace/",
+      "title": "Boruto Chapter 39 Preview Gives Kawaki a Rare Moment of Peace",
+      "url": "https://www.cbr.com/boruto-chapter-39-kawaki-moment-of-peace/",
+      "published_dt": "2026-11-13T20:23:19+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/garfield-paramount-plus-reboot-first-look/",
+      "title": "Garfield Gets a Modern Makeover in First Look at Paramount+ Reboot Series",
+      "url": "https://www.cbr.com/garfield-paramount-plus-reboot-first-look/",
+      "published_dt": "2026-11-13T20:21:16+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.cbr.com/masterpiece-isekai-anime-perfect-power-systems/",
+      "title": "7 Masterpiece Isekai Anime With Virtually Perfect Power Systems",
+      "url": "https://www.cbr.com/masterpiece-isekai-anime-perfect-power-systems/",
+      "published_dt": "2026-11-13T20:15:12+00:00",
+      "source_name": "CBR",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/apple-tv-sci-fi-shows-2027-and-beyond/",
+      "title": "Apple TV Will Continue Its Sci-Fi Dominance In 2027",
+      "url": "https://screenrant.com/apple-tv-sci-fi-shows-2027-and-beyond/",
+      "published_dt": "2026-11-13T20:30:19+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/game-of-thrones-beyond-the-wall-jon-snow-return/",
+      "title": "Game Of Thrones: Beyond The Wall Officially Brings Back Jon Snow",
+      "url": "https://screenrant.com/game-of-thrones-beyond-the-wall-jon-snow-return/",
+      "published_dt": "2026-11-13T20:21:24+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/netflix-heartland-movie-rotten-tomatoes-score-jessica-chastain-streak/",
+      "title": "Netflix's New Western Mystery Thriller Breaks 3-Year Rotten Tomatoes Streak",
+      "url": "https://screenrant.com/netflix-heartland-movie-rotten-tomatoes-score-jessica-chastain-streak/",
+      "published_dt": "2026-11-13T20:18:09+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://screenrant.com/from-tv-stephen-king-comparisons-netflix-nielsen-record-november-2026/",
+      "title": "Major Netflix Record Broken 3 Years Later By Stephen King-Like Horror Series",
+      "url": "https://screenrant.com/from-tv-stephen-king-comparisons-netflix-nielsen-record-november-2026/",
+      "published_dt": "2026-11-13T20:07:11+00:00",
+      "source_name": "Screen Rant",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.polygon.com/the-game-awards-2026-nominees-announcement-date/",
+      "title": "The Game Awards 2026 Nominees Announcement Confirmed for Nov. 17",
+      "url": "https://www.polygon.com/the-game-awards-2026-nominees-announcement-date/",
+      "published_dt": "2026-11-13T20:23:24+00:00",
+      "source_name": "Polygon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2525852",
+      "title": "Cybershark Takes A Bite with Hasbro's Transformers: Age of the Primes",
+      "url": "https://bleedingcool.com/collectibles/cybershark-takes-a-bite-with-hasbros-transformers-age-of-the-primes/",
+      "published_dt": "2026-11-13T20:22:19+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://bleedingcool.com/?p=2526223",
+      "title": "Crystal Lake Showrunner Already Thinking Season 2, Offers Update",
+      "url": "https://bleedingcool.com/tv/crystal-lake-showrunner-already-thinking-season-2-offers-update/",
+      "published_dt": "2026-11-13T20:04:20+00:00",
+      "source_name": "Bleeding Cool",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://decider.com/?post_type=article&p=2127781",
+      "title": "Stream It Or Skip It: \u201812 12 12\u2019 on Apple TV, A Non-Linear Heist Thriller Led By Anthony Mackie and Jamie Dornan",
+      "url": "https://decider.com/2026/11/13/12-12-12-apple-tv-review/",
+      "published_dt": "2026-11-13T20:30:00+00:00",
+      "source_name": "Decider",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.joblo.com/?p=956580",
+      "title": "Magic: The Gathering: Planeswalker: A Stunning First Look at the Highly Anticipated Animated Series is Finally Here",
+      "url": "https://www.joblo.com/magic-the-gathering-planeswalker-trailer/",
+      "published_dt": "2026-11-13T20:30:00+00:00",
+      "source_name": "JoBlo",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.joblo.com/?p=956558",
+      "title": "Gary Busey\u2019s Forgotten \u201980s Action Movie Turned Rocky III\u2019s Biggest Song Into a Revenge Thriller",
+      "url": "https://www.joblo.com/eye-of-the-tiger-gary-busey-action-movie/",
+      "published_dt": "2026-11-13T20:04:56+00:00",
+      "source_name": "JoBlo",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.joblo.com/?p=956496",
+      "title": "Stuntman Zachary Branch discusses his work as Jason Voorhees on Crystal Lake and what the casting process entailed",
+      "url": "https://www.joblo.com/stuntman-zachary-branch-crystal-lake/",
+      "published_dt": "2026-11-13T20:04:17+00:00",
+      "source_name": "JoBlo",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://comicbook.com/?p=1787214",
+      "title": "Mastering GTA 5\u2019s Police Chases Is the Best Way to Prepare for GTA 6",
+      "url": "https://comicbook.com/gaming/feature/mastering-gta-5s-police-chases-is-the-best-way-to-prepare-for-gta-6/",
+      "published_dt": "2026-11-13T20:30:00+00:00",
+      "source_name": "ComicBook.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://comicbook.com/?p=1784650",
+      "title": "Dragon Ball Super Needs to Figure Out What\u2019s Next for Broly",
+      "url": "https://comicbook.com/anime/feature/dragon-ball-super-needs-to-figure-out-whats-next-for-broly/",
+      "published_dt": "2026-11-13T20:24:00+00:00",
+      "source_name": "ComicBook.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://comicbook.com/?p=1783897",
+      "title": "I Used to Hate DC\u2019s Doomsday Clock, but Now I Think It Could Be the DCU\u2019s Biggest Movie Yet",
+      "url": "https://comicbook.com/comics/feature/i-used-to-hate-dcs-doomsday-clock-but-now-i-think-it-could-be-the-dcus-biggest-movie-yet/",
+      "published_dt": "2026-11-13T20:09:00+00:00",
+      "source_name": "ComicBook.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://comicbook.com/?p=1783864",
+      "title": "Skeletor\u2019s Snake Mountain Almost Started as Something Completely Different, and Its History Is Stranger Than You Think",
+      "url": "https://comicbook.com/collectibles/news/skeletors-snake-mountain-almost-started-as-something-completely-different-and-its-history-is-stranger-than-you-think/",
+      "published_dt": "2026-11-13T19:46:00+00:00",
+      "source_name": "ComicBook.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.comingsoon.net/?p=2223277",
+      "title": "Heartland\u2019s Garrett Hedlund, Carter Faith, and Ross Lynch Talk Intense Netflix Movie | Interview",
+      "url": "https://www.comingsoon.net/movies/features/2223277-heartland-interview-garrett-hedlund-carter-faith-ross-lynch",
+      "published_dt": "2026-11-13T20:26:49+00:00",
+      "source_name": "ComingSoon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.comingsoon.net/?p=2223180",
+      "title": "Margot Robbie Cast in The Drama Director\u2019s New A24 Movie, Filming Window Set",
+      "url": "https://www.comingsoon.net/movies/news/2223180-margot-robbie-new-a24-movie-kristoffer-borgli",
+      "published_dt": "2026-11-13T20:20:20+00:00",
+      "source_name": "ComingSoon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.comingsoon.net/?p=2223068",
+      "title": "Frozen 3 Update Reveals \u2018Spectacular\u2019 New Song That Could Be Disney\u2019s Next Let It Go",
+      "url": "https://www.comingsoon.net/movies/news/2223068-frozen-3-update-spectacular-new-song-disney-let-it-go",
+      "published_dt": "2026-11-13T20:16:40+00:00",
+      "source_name": "ComingSoon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.comingsoon.net/?p=2223153",
+      "title": "Big Taylor Sheridan TV Show Star Admits Doing His Own Action Stunts Has Become a \u2018Problem\u2019",
+      "url": "https://www.comingsoon.net/tv/news/2223153-big-taylor-sheridan-tv-show-star-action-stunts-problem",
+      "published_dt": "2026-11-13T20:13:21+00:00",
+      "source_name": "ComingSoon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.comingsoon.net/?p=2223167",
+      "title": "Emily Ratajkowski & Lena Dunham Reunite for New Movie With a Personal Story",
+      "url": "https://www.comingsoon.net/movies/news/2223167-emily-ratajkowski-lena-dunham-reunite-new-movie",
+      "published_dt": "2026-11-13T20:04:55+00:00",
+      "source_name": "ComingSoon",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://thedirect.com/article/avengers-doomsday-deadpool-star-marvel-studios-movie",
+      "title": "One Deadpool Movie Star Didn\u2019t Make the Cut for Avengers: Doomsday, New Promo Confirms",
+      "url": "https://thedirect.com/article/avengers-doomsday-deadpool-star-marvel-studios-movie",
+      "published_dt": "2026-11-13T20:13:53+00:00",
+      "source_name": "The Direct",
+      "source_tier": 2
+    },
+    {
+      "guid": "http://www.digitalspy.com/soaps/coronation-street/a74425645/coronation-street-eric-potts-sentence/",
+      "title": "Coronation Street star Eric Potts avoids jail over child abuse images",
+      "url": "https://www.digitalspy.com/soaps/coronation-street/a74425645/coronation-street-eric-potts-sentence/",
+      "published_dt": "2026-11-13T20:02:00+00:00",
+      "source_name": "Digital Spy",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.goldderby.com/?p=1206556223",
+      "title": "Dolly Parton\u2019s last recorded vocal debuts with new U2 song \u2018Torn\u2019",
+      "url": "https://www.goldderby.com/music/2026/dolly-parton-final-recording-u2-torn-grammy-chances/",
+      "published_dt": "2026-11-13T20:29:09+00:00",
+      "source_name": "Gold Derby",
+      "source_tier": 2
+    },
+    {
+      "guid": "https://www.dreadcentral.com/?p=597648",
+      "title": "\u2018Wynter Waxeth,\u2019 Ethel Cain\u2019s Song for \u2018Werwulf,\u2019 Is Here",
+      "url": "https://www.dreadcentral.com/news/597648/wynter-waxeth-ethel-cains-song-for-werwulf-is-here/",
+      "published_dt": "2026-11-13T20:00:00+00:00",
+      "source_name": "Dread Central",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMimAFBVV95cUxPR1NEZEVveTl0bU04dFVQcElSMnV3cDFZcEcxNDVVYV9aNmVWeGx4TkdIdEcwdnNibFJhbWttOTlpVzV1SW03aHRYaXg4NDBCam8zQzdDcDAxRktUaFBmVzhGa3lpWjB1TE5hdHBVTVNzcDRzLWlUSU9hSzBjb0c2b0ZjQjRhM1VLeUFqdWZoRjM5WE8zWHd1SA",
+      "title": "Major Netflix Record Broken 3 Years Later By Stephen King-Like Horror Series",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR1NEZEVveTl0bU04dFVQcElSMnV3cDFZcEcxNDVVYV9aNmVWeGx4TkdIdEcwdnNibFJhbWttOTlpVzV1SW03aHRYaXg4NDBCam8zQzdDcDAxRktUaFBmVzhGa3lpWjB1TE5hdHBVTVNzcDRzLWlUSU9hSzBjb0c2b0ZjQjRhM1VLeUFqdWZoRjM5WE8zWHd1SA?oc=5",
+      "published_dt": "2026-11-13T20:07:11+00:00",
+      "source_name": "ScreenRant",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMia0FVX3lxTFA2dll3SHNndUlRZV92cXFrakFfYlBBaDNYb0h3Z0x2Y1dJYWNmQmVZZGxoc1VzaXJsN3ZhM0VXc1hfNmlneko0U0xYb01fQ2VtQ0RxS05XV3ZnUUJxN3dyOVV3YVhybVVYYWVJ",
+      "title": "Gary Busey\u2019s Forgotten \u201980s Action Movie Turned Rocky III\u2019s Biggest Song Into a Revenge Thriller",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA2dll3SHNndUlRZV92cXFrakFfYlBBaDNYb0h3Z0x2Y1dJYWNmQmVZZGxoc1VzaXJsN3ZhM0VXc1hfNmlneko0U0xYb01fQ2VtQ0RxS05XV3ZnUUJxN3dyOVV3YVhybVVYYWVJ?oc=5",
+      "published_dt": "2026-11-13T20:23:38+00:00",
+      "source_name": "IMDb",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMicEFVX3lxTE54TDZFbkpYbE1icWdOZDc2TmRVNElFcnhNQVRWTGhoMWN0TnhNcE5PdEtjeEhRMzVkaWFvSU43aDFoWWxaa3cwZTlhaDV1MnVzUnQ1OEc0dzVJV2pmNDVMdkNnQ2UxMVNIN0ducmJYaFDSAXZBVV95cUxOeVQzclR6N1Y1RXUtcEJDUE03cTZpTER2dGwzODI4clhVZ0xyLTVjUDFSVG1UWERDTmt2SWJVMnFGVUJCb0lfQlktaDRyNXYzTkdHbFhYa3BVS1lDTVBDNXJ4T0dTRk1ncHdTdk83bXh0cEJfcl9n",
+      "title": "Gary Busey\u2019s Forgotten \u201980s Action Movie Turned Rocky III\u2019s Biggest Song Into a Revenge Thriller",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54TDZFbkpYbE1icWdOZDc2TmRVNElFcnhNQVRWTGhoMWN0TnhNcE5PdEtjeEhRMzVkaWFvSU43aDFoWWxaa3cwZTlhaDV1MnVzUnQ1OEc0dzVJV2pmNDVMdkNnQ2UxMVNIN0ducmJYaFDSAXZBVV95cUxOeVQzclR6N1Y1RXUtcEJDUE03cTZpTER2dGwzODI4clhVZ0xyLTVjUDFSVG1UWERDTmt2SWJVMnFGVUJCb0lfQlktaDRyNXYzTkdHbFhYa3BVS1lDTVBDNXJ4T0dTRk1ncHdTdk83bXh0cEJfcl9n?oc=5",
+      "published_dt": "2026-11-13T20:05:36+00:00",
+      "source_name": "JoBlo",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiZ0FVX3lxTE5ZNTlKMmE5Z0xGWi1nWUFTa1dSRnZETEhieTVzenRTZ29BVW03eG15cnBZMmNlMmtCUm1HMHI4N2J2aXl5b2djSUJ1YjZTdjljLUxNQVFIejFLM3NrMmxVUkg2TkNfbWM",
+      "title": "'Yellowstone' Star Undergoes \"Massive\" Transformation for Taylor Sheridan's Long-Awaited Action Thriller",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZNTlKMmE5Z0xGWi1nWUFTa1dSRnZETEhieTVzenRTZ29BVW03eG15cnBZMmNlMmtCUm1HMHI4N2J2aXl5b2djSUJ1YjZTdjljLUxNQVFIejFLM3NrMmxVUkg2TkNfbWM?oc=5",
+      "published_dt": "2026-11-13T20:25:14+00:00",
+      "source_name": "IMDb",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMijAFBVV95cUxPaW11NXhRc2xNRllvUW84VVdZT3Z5YlBFNzQtWXpVZlptWEJKMFAxLVFiM0Z3ZmNJdmNMZEpJY2JBVHRWc0VGeXN0amtZbU04VTRkWnBqTC1LQXpKMVFfYWVzR2FuTUxuOS12NWlQNEZ6Q3gyQ01lWWh2YTZvSFFsNVFuMmhkckQ4dGxfUA",
+      "title": "Taylor Sheridan Officially Dubs His Dumbest Character Ever",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaW11NXhRc2xNRllvUW84VVdZT3Z5YlBFNzQtWXpVZlptWEJKMFAxLVFiM0Z3ZmNJdmNMZEpJY2JBVHRWc0VGeXN0amtZbU04VTRkWnBqTC1LQXpKMVFfYWVzR2FuTUxuOS12NWlQNEZ6Q3gyQ01lWWh2YTZvSFFsNVFuMmhkckQ4dGxfUA?oc=5",
+      "published_dt": "2026-11-13T20:00:18+00:00",
+      "source_name": "ScreenRant",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMilgFBVV95cUxOXzYyQWVsVTljR1NpUVZJWGY5SGozVHBKSHF6NzByM0hJUF9hWGFVQzFVRjNVSFFYM28zQjBrVm5yVkgzdEFGbkVOcjREN19aa083X0hNMm10al81OVlKQjJ3SXZFLTN5NERZUkxnZjVzQ09MdmMxQUo1M1hDSFRuOF9iYS1UNDZENGtCbVYxMUdXZEtKbEE",
+      "title": "Big Taylor Sheridan TV Show Star Admits Doing His Own Action Stunts Has Become a \u2018Problem\u2019",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOXzYyQWVsVTljR1NpUVZJWGY5SGozVHBKSHF6NzByM0hJUF9hWGFVQzFVRjNVSFFYM28zQjBrVm5yVkgzdEFGbkVOcjREN19aa083X0hNMm10al81OVlKQjJ3SXZFLTN5NERZUkxnZjVzQ09MdmMxQUo1M1hDSFRuOF9iYS1UNDZENGtCbVYxMUdXZEtKbEE?oc=5",
+      "published_dt": "2026-11-13T20:17:49+00:00",
+      "source_name": "Crave Online",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMie0FVX3lxTE9RZlNFd21qeW5PbFM4R0hIeUZWeDJDcGhLdVlXTjlWcFlSNkZhM3RlRFRMUjJLa1pDUjZKVFZ4cjd6ek4yc25XWUVTUmNORXVqVUtMaEM1c2ZseTk3TUg5UEdYZTFKa04wX1FoRnhhTUJsN3NRM2RnS0dyUQ",
+      "title": "Game Of Thrones: Beyond The Wall Officially Brings Back Jon Snow",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9RZlNFd21qeW5PbFM4R0hIeUZWeDJDcGhLdVlXTjlWcFlSNkZhM3RlRFRMUjJLa1pDUjZKVFZ4cjd6ek4yc25XWUVTUmNORXVqVUtMaEM1c2ZseTk3TUg5UEdYZTFKa04wX1FoRnhhTUJsN3NRM2RnS0dyUQ?oc=5",
+      "published_dt": "2026-11-13T20:21:24+00:00",
+      "source_name": "ScreenRant",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiZ0FVX3lxTFBybkJRTWhHeHExNFNSNG94SUtUWmF5cTc0WmVvRzZWalBpVE9GRU1SdHh5Q0dlWGtLZy1WNEsyY3VMbW51V01yQmRrdHFjV1pIdmpMdmplQzNrby1BNUxBTm5XSXp1QWM",
+      "title": "The Lord of the Rings: The Rings of Power season 3 cast & character guide with pictures",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBybkJRTWhHeHExNFNSNG94SUtUWmF5cTc0WmVvRzZWalBpVE9GRU1SdHh5Q0dlWGtLZy1WNEsyY3VMbW51V01yQmRrdHFjV1pIdmpMdmplQzNrby1BNUxBTm5XSXp1QWM?oc=5",
+      "published_dt": "2026-11-13T20:28:21+00:00",
+      "source_name": "IMDb",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqgFBVV95cUxQSmVLY1RBX2JaWlRfT1VhOUUxYUE3V1NQS2hsb1JRVmE3T0wydUdicGViaThTYUJWbUFlQnlwdTBjMjVHbHZSTkpzUkt1WC0tSkNlVHZVenZtcG4ycmQtZjFubS01VW9ObVJTcGxIUTN1cThFdnRaWkJtaFlMVXRIQ0p3R29May1jd21KZFdEaW5wOG44djRSZlQ3X1VxWWFfR2hjM0w4UF9GUQ",
+      "title": "The Lord of the Rings: The Rings of Power season 3 cast & character guide with pictures",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSmVLY1RBX2JaWlRfT1VhOUUxYUE3V1NQS2hsb1JRVmE3T0wydUdicGViaThTYUJWbUFlQnlwdTBjMjVHbHZSTkpzUkt1WC0tSkNlVHZVenZtcG4ycmQtZjFubS01VW9ObVJTcGxIUTN1cThFdnRaWkJtaFlMVXRIQ0p3R29May1jd21KZFdEaW5wOG44djRSZlQ3X1VxWWFfR2hjM0w4UF9GUQ?oc=5",
+      "published_dt": "2026-11-13T20:08:44+00:00",
+      "source_name": "Winter is Coming",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMikAFBVV95cUxOVHAtRkxwdkE2bldnRi0xR1dLUDA2SmxuQkt6aFZMdzNlRjJLbVdrUm0zTEtzaFhoVjR4b0ktYVhERlpKNnR5WVZmbHB2T0dNRjhUeFczMXdGR05Qc2dsLUcxNVhQYkJKV3N1dXh3LXI3RWlVc2Q3RmZTQ2l1NGxsQmpuTjJVWDdTUHR6ZTZJd0U",
+      "title": "All of The Hobbit Illustrated Edition Hardcovers are Buy 2, Get 1 Free Ahead of Amazon's Black Friday Sale",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVHAtRkxwdkE2bldnRi0xR1dLUDA2SmxuQkt6aFZMdzNlRjJLbVdrUm0zTEtzaFhoVjR4b0ktYVhERlpKNnR5WVZmbHB2T0dNRjhUeFczMXdGR05Qc2dsLUcxNVhQYkJKV3N1dXh3LXI3RWlVc2Q3RmZTQ2l1NGxsQmpuTjJVWDdTUHR6ZTZJd0U?oc=5",
+      "published_dt": "2026-11-13T20:15:00+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiowFBVV95cUxQcktuWXdKb0xBRGxtdnZrd3A3LWtBY0NULUVoQWFrYkJhNVZNVUNNNzVMYXJ4N1hKOWhhRnVHQm9EbHNkYmtQTUtGOEx3YzEtY0RDNFhTMEVSZlQ4VlpOeGFLaTZNbFN0ZThndmUwb0xvb3NnMGFZeW9QVFdjVzA3Tm9wcGtNMVhveWxxVDR0NGhYejNGQ1RQdklsQ3czTHk4TzVv",
+      "title": "DC Shooting",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcktuWXdKb0xBRGxtdnZrd3A3LWtBY0NULUVoQWFrYkJhNVZNVUNNNzVMYXJ4N1hKOWhhRnVHQm9EbHNkYmtQTUtGOEx3YzEtY0RDNFhTMEVSZlQ4VlpOeGFLaTZNbFN0ZThndmUwb0xvb3NnMGFZeW9QVFdjVzA3Tm9wcGtNMVhveWxxVDR0NGhYejNGQ1RQdklsQ3czTHk4TzVv?oc=5",
+      "published_dt": "2026-11-13T20:06:38+00:00",
+      "source_name": "The Batesville Daily Guard",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMitgFBVV95cUxPTUxKN1hiSnpRSHRLdnJncC1nOUViSjVXZ0dKVFNxM2FwbVgxdWM0QkdNVklXMkcwd3lCb2JsLVhYbFMxcGNCcnhpaGZUOXJtQ29Nb3RXYTRuOTBITmZLWUZRdkFmeHRuQkdEcmpVcEZOTmdOeTBkLTc1RnBRenZJOU1YdlJCRmx0blZtRXFXM0JxaEFsNjljREk5SzlYUWtvTXkydkFwYWY3ZzJFN0h3QnJhLTdxUQ",
+      "title": "Heartland on Netflix: The Title Song & Its True Meaning",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTUxKN1hiSnpRSHRLdnJncC1nOUViSjVXZ0dKVFNxM2FwbVgxdWM0QkdNVklXMkcwd3lCb2JsLVhYbFMxcGNCcnhpaGZUOXJtQ29Nb3RXYTRuOTBITmZLWUZRdkFmeHRuQkdEcmpVcEZOTmdOeTBkLTc1RnBRenZJOU1YdlJCRmx0blZtRXFXM0JxaEFsNjljREk5SzlYUWtvTXkydkFwYWY3ZzJFN0h3QnJhLTdxUQ?oc=5",
+      "published_dt": "2026-11-13T20:13:30+00:00",
+      "source_name": "Auralcrave",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiswFBVV95cUxPVk56ZmRiQzRMMG1IU2lEOHFZM3EzSXFDM2d2NXVCX0NzTlhRQ0VvU0tPQ2NrUjd4TWprYndkdkZOczN1bnBGb1pCVzdGalZoWWNIb1NJS3lsQ1R5WUZZS2NUZGs5MEN3cWxfQlExdHFqSnVIWXRTS2JYZU9Ya1B5cnUzV0JhS2lPbVFCODZsWmRqdFQ1YUlPZzNKNERHLWZuMVFYQVM1cHExazVpRzZDN0RQbw",
+      "title": "Houston plastics seller accused of lying to secure $25M credit line from bank",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVk56ZmRiQzRMMG1IU2lEOHFZM3EzSXFDM2d2NXVCX0NzTlhRQ0VvU0tPQ2NrUjd4TWprYndkdkZOczN1bnBGb1pCVzdGalZoWWNIb1NJS3lsQ1R5WUZZS2NUZGs5MEN3cWxfQlExdHFqSnVIWXRTS2JYZU9Ya1B5cnUzV0JhS2lPbVFCODZsWmRqdFQ1YUlPZzNKNERHLWZuMVFYQVM1cHExazVpRzZDN0RQbw?oc=5",
+      "published_dt": "2026-11-13T20:09:22+00:00",
+      "source_name": "Houston Chronicle",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMipAFBVV95cUxPU0t0UDlrX0ZqRzZaZUV3MnkxR3hRbGY4QkZuT25sTk9RX2JFNzc5NkdJRXYzakNnNFNhOWY5LXROdW9meDcyZzd1TWljTTlSOVJzWjhjUVZ5anE5bUFZbU1yaVd1VFVDMjFNQnlxaG80M0o0b01nYUlrVWU0R0w5M1JoTjhhWFN4dGxsSzhPcml5V3REQWhZYlNnVDFmWUVFWlRCQw",
+      "title": "Emma Watson suffers brutal fall outside splashy celebrity party at LA hot spot Chateau Marmont",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU0t0UDlrX0ZqRzZaZUV3MnkxR3hRbGY4QkZuT25sTk9RX2JFNzc5NkdJRXYzakNnNFNhOWY5LXROdW9meDcyZzd1TWljTTlSOVJzWjhjUVZ5anE5bUFZbU1yaVd1VFVDMjFNQnlxaG80M0o0b01nYUlrVWU0R0w5M1JoTjhhWFN4dGxsSzhPcml5V3REQWhZYlNnVDFmWUVFWlRCQw?oc=5",
+      "published_dt": "2026-11-13T20:00:00+00:00",
+      "source_name": "Page Six",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMimwFBVV95cUxNQndsTWp2dEktaHVTa2dVUkZaT0RYLUQzOUNIcHdsV0dHLVFlYXpCTjJVRks4WGppcEN1UnFrUVdQVXdGOUd0VklWMUtqNi1sMmNVcHJRRTl2VHhTbWx2RnRxblRjUkRPUC1VSUw1Y0UxZ2FZUnh4VFA2cng5ODFOQWhjMHFwZGpuWmJZLV85cnNaUVI4M2g3ai1XOA",
+      "title": "Will James Gunn Get To Make 'Superman 3' for Skydance? There's Hope",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQndsTWp2dEktaHVTa2dVUkZaT0RYLUQzOUNIcHdsV0dHLVFlYXpCTjJVRks4WGppcEN1UnFrUVdQVXdGOUd0VklWMUtqNi1sMmNVcHJRRTl2VHhTbWx2RnRxblRjUkRPUC1VSUw1Y0UxZ2FZUnh4VFA2cng5ODFOQWhjMHFwZGpuWmJZLV85cnNaUVI4M2g3ai1XOA?oc=5",
+      "published_dt": "2026-11-13T20:10:00+00:00",
+      "source_name": "Pajiba",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMimwFBVV95cUxNX1lkU040MkFPT3RWSC04bHVlSWlGOHczck1PWU15TUNhOWE4bTExLU94WF9qbW0wNGV0WkFxb20yejFrRVdXVTBZc1FqZndhLUFuRGowbi1ZTTZidktxaWtDUXZ6MFlTWnBySnUzNDE5TFJLN0pwUDlUN1dBdjFIckRnQWp2Y2hOaW85azlENWxSay13Q0dGR21tNA",
+      "title": "LeVar Burton Says Casting Nichelle Nichols in Star Trek \u2018Tipped the Balance of the Scales\u2019 (Exclusive)",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1lkU040MkFPT3RWSC04bHVlSWlGOHczck1PWU15TUNhOWE4bTExLU94WF9qbW0wNGV0WkFxb20yejFrRVdXVTBZc1FqZndhLUFuRGowbi1ZTTZidktxaWtDUXZ6MFlTWnBySnUzNDE5TFJLN0pwUDlUN1dBdjFIckRnQWp2Y2hOaW85azlENWxSay13Q0dGR21tNA?oc=5",
+      "published_dt": "2026-11-13T20:20:00+00:00",
+      "source_name": "People.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMie0FVX3lxTE9adzJfY2h0X3U3R2YwV0pzQUN4dERTUWFlNXJXSXp3UTNpLW9CMU9yU09xVHY2cGNWcEItcDBQWkM5bUVyZ1B0RUtvczRnYkhROGxQYThtcldrbVhmWjJMMVE5blhWWk9XWC1tUHdQZWEwR0JKUnkwUlgwSQ",
+      "title": "Starfleet Academy Proves Star Trek\u2019s Next Era Must Learn From Its Past",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9adzJfY2h0X3U3R2YwV0pzQUN4dERTUWFlNXJXSXp3UTNpLW9CMU9yU09xVHY2cGNWcEItcDBQWkM5bUVyZ1B0RUtvczRnYkhROGxQYThtcldrbVhmWjJMMVE5blhWWk9XWC1tUHdQZWEwR0JKUnkwUlgwSQ?oc=5",
+      "published_dt": "2026-11-13T20:01:58+00:00",
+      "source_name": "Comic Book Resources",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi3AFBVV95cUxQVGV5elBWVmZOdjNnaUx2WFBTU2tGNm16SXFRcWxhemhpckY2ZHNibjB1ZUhGRjBnZGxvdXVhQkJMWFhBTXdoR0lSUVcxSzRmWXIxeGs3ak1nbEhiblRoczNpeFduVXp2eGJ3U1c0dVk3T2ItNk1yeVB0VzdnRktqWVFRSW9vbFBVYlhYRDh5dTlybG9US1RneXduWnp0VUxZY2d2ekk5cHRVOFN4dXBYeUtWX2xIeE9sYjRuMlYxMndvVFlvNEpuTVloNjdZVjBFeXAtMmdJcFdWUHFW",
+      "title": "Tom Hopper, Rita Ora, & Mila Harris To Discover An Otherworldly Mystery In Sci-Fi Thriller \u2018The Signaler\u2019",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVGV5elBWVmZOdjNnaUx2WFBTU2tGNm16SXFRcWxhemhpckY2ZHNibjB1ZUhGRjBnZGxvdXVhQkJMWFhBTXdoR0lSUVcxSzRmWXIxeGs3ak1nbEhiblRoczNpeFduVXp2eGJ3U1c0dVk3T2ItNk1yeVB0VzdnRktqWVFRSW9vbFBVYlhYRDh5dTlybG9US1RneXduWnp0VUxZY2d2ekk5cHRVOFN4dXBYeUtWX2xIeE9sYjRuMlYxMndvVFlvNEpuTVloNjdZVjBFeXAtMmdJcFdWUHFW?oc=5",
+      "published_dt": "2026-11-13T20:06:39+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMirgFBVV95cUxOQU5VU1RNMzR2S2tUOEx6SjJuY1dHaUNwbENDLXpyVm1jcWg5cU5vdnBEZWpwYklQQ2gzWllSaWZWLURWbEJNNXR2WDM3NlJzSkQ4ejVZOFBuQkxVVnZKSHBKNkt2U1V5bXlfUS1Xb1JfY09GX1NYX2ZSUmhRM0dCemw1SHNwX2VjV3RBeHlhNXdDVFFiLXBGSFlJdlZsd3g1RzYwTS1XQXNPNnBKWWc",
+      "title": "'The X-Files' Creator Officially Confirms Mulder and Scully's Future After Reboot Announcement",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQU5VU1RNMzR2S2tUOEx6SjJuY1dHaUNwbENDLXpyVm1jcWg5cU5vdnBEZWpwYklQQ2gzWllSaWZWLURWbEJNNXR2WDM3NlJzSkQ4ejVZOFBuQkxVVnZKSHBKNkt2U1V5bXlfUS1Xb1JfY09GX1NYX2ZSUmhRM0dCemw1SHNwX2VjV3RBeHlhNXdDVFFiLXBGSFlJdlZsd3g1RzYwTS1XQXNPNnBKWWc?oc=5",
+      "published_dt": "2026-11-13T20:26:03+00:00",
+      "source_name": "Bloody Disgusting",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMinAFBVV95cUxQOHJiN2E3ZXVELVRTUjNDZFBYd190V3BBdmRwRWREZEVaWEVsRkJqMkVfWFk1S2NjTU5sZURSakdIWDRkLTdqekpPZGZzSlhwbFYwMS1VUUh1cmRQbHduQUozaWFadTB3MHVxY0tKMjZzdUlPdFZjemc4UWEwWTItZE8tbURQalZndk5jdExyYWJoRUdUZDkwWnM2S3Q",
+      "title": "Should Method Man Return To Cupertino? Have We Recovered From Messy Love Is Blind Reunion? Should DWTS Stick To Prerecorded Tracks? And More",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOHJiN2E3ZXVELVRTUjNDZFBYd190V3BBdmRwRWREZEVaWEVsRkJqMkVfWFk1S2NjTU5sZURSakdIWDRkLTdqekpPZGZzSlhwbFYwMS1VUUh1cmRQbHduQUozaWFadTB3MHVxY0tKMjZzdUlPdFZjemc4UWEwWTItZE8tbURQalZndk5jdExyYWJoRUdUZDkwWnM2S3Q?oc=5",
+      "published_dt": "2026-11-13T20:00:00+00:00",
+      "source_name": "TVLine",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMivgFBVV95cUxQdUkzc09EbVJwY2RaUE9QT1MtREk2UUYxdmtEYW9oMWtQVS1oSGZDTGFsWDRDRTVBM1RHQXZ5X2VPUE5CTUFBU2FiNkJtX2gwWGFESWNIZThXOTVxeFpndW5VUTFvRFIwSWNvcC1sbzNpN1VHWUZZYVh3WTRJamlZVDFTU0tldW5ZanhoRnZMLURzZnprTTFQa1VoaFhlanRnSFU0MXFNemxVUjFXbjJRLXhvandJVlM5SzFFMGhn",
+      "title": "Darth Vader's Actual Lightsaber Just Sold for $4.875 Million, Breaking Star Wars Auction Records",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdUkzc09EbVJwY2RaUE9QT1MtREk2UUYxdmtEYW9oMWtQVS1oSGZDTGFsWDRDRTVBM1RHQXZ5X2VPUE5CTUFBU2FiNkJtX2gwWGFESWNIZThXOTVxeFpndW5VUTFvRFIwSWNvcC1sbzNpN1VHWUZZYVh3WTRJamlZVDFTU0tldW5ZanhoRnZMLURzZnprTTFQa1VoaFhlanRnSFU0MXFNemxVUjFXbjJRLXhvandJVlM5SzFFMGhn?oc=5",
+      "published_dt": "2026-11-13T19:41:21+00:00",
+      "source_name": "IGN",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi1gFBVV95cUxNbFhmR0t1bDRpdkhoU21VeThBR0JLVmVYUnM0b0c5cXRRYWl0czFqdkNlWGFsbXdhUWRydlFrQzcyWTN4OU1aMTJhcXN2ZmtuVkk2Q25DdU9Yc2hvYS1vWlVJR2pnYVlXb1N6dGhTQUJOdENyY2pTaExOUnhPNDc2MHcyM1RoY3Y2engzelJqaWZiMldwVUNtZWgzc2Q5dEZZSWJYRVpSWDQybGQ5b2piRERTTHluODZuRjJhcGJYbUJMbGdxdmVBVHdMMlRhOVBNcFVraHV30gHbAUFVX3lxTE9SSnZXVmVqdm4yTUtnZVFuZ0UzWHp5ejNVVFNVXzJpTktEd3p2S2pKOXdCWUhmRGdhZEdlck1aRGRRSldkUGpQTVdrcTdHeXV0dDhYYWZMM1R0WDkxNGRNLXdsRzNhTGwyOFhDSUI4ZGxpVWNlQ0NCS2IwWDQyOGo2WDg3YjZHTWx6U1BTZFVPVmJyTjhON0tVMW01dnZyYmVNQXRrTS1sSjBXd2lEem9BS1ZZd296eGhlM2ROTWZ3VjFTNW8yYWZFQ0tLQk5aZkxCZ2VXSnRQeEt3RQ",
+      "title": "Snoopy Presents: 12 Days of Snoopy Review \u2013 A Heartwarming Holiday Tale That Keeps the Magic of Peanuts A...",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbFhmR0t1bDRpdkhoU21VeThBR0JLVmVYUnM0b0c5cXRRYWl0czFqdkNlWGFsbXdhUWRydlFrQzcyWTN4OU1aMTJhcXN2ZmtuVkk2Q25DdU9Yc2hvYS1vWlVJR2pnYVlXb1N6dGhTQUJOdENyY2pTaExOUnhPNDc2MHcyM1RoY3Y2engzelJqaWZiMldwVUNtZWgzc2Q5dEZZSWJYRVpSWDQybGQ5b2piRERTTHluODZuRjJhcGJYbUJMbGdxdmVBVHdMMlRhOVBNcFVraHV30gHbAUFVX3lxTE9SSnZXVmVqdm4yTUtnZVFuZ0UzWHp5ejNVVFNVXzJpTktEd3p2S2pKOXdCWUhmRGdhZEdlck1aRGRRSldkUGpQTVdrcTdHeXV0dDhYYWZMM1R0WDkxNGRNLXdsRzNhTGwyOFhDSUI4ZGxpVWNlQ0NCS2IwWDQyOGo2WDg3YjZHTWx6U1BTZFVPVmJyTjhON0tVMW01dnZyYmVNQXRrTS1sSjBXd2lEem9BS1ZZd296eGhlM2ROTWZ3VjFTNW8yYWZFQ0tLQk5aZkxCZ2VXSnRQeEt3RQ?oc=5",
+      "published_dt": "2026-11-13T19:38:32+00:00",
+      "source_name": "BSCkids",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiswFBVV95cUxOd2M5ZEh0R3pta3ZHNGFwVHM1ajNsaG9welBDRnVJMDlCb3VoaUtvOWcxUVB3ZXpZNUFUOV9pMTlyaE9WUXFiQkZ2dGtGWDlSUHo5bTR5c1c1ZGtNZlZaWFZ1ZXRZdmRTOHBQRXJodHlWLVppQTdfeFhuTzEyTE5XcHZrdEtvdmNBNXl0UFJHUWlYRlpoR3dZSGVhWVRKYWFKXzRfOTJscTVtalZKaVZxcy1ZVQ",
+      "title": "\u2018A culture of total control\u2019: Trial examines inner workings of the Wyoming Boys\u2019 School",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd2M5ZEh0R3pta3ZHNGFwVHM1ajNsaG9welBDRnVJMDlCb3VoaUtvOWcxUVB3ZXpZNUFUOV9pMTlyaE9WUXFiQkZ2dGtGWDlSUHo5bTR5c1c1ZGtNZlZaWFZ1ZXRZdmRTOHBQRXJodHlWLVppQTdfeFhuTzEyTE5XcHZrdEtvdmNBNXl0UFJHUWlYRlpoR3dZSGVhWVRKYWFKXzRfOTJscTVtalZKaVZxcy1ZVQ?oc=5",
+      "published_dt": "2026-11-13T19:50:03+00:00",
+      "source_name": "News From The States",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMirAFBVV95cUxQTnBxR05RR0RoN1VXX0lsejRJWm45SWRfRHg5MWV0dHQzeGdQeF8zLUp0M3RqWVpBQ3JvOTZFalFwZkNkRGwtRXlCQmh5cnZDVExzMTM1RTg2VGJST05JbUNmWGtsUGVZejBCR0d3UEhaYjZPU05UUGUyeHVoNEs2Vmc5eWlCUGhPZEpfNTBkeVI2Tm0xc2NiV0J0bF9oNHE1M1IwRXNJVGpYc0hJ",
+      "title": "3 more charged in Chatham County carfentanil trafficking case, bringing total to 9",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTnBxR05RR0RoN1VXX0lsejRJWm45SWRfRHg5MWV0dHQzeGdQeF8zLUp0M3RqWVpBQ3JvOTZFalFwZkNkRGwtRXlCQmh5cnZDVExzMTM1RTg2VGJST05JbUNmWGtsUGVZejBCR0d3UEhaYjZPU05UUGUyeHVoNEs2Vmc5eWlCUGhPZEpfNTBkeVI2Tm0xc2NiV0J0bF9oNHE1M1IwRXNJVGpYc0hJ?oc=5",
+      "published_dt": "2026-11-13T20:23:00+00:00",
+      "source_name": "WTOC",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMisAJBVV95cUxPams0dDVjdnFrNVBlc2pibk5qRkNVd193ZnhSYjNVZTRjU01DakktYmpVV0FSNVc2M3p4RkxLOHpWekszdlNSYVN5Y0VhUHp5SGtTTzhUdVY4WDJtVkhLSG9Ib0g4aURocU5iSkl5NnpQck1Wa0dzNExjWHVOUWNkY2dRQ2tySFJ5WW5NZGVYR3R3LTlvMjFIQUVjTTRIcVFaOTJQR1dhVjhKUzVvTG5GMVJtM3BKczllYjQtSU1YcnhUdzE0eWN1TnpsZHEyYmREZGZJRnZya0hKam41bTBDUVhvUjF6ZTBWU3MzaHdfN3dpdWdfcXFhbTlvdWpYQzFJY1lJREJpWUE5Nm4yRkplU0EtU3otMHZNekd0OHVZX2drNVY4ZHd5N2w0VDRWUnE4",
+      "title": "Measles-associated death reported in Montour County, bringing statewide total to 7",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPams0dDVjdnFrNVBlc2pibk5qRkNVd193ZnhSYjNVZTRjU01DakktYmpVV0FSNVc2M3p4RkxLOHpWekszdlNSYVN5Y0VhUHp5SGtTTzhUdVY4WDJtVkhLSG9Ib0g4aURocU5iSkl5NnpQck1Wa0dzNExjWHVOUWNkY2dRQ2tySFJ5WW5NZGVYR3R3LTlvMjFIQUVjTTRIcVFaOTJQR1dhVjhKUzVvTG5GMVJtM3BKczllYjQtSU1YcnhUdzE0eWN1TnpsZHEyYmREZGZJRnZya0hKam41bTBDUVhvUjF6ZTBWU3MzaHdfN3dpdWdfcXFhbTlvdWpYQzFJY1lJREJpWUE5Nm4yRkplU0EtU3otMHZNekd0OHVZX2drNVY4ZHd5N2w0VDRWUnE4?oc=5",
+      "published_dt": "2026-11-13T20:26:00+00:00",
+      "source_name": "WNEP",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi0wFBVV95cUxNWlNYWmEtdVdHcktiQjNiUVd1ZVUycm1MVDF1enE2WkVjSGs4OWRzMGtQS0szYzBidEtBekRnUDBEVF91dnlfT0E4d0hrbVdpTDhHUW1UR0ZUVFA3Z2hkMzdJTjZ3R1RhOGFkd1N0Mm1XNnVEc21SMnFrTVhFMnFiaHBnYUJiV1ZfcGoxNHpnU1JUMUEzaG5iNG5adWF2R0NWQ1gySUJyWTNrc0ZRU1V5RzhxTGRycGoyNnhLSnp2cUNJNWgyRXNBQnJGTmJHTlpMeFUw",
+      "title": "Why a Free Agent Reunion With Raisel Iglesias Makes Total Sense for the Rebuilding Angels",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWlNYWmEtdVdHcktiQjNiUVd1ZVUycm1MVDF1enE2WkVjSGs4OWRzMGtQS0szYzBidEtBekRnUDBEVF91dnlfT0E4d0hrbVdpTDhHUW1UR0ZUVFA3Z2hkMzdJTjZ3R1RhOGFkd1N0Mm1XNnVEc21SMnFrTVhFMnFiaHBnYUJiV1ZfcGoxNHpnU1JUMUEzaG5iNG5adWF2R0NWQ1gySUJyWTNrc0ZRU1V5RzhxTGRycGoyNnhLSnp2cUNJNWgyRXNBQnJGTmJHTlpMeFUw?oc=5",
+      "published_dt": "2026-11-13T19:54:00+00:00",
+      "source_name": "Sports Illustrated",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMi4AFBVV95cUxQZkNWVVpMVjc5dmJjVFlzcm5tSjd3S2p1eHV6M1JFdVREOG1TM3Jkd3BtYjU4S0JzNFdUbnpydzhFM0tDdjVHV3FZcExocXlNdkpIODFpVmhsNTlLblMzbWdZVVZCSjg5VmdfV3kzYUZHczFMdzhFNnFBSnVBSDhtZFJvS0dRcWV6d0N6ekhnS0JVS2pNVFI2cHNXbHNVdzRNQk53WnhUUXJTSm9JdzJkU29zUlpFLU90TVVkakRzX2hOc0tIOUdnZlpNY1haU2dFUmxSaUh2d2V5clJ1MGN2aA",
+      "title": "Oklahoma City Thunder vs LA Clippers Picks, Prediction, Odds, and Line Movement for Friday November 13 2026",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZkNWVVpMVjc5dmJjVFlzcm5tSjd3S2p1eHV6M1JFdVREOG1TM3Jkd3BtYjU4S0JzNFdUbnpydzhFM0tDdjVHV3FZcExocXlNdkpIODFpVmhsNTlLblMzbWdZVVZCSjg5VmdfV3kzYUZHczFMdzhFNnFBSnVBSDhtZFJvS0dRcWV6d0N6ekhnS0JVS2pNVFI2cHNXbHNVdzRNQk53WnhUUXJTSm9JdzJkU29zUlpFLU90TVVkakRzX2hOc0tIOUdnZlpNY1haU2dFUmxSaUh2d2V5clJ1MGN2aA?oc=5",
+      "published_dt": "2026-11-13T20:22:00+00:00",
+      "source_name": "Picks and Parlays",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMitgFBVV95cUxPTUxKN1hiSnpRSHRLdnJncC1nOUViSjVXZ0dKVFNxM2FwbVgxdWM0QkdNVklXMkcwd3lCb2JsLVhYbFMxcGNCcnhpaGZUOXJtQ29Nb3RXYTRuOTBITmZLWUZRdkFmeHRuQkdEcmpVcEZOTmdOeTBkLTc1RnBRenZJOU1YdlJCRmx0blZtRXFXM0JxaEFsNjljREk5SzlYUWtvTXkydkFwYWY3ZzJFN0h3QnJhLTdxUQ",
+      "title": "Heartland on Netflix: The Title Song & Its True Meaning",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTUxKN1hiSnpRSHRLdnJncC1nOUViSjVXZ0dKVFNxM2FwbVgxdWM0QkdNVklXMkcwd3lCb2JsLVhYbFMxcGNCcnhpaGZUOXJtQ29Nb3RXYTRuOTBITmZLWUZRdkFmeHRuQkdEcmpVcEZOTmdOeTBkLTc1RnBRenZJOU1YdlJCRmx0blZtRXFXM0JxaEFsNjljREk5SzlYUWtvTXkydkFwYWY3ZzJFN0h3QnJhLTdxUQ?oc=5",
+      "published_dt": "2026-11-13T20:13:30+00:00",
+      "source_name": "Auralcrave",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMixwFBVV95cUxQQWlyajRNVlRTck1TUGNLbzJzRl9rci10QjZ5VVRZNGQwalhTY3RvT3lXMTNLMlBWRnVRaGFpQnVUNWdvMkFtVnRBNVF6OGxON0E1bmQ1WUtMTUVHYlVOM0kxSXQxV3BSNndvd1JmYUt5QjdhM0xRdVZaVDdpdEJFS1VfR01PZHNZRS1NdmREb1Nyc0RUeUo4ZFJGb2lyR0ZsNVZUdHo2QUpuaHA5YThMQnd4YjBPbG5FX2tiR2czakpYMmRlRk80",
+      "title": "David Tennant speaks up on his 'surreal' experience in Doctor Who-themed restaurant",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQWlyajRNVlRTck1TUGNLbzJzRl9rci10QjZ5VVRZNGQwalhTY3RvT3lXMTNLMlBWRnVRaGFpQnVUNWdvMkFtVnRBNVF6OGxON0E1bmQ1WUtMTUVHYlVOM0kxSXQxV3BSNndvd1JmYUt5QjdhM0xRdVZaVDdpdEJFS1VfR01PZHNZRS1NdmREb1Nyc0RUeUo4ZFJGb2lyR0ZsNVZUdHo2QUpuaHA5YThMQnd4YjBPbG5FX2tiR2czakpYMmRlRk80?oc=5",
+      "published_dt": "2026-11-13T19:51:13+00:00",
+      "source_name": "The Hawk",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiigFBVV95cUxNb1FBQTVtNm9hZ2JFblotRU5Hdm9uUTRUaVJXRTNHcjhBZFV2Ujd1SUZ1ZWNNaVZPZVNsWnU5WU4tTk5xZEhiNm9RZTNFMG1PUWdaNUhuWE5iSFBPRzEwb253OWxaQ1FnSEl5SFRJME4tVmlZeVNzSzhaRy1sSDAzTVl2dmRXWWhzckE",
+      "title": "Disney+ Drops \"A Special Look at Hexed\" Ahead of Theatrical Debut",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb1FBQTVtNm9hZ2JFblotRU5Hdm9uUTRUaVJXRTNHcjhBZFV2Ujd1SUZ1ZWNNaVZPZVNsWnU5WU4tTk5xZEhiNm9RZTNFMG1PUWdaNUhuWE5iSFBPRzEwb253OWxaQ1FnSEl5SFRJME4tVmlZeVNzSzhaRy1sSDAzTVl2dmRXWWhzckE?oc=5",
+      "published_dt": "2026-11-13T20:07:00+00:00",
+      "source_name": "LaughingPlace.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMicEFVX3lxTE54TDZFbkpYbE1icWdOZDc2TmRVNElFcnhNQVRWTGhoMWN0TnhNcE5PdEtjeEhRMzVkaWFvSU43aDFoWWxaa3cwZTlhaDV1MnVzUnQ1OEc0dzVJV2pmNDVMdkNnQ2UxMVNIN0ducmJYaFDSAXZBVV95cUxOeVQzclR6N1Y1RXUtcEJDUE03cTZpTER2dGwzODI4clhVZ0xyLTVjUDFSVG1UWERDTmt2SWJVMnFGVUJCb0lfQlktaDRyNXYzTkdHbFhYa3BVS1lDTVBDNXJ4T0dTRk1ncHdTdk83bXh0cEJfcl9n",
+      "title": "Gary Busey\u2019s Forgotten \u201980s Action Movie Turned Rocky III\u2019s Biggest Song Into a Revenge Thriller",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54TDZFbkpYbE1icWdOZDc2TmRVNElFcnhNQVRWTGhoMWN0TnhNcE5PdEtjeEhRMzVkaWFvSU43aDFoWWxaa3cwZTlhaDV1MnVzUnQ1OEc0dzVJV2pmNDVMdkNnQ2UxMVNIN0ducmJYaFDSAXZBVV95cUxOeVQzclR6N1Y1RXUtcEJDUE03cTZpTER2dGwzODI4clhVZ0xyLTVjUDFSVG1UWERDTmt2SWJVMnFGVUJCb0lfQlktaDRyNXYzTkdHbFhYa3BVS1lDTVBDNXJ4T0dTRk1ncHdTdk83bXh0cEJfcl9n?oc=5",
+      "published_dt": "2026-11-13T20:05:36+00:00",
+      "source_name": "JoBlo",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiZkFVX3lxTE1iZlIwT21IcVdUSTEzNzZUYmVCRGdlTU9ZbWZKRzdwR2l1Zjc2SzJIVFlqTW9IR0lYSW5zTXY2eHA1RDAwZGMwemlQN3BuZGd0azBJNG1YLXhNQncxTlJTbkxDLXhsQQ",
+      "title": "Netflix\u2019s New 8-Part Psychological Thriller Is a Perfect Weekend Binge",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iZlIwT21IcVdUSTEzNzZUYmVCRGdlTU9ZbWZKRzdwR2l1Zjc2SzJIVFlqTW9IR0lYSW5zTXY2eHA1RDAwZGMwemlQN3BuZGd0azBJNG1YLXhNQncxTlJTbkxDLXhsQQ?oc=5",
+      "published_dt": "2026-11-13T20:00:17+00:00",
+      "source_name": "MovieWeb",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiogFBVV95cUxPME1qRkRZbXJmZDd5djV0Z285NVdjZDF2UVZOMUcwcVlRLUVZRzFqMzN5TXM3YnNlbi1HeWZYVmZKWmI1XzZPTmRzWllwUHJHQ2VabTdfOU5janVGVkxTaVNnanE4cjY0RUNJN1VBTGFTRGxzcGFHdGVWN1JSU1NteW4zZlI2TFFQeFpxS3dKaXNYWkV1Qmg3Z1BNMUJObXMtY2c",
+      "title": "The Role of Immuno-Oncology in Modern Cancer Research and Treatment",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPME1qRkRZbXJmZDd5djV0Z285NVdjZDF2UVZOMUcwcVlRLUVZRzFqMzN5TXM3YnNlbi1HeWZYVmZKWmI1XzZPTmRzWllwUHJHQ2VabTdfOU5janVGVkxTaVNnanE4cjY0RUNJN1VBTGFTRGxzcGFHdGVWN1JSU1NteW4zZlI2TFFQeFpxS3dKaXNYWkV1Qmg3Z1BNMUJObXMtY2c?oc=5",
+      "published_dt": "2026-11-13T20:05:41+00:00",
+      "source_name": "Medical News Bulletin",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMigAJBVV95cUxQaWJZV001d2plSFZ3T3Zqay1ONnd4UGhBa0xWdzk1M2tBNnJyTFhqWnExZ2owLXJhQzdNNldRVzBkZkJfT3U3NmotQlpyOFV4ZVRweVMzWE9BdkJYbFd1UGxiYWFZcWhhRThoVE1jXzNqQ2FBQXJpSlVoRFZwRW1HQ1NGdnc4dGswZTVhODFFc183Q2I2TlFvMXZvbnE3d3ViQ0tkZlEtZ2xTeTJlcjZIalA1d0I3Ylo3dFdIbWhhVUk4OVVrbnFnX0hITm1jUkliejRPcDFWYk1xN3NWZ0RRSkFJZV9DXzhPeTVFblN1ZVFfWGhGbFNGRGd3MWh3YXFF",
+      "title": "What we know about the Bryan High girls basketball fight video",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQaWJZV001d2plSFZ3T3Zqay1ONnd4UGhBa0xWdzk1M2tBNnJyTFhqWnExZ2owLXJhQzdNNldRVzBkZkJfT3U3NmotQlpyOFV4ZVRweVMzWE9BdkJYbFd1UGxiYWFZcWhhRThoVE1jXzNqQ2FBQXJpSlVoRFZwRW1HQ1NGdnc4dGswZTVhODFFc183Q2I2TlFvMXZvbnE3d3ViQ0tkZlEtZ2xTeTJlcjZIalA1d0I3Ylo3dFdIbWhhVUk4OVVrbnFnX0hITm1jUkliejRPcDFWYk1xN3NWZ0RRSkFJZV9DXzhPeTVFblN1ZVFfWGhGbFNGRGd3MWh3YXFF?oc=5",
+      "published_dt": "2026-11-13T20:00:00+00:00",
+      "source_name": "The Mary Sue",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMidEFVX3lxTE1iaVVtcDZ4NlR3TkJ1TlU4OFVQdG04RWdMLTR5QWl6RXlYc1JQQXFxeWNhQ2dQYnJ3MHpHdVlXQnRCYVVwWVZhUjVrOUg4WERGak9KRUR0UGZVV0s0V1R3U1ZnUGN0M0d5R1pyVEJnb2pXN0tH",
+      "title": "Garda\u00ed investigating after body discovered in Phoenix Park",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iaVVtcDZ4NlR3TkJ1TlU4OFVQdG04RWdMLTR5QWl6RXlYc1JQQXFxeWNhQ2dQYnJ3MHpHdVlXQnRCYVVwWVZhUjVrOUg4WERGak9KRUR0UGZVV0s0V1R3U1ZnUGN0M0d5R1pyVEJnb2pXN0tH?oc=5",
+      "published_dt": "2026-11-13T20:01:46+00:00",
+      "source_name": "Newstalk",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMijwFBVV95cUxPcWhxSEhPSUJueGlMWmpLT3hqdGtNLXR5Qm9PczlBc2lJX19oeC00U2pvSzMxVVRYdlhTNF84UXV4UG93M2xnTmR2RzlJbEowaHU3aVRRb3UzU1BDaTdxMlltQTZXbXV6ekxUZXd6dEJvZTlla0JaM25zUUhwMVZHN09iR19CZWRycHNaZDZCMA",
+      "title": "Pharmacist Warns: Avoid Grapefruit Juice If You Take Statins",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcWhxSEhPSUJueGlMWmpLT3hqdGtNLXR5Qm9PczlBc2lJX19oeC00U2pvSzMxVVRYdlhTNF84UXV4UG93M2xnTmR2RzlJbEowaHU3aVRRb3UzU1BDaTdxMlltQTZXbXV6ekxUZXd6dEJvZTlla0JaM25zUUhwMVZHN09iR19CZWRycHNaZDZCMA?oc=5",
+      "published_dt": "2026-11-13T20:16:12+00:00",
+      "source_name": "JournalArta",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiZ0FVX3lxTFBybkJRTWhHeHExNFNSNG94SUtUWmF5cTc0WmVvRzZWalBpVE9GRU1SdHh5Q0dlWGtLZy1WNEsyY3VMbW51V01yQmRrdHFjV1pIdmpMdmplQzNrby1BNUxBTm5XSXp1QWM",
+      "title": "The Lord of the Rings: The Rings of Power season 3 cast & character guide with pictures",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBybkJRTWhHeHExNFNSNG94SUtUWmF5cTc0WmVvRzZWalBpVE9GRU1SdHh5Q0dlWGtLZy1WNEsyY3VMbW51V01yQmRrdHFjV1pIdmpMdmplQzNrby1BNUxBTm5XSXp1QWM?oc=5",
+      "published_dt": "2026-11-13T20:28:21+00:00",
+      "source_name": "IMDb",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqgFBVV95cUxQSmVLY1RBX2JaWlRfT1VhOUUxYUE3V1NQS2hsb1JRVmE3T0wydUdicGViaThTYUJWbUFlQnlwdTBjMjVHbHZSTkpzUkt1WC0tSkNlVHZVenZtcG4ycmQtZjFubS01VW9ObVJTcGxIUTN1cThFdnRaWkJtaFlMVXRIQ0p3R29May1jd21KZFdEaW5wOG44djRSZlQ3X1VxWWFfR2hjM0w4UF9GUQ",
+      "title": "The Lord of the Rings: The Rings of Power season 3 cast & character guide with pictures",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSmVLY1RBX2JaWlRfT1VhOUUxYUE3V1NQS2hsb1JRVmE3T0wydUdicGViaThTYUJWbUFlQnlwdTBjMjVHbHZSTkpzUkt1WC0tSkNlVHZVenZtcG4ycmQtZjFubS01VW9ObVJTcGxIUTN1cThFdnRaWkJtaFlMVXRIQ0p3R29May1jd21KZFdEaW5wOG44djRSZlQ3X1VxWWFfR2hjM0w4UF9GUQ?oc=5",
+      "published_dt": "2026-11-13T20:08:44+00:00",
+      "source_name": "Winter is Coming",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMihAFBVV95cUxPeEpmSGo3X2RDc3lhM0xUOHE5WDh0bTdWazFCd3pTeEhOTnp4Z3pkMTFxaXVKcTk3ZjN0Skt1M3E4bldVVHhaQVJHSzYxNXZvQlBZeTBfbTY0VlN5UmxBR3N2eGRpS1V5WGRJVTVHalBYYkMwQ3g0cms5SzNGUlpOX1VTeXc",
+      "title": "\u2018The Good Daughter\u2019 author shares her \u2018important\u2019 requests for series adaptation",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeEpmSGo3X2RDc3lhM0xUOHE5WDh0bTdWazFCd3pTeEhOTnp4Z3pkMTFxaXVKcTk3ZjN0Skt1M3E4bldVVHhaQVJHSzYxNXZvQlBZeTBfbTY0VlN5UmxBR3N2eGRpS1V5WGRJVTVHalBYYkMwQ3g0cms5SzNGUlpOX1VTeXc?oc=5",
+      "published_dt": "2026-11-13T20:12:56+00:00",
+      "source_name": "Entertainment Weekly",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMivwFBVV95cUxPWVBxZEhyRG03ZGpBN1h0akJzLUZlUTVZcEVkZzUySVZLbUZ3RWNBbG84cHBuWnNkMUlTTTdDcGRlaVFESHAtWDFkdmItSENOSmxjb0hMYUJVbG9ja1V6eDhwdUQyMVpnVWNoSWZ2aC1peTliRFVDa2pWU09JMkpPNlhfaDBSeVJHZDVRUjdDMDhfbTIwNkIxVnhGdXBLSVJ1eUJkLUd1bFNzaFNwbUJoSGRQc0tRUWdRemxIT2NBWQ",
+      "title": "\u2018The Good Daughter,\u2019 \u2018Book Meets World,\u2019 and Michelle Branch\u2019s tour top this week\u2019s Must List",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWVBxZEhyRG03ZGpBN1h0akJzLUZlUTVZcEVkZzUySVZLbUZ3RWNBbG84cHBuWnNkMUlTTTdDcGRlaVFESHAtWDFkdmItSENOSmxjb0hMYUJVbG9ja1V6eDhwdUQyMVpnVWNoSWZ2aC1peTliRFVDa2pWU09JMkpPNlhfaDBSeVJHZDVRUjdDMDhfbTIwNkIxVnhGdXBLSVJ1eUJkLUd1bFNzaFNwbUJoSGRQc0tRUWdRemxIT2NBWQ?oc=5",
+      "published_dt": "2026-11-13T20:15:00+00:00",
+      "source_name": "Entertainment Weekly",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMigwFBVV95cUxNUlBLRElYUnNMaDZNSGxKTlFQZU1GMmtRMU1SdlB0eHJEM1E1THdMWGthSmxYUkUxM09PWmlENG8teXB3dEhuVl91NzNqMUNVd3R1eVNJTE11U2ltYy1pWDV6QklXNllseGktcHUzTDFCczFFZTd0cURKNUowREdqTTg4TQ",
+      "title": "\u2018Matlock\u2019s Skye P. Marshall Gets Exciting New Role on Season 3",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUlBLRElYUnNMaDZNSGxKTlFQZU1GMmtRMU1SdlB0eHJEM1E1THdMWGthSmxYUkUxM09PWmlENG8teXB3dEhuVl91NzNqMUNVd3R1eVNJTE11U2ltYy1pWDV6QklXNllseGktcHUzTDFCczFFZTd0cURKNUowREdqTTg4TQ?oc=5",
+      "published_dt": "2026-11-13T19:43:38+00:00",
+      "source_name": "TV Insider",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiigFBVV95cUxNak1RdEs3NTEwUXd6RFRFakJ2UXpXNnBmcG1rUTF4ekkzeWZfTXdhOUVRVEVJX0FMYXVmMTRZQmdNMXYzbEluTGhNdUg5ZnVoVWRMLVp6aXdyb1ZaU0VhbTdqbW5pTS0yM2NWOHBxU3YzbTZoTkRDRkJRMi11enpkUXpUb1FGbVlsb1E",
+      "title": "We've Found It: Something Cate Blanchett Looks Bad In",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNak1RdEs3NTEwUXd6RFRFakJ2UXpXNnBmcG1rUTF4ekkzeWZfTXdhOUVRVEVJX0FMYXVmMTRZQmdNMXYzbEluTGhNdUg5ZnVoVWRMLVp6aXdyb1ZaU0VhbTdqbW5pTS0yM2NWOHBxU3YzbTZoTkRDRkJRMi11enpkUXpUb1FGbVlsb1E?oc=5",
+      "published_dt": "2026-11-13T20:01:40+00:00",
+      "source_name": "Go Fug Yourself",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqAFBVV95cUxQVjE1UmFJR1g0VUJDTXdtaXYwR2c1MWtMUHFkNjR5MC11T2xjWG10ZVFYa3A5bVp1Q1dFclJyQXNOcVZzYzNsQW4taTRxTzVzRlRMYUlQdlAzVzVJWHJ5eTh4SzBxSFRsZDhSdWFfR2FIVVhXSDg1SVJ2Rmgwa0hhUEdWRzdKOEpWaERhcmNfSXdTM1N4c0d4LThNZmFjQlNCRFNDWFY5NlU",
+      "title": "In 'How to Rob a Bank,' Pittsburgh plays a starring role",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVjE1UmFJR1g0VUJDTXdtaXYwR2c1MWtMUHFkNjR5MC11T2xjWG10ZVFYa3A5bVp1Q1dFclJyQXNOcVZzYzNsQW4taTRxTzVzRlRMYUlQdlAzVzVJWHJ5eTh4SzBxSFRsZDhSdWFfR2FIVVhXSDg1SVJ2Rmgwa0hhUEdWRzdKOEpWaERhcmNfSXdTM1N4c0d4LThNZmFjQlNCRFNDWFY5NlU?oc=5",
+      "published_dt": "2026-11-13T20:18:54+00:00",
+      "source_name": "Pittsburgh Post-Gazette",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqAFBVV95cUxQRVdWclVYeFpnaUdzUTRpdjBIdGpDZTlWMExxcW15OG5HR25memRFUVpVOV8zRC13Y2xWb05Oa1dtS3JuWkJhcV9uVnNDdnYtZXRUbzhVbEkzclp0RTk0enBEb2dtRktMMGdqMHdpNkppMkpTdE1meXI2Q1U4S194TzBFQ3l2U3k5ZGtIaHU2dG45bVFiWHd0VGF6YjFJaG9fRW1xZXA3ako",
+      "title": "The New York Times. . In \u201cAnatomy of a Scene,\u201d we ask directors to reveal the secrets that go into making key scenes in their movies. Peter Farrelly, the director of \u201cI Play Rocky,\u201d explains a scene in the film that depicts a breakthrough moment for Sylvester Stall",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRVdWclVYeFpnaUdzUTRpdjBIdGpDZTlWMExxcW15OG5HR25memRFUVpVOV8zRC13Y2xWb05Oa1dtS3JuWkJhcV9uVnNDdnYtZXRUbzhVbEkzclp0RTk0enBEb2dtRktMMGdqMHdpNkppMkpTdE1meXI2Q1U4S194TzBFQ3l2U3k5ZGtIaHU2dG45bVFiWHd0VGF6YjFJaG9fRW1xZXA3ako?oc=5",
+      "published_dt": "2026-11-13T20:10:59+00:00",
+      "source_name": "Facebook",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMivAFBVV95cUxNaGZHN0tUUVktS1p5eVFkUW5ILU11ZEpYMThNTnRGVE14eWRiaUNLMlV4aTdXUUhTVEtzX2xyQ2pYc2VPQXhydzJ0UzAyaW1DcTJwVkRWZVFDOE9ETnltRGtyUGFlQWViUTVud0pTb216cHFfWFNFZUJ1M0lpeThXOWtZTzRZdHpvUXpTRGJPT3ZTVVpFejRzMHBRNHBsYTBwLWxuSFpoYnRaNmtOeFV2ZzVwT2kySG8yNGVjMw",
+      "title": "I Play Rocky: a wonderful two hours to forget the world outside",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaGZHN0tUUVktS1p5eVFkUW5ILU11ZEpYMThNTnRGVE14eWRiaUNLMlV4aTdXUUhTVEtzX2xyQ2pYc2VPQXhydzJ0UzAyaW1DcTJwVkRWZVFDOE9ETnltRGtyUGFlQWViUTVud0pTb216cHFfWFNFZUJ1M0lpeThXOWtZTzRZdHpvUXpTRGJPT3ZTVVpFejRzMHBRNHBsYTBwLWxuSFpoYnRaNmtOeFV2ZzVwT2kySG8yNGVjMw?oc=5",
+      "published_dt": "2026-11-13T20:17:35+00:00",
+      "source_name": "RTE.ie",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMikwFBVV95cUxOdGswV3FhdHdMd2Jab25ralg5Yy1fSW5tOE5EcGlOb0FnMHNBLXgtZHBfM2NGQXRmUEFZUWR3YmRxQjVOWmtIRDFNVnhVNW9GMUtNN005dGJPbE9YelJiSE9ZbDQ5aXp2VnhieUZsd1NuRF9UekppWkNsT2lqOG5yWllrMWhHaDZGTTJ0UGVJdzdzNlnSAZgBQVVfeXFMUHNFZDNRamZiSUpBT0RtZ09fVXZzdEJkbjZGMDZnRllYWjB1V1hkazlNd3hQNnJxelYxVDh5RGRmR3h6MzBMUko1SnNKVnU3YUJzdU0yaTM4WUNCNXd3WWMxVlJSX1RPY2VsTl9xRVlZdHZEallmeDllczBBSC1EamR0b1pLdzdCSnZ1SFRrM1ZkUE1abWMxS3k",
+      "title": "\u2018Kindergarten Cop\u2019 child star Christian Cousins dead at 43",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdGswV3FhdHdMd2Jab25ralg5Yy1fSW5tOE5EcGlOb0FnMHNBLXgtZHBfM2NGQXRmUEFZUWR3YmRxQjVOWmtIRDFNVnhVNW9GMUtNN005dGJPbE9YelJiSE9ZbDQ5aXp2VnhieUZsd1NuRF9UekppWkNsT2lqOG5yWllrMWhHaDZGTTJ0UGVJdzdzNlnSAZgBQVVfeXFMUHNFZDNRamZiSUpBT0RtZ09fVXZzdEJkbjZGMDZnRllYWjB1V1hkazlNd3hQNnJxelYxVDh5RGRmR3h6MzBMUko1SnNKVnU3YUJzdU0yaTM4WUNCNXd3WWMxVlJSX1RPY2VsTl9xRVlZdHZEallmeDllczBBSC1EamR0b1pLdzdCSnZ1SFRrM1ZkUE1abWMxS3k?oc=5",
+      "published_dt": "2026-11-13T20:05:35+00:00",
+      "source_name": "Marin Independent Journal",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMicEFVX3lxTE54TDZFbkpYbE1icWdOZDc2TmRVNElFcnhNQVRWTGhoMWN0TnhNcE5PdEtjeEhRMzVkaWFvSU43aDFoWWxaa3cwZTlhaDV1MnVzUnQ1OEc0dzVJV2pmNDVMdkNnQ2UxMVNIN0ducmJYaFDSAXZBVV95cUxOeVQzclR6N1Y1RXUtcEJDUE03cTZpTER2dGwzODI4clhVZ0xyLTVjUDFSVG1UWERDTmt2SWJVMnFGVUJCb0lfQlktaDRyNXYzTkdHbFhYa3BVS1lDTVBDNXJ4T0dTRk1ncHdTdk83bXh0cEJfcl9n",
+      "title": "Gary Busey\u2019s Forgotten \u201980s Action Movie Turned Rocky III\u2019s Biggest Song Into a Revenge Thriller",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54TDZFbkpYbE1icWdOZDc2TmRVNElFcnhNQVRWTGhoMWN0TnhNcE5PdEtjeEhRMzVkaWFvSU43aDFoWWxaa3cwZTlhaDV1MnVzUnQ1OEc0dzVJV2pmNDVMdkNnQ2UxMVNIN0ducmJYaFDSAXZBVV95cUxOeVQzclR6N1Y1RXUtcEJDUE03cTZpTER2dGwzODI4clhVZ0xyLTVjUDFSVG1UWERDTmt2SWJVMnFGVUJCb0lfQlktaDRyNXYzTkdHbFhYa3BVS1lDTVBDNXJ4T0dTRk1ncHdTdk83bXh0cEJfcl9n?oc=5",
+      "published_dt": "2026-11-13T20:05:36+00:00",
+      "source_name": "JoBlo",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMihwFBVV95cUxOTjE2Q0QwNmNySXhhYjlUUVBsaU1vNzdLQmNSdHJ2a2swMHhGQVJ5bF9tVTJySnJaOF9GVXVVb1hJeElWNXBmQ1RzOXlEUHNHNkNzaGNUUUhmVzY0ZFpJSDNPaHZ4bFc5aVJna0lBQjVWY21wazliNnAzYkVVSTktNmRTempYNGs",
+      "title": "A Magical Holiday Story Gets Retold in \u2018Ebenezer\u2019",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTjE2Q0QwNmNySXhhYjlUUVBsaU1vNzdLQmNSdHJ2a2swMHhGQVJ5bF9tVTJySnJaOF9GVXVVb1hJeElWNXBmQ1RzOXlEUHNHNkNzaGNUUUhmVzY0ZFpJSDNPaHZ4bFc5aVJna0lBQjVWY21wazliNnAzYkVVSTktNmRTempYNGs?oc=5",
+      "published_dt": "2026-11-13T20:07:59+00:00",
+      "source_name": "The Good Men Project",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqgFBVV95cUxPMzFlWTNFNlBFdDBIN3ZoazY3ZkJIZUVwOTRZal9peTBncXdtX2dzSXZOeXB4UHFDRGdQLV9kTGE5bTJUXzZtTXBuRG5pZGdBWFVJVkIxc3lPajAtUEtMbnM1aXBTWU9oWFZDaHpOTjJrVGxWRHVRbEVIbnVMN2Q4Mm9ZTUxXRGpIbnd3N25hWUxTVFFkUXF1R1NBQmduMlpVVXJGV1VPbXFQUQ",
+      "title": "Ebenezer Stone Ministries Plans Grocery Store in Milwaukee",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMzFlWTNFNlBFdDBIN3ZoazY3ZkJIZUVwOTRZal9peTBncXdtX2dzSXZOeXB4UHFDRGdQLV9kTGE5bTJUXzZtTXBuRG5pZGdBWFVJVkIxc3lPajAtUEtMbnM1aXBTWU9oWFZDaHpOTjJrVGxWRHVRbEVIbnVMN2Q4Mm9ZTUxXRGpIbnd3N25hWUxTVFFkUXF1R1NBQmduMlpVVXJGV1VPbXFQUQ?oc=5",
+      "published_dt": "2026-11-13T20:15:00+00:00",
+      "source_name": "Hoodline",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMizwFBVV95cUxNVzRtelhkYlBJa2pNN0hsM0ZFemRWRlRnV0dkd1B5aE5HQ09XTldMZ19KNzhOVGFDeEtORGlTOVRuSmw4S0Exam1VcWlreDkyRnFJaE9FdXFHbHU0NXpoTWZxMEQ1MlM0TExFTXM5N3Z1cDF5MzFRZlBIUy1FbDN6OWplSnlMbmcwQUVxeVMtVHc0WmkyMWk4aDg0bkhjZTVMY2REYlBTNE9DQ3ZLeWtscXc0czB3UjF0VFlSQ3ZqLUYyV3puZGFNamRZTnVCQTg",
+      "title": "Review: James Gray's Paper Tiger is haunting for the way it pits loyalty and duty against ambition and desperation",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVzRtelhkYlBJa2pNN0hsM0ZFemRWRlRnV0dkd1B5aE5HQ09XTldMZ19KNzhOVGFDeEtORGlTOVRuSmw4S0Exam1VcWlreDkyRnFJaE9FdXFHbHU0NXpoTWZxMEQ1MlM0TExFTXM5N3Z1cDF5MzFRZlBIUy1FbDN6OWplSnlMbmcwQUVxeVMtVHc0WmkyMWk4aDg0bkhjZTVMY2REYlBTNE9DQ3ZLeWtscXc0czB3UjF0VFlSQ3ZqLUYyV3puZGFNamRZTnVCQTg?oc=5",
+      "published_dt": "2026-11-13T20:11:35+00:00",
+      "source_name": "LaineyGossip",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMif0FVX3lxTE42cC1CSzBmNXhCdmtyUXVhd3ZFd2VuZjZSNko5S0cyeDJXOFVFblpjU1JtSDVJSXNncmowMTRIQnpySFBWLWJWY2pFak1jd2VuejJwODNHZGFZcy12NlNWUmRhWjB3YUJzZlhDMTdtWExFM0Z6X2FnQ3U0UDdOZFk",
+      "title": "Jamie Dornan and Anthony Mackie Share What Their Kids Think About Their Movies",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42cC1CSzBmNXhCdmtyUXVhd3ZFd2VuZjZSNko5S0cyeDJXOFVFblpjU1JtSDVJSXNncmowMTRIQnpySFBWLWJWY2pFak1jd2VuejJwODNHZGFZcy12NlNWUmRhWjB3YUJzZlhDMTdtWExFM0Z6X2FnQ3U0UDdOZFk?oc=5",
+      "published_dt": "2026-11-13T19:48:08+00:00",
+      "source_name": "Yahoo News UK",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMic0FVX3lxTE9LRk1VWk5mdFFwWmNGOTNDRTU5VUJPN2VRc3JCVFJZckNTeW5GZU5UVFFWTWE2aE9kb2kyalZ5WTFOd0gtRG1za0hNR3M1ZHY4QnZMdHdWRTE3Y2dSOUNrWVlDaVliUDZYblN6Z0hscFY3VDDSAXhBVV95cUxPOVVscU0yT3o2VjlHM2F1RVFKOWUzRTJUaTdETGVuMmppdzI5dnZKTzBtOHk1XzRLTkp0MU1YU09pbmRpakd1U3E5V2ZWVzR5bG1aazBRNUF4aklmYUNVZUdGSnZsdWFzdlNtYXdtTkpJNWNHZXQwdGU",
+      "title": "\u201912 12 12\u2032 Cast: Meet the Stars in Apple TV\u2019s Heist Series",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9LRk1VWk5mdFFwWmNGOTNDRTU5VUJPN2VRc3JCVFJZckNTeW5GZU5UVFFWTWE2aE9kb2kyalZ5WTFOd0gtRG1za0hNR3M1ZHY4QnZMdHdWRTE3Y2dSOUNrWVlDaVliUDZYblN6Z0hscFY3VDDSAXhBVV95cUxPOVVscU0yT3o2VjlHM2F1RVFKOWUzRTJUaTdETGVuMmppdzI5dnZKTzBtOHk1XzRLTkp0MU1YU09pbmRpakd1U3E5V2ZWVzR5bG1aazBRNUF4aklmYUNVZUdGSnZsdWFzdlNtYXdtTkpJNWNHZXQwdGU?oc=5",
+      "published_dt": "2026-11-13T19:47:00+00:00",
+      "source_name": "Hollywood Life",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiW0FVX3lxTE5UWUYtbS1USjU0WW5MeHZBZVE3alhxbWdNVlRPa0NiSUhici12LUtWbHN4YVcteHAydjAxZHd3UkI2VmtyNmRlVDJTcXptdkJuZnI0NXptTndKMlHSAV5BVV95cUxONDJOT0xQYno3U2ctbXRkVjI2THl5SjNHRkVPU0d1V0dFMEM0bXFEc0JsTGdLOUctenFBa0I5cVV2TWhOUlZYZG9PU0JDMHNnVk1DR0paclNwT3RtS0RB",
+      "title": "The Powerful High Priestess Delivered Her People From The Evil Deity Troubling The Land",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UWUYtbS1USjU0WW5MeHZBZVE3alhxbWdNVlRPa0NiSUhici12LUtWbHN4YVcteHAydjAxZHd3UkI2VmtyNmRlVDJTcXptdkJuZnI0NXptTndKMlHSAV5BVV95cUxONDJOT0xQYno3U2ctbXRkVjI2THl5SjNHRkVPU0d1V0dFMEM0bXFEc0JsTGdLOUctenFBa0I5cVV2TWhOUlZYZG9PU0JDMHNnVk1DR0paclNwT3RtS0RB?oc=5",
+      "published_dt": "2026-11-13T19:43:13+00:00",
+      "source_name": "Modern Ghana",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMid0FVX3lxTE9mNThvMWNEdF82M2FhS3YyY0JiOU5GMFhMWXFRRGdZUkRPM0tqQ1hkZlZqS2xBMHBvbVJGSktFc2ctd0NfMy1ucjg4TDdwalgxTld5bkRqQi0xeEdLZVNGUUtxRnBKa25jenBkTUJ1aFY1YWxmYlU4",
+      "title": "Celebrate World Kindness Day with One Last Order",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mNThvMWNEdF82M2FhS3YyY0JiOU5GMFhMWXFRRGdZUkRPM0tqQ1hkZlZqS2xBMHBvbVJGSktFc2ctd0NfMy1ucjg4TDdwalgxTld5bkRqQi0xeEdLZVNGUUtxRnBKa25jenBkTUJ1aFY1YWxmYlU4?oc=5",
+      "published_dt": "2026-11-13T20:02:33+00:00",
+      "source_name": "Netflix",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMikgFBVV95cUxQNjI1WFZxcnl6ODZtcW5vWnI5N21hdGxtYVBuRms0TWU4ajI2MmplMnhQSmpYd05IeHNMeUpoUEVWMGpyUnBVczZmeExnVk9lTnJIQl82QVhqMzRhbHZteEFIQ0NOSGZWMEY2VlZhT3NVTWJ4YnVRNWJZaUNLODQtQ3ZDNno2eE5JTVdVT2dXVG4yZw",
+      "title": "What's New to Watch on HBO Max the Week of Nov. 13, 2026",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNjI1WFZxcnl6ODZtcW5vWnI5N21hdGxtYVBuRms0TWU4ajI2MmplMnhQSmpYd05IeHNMeUpoUEVWMGpyUnBVczZmeExnVk9lTnJIQl82QVhqMzRhbHZteEFIQ0NOSGZWMEY2VlZhT3NVTWJ4YnVRNWJZaUNLODQtQ3ZDNno2eE5JTVdVT2dXVG4yZw?oc=5",
+      "published_dt": "2026-11-13T20:00:17+00:00",
+      "source_name": "PCMag",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMitwFBVV95cUxPVjU4SVNTemduV25RbVF5WEFCcWRuY0wyblg3WVlKV3JEQWRPSmJ1V0dpM1JzelJydHptbmMwRUthVnlHdjZPVURtRFRXcFV5X1ZPMDk3ZjkzNzVmQmpzb3A3TnpuZzd3UkhzdllHcXBtN2xvdHlqbldFbnltN1RacnYzeFQ5MUIzNGVPUE04bTlHX3E1RktwdUxrSWQzM09ZVkJ0NkdmM2NUTjF0dXdlMEFFOGVROWM",
+      "title": "Oneonta Varsity Football @ Curry",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVjU4SVNTemduV25RbVF5WEFCcWRuY0wyblg3WVlKV3JEQWRPSmJ1V0dpM1JzelJydHptbmMwRUthVnlHdjZPVURtRFRXcFV5X1ZPMDk3ZjkzNzVmQmpzb3A3TnpuZzd3UkhzdllHcXBtN2xvdHlqbldFbnltN1RacnYzeFQ5MUIzNGVPUE04bTlHX3E1RktwdUxrSWQzM09ZVkJ0NkdmM2NUTjF0dXdlMEFFOGVROWM?oc=5",
+      "published_dt": "2026-11-13T20:00:25+00:00",
+      "source_name": "MaxPreps",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiqwFBVV95cUxPY3Y4VnQ2RDJkaVFweS1tYnVKZmR3SEhtT2NHNk9tdi02YWhSV0V5QmRVQUpDNl9LT09Cd3R6R0R2VmI5eTJVU0FYSjQ2Um9JTXVhSmVaWVlxSEJfalJhM3JlS09rMXMzM0hEWE93UjFOMlhpQldCeGRCcERQT3JmRHBsTGcxNHd3MUctTDRULVJBZ2dDYmwzX3hfRG1GeGxld2hnTXF2Y0V5WDA",
+      "title": "Robert De Niro, 83, and Girlfriend Tiffany Chen, 47, Enjoy Their Second Date Night in Two Days",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY3Y4VnQ2RDJkaVFweS1tYnVKZmR3SEhtT2NHNk9tdi02YWhSV0V5QmRVQUpDNl9LT09Cd3R6R0R2VmI5eTJVU0FYSjQ2Um9JTXVhSmVaWVlxSEJfalJhM3JlS09rMXMzM0hEWE93UjFOMlhpQldCeGRCcERQT3JmRHBsTGcxNHd3MUctTDRULVJBZ2dDYmwzX3hfRG1GeGxld2hnTXF2Y0V5WDA?oc=5",
+      "published_dt": "2026-11-13T20:22:35+00:00",
+      "source_name": "InStyle",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMicEFVX3lxTE54TDZFbkpYbE1icWdOZDc2TmRVNElFcnhNQVRWTGhoMWN0TnhNcE5PdEtjeEhRMzVkaWFvSU43aDFoWWxaa3cwZTlhaDV1MnVzUnQ1OEc0dzVJV2pmNDVMdkNnQ2UxMVNIN0ducmJYaFDSAXZBVV95cUxOeVQzclR6N1Y1RXUtcEJDUE03cTZpTER2dGwzODI4clhVZ0xyLTVjUDFSVG1UWERDTmt2SWJVMnFGVUJCb0lfQlktaDRyNXYzTkdHbFhYa3BVS1lDTVBDNXJ4T0dTRk1ncHdTdk83bXh0cEJfcl9n",
+      "title": "Gary Busey\u2019s Forgotten \u201980s Action Movie Turned Rocky III\u2019s Biggest Song Into a Revenge Thriller",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54TDZFbkpYbE1icWdOZDc2TmRVNElFcnhNQVRWTGhoMWN0TnhNcE5PdEtjeEhRMzVkaWFvSU43aDFoWWxaa3cwZTlhaDV1MnVzUnQ1OEc0dzVJV2pmNDVMdkNnQ2UxMVNIN0ducmJYaFDSAXZBVV95cUxOeVQzclR6N1Y1RXUtcEJDUE03cTZpTER2dGwzODI4clhVZ0xyLTVjUDFSVG1UWERDTmt2SWJVMnFGVUJCb0lfQlktaDRyNXYzTkdHbFhYa3BVS1lDTVBDNXJ4T0dTRk1ncHdTdk83bXh0cEJfcl9n?oc=5",
+      "published_dt": "2026-11-13T20:05:36+00:00",
+      "source_name": "JoBlo",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiigFBVV95cUxNb1FBQTVtNm9hZ2JFblotRU5Hdm9uUTRUaVJXRTNHcjhBZFV2Ujd1SUZ1ZWNNaVZPZVNsWnU5WU4tTk5xZEhiNm9RZTNFMG1PUWdaNUhuWE5iSFBPRzEwb253OWxaQ1FnSEl5SFRJME4tVmlZeVNzSzhaRy1sSDAzTVl2dmRXWWhzckE",
+      "title": "Disney+ Drops \"A Special Look at Hexed\" Ahead of Theatrical Debut",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb1FBQTVtNm9hZ2JFblotRU5Hdm9uUTRUaVJXRTNHcjhBZFV2Ujd1SUZ1ZWNNaVZPZVNsWnU5WU4tTk5xZEhiNm9RZTNFMG1PUWdaNUhuWE5iSFBPRzEwb253OWxaQ1FnSEl5SFRJME4tVmlZeVNzSzhaRy1sSDAzTVl2dmRXWWhzckE?oc=5",
+      "published_dt": "2026-11-13T20:07:00+00:00",
+      "source_name": "LaughingPlace.com",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMiakFVX3lxTE40bFNzTk5WcVl3bmt2SDdLQlhRU0ctSVl5azlxT19EMGdGejh1aER2TTNNN0JRWGM0WVQzYnlacjBWS24tTG9KTTZZbGdFWkN6ZnNuY01SeUxnNkNBVjFqRFlSWEFuQlNTZGc",
+      "title": "Hailee Steinfeld on Recording Music for New Movie \u2018Hexed\u2019 and Becoming a Mother in the Process",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40bFNzTk5WcVl3bmt2SDdLQlhRU0ctSVl5azlxT19EMGdGejh1aER2TTNNN0JRWGM0WVQzYnlacjBWS24tTG9KTTZZbGdFWkN6ZnNuY01SeUxnNkNBVjFqRFlSWEFuQlNTZGc?oc=5",
+      "published_dt": "2026-11-13T20:25:14+00:00",
+      "source_name": "IMDb",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMikAFBVV95cUxNTmpTQzVJaVl6R2FjUnMzMWpkZnNRaE5sNVJLVzNpQm82NHVVUTJHSnExeFd4dWhWLWVXQUtza0ItelFyNmVtQUZhN1RuYkNqQ0Vsc0Uta3FqN09vc2tZV0JwOHNJaGV0WVAzbzM0UjkxNnNNRFJ4RUk3dnZDSFFZYWUxbG1xZHdFVHozRW9raUw",
+      "title": "Top Limited Series Writers on Adapting Popular Films and True Stories",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmpTQzVJaVl6R2FjUnMzMWpkZnNRaE5sNVJLVzNpQm82NHVVUTJHSnExeFd4dWhWLWVXQUtza0ItelFyNmVtQUZhN1RuYkNqQ0Vsc0Uta3FqN09vc2tZV0JwOHNJaGV0WVAzbzM0UjkxNnNNRFJ4RUk3dnZDSFFZYWUxbG1xZHdFVHozRW9raUw?oc=5",
+      "published_dt": "2026-11-13T20:10:00+00:00",
+      "source_name": "Variety",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMie0FVX3lxTE5JdjZxWkRORXd6N0xKV0UyYU00QkVpbFg4SFlUcllTOTBlWmlQX2Z3bWs0TDF6cVo4TG5VRXZtSnpaV1lUTWtLZDJkLWFNU3E5eGtZUUtzcW1JSlR0WUJhT0hsVnQ4ZHpUeDR2LTdFd0czRmVFanB6ZDFXVQ",
+      "title": "What you missed in streaming this week: Netflix launches What's Hot hub, Tubi releases Mixtapes feature, more",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JdjZxWkRORXd6N0xKV0UyYU00QkVpbFg4SFlUcllTOTBlWmlQX2Z3bWs0TDF6cVo4TG5VRXZtSnpaV1lUTWtLZDJkLWFNU3E5eGtZUUtzcW1JSlR0WUJhT0hsVnQ4ZHpUeDR2LTdFd0czRmVFanB6ZDFXVQ?oc=5",
+      "published_dt": "2026-11-13T20:00:00+00:00",
+      "source_name": "The Streamable",
+      "source_tier": 2
+    },
+    {
+      "guid": "CBMitgFBVV95cUxNUWtrbFU0TXBBSHhTbDZHa3FLUnQzcThVN21zLTBmN1l4VnEtMzlsbVBIQUE0MkhBWkFUTjVWQi1YX01IRFJuVUYwdVVtZUh5cTlYcG5oVnEyRmFYaEc3ZkduQ192cS1IRzRlTmJWM1lpeWtmQmc0T3YzckZDWlJxeHEwbmVPdzNEa1NfSWJMaEp4anJDdmctUU9icVR3Z05lb1llVnplbkVkYk5pN1BXVGdMUzdEZw",
+      "title": "'Hunting Wives\u2019 star Malin Akerman ditches LA lifestyle for \u2018dream\u2019 of raising son like it\u2019s the 1950s",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUWtrbFU0TXBBSHhTbDZHa3FLUnQzcThVN21zLTBmN1l4VnEtMzlsbVBIQUE0MkhBWkFUTjVWQi1YX01IRFJuVUYwdVVtZUh5cTlYcG5oVnEyRmFYaEc3ZkduQ192cS1IRzRlTmJWM1lpeWtmQmc0T3YzckZDWlJxeHEwbmVPdzNEa1NfSWJMaEp4anJDdmctUU9icVR3Z05lb1llVnplbkVkYk5pN1BXVGdMUzdEZw?oc=5",
+      "published_dt": "2026-11-13T20:06:34+00:00",
+      "source_name": "Fox News",
       "source_tier": 2
     }
   ]
