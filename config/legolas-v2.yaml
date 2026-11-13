@@ -1,0 +1,111 @@
+# Legolas V2 (story desk) configuration. Every cost lever is here and measured by the
+# cost ledger (state/cost-ledger.jsonl). Secrets and private channel IDs never go in
+# this file: they come from environment variables (see setup.md).
+
+app: legolas
+enabled: true                 # master switch (also: LEGOLAS_KILL=1 or state/killswitch.json)
+
+state_dir: state              # SQLite store + ledger + feed; NOT committed (see .gitignore)
+
+schedule_note: >-
+  Cost scales with new items, not runs: every article is extracted once (persisted
+  seen-set) and Sonnet only runs when a story is new or has a new development.
+
+fetch:
+  lookback_minutes: 120       # window read from each feed; the seen-set makes overlap free
+  max_text_chars: 600         # summary + first paragraph sent to the model per article
+  timeout_seconds: 15
+  google_news:
+    enabled: true             # NOTE: robots.txt disallows /rss/search; Alex to decide
+    lookback: "2h"
+    skip_types: [Genre, Service, Other]
+
+models:
+  extract: claude-haiku-5-5          # entities / event type / key fact / relevance
+  change_detect: claude-haiku-5-5    # is this a new development on a posted story?
+  feedback: claude-haiku-5-5         # interpret editor replies
+  verify: claude-haiku-5-5           # web-search fact check (see web_search)
+  card: claude-sonnet-5-5            # final card writing, top N only
+  # Opus is not used anywhere.
+
+calls:
+  extract:
+    batch_size: 25            # articles per Haiku call
+    max_tokens_per_item: 90   # output budget per article (compact JSON)
+    effort: low
+    thinking: disabled        # Haiku 5.5 accepts disabled at effort <= high
+  change_detect:
+    max_tokens: 300
+    effort: low
+    thinking: disabled
+  card:
+    top_n_per_run: 5          # Sonnet writes at most this many cards per run
+    max_tokens_per_card: 260
+    effort: low
+    thinking: between_tools   # Sonnet 5.5's "thinking off" form (no tools here)
+  feedback:
+    max_tokens: 150
+    effort: low
+    thinking: disabled
+
+caching:
+  # Static system prompts are cached. Runs are 15 min apart, longer than the 5-minute
+  # TTL, so the 1-hour TTL is cheaper: one 2x write per hour, then 0.05-0.1x reads.
+  ttl: 1h
+
+budget:
+  daily_usd_cap: 3.00         # Legolas hard cap; Claude calls stop when reached
+  timezone: America/New_York  # budget day boundary
+  on_exhausted: headline_only # post Python-only cards (source headline + facts) | skip
+
+web_search:
+  enabled: true
+  tool_type: web_search_20250305   # basic variant; confirm Haiku 5.5 support in smoke test
+  max_uses_per_call: 1
+  daily_cap: 6                     # Legolas searches per day
+  # Only searched when a story already passed the gates AND lacks a second credible
+  # (tier 1-2, independent) source.
+
+clustering:
+  open_story_hours: 72        # new articles can attach to stories this old
+  min_strong_entity_overlap: 1
+  related_window_days: 7
+
+gates:
+  min_relevance: 6            # model's 1-10 MW relevance (story max)
+  special_min_relevance: 7
+  trending_min_weighted_sources: 4
+  rising_min_sources: 2       # independent outlets inside the momentum window
+  momentum_window_minutes: 120
+  max_single_source_age_hours: 24
+  tag_sa_min: 5000
+  tag_fr_max: 25
+
+updates:
+  # A genuine new development on a posted story CAN post (not a blanket block): it
+  # updates the same feed row and posts as a thread reply (or a compact Update card
+  # when no thread is available).
+  min_gap_minutes: 120        # at most one update per story in this window
+  max_updates_per_story_per_day: 4
+
+mw_check:
+  sitemap_url: https://movieweb.com/post_google_news.xml
+  rss_url: https://movieweb.com/feed/
+  window_days: 7
+  post_covered: false         # Covered stories with no new development: feed row only
+
+feed:
+  path: state/story-feed.jsonl
+
+slack:
+  post_enabled: false         # dry-run by default in V2 until Alex approves
+  card_style: lean            # title, what happened, one meta line, link
+  # Env: SLACK_WEBHOOK (post), SLACK_BOT_TOKEN (threads + feedback),
+  #      LEGOLAS_POST_CHANNEL, LEGOLAS_FEEDBACK_CHANNEL (both private IDs, env only)
+
+title_rules:
+  # The full house rules contain MW performance data and are NOT committed (public
+  # repo). Point this at the private file at run time; the committed fallback has
+  # the qualitative rules only.
+  path_env: LEGOLAS_TITLE_RULES_PATH
+  fallback: config/prompts/title_rules_public.md

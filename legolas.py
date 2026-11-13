@@ -99,6 +99,10 @@ SEEN_PRUNE_HOURS  = _DEDUPE_CFG.get("seen_prune_hours", 48)    # how long GUIDs 
 SHEET_ID     = _SHEETS_CFG["sheet_id"]
 SLACK_CHANNEL_ID = _SLACK_CFG["channel_id"]
 POST_TO_SLACK    = _SLACK_CFG["post_enabled"]
+# V1 fix: the feedback reader must read the channel the cards are POSTED to
+# (#agent-legolas). The configured channel_id maps to another agent's channel, so
+# Legolas never saw a reaction. The private channel ID comes from env only.
+FEEDBACK_CHANNEL_ID = os.environ.get("LEGOLAS_FEEDBACK_CHANNEL") or SLACK_CHANNEL_ID
 
 def _require_env(*names: str) -> None:
     missing = [n for n in names if not os.environ.get(n)]
@@ -1826,7 +1830,7 @@ def process_feedback(learnings: dict, priority_tags: dict, svc=None):
         resp = requests.get(
             "https://slack.com/api/conversations.history",
             headers=headers,
-            params={"channel": SLACK_CHANNEL_ID, "limit": 50},
+            params={"channel": FEEDBACK_CHANNEL_ID, "limit": 50},
             timeout=15,
         )
         data = resp.json()
@@ -1860,7 +1864,7 @@ def process_feedback(learnings: dict, priority_tags: dict, svc=None):
                     replies_resp = requests.get(
                         "https://slack.com/api/conversations.replies",
                         headers=headers,
-                        params={"channel": SLACK_CHANNEL_ID, "ts": ts},
+                        params={"channel": FEEDBACK_CHANNEL_ID, "ts": ts},
                         timeout=15,
                     ).json()
 
